@@ -1,0 +1,9 @@
+﻿sample_id,decision,destination,notes
+p09-MOA-001,Nye prøver tas for å se på arsen-nivået,avventer,Tilstandsklasse IV for arsen
+p09-MOA-002,Kan disponeres som planlagt,gjenbruk,Lett/moderat forurenset
+p09-MOA-003,"Blandet med prøve 4, nye prøver tas",avventer,
+p09-MOA-004,Må kjøres til godkjent deponi,deponi,Oljeutslipp er entreprenørens ansvar
+p09-MOA-T1,Kan benyttes i anlegget,gjenbruk,Profil 9850-9900
+p09-MOA-T2,Må kjøres til godkjent deponi,deponi,Oljeutslipp - profil 9900-9950
+p09-MOA-D1,Kan ikke benyttes i anlegget,deponi,Grøftemasser på deponi
+p09-MOA-D2,Kan ikke benyttes i anlegget,deponi,Grøftemasser på deponi

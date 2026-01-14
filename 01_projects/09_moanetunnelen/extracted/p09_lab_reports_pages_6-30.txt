@@ -1,0 +1,1111 @@
+--- Page 6 ---
+Rapport N1715906
+Side1(15)
+6F13P80N7I
+Mottattdato 2017-09-21 StatensVegvesen
+Utstedt 2017-09-27 EspenRiseGregersen
+RegionSør
+Skrubbmoen 6
+N-3619SKOLLENBORG
+Norway
+Prosjekt E134E30Moane
+Bestnr ESPGRE/2054018
+Analyse avsediment
+Deresprøvenavn 1
+Sediment
+Labnummer N00529080
+Analyse Resultater Usikkerhet (±) Enhet Metode Utført Sign
+Tørrstoff (E)aulev 76.8 4.64 % 1 1 NADO
+As(Arsen)aulev 51.9 10.4 mg/kgTS 1 1 NADO
+Cd (Kadmium)aulev 0.77 0.15 mg/kgTS 1 1 NADO
+Cr (Krom)aulev 15.9 3.18 mg/kgTS 1 1 NADO
+Cu (Kopper)aulev 370 74.0 mg/kgTS 1 1 NADO
+Hg (Kvikksølv)aulev <0.20 mg/kgTS 1 1 NADO
+Ni (Nikkel)aulev 12.4 2.5 mg/kgTS 1 1 NADO
+Pb (Bly)aulev 5.5 1.1 mg/kgTS 1 1 NADO
+Zn (Sink)aulev 170 33.9 mg/kgTS 1 1 NADO
+PCB28aulev <0.0030 mg/kgTS 1 1 NADO
+PCB52aulev <0.0030 mg/kgTS 1 1 NADO
+PCB101aulev <0.0030 mg/kgTS 1 1 NADO
+PCB118aulev <0.0030 mg/kgTS 1 1 NADO
+PCB138aulev <0.0030 mg/kgTS 1 1 NADO
+PCB153aulev <0.0030 mg/kgTS 1 1 NADO
+PCB180aulev <0.0030 mg/kgTS 1 1 NADO
+Sum PCB-7 n.d. mg/kgTS 1 1 NADO
+Naftalenaulev <0.010 mg/kgTS 1 1 NADO
+Acenaftylenaulev <0.010 mg/kgTS 1 1 NADO
+Acenaftenaulev <0.010 mg/kgTS 1 1 NADO
+Fluorenaulev <0.010 mg/kgTS 1 1 NADO
+Fenantrenaulev <0.010 mg/kgTS 1 1 NADO
+Antracenaulev <0.010 mg/kgTS 1 1 NADO
+Fluorantenaulev <0.010 mg/kgTS 1 1 NADO
+Pyrenaulev <0.010 mg/kgTS 1 1 NADO
+Benso(a)antracen^aulev <0.010 mg/kgTS 1 1 NADO
+Krysen^aulev <0.010 mg/kgTS 1 1 NADO
+Benso(b)fluoranten^aulev <0.010 mg/kgTS 1 1 NADO
+Benso(k)fluoranten^aulev <0.010 mg/kgTS 1 1 NADO
+Benso(a)pyren^aulev <0.010 mg/kgTS 1 1 NADO
+Dibenso(ah)antracen^aulev <0.010 mg/kgTS 1 1 NADO
+Benso(ghi)perylenaulev <0.010 mg/kgTS 1 1 NADO
+Sum PAH-16 n.d. mg/kgTS 1 1 NADO
+__________________________________________________________________
+ALSLaboratoryGroupNorway AS E-post: info.on@alsglobal.com Dokumentetergodkjent
+PB643Skøyen,N-0214Oslo Tel:+4722131800 ogdigitaltundertegnet
+avRapportør Nadide Dönmez
+ALSavd.ØMM-Lab Epost:info.srp@alsglobal.com 2017.09.27 15:19:46
+Yvenveien17,N-1715 Yven Tel:+4769137880 Client Service
+nadide.donmez@alsglobal.com
+Web:www.alsglobal.no
+
+--- Page 7 ---
+Rapport N1715906
+Side2(15)
+6F13P80N7I
+Deresprøvenavn 1
+Sediment
+Labnummer N00529080
+Analyse Resultater Usikkerhet (±) Enhet Metode Utført Sign
+Bensenaulev <0.0050 mg/kgTS 1 1 NADO
+Toluenaulev <0.10 mg/kgTS 1 1 NADO
+Etylbensenaulev <0.020 mg/kgTS 1 1 NADO
+Xyleneraulev <0.0150 mg/kgTS 1 1 NADO
+Sum BTEX n.d. mg/kgTS 1 1 NADO
+Fraksjon>C5-C6aulev <7.0 mg/kgTS 1 1 NADO
+Fraksjon>C6-C8aulev <7.00 mg/kgTS 1 1 NADO
+Fraksjon>C8-C10aulev <10.0 mg/kgTS 1 1 NADO
+Fraksjon>C10-C12aulev <2.0 mg/kgTS 1 1 NADO
+Fraksjon>C12-C16aulev <3.0 mg/kgTS 1 1 NADO
+Fraksjon>C16-C35aulev 140 42 mg/kgTS 1 1 NADO
+Sum>C12-C35 140 mg/kgTS 1 1 NADO
+Cr6+aulev 0.272 0.055 mg/kgTS 2 1 NADO
+Cyanid-friaulev <0.10 mg/kgTS 2 1 NADO
+2-Monoklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+3-Monoklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+4-Monoklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,3-Diklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,4+2,5-Diklorfenolaulev <0.040 mg/kgTS 2 1 NADO
+2,6-Diklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+3,4-Diklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+3,5-Diklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,3,4-Triklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,3,5-Triklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,3,6-Triklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,4,5-Triklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,4,6-Triklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+3,4,5-Triklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,3,4,5-Tetraklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,3,4,6-Tetraklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,3,5,6-Tetraklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+Pentaklorfenolaulev <0.006 mg/kgTS 2 1 NADO
+Monoklorbensenaulev <0.010 mg/kgTS 2 1 NADO
+1,2-Diklorbensenaulev <0.020 mg/kgTS 2 1 NADO
+1,4-Diklorbensenaulev <0.020 mg/kgTS 2 1 NADO
+1,2,3-Triklorbensenaulev <0.010 mg/kgTS 2 1 NADO
+1,2,4-Triklorbensenaulev <0.030 mg/kgTS 2 1 NADO
+1,3,5-Triklorbensenaulev <0.010 mg/kgTS 2 1 NADO
+1,2,3,5+1,2,4,5-Tetraklorbensenaulev <0.020 mg/kgTS 2 1 NADO
+Pentaklorbensena ulev <0.010 mg/kgTS 2 1 NADO
+Heksaklorbensenaulev <0.0050 mg/kgTS 2 1 NADO
+__________________________________________________________________
+ALSLaboratoryGroupNorway AS E-post: info.on@alsglobal.com Dokumentetergodkjent
+PB643Skøyen,N-0214Oslo Tel:+4722131800 ogdigitaltundertegnet
+avRapportør Nadide Dönmez
+ALSavd.ØMM-Lab Epost:info.srp@alsglobal.com 2017.09.27 15:19:46
+Yvenveien17,N-1715 Yven Tel:+4769137880 Client Service
+nadide.donmez@alsglobal.com
+Web:www.alsglobal.no
+
+--- Page 8 ---
+Rapport N1715906
+Side3(15)
+6F13P80N7I
+Deresprøvenavn 1
+Sediment
+Labnummer N00529080
+Analyse Resultater Usikkerhet (±) Enhet Metode Utført Sign
+Diklormetanaulev <0.060 mg/kgTS 2 1 NADO
+Triklormetan (kloroform)aulev <0.020 mg/kgTS 2 1 NADO
+Trikloretenaulev <0.010 mg/kgTS 2 1 NADO
+Tetraklormetanaulev <0.010 mg/kgTS 2 1 NADO
+Tetrakloretenaulev <0.010 mg/kgTS 2 1 NADO
+1,2-Dikloretanaulev <0.0030 mg/kgTS 2 1 NADO
+1,1,1-Trikloretanaulev <0.010 mg/kgTS 2 1 NADO
+1,2-Dibrometanaulev <0.0040 mg/kgTS 2 1 NADO
+1,1,2-Trikloretanaulev <0.010 mg/kgTS 2 1 NADO
+g-HCH (Lindan)aulev <0.0010 mg/kgTS 2 1 NADO
+o,p'-DDTaulev <0.010 mg/kgTS 2 1 NADO
+p,p'-DDTaulev <0.010 mg/kgTS 2 1 NADO
+o,p'-DDDaulev <0.010 mg/kgTS 2 1 NADO
+p,p'-DDDaulev <0.010 mg/kgTS 2 1 NADO
+o,p'-DDEaulev <0.010 mg/kgTS 2 1 NADO
+p,p'-DDEaulev <0.010 mg/kgTS 2 1 NADO
+__________________________________________________________________
+ALSLaboratoryGroupNorway AS E-post: info.on@alsglobal.com Dokumentetergodkjent
+PB643Skøyen,N-0214Oslo Tel:+4722131800 ogdigitaltundertegnet
+avRapportør Nadide Dönmez
+ALSavd.ØMM-Lab Epost:info.srp@alsglobal.com 2017.09.27 15:19:46
+Yvenveien17,N-1715 Yven Tel:+4769137880 Client Service
+nadide.donmez@alsglobal.com
+Web:www.alsglobal.no
+
+--- Page 9 ---
+Rapport N1715906
+Side4(15)
+6F13P80N7I
+Deresprøvenavn 2
+Sediment
+Labnummer N00529081
+Analyse Resultater Usikkerhet (±) Enhet Metode Utført Sign
+Tørrstoff (E)aulev 81.1 4.90 % 1 1 NADO
+As(Arsen)aulev 5.01 1.00 mg/kgTS 1 1 NADO
+Cd (Kadmium)aulev 0.42 0.08 mg/kgTS 1 1 NADO
+Cr (Krom)aulev 13.0 2.60 mg/kgTS 1 1 NADO
+Cu (Kopper)aulev 401 80.2 mg/kgTS 1 1 NADO
+Hg (Kvikksølv)aulev <0.20 mg/kgTS 1 1 NADO
+Ni (Nikkel)aulev 11.2 2.2 mg/kgTS 1 1 NADO
+Pb (Bly)aulev 4.5 0.9 mg/kgTS 1 1 NADO
+Zn (Sink)aulev 190 38.0 mg/kgTS 1 1 NADO
+PCB28aulev <0.0030 mg/kgTS 1 1 NADO
+PCB52aulev <0.0030 mg/kgTS 1 1 NADO
+PCB101aulev <0.0030 mg/kgTS 1 1 NADO
+PCB118aulev <0.0030 mg/kgTS 1 1 NADO
+PCB138aulev <0.0030 mg/kgTS 1 1 NADO
+PCB153aulev <0.0030 mg/kgTS 1 1 NADO
+PCB180aulev <0.0030 mg/kgTS 1 1 NADO
+Sum PCB-7 n.d. mg/kgTS 1 1 NADO
+Naftalenaulev <0.010 mg/kgTS 1 1 NADO
+Acenaftylenaulev <0.010 mg/kgTS 1 1 NADO
+Acenaftenaulev <0.010 mg/kgTS 1 1 NADO
+Fluorenaulev <0.010 mg/kgTS 1 1 NADO
+Fenantrenaulev <0.010 mg/kgTS 1 1 NADO
+Antracenaulev <0.010 mg/kgTS 1 1 NADO
+Fluorantenaulev <0.010 mg/kgTS 1 1 NADO
+Pyrenaulev <0.010 mg/kgTS 1 1 NADO
+Benso(a)antracen^aulev <0.010 mg/kgTS 1 1 NADO
+Krysen^aulev <0.010 mg/kgTS 1 1 NADO
+Benso(b)fluoranten^aulev <0.010 mg/kgTS 1 1 NADO
+Benso(k)fluoranten^aulev <0.010 mg/kgTS 1 1 NADO
+Benso(a)pyren^aulev <0.010 mg/kgTS 1 1 NADO
+Dibenso(ah)antracen^aulev <0.010 mg/kgTS 1 1 NADO
+Benso(ghi)perylenaulev <0.010 mg/kgTS 1 1 NADO
+Sum PAH-16 n.d. mg/kgTS 1 1 NADO
+Bensenaulev <0.0050 mg/kgTS 1 1 NADO
+Toluenaulev <0.10 mg/kgTS 1 1 NADO
+Etylbensenaulev <0.020 mg/kgTS 1 1 NADO
+Xyleneraulev <0.0150 mg/kgTS 1 1 NADO
+Sum BTEX n.d. mg/kgTS 1 1 NADO
+Fraksjon>C5-C6aulev <7.0 mg/kgTS 1 1 NADO
+Fraksjon>C6-C8aulev <7.00 mg/kgTS 1 1 NADO
+Fraksjon>C8-C10aulev <10.0 mg/kgTS 1 1 NADO
+Fraksjon>C10-C12aulev <2.0 mg/kgTS 1 1 NADO
+Fraksjon>C12-C16aulev 3.4 1.0 mg/kgTS 1 1 NADO
+__________________________________________________________________
+ALSLaboratoryGroupNorway AS E-post: info.on@alsglobal.com Dokumentetergodkjent
+PB643Skøyen,N-0214Oslo Tel:+4722131800 ogdigitaltundertegnet
+avRapportør Nadide Dönmez
+ALSavd.ØMM-Lab Epost:info.srp@alsglobal.com 2017.09.27 15:19:46
+Yvenveien17,N-1715 Yven Tel:+4769137880 Client Service
+nadide.donmez@alsglobal.com
+Web:www.alsglobal.no
+
+--- Page 10 ---
+Rapport N1715906
+Side5(15)
+6F13P80N7I
+Deresprøvenavn 2
+Sediment
+Labnummer N00529081
+Analyse Resultater Usikkerhet (±) Enhet Metode Utført Sign
+Fraksjon>C16-C35aulev 214 64 mg/kgTS 1 1 NADO
+Sum>C12-C35 217 mg/kgTS 1 1 NADO
+Cr6+aulev 0.125 0.027 mg/kgTS 2 1 NADO
+Cyanid-friaulev <0.10 mg/kgTS 2 1 NADO
+2-Monoklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+3-Monoklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+4-Monoklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,3-Diklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,4+2,5-Diklorfenolaulev <0.040 mg/kgTS 2 1 NADO
+2,6-Diklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+3,4-Diklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+3,5-Diklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,3,4-Triklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,3,5-Triklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,3,6-Triklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,4,5-Triklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,4,6-Triklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+3,4,5-Triklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,3,4,5-Tetraklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,3,4,6-Tetraklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,3,5,6-Tetraklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+Pentaklorfenolaulev <0.006 mg/kgTS 2 1 NADO
+Monoklorbensenaulev <0.010 mg/kgTS 2 1 NADO
+1,2-Diklorbensenaulev <0.020 mg/kgTS 2 1 NADO
+1,4-Diklorbensenaulev <0.020 mg/kgTS 2 1 NADO
+1,2,3-Triklorbensenaulev <0.010 mg/kgTS 2 1 NADO
+1,2,4-Triklorbensenaulev <0.030 mg/kgTS 2 1 NADO
+1,3,5-Triklorbensenaulev <0.010 mg/kgTS 2 1 NADO
+1,2,3,5+1,2,4,5-Tetraklorbensenaulev <0.020 mg/kgTS 2 1 NADO
+Pentaklorbensenaulev <0.010 mg/kgTS 2 1 NADO
+Heksaklorbensenaulev <0.0050 mg/kgTS 2 1 NADO
+Diklormetanaulev <0.060 mg/kgTS 2 1 NADO
+Triklormetan (kloroform)aulev <0.020 mg/kgTS 2 1 NADO
+Trikloretenaulev <0.010 mg/kgTS 2 1 NADO
+Tetraklormetanaulev <0.010 mg/kgTS 2 1 NADO
+Tetrakloretenaulev <0.010 mg/kgTS 2 1 NADO
+1,2-Dikloretanaulev <0.0030 mg/kgTS 2 1 NADO
+1,1,1-Trikloretanaulev <0.010 mg/kgTS 2 1 NADO
+1,2-Dibrometanaulev <0.0040 mg/kgTS 2 1 NADO
+1,1,2-Trikloretanaulev <0.010 mg/kgTS 2 1 NADO
+g-HCH (Lindan)aulev <0.0010 mg/kgTS 2 1 NADO
+__________________________________________________________________
+ALSLaboratoryGroupNorway AS E-post: info.on@alsglobal.com Dokumentetergodkjent
+PB643Skøyen,N-0214Oslo Tel:+4722131800 ogdigitaltundertegnet
+avRapportør Nadide Dönmez
+ALSavd.ØMM-Lab Epost:info.srp@alsglobal.com 2017.09.27 15:19:46
+Yvenveien17,N-1715 Yven Tel:+4769137880 Client Service
+nadide.donmez@alsglobal.com
+Web:www.alsglobal.no
+
+--- Page 11 ---
+Rapport N1715906
+Side6(15)
+6F13P80N7I
+Deresprøvenavn 2
+Sediment
+Labnummer N00529081
+Analyse Resultater Usikkerhet (±) Enhet Metode Utført Sign
+o,p'-DDTaulev <0.010 mg/kgTS 2 1 NADO
+p,p'-DDTaulev <0.010 mg/kgTS 2 1 NADO
+o,p'-DDDaulev <0.010 mg/kgTS 2 1 NADO
+p,p'-DDDaulev <0.010 mg/kgTS 2 1 NADO
+o,p'-DDEaulev <0.010 mg/kgTS 2 1 NADO
+p,p'-DDEaulev <0.010 mg/kgTS 2 1 NADO
+__________________________________________________________________
+ALSLaboratoryGroupNorway AS E-post: info.on@alsglobal.com Dokumentetergodkjent
+PB643Skøyen,N-0214Oslo Tel:+4722131800 ogdigitaltundertegnet
+avRapportør Nadide Dönmez
+ALSavd.ØMM-Lab Epost:info.srp@alsglobal.com 2017.09.27 15:19:46
+Yvenveien17,N-1715 Yven Tel:+4769137880 Client Service
+nadide.donmez@alsglobal.com
+Web:www.alsglobal.no
+
+--- Page 12 ---
+Rapport N1715906
+Side7(15)
+6F13P80N7I
+Deresprøvenavn 3
+Sediment
+Labnummer N00529082
+Analyse Resultater Usikkerhet (±) Enhet Metode Utført Sign
+Tørrstoff (E)aulev 84.6 5.11 % 1 1 NADO
+As(Arsen)aulev 10.0 2.00 mg/kgTS 1 1 NADO
+Cd (Kadmium)aulev 0.23 0.04 mg/kgTS 1 1 NADO
+Cr (Krom)aulev 8.10 1.62 mg/kgTS 1 1 NADO
+Cu (Kopper)aulev 113 22.5 mg/kgTS 1 1 NADO
+Hg (Kvikksølv)aulev <0.20 mg/kgTS 1 1 NADO
+Ni (Nikkel)aulev 8.7 1.7 mg/kgTS 1 1 NADO
+Pb (Bly)aulev 3.5 0.7 mg/kgTS 1 1 NADO
+Zn (Sink)aulev 102 20.4 mg/kgTS 1 1 NADO
+PCB28aulev <0.0030 mg/kgTS 1 1 NADO
+PCB52aulev <0.0030 mg/kgTS 1 1 NADO
+PCB101aulev <0.0030 mg/kgTS 1 1 NADO
+PCB118aulev <0.0030 mg/kgTS 1 1 NADO
+PCB138aulev <0.0030 mg/kgTS 1 1 NADO
+PCB153aulev <0.0030 mg/kgTS 1 1 NADO
+PCB180aulev <0.0030 mg/kgTS 1 1 NADO
+Sum PCB-7 n.d. mg/kgTS 1 1 NADO
+Naftalenaulev <0.010 mg/kgTS 1 1 NADO
+Acenaftylenaulev <0.010 mg/kgTS 1 1 NADO
+Acenaftenaulev <0.010 mg/kgTS 1 1 NADO
+Fluorenaulev <0.010 mg/kgTS 1 1 NADO
+Fenantrenaulev <0.010 mg/kgTS 1 1 NADO
+Antracenaulev <0.010 mg/kgTS 1 1 NADO
+Fluorantenaulev <0.010 mg/kgTS 1 1 NADO
+Pyrenaulev <0.010 mg/kgTS 1 1 NADO
+Benso(a)antracen^aulev <0.010 mg/kgTS 1 1 NADO
+Krysen^aulev <0.010 mg/kgTS 1 1 NADO
+Benso(b)fluoranten^aulev <0.010 mg/kgTS 1 1 NADO
+Benso(k)fluoranten^aulev <0.010 mg/kgTS 1 1 NADO
+Benso(a)pyren^aulev <0.010 mg/kgTS 1 1 NADO
+Dibenso(ah)antracen^aulev <0.010 mg/kgTS 1 1 NADO
+Benso(ghi)perylenaulev <0.010 mg/kgTS 1 1 NADO
+Sum PAH-16 n.d. mg/kgTS 1 1 NADO
+Bensenaulev <0.0050 mg/kgTS 1 1 NADO
+Toluenaulev <0.10 mg/kgTS 1 1 NADO
+Etylbensenaulev <0.020 mg/kgTS 1 1 NADO
+Xyleneraulev <0.0150 mg/kgTS 1 1 NADO
+Sum BTEX n.d. mg/kgTS 1 1 NADO
+Fraksjon>C5-C6aulev <7.0 mg/kgTS 1 1 NADO
+Fraksjon>C6-C8aulev <7.00 mg/kgTS 1 1 NADO
+Fraksjon>C8-C10aulev <10.0 mg/kgTS 1 1 NADO
+Fraksjon>C10-C12aulev <2.0 mg/kgTS 1 1 NADO
+Fraksjon>C12-C16aulev 3.5 1.0 mg/kgTS 1 1 NADO
+__________________________________________________________________
+ALSLaboratoryGroupNorway AS E-post: info.on@alsglobal.com Dokumentetergodkjent
+PB643Skøyen,N-0214Oslo Tel:+4722131800 ogdigitaltundertegnet
+avRapportør Nadide Dönmez
+ALSavd.ØMM-Lab Epost:info.srp@alsglobal.com 2017.09.27 15:19:46
+Yvenveien17,N-1715 Yven Tel:+4769137880 Client Service
+nadide.donmez@alsglobal.com
+Web:www.alsglobal.no
+
+--- Page 13 ---
+Rapport N1715906
+Side8(15)
+6F13P80N7I
+Deresprøvenavn 3
+Sediment
+Labnummer N00529082
+Analyse Resultater Usikkerhet (±) Enhet Metode Utført Sign
+Fraksjon>C16-C35aulev 178 54 mg/kgTS 1 1 NADO
+Sum>C12-C35 182 mg/kgTS 1 1 NADO
+Cr6+aulev 0.080 0.019 mg/kgTS 2 1 NADO
+Cyanid-friaulev <0.10 mg/kgTS 2 1 NADO
+2-Monoklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+3-Monoklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+4-Monoklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,3-Diklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,4+2,5-Diklorfenolaulev <0.040 mg/kgTS 2 1 NADO
+2,6-Diklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+3,4-Diklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+3,5-Diklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,3,4-Triklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,3,5-Triklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,3,6-Triklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,4,5-Triklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,4,6-Triklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+3,4,5-Triklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,3,4,5-Tetraklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,3,4,6-Tetraklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,3,5,6-Tetraklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+Pentaklorfenolaulev <0.006 mg/kgTS 2 1 NADO
+Monoklorbensenaulev <0.010 mg/kgTS 2 1 NADO
+1,2-Diklorbensenaulev <0.020 mg/kgTS 2 1 NADO
+1,4-Diklorbensenaulev <0.020 mg/kgTS 2 1 NADO
+1,2,3-Triklorbensenaulev <0.010 mg/kgTS 2 1 NADO
+1,2,4-Triklorbensenaulev <0.030 mg/kgTS 2 1 NADO
+1,3,5-Triklorbensenaulev <0.010 mg/kgTS 2 1 NADO
+1,2,3,5+1,2,4,5-Tetraklorbensenaulev <0.020 mg/kgTS 2 1 NADO
+Pentaklorbensenaulev <0.010 mg/kgTS 2 1 NADO
+Heksaklorbensenaulev <0.0050 mg/kgTS 2 1 NADO
+Diklormetanaulev <0.060 mg/kgTS 2 1 NADO
+Triklormetan (kloroform)aulev <0.020 mg/kgTS 2 1 NADO
+Trikloretenaulev <0.010 mg/kgTS 2 1 NADO
+Tetraklormetanaulev <0.010 mg/kgTS 2 1 NADO
+Tetrakloretenaulev <0.010 mg/kgTS 2 1 NADO
+1,2-Dikloretanaulev <0.0030 mg/kgTS 2 1 NADO
+1,1,1-Trikloretanaulev <0.010 mg/kgTS 2 1 NADO
+1,2-Dibrometanaulev <0.0040 mg/kgTS 2 1 NADO
+1,1,2-Trikloretanaulev <0.010 mg/kgTS 2 1 NADO
+g-HCH (Lindan)aulev <0.0010 mg/kgTS 2 1 NADO
+__________________________________________________________________
+ALSLaboratoryGroupNorway AS E-post: info.on@alsglobal.com Dokumentetergodkjent
+PB643Skøyen,N-0214Oslo Tel:+4722131800 ogdigitaltundertegnet
+avRapportør Nadide Dönmez
+ALSavd.ØMM-Lab Epost:info.srp@alsglobal.com 2017.09.27 15:19:46
+Yvenveien17,N-1715 Yven Tel:+4769137880 Client Service
+nadide.donmez@alsglobal.com
+Web:www.alsglobal.no
+
+--- Page 14 ---
+Rapport N1715906
+Side9(15)
+6F13P80N7I
+Deresprøvenavn 3
+Sediment
+Labnummer N00529082
+Analyse Resultater Usikkerhet (±) Enhet Metode Utført Sign
+o,p'-DDTaulev <0.010 mg/kgTS 2 1 NADO
+p,p'-DDTaulev <0.010 mg/kgTS 2 1 NADO
+o,p'-DDDaulev <0.010 mg/kgTS 2 1 NADO
+p,p'-DDDaulev <0.010 mg/kgTS 2 1 NADO
+o,p'-DDEaulev <0.010 mg/kgTS 2 1 NADO
+p,p'-DDEaulev <0.010 mg/kgTS 2 1 NADO
+__________________________________________________________________
+ALSLaboratoryGroupNorway AS E-post: info.on@alsglobal.com Dokumentetergodkjent
+PB643Skøyen,N-0214Oslo Tel:+4722131800 ogdigitaltundertegnet
+avRapportør Nadide Dönmez
+ALSavd.ØMM-Lab Epost:info.srp@alsglobal.com 2017.09.27 15:19:46
+Yvenveien17,N-1715 Yven Tel:+4769137880 Client Service
+nadide.donmez@alsglobal.com
+Web:www.alsglobal.no
+
+--- Page 15 ---
+Rapport N1715906
+Side10(15)
+6F13P80N7I
+Deresprøvenavn 4
+Sediment
+Labnummer N00529083
+Analyse Resultater Usikkerhet (±) Enhet Metode Utført Sign
+Tørrstoff (E)aulev 71.8 4.34 % 1 1 NADO
+As(Arsen)aulev 8.38 1.68 mg/kgTS 1 1 NADO
+Cd (Kadmium)aulev 0.64 0.13 mg/kgTS 1 1 NADO
+Cr (Krom)aulev 12.2 2.44 mg/kgTS 1 1 NADO
+Cu (Kopper)aulev 482 96.4 mg/kgTS 1 1 NADO
+Hg (Kvikksølv)aulev <0.20 mg/kgTS 1 1 NADO
+Ni (Nikkel)aulev 11.9 2.4 mg/kgTS 1 1 NADO
+Pb (Bly)aulev 4.6 0.9 mg/kgTS 1 1 NADO
+Zn (Sink)aulev 188 37.7 mg/kgTS 1 1 NADO
+PCB28aulev <0.0030 mg/kgTS 1 1 NADO
+PCB52aulev <0.0030 mg/kgTS 1 1 NADO
+PCB101aulev <0.0030 mg/kgTS 1 1 NADO
+PCB118aulev <0.0030 mg/kgTS 1 1 NADO
+PCB138aulev <0.0030 mg/kgTS 1 1 NADO
+PCB153aulev <0.0030 mg/kgTS 1 1 NADO
+PCB180aulev <0.0030 mg/kgTS 1 1 NADO
+Sum PCB-7 n.d. mg/kgTS 1 1 NADO
+Naftalenaulev <0.010 mg/kgTS 1 1 NADO
+Acenaftylenaulev <0.010 mg/kgTS 1 1 NADO
+Acenaftenaulev <0.010 mg/kgTS 1 1 NADO
+Fluorenaulev <0.010 mg/kgTS 1 1 NADO
+Fenantrenaulev 0.014 0.004 mg/kgTS 1 1 NADO
+Antracenaulev <0.010 mg/kgTS 1 1 NADO
+Fluorantenaulev <0.010 mg/kgTS 1 1 NADO
+Pyrenaulev 0.013 0.004 mg/kgTS 1 1 NADO
+Benso(a)antracen^aulev <0.010 mg/kgTS 1 1 NADO
+Krysen^aulev <0.010 mg/kgTS 1 1 NADO
+Benso(b)fluoranten^aulev <0.010 mg/kgTS 1 1 NADO
+Benso(k)fluoranten^aulev <0.010 mg/kgTS 1 1 NADO
+Benso(a)pyren^aulev <0.010 mg/kgTS 1 1 NADO
+Dibenso(ah)antracen^aulev <0.010 mg/kgTS 1 1 NADO
+Benso(ghi)perylenaulev <0.010 mg/kgTS 1 1 NADO
+Sum PAH-16 0.027 mg/kgTS 1 1 NADO
+Bensenaulev <0.0050 mg/kgTS 1 1 NADO
+Toluenaulev <0.10 mg/kgTS 1 1 NADO
+Etylbensenaulev <0.020 mg/kgTS 1 1 NADO
+Xyleneraulev <0.0150 mg/kgTS 1 1 NADO
+Sum BTEX n.d. mg/kgTS 1 1 NADO
+Fraksjon>C5-C6aulev <7.0 mg/kgTS 1 1 NADO
+Fraksjon>C6-C8aulev <7.00 mg/kgTS 1 1 NADO
+Fraksjon>C8-C10aulev <10.0 mg/kgTS 1 1 NADO
+Fraksjon>C10-C12aulev <2.0 mg/kgTS 1 1 NADO
+Fraksjon>C12-C16aulev 6.9 2.1 mg/kgTS 1 1 NADO
+__________________________________________________________________
+ALSLaboratoryGroupNorway AS E-post: info.on@alsglobal.com Dokumentetergodkjent
+PB643Skøyen,N-0214Oslo Tel:+4722131800 ogdigitaltundertegnet
+avRapportør Nadide Dönmez
+ALSavd.ØMM-Lab Epost:info.srp@alsglobal.com 2017.09.27 15:19:46
+Yvenveien17,N-1715 Yven Tel:+4769137880 Client Service
+nadide.donmez@alsglobal.com
+Web:www.alsglobal.no
+
+--- Page 16 ---
+Rapport N1715906
+Side11(15)
+6F13P80N7I
+Deresprøvenavn 4
+Sediment
+Labnummer N00529083
+Analyse Resultater Usikkerhet (±) Enhet Metode Utført Sign
+Fraksjon>C16-C35aulev 613 184 mg/kgTS 1 1 NADO
+Sum>C12-C35 620 mg/kgTS 1 1 NADO
+Cr6+aulev 0.085 0.020 mg/kgTS 2 1 NADO
+Cyanid-friaulev <0.10 mg/kgTS 2 1 NADO
+2-Monoklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+3-Monoklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+4-Monoklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,3-Diklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,4+2,5-Diklorfenolaulev <0.040 mg/kgTS 2 1 NADO
+2,6-Diklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+3,4-Diklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+3,5-Diklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,3,4-Triklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,3,5-Triklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,3,6-Triklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,4,5-Triklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,4,6-Triklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+3,4,5-Triklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,3,4,5-Tetraklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,3,4,6-Tetraklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+2,3,5,6-Tetraklorfenolaulev <0.020 mg/kgTS 2 1 NADO
+Pentaklorfenolaulev <0.006 mg/kgTS 2 1 NADO
+Monoklorbensenaulev <0.010 mg/kgTS 2 1 NADO
+1,2-Diklorbensenaulev <0.020 mg/kgTS 2 1 NADO
+1,4-Diklorbensenaulev <0.020 mg/kgTS 2 1 NADO
+1,2,3-Triklorbensenaulev <0.010 mg/kgTS 2 1 NADO
+1,2,4-Triklorbensenaulev <0.030 mg/kgTS 2 1 NADO
+1,3,5-Triklorbensenaulev <0.010 mg/kgTS 2 1 NADO
+1,2,3,5+1,2,4,5-Tetraklorbensenaulev <0.020 mg/kgTS 2 1 NADO
+Pentaklorbensenaulev <0.010 mg/kgTS 2 1 NADO
+Heksaklorbensenaulev <0.0050 mg/kgTS 2 1 NADO
+Diklormetanaulev <0.060 mg/kgTS 2 1 NADO
+Triklormetan (kloroform)aulev <0.020 mg/kgTS 2 1 NADO
+Trikloretenaulev <0.010 mg/kgTS 2 1 NADO
+Tetraklormetanaulev <0.010 mg/kgTS 2 1 NADO
+Tetrakloretenaulev <0.010 mg/kgTS 2 1 NADO
+1,2-Dikloretanaulev <0.0030 mg/kgTS 2 1 NADO
+1,1,1-Trikloretanaulev <0.010 mg/kgTS 2 1 NADO
+1,2-Dibrometanaulev <0.0040 mg/kgTS 2 1 NADO
+1,1,2-Trikloretanaulev <0.010 mg/kgTS 2 1 NADO
+g-HCH (Lindan)aulev <0.0010 mg/kgTS 2 1 NADO
+__________________________________________________________________
+ALSLaboratoryGroupNorway AS E-post: info.on@alsglobal.com Dokumentetergodkjent
+PB643Skøyen,N-0214Oslo Tel:+4722131800 ogdigitaltundertegnet
+avRapportør Nadide Dönmez
+ALSavd.ØMM-Lab Epost:info.srp@alsglobal.com 2017.09.27 15:19:46
+Yvenveien17,N-1715 Yven Tel:+4769137880 Client Service
+nadide.donmez@alsglobal.com
+Web:www.alsglobal.no
+
+--- Page 17 ---
+Rapport N1715906
+Side12(15)
+6F13P80N7I
+Deresprøvenavn 4
+Sediment
+Labnummer N00529083
+Analyse Resultater Usikkerhet (±) Enhet Metode Utført Sign
+o,p'-DDTaulev <0.010 mg/kgTS 2 1 NADO
+p,p'-DDTaulev <0.010 mg/kgTS 2 1 NADO
+o,p'-DDDaulev <0.010 mg/kgTS 2 1 NADO
+p,p'-DDDaulev <0.010 mg/kgTS 2 1 NADO
+o,p'-DDEaulev <0.010 mg/kgTS 2 1 NADO
+p,p'-DDEa ulev <0.010 mg/kgTS 2 1 NADO
+__________________________________________________________________
+ALSLaboratoryGroupNorway AS E-post: info.on@alsglobal.com Dokumentetergodkjent
+PB643Skøyen,N-0214Oslo Tel:+4722131800 ogdigitaltundertegnet
+avRapportør Nadide Dönmez
+ALSavd.ØMM-Lab Epost:info.srp@alsglobal.com 2017.09.27 15:19:46
+Yvenveien17,N-1715 Yven Tel:+4769137880 Client Service
+nadide.donmez@alsglobal.com
+Web:www.alsglobal.no
+
+--- Page 18 ---
+Rapport N1715906
+Side13(15)
+6F13P80N7I
+"a"etterparameternavnindikereratanalysenerutførtakkreditertved ALSLaboratoryGroup Norway AS.
+"aulev"etterparameternavnindikereratanalysenerutført akkreditertavunderleverandør.
+Utførendelaboratoriumeroppgitti tabellkalt Utf.
+n.d.betyrikkepåvist.
+n/abetyrikkeanalyserbart.
+<betyrmindreenn.
+>betyrstørreenn.
+Metodespesifikasjon
+1 Bestemmelseav Normpakke,normverdier forfølsomarealbruk,del1(2).
+Metode: Metaller: ISO11885, EPA 200.7, EPA 6010, SM3120
+Tørrstoff: ISO11465
+Cr6+: EN15192, EPA 3060A
+Cyanid-fri: ISO6703-2
+PCB-7: EPA8082, ISO10382
+Klorpesticider: EPA8081
+Klorbensener: ISO15009, EPA 8260, EPA 5021A, EPA5021,
+EPA8015,MADEP2004, rev.1.1.
+Klorerteløsemidler: ISO15009, EPA 8260, EPA 5021A, EPA5021,
+EPA8015,MADEP2004, rev.1.1.
+Måleprinsipp: Metaller: ICP-AES
+Cr6+: IC-SPC
+Cyanid-fri: Spektrofotometri
+PCB-7: GC-ECD
+Klorpesticider: GC-ECD
+Klorbensener: GC-FID/MS
+Klorerteløsemidler: GC-FID/MS
+Rapporteringsgrenser: Metaller: 0,10-5,0mg/kgTS
+Cr6+: 0,060mg/kgTS
+Cyanid-fri: 0,10mg/kgTS
+PCB-7: 0,0030mg/kgTS
+Klorpesticider: 0,010mg/kgTS
+g-HCH (Lindan): 0,0010mg/kgTS
+Klorbensener: 0,010-0,030mg/kgTS
+Heksaklorbensen: 0,0050mg/kgTS
+Klorerteløsemidler: 0,0030-0,060mg/kgTS
+Relativmåleusikkerhet: Metaller: 20%
+Tørrstoff: 10%
+Cr6+: 20%
+Cyanid-fri: 40%
+PCB-7: 40%
+Klorpesticider: 40%
+Klorbensener: 40%
+Klorerteløsemidler: 40%
+Note: Resultaterrapportertsom<betyrikkepåvist
+2 Bestemmelseav Normpakke,normverdier for følsomarealbruk,del2(2).
+Metode: PAH: EPA8270, ISO18287
+BTEX: ISO15009, EPA 8260, EPA 5021A, EPA5021, EPA 8015,
+MADEP2004 rev.1.1
+Klorfenoler: ISO14154, EPA 8041, EPA 3500
+Hydrokarboner:
+>C5-C10 ISO15009, EPA 8260, EPA 8015, RBCA Petroleum
+__________________________________________________________________
+ALSLaboratoryGroupNorway AS E-post: info.on@alsglobal.com Dokumentetergodkjent
+PB643Skøyen,N-0214Oslo Tel:+4722131800 ogdigitaltundertegnet
+avRapportør Nadide Dönmez
+ALSavd.ØMM-Lab Epost:info.srp@alsglobal.com 2017.09.27 15:19:46
+Yvenveien17,N-1715 Yven Tel:+4769137880 Client Service
+nadide.donmez@alsglobal.com
+Web:www.alsglobal.no
+
+--- Page 19 ---
+Rapport N1715906
+Side14(15)
+6F13P80N7I
+Metodespesifikasjon
+HydrocarbonMethods
+>C10-C35 EN14039
+Måleprinsipp: PAH: GC-MS
+BTEX: GC-FID/MS
+Klorfenoler: GC-MS/ECD
+Hydrokarboner:
+>C5-C10 GC-FID/ECD
+>C10-C35 GC-FID
+Rapporteringsgrenser: PAH-16: 0,010mg/kgTS
+Benzen: 0,0050mg/kgTS
+BTEX: 0.01-0.10mg/kgTS
+Klorfenoler: 0,020mg/kgTS
+Pentaklorfenol: 0,006mg/kgTS
+C5-C6: 7,0mg/kgTS
+>C6-C8: 7,0mg/kgTS
+>C8-C10: 10mg/kgTS
+>C10-C12: 2,0 mg/kgTS
+>C12-C16: 3,0 mg/kgTS
+>C16-C35: 10mg/kgTS
+Måleusikkerhet: PAH: relativusikkerhet30%
+BTEX relativusikkerhet40%
+Klorfenoler: relativusikkerhet25%
+>C5-C10 relativusikkerhet40%
+>C10-C35 relativusikkerhet30%
+Note: Resultaterrapportertsom<betyrikkepåvist
+Godkjenner
+NADO NadideDönmez
+Utf1
+1 Ansvarliglaboratorium: ALSLaboratoryGroup, ALSCzech Republics.r.o,Na Harfě9/336, Praha,Tsjekkia
+Lokaliseringavandre ALSlaboratorier:
+CeskaLipa Bendlova1687/7,47003 CeskaLipa
+Pardubice V Raji906,53002 Pardubice
+Kontakt ALSLaboratoryGroup Norge,forytterligereinformasjon
+Måleusikkerhetenangissomenutvidetmåleusikkerhet(etterdefinisjoni"Evaluationofmeasurementdata–Guideto the
+expressionofuncertaintyinmeasurement”,JCGM100:2008 Correctedversion2010)beregnetmedendekningsfaktor på
+2noesomgiretkonfidensintervalpåomlag95%.
+Måleusikkerhet fraunderleverandørerangisoftesomenutvidetusikkerhetberegnetmeddekningsfaktor2.Forytterligere
+informasjon,kontaktlaboratoriet.
+1 Utførende tekniskenhet (innen ALSLaboratoryGroup)ellereksterntlaboratorium (underleverandør).
+__________________________________________________________________
+ALSLaboratoryGroupNorway AS E-post: info.on@alsglobal.com Dokumentetergodkjent
+PB643Skøyen,N-0214Oslo Tel:+4722131800 ogdigitaltundertegnet
+avRapportør Nadide Dönmez
+ALSavd.ØMM-Lab Epost:info.srp@alsglobal.com 2017.09.27 15:19:46
+Yvenveien17,N-1715 Yven Tel:+4769137880 Client Service
+nadide.donmez@alsglobal.com
+Web:www.alsglobal.no
+
+--- Page 20 ---
+Rapport N1715906
+Side15(15)
+6F13P80N7I
+Måleusikkerhetskalvære tilgjengeligforakkreditertemetoder.Forvisseanalyserderdetteikkeoppgisi rapporten,vil dette
+oppgisvedhenvendelsetillaboratoriet.
+Denne rapportenfårkungjengisisinhelhet,omikkeutførendelaboratoriumpå forhåndharskriftliggodkjentannet.
+Resultatenegjelderbaredeanalyserteprøvene.
+Angåendelaboratorietsansvari forbindelsemedoppdrag,seaktuellproduktkatalogellervårwebsidewww.alsglobal.no
+Dendigitaltsignert PDF-fil representererdenopprinnelige rapporten. Eventuelleutskrifter eråansesomkopier.
+__________________________________________________________________
+ALSLaboratoryGroupNorway AS E-post: info.on@alsglobal.com Dokumentetergodkjent
+PB643Skøyen,N-0214Oslo Tel:+4722131800 ogdigitaltundertegnet
+avRapportør Nadide Dönmez
+ALSavd.ØMM-Lab Epost:info.srp@alsglobal.com 2017.09.27 15:19:46
+Yvenveien17,N-1715 Yven Tel:+4769137880 Client Service
+nadide.donmez@alsglobal.com
+Web:www.alsglobal.no
+
+--- Page 21 ---
+Rapport N1716546
+Side1(10)
+6UOV7G27U1
+Mottattdato 2017-09-29 StatensVegvesen
+Utstedt 2017-10-02 EspenRiseGregersen
+RegionSør
+Skrubbmoen 6
+N-3619SKOLLENBORG
+Norway
+Prosjekt E134E30Moane
+Bestnr ESPGRE
+Analyse avsediment
+Deresprøvenavn D1
+Sediment
+Labnummer N00531432
+Analyse Resultater Usikkerhet (±) Enhet Metode Utført Sign
+Tørrstoff (DK)aulev 88.3 8.83 % 1 1 CAFR
+As(Arsen)aulev 1.2 2 mg/kgTS 1 1 CAFR
+Cd (Kadmium)aulev 0.83 0.1162 mg/kgTS 1 1 CAFR
+Cr (Krom)aulev 9.8 1.372 mg/kgTS 1 1 CAFR
+Cu (Kopper)aulev 400 56 mg/kgTS 1 1 CAFR
+Hg (Kvikksølv)aulev <0.01 mg/kgTS 1 1 CAFR
+Ni (Nikkel)aulev 9 1.26 mg/kgTS 1 1 CAFR
+Pb (Bly)aulev 3 2 mg/kgTS 1 1 CAFR
+Zn (Sink)aulev 200 20 mg/kgTS 1 1 CAFR
+PCB28aulev <0.0010 mg/kgTS 1 1 CAFR
+PCB52aulev <0.0010 mg/kgTS 1 1 CAFR
+PCB101aulev <0.0010 mg/kgTS 1 1 CAFR
+PCB118aulev <0.0010 mg/kgTS 1 1 CAFR
+PCB138aulev <0.0010 mg/kgTS 1 1 CAFR
+PCB153aulev <0.0010 mg/kgTS 1 1 CAFR
+PCB180aulev <0.0010 mg/kgTS 1 1 CAFR
+Sum PCB-7 n.d. mg/kgTS 1 1 CAFR
+Naftalenaulev <0.010 mg/kgTS 1 1 CAFR
+Acenaftylenaulev <0.010 mg/kgTS 1 1 CAFR
+Acenaftenaulev <0.010 mg/kgTS 1 1 CAFR
+Fluorenaulev <0.010 mg/kgTS 1 1 CAFR
+Fenantrenaulev <0.010 mg/kgTS 1 1 CAFR
+Antracenaulev <0.010 mg/kgTS 1 1 CAFR
+Fluorantenaulev <0.010 mg/kgTS 1 1 CAFR
+Pyrenaulev <0.010 mg/kgTS 1 1 CAFR
+Benso(a)antracen^aulev <0.010 mg/kgTS 1 1 CAFR
+Krysen^aulev <0.010 mg/kgTS 1 1 CAFR
+Benso(b+j)fluoranten^aulev <0.010 mg/kgTS 1 1 CAFR
+Benso(k)fluoranten^aulev <0.010 mg/kgTS 1 1 CAFR
+Benso(a)pyren^aulev <0.010 mg/kgTS 1 1 CAFR
+Dibenso(ah)antracen^aulev <0.010 mg/kgTS 1 1 CAFR
+Benso(ghi)perylenaulev <0.010 mg/kgTS 1 1 CAFR
+Indeno(123cd)pyren^aulev <0.010 mg/kgTS 1 1 CAFR
+__________________________________________________________________
+ALSLaboratoryGroupNorway AS E-post: info.on@alsglobal.com Dokumentetergodkjent
+PB643Skøyen,N-0214Oslo Tel:+4722131800 ogdigitaltundertegnet
+avRapportør Camilla Fredriksen
+ALSavd.ØMM-Lab Epost:info.srp@alsglobal.com 2017.10.02 17:55:34
+Yvenveien17,N-1715 Yven Tel:+4769137880 Client Service
+camilla.fredriksen@alsglobal.com
+Web:www.alsglobal.no
+
+--- Page 22 ---
+Rapport N1716546
+Side2(10)
+6UOV7G27U1
+Deresprøvenavn D1
+Sediment
+Labnummer N00531432
+Analyse Resultater Usikkerhet (±) Enhet Metode Utført Sign
+Sum PAH-16 n.d. mg/kgTS 1 1 CAFR
+Bensenaulev <0.010 mg/kgTS 1 1 CAFR
+Toluenaulev <0.040 mg/kgTS 1 1 CAFR
+Etylbensenaulev <0.040 mg/kgTS 1 1 CAFR
+Xyleneraulev <0.040 mg/kgTS 1 1 CAFR
+Sum BTEX n.d. mg/kgTS 1 1 CAFR
+Fraksjon C5-C6aulev <2.5 mg/kgTS 1 1 CAFR
+Fraksjon>C6-C8aulev <7.0 mg/kgTS 1 1 CAFR
+Fraksjon>C8-C10aulev <10 mg/kgTS 1 1 CAFR
+Fraksjon>C10-C12aulev <10 mg/kgTS 1 1 CAFR
+Fraksjon>C12-C16aulev <10 mg/kgTS 1 1 CAFR
+Sum>C12-C35 230 mg/kgTS 1 1 CAFR
+Fraksjon>C16-C35aulev 230 69 mg/kgTS 1 1 CAFR
+__________________________________________________________________
+ALSLaboratoryGroupNorway AS E-post: info.on@alsglobal.com Dokumentetergodkjent
+PB643Skøyen,N-0214Oslo Tel:+4722131800 ogdigitaltundertegnet
+avRapportør Camilla Fredriksen
+ALSavd.ØMM-Lab Epost:info.srp@alsglobal.com 2017.10.02 17:55:34
+Yvenveien17,N-1715 Yven Tel:+4769137880 Client Service
+camilla.fredriksen@alsglobal.com
+Web:www.alsglobal.no
+
+--- Page 23 ---
+Rapport N1716546
+Side3(10)
+6UOV7G27U1
+Deresprøvenavn D2
+Sediment
+Labnummer N00531433
+Analyse Resultater Usikkerhet (±) Enhet Metode Utført Sign
+Tørrstoff (DK)aulev 85.2 8.52 % 1 1 CAFR
+As(Arsen)aulev 3.8 2 mg/kgTS 1 1 CAFR
+Cd (Kadmium)aulev 1.2 0.168 mg/kgTS 1 1 CAFR
+Cr (Krom)aulev 8.8 1.232 mg/kgTS 1 1 CAFR
+Cu (Kopper)aulev 330 46.2 mg/kgTS 1 1 CAFR
+Hg (Kvikksølv)aulev <0.01 mg/kgTS 1 1 CAFR
+Ni (Nikkel)aulev 8 1.12 mg/kgTS 1 1 CAFR
+Pb (Bly)aulev 2 2 mg/kgTS 1 1 CAFR
+Zn (Sink)aulev 200 20 mg/kgTS 1 1 CAFR
+PCB28aulev <0.0010 mg/kgTS 1 1 CAFR
+PCB52aulev <0.0010 mg/kgTS 1 1 CAFR
+PCB101aulev <0.0010 mg/kgTS 1 1 CAFR
+PCB118aulev <0.0010 mg/kgTS 1 1 CAFR
+PCB138aulev <0.0010 mg/kgTS 1 1 CAFR
+PCB153aulev <0.0010 mg/kgTS 1 1 CAFR
+PCB180aulev <0.0010 mg/kgTS 1 1 CAFR
+Sum PCB-7 n.d. mg/kgTS 1 1 CAFR
+Naftalenaulev 0.010 0.05 mg/kgTS 1 1 CAFR
+Acenaftylenaulev <0.010 mg/kgTS 1 1 CAFR
+Acenaftenaulev <0.010 mg/kgTS 1 1 CAFR
+Fluorenaulev <0.010 mg/kgTS 1 1 CAFR
+Fenantrenaulev <0.010 mg/kgTS 1 1 CAFR
+Antracenaulev <0.010 mg/kgTS 1 1 CAFR
+Fluorantenaulev <0.010 mg/kgTS 1 1 CAFR
+Pyrenaulev <0.010 mg/kgTS 1 1 CAFR
+Benso(a)antracen^aulev <0.010 mg/kgTS 1 1 CAFR
+Krysen^aulev <0.010 mg/kgTS 1 1 CAFR
+Benso(b+j)fluoranten^aulev <0.010 mg/kgTS 1 1 CAFR
+Benso(k)fluoranten^aulev <0.010 mg/kgTS 1 1 CAFR
+Benso(a)pyren^aulev <0.010 mg/kgTS 1 1 CAFR
+Dibenso(ah)antracen^aulev <0.010 mg/kgTS 1 1 CAFR
+Benso(ghi)perylenaulev <0.010 mg/kgTS 1 1 CAFR
+Indeno(123cd)pyren^aulev <0.010 mg/kgTS 1 1 CAFR
+Sum PAH-16 0.0100 mg/kgTS 1 1 CAFR
+Bensenaulev <0.010 mg/kgTS 1 1 CAFR
+Toluenaulev <0.040 mg/kgTS 1 1 CAFR
+Etylbensenaulev <0.040 mg/kgTS 1 1 CAFR
+Xyleneraulev <0.040 mg/kgTS 1 1 CAFR
+Sum BTEX n.d. mg/kgTS 1 1 CAFR
+Fraksjon C5-C6aulev <2.5 mg/kgTS 1 1 CAFR
+Fraksjon>C6-C8aulev <7.0 mg/kgTS 1 1 CAFR
+Fraksjon>C8-C10aulev <10 mg/kgTS 1 1 CAFR
+Fraksjon>C10-C12aulev <10 mg/kgTS 1 1 CAFR
+__________________________________________________________________
+ALSLaboratoryGroupNorway AS E-post: info.on@alsglobal.com Dokumentetergodkjent
+PB643Skøyen,N-0214Oslo Tel:+4722131800 ogdigitaltundertegnet
+avRapportør Camilla Fredriksen
+ALSavd.ØMM-Lab Epost:info.srp@alsglobal.com 2017.10.02 17:55:34
+Yvenveien17,N-1715 Yven Tel:+4769137880 Client Service
+camilla.fredriksen@alsglobal.com
+Web:www.alsglobal.no
+
+--- Page 24 ---
+Rapport N1716546
+Side4(10)
+6UOV7G27U1
+Deresprøvenavn D2
+Sediment
+Labnummer N00531433
+Analyse Resultater Usikkerhet (±) Enhet Metode Utført Sign
+Fraksjon>C12-C16aulev <10 mg/kgTS 1 1 CAFR
+Sum>C12-C35 310 mg/kgTS 1 1 CAFR
+Fraksjon>C16-C35aulev 310 93 mg/kgTS 1 1 CAFR
+__________________________________________________________________
+ALSLaboratoryGroupNorway AS E-post: info.on@alsglobal.com Dokumentetergodkjent
+PB643Skøyen,N-0214Oslo Tel:+4722131800 ogdigitaltundertegnet
+avRapportør Camilla Fredriksen
+ALSavd.ØMM-Lab Epost:info.srp@alsglobal.com 2017.10.02 17:55:34
+Yvenveien17,N-1715 Yven Tel:+4769137880 Client Service
+camilla.fredriksen@alsglobal.com
+Web:www.alsglobal.no
+
+--- Page 25 ---
+Rapport N1716546
+Side5(10)
+6UOV7G27U1
+Deresprøvenavn T1
+Sediment
+Labnummer N00531434
+Analyse Resultater Usikkerhet (±) Enhet Metode Utført Sign
+Tørrstoff (DK)aulev 73.9 7.39 % 1 1 CAFR
+As(Arsen)aulev 3.9 2 mg/kgTS 1 1 CAFR
+Cd (Kadmium)aulev 0.52 0.0728 mg/kgTS 1 1 CAFR
+Cr (Krom)aulev 16 2.24 mg/kgTS 1 1 CAFR
+Cu (Kopper)aulev 310 43.4 mg/kgTS 1 1 CAFR
+Hg (Kvikksølv)aulev <0.01 mg/kgTS 1 1 CAFR
+Ni (Nikkel)aulev 12 1.68 mg/kgTS 1 1 CAFR
+Pb (Bly)aulev 3 2 mg/kgTS 1 1 CAFR
+Zn (Sink)aulev 100 10 mg/kgTS 1 1 CAFR
+PCB28aulev <0.0010 mg/kgTS 1 1 CAFR
+PCB52aulev <0.0010 mg/kgTS 1 1 CAFR
+PCB101aulev <0.0010 mg/kgTS 1 1 CAFR
+PCB118aulev <0.0010 mg/kgTS 1 1 CAFR
+PCB138aulev <0.0010 mg/kgTS 1 1 CAFR
+PCB153aulev <0.0010 mg/kgTS 1 1 CAFR
+PCB180aulev <0.0010 mg/kgTS 1 1 CAFR
+Sum PCB-7 n.d. mg/kgTS 1 1 CAFR
+Naftalenaulev <0.010 mg/kgTS 1 1 CAFR
+Acenaftylenaulev <0.010 mg/kgTS 1 1 CAFR
+Acenaftenaulev <0.010 mg/kgTS 1 1 CAFR
+Fluorenaulev <0.010 mg/kgTS 1 1 CAFR
+Fenantrenaulev <0.010 mg/kgTS 1 1 CAFR
+Antracenaulev <0.010 mg/kgTS 1 1 CAFR
+Fluorantenaulev <0.010 mg/kgTS 1 1 CAFR
+Pyrenaulev <0.010 mg/kgTS 1 1 CAFR
+Benso(a)antracen^aulev <0.010 mg/kgTS 1 1 CAFR
+Krysen^aulev <0.010 mg/kgTS 1 1 CAFR
+Benso(b+j)fluoranten^aulev <0.010 mg/kgTS 1 1 CAFR
+Benso(k)fluoranten^aulev <0.010 mg/kgTS 1 1 CAFR
+Benso(a)pyren^aulev <0.010 mg/kgTS 1 1 CAFR
+Dibenso(ah)antracen^aulev <0.010 mg/kgTS 1 1 CAFR
+Benso(ghi)perylenaulev 0.010 0.05 mg/kgTS 1 1 CAFR
+Indeno(123cd)pyren^aulev <0.010 mg/kgTS 1 1 CAFR
+Sum PAH-16 0.0100 mg/kgTS 1 1 CAFR
+Bensenaulev <0.010 mg/kgTS 1 1 CAFR
+Toluenaulev <0.040 mg/kgTS 1 1 CAFR
+Etylbensenaulev <0.040 mg/kgTS 1 1 CAFR
+Xyleneraulev <0.040 mg/kgTS 1 1 CAFR
+Sum BTEX n.d. mg/kgTS 1 1 CAFR
+Fraksjon C5-C6aulev <2.5 mg/kgTS 1 1 CAFR
+Fraksjon>C6-C8aulev <7.0 mg/kgTS 1 1 CAFR
+Fraksjon>C8-C10aulev <10 mg/kgTS 1 1 CAFR
+Fraksjon>C10-C12aulev <10 mg/kgTS 1 1 CAFR
+__________________________________________________________________
+ALSLaboratoryGroupNorway AS E-post: info.on@alsglobal.com Dokumentetergodkjent
+PB643Skøyen,N-0214Oslo Tel:+4722131800 ogdigitaltundertegnet
+avRapportør Camilla Fredriksen
+ALSavd.ØMM-Lab Epost:info.srp@alsglobal.com 2017.10.02 17:55:34
+Yvenveien17,N-1715 Yven Tel:+4769137880 Client Service
+camilla.fredriksen@alsglobal.com
+Web:www.alsglobal.no
+
+--- Page 26 ---
+Rapport N1716546
+Side6(10)
+6UOV7G27U1
+Deresprøvenavn T1
+Sediment
+Labnummer N00531434
+Analyse Resultater Usikkerhet (±) Enhet Metode Utført Sign
+Fraksjon>C12-C16aulev <10 mg/kgTS 1 1 CAFR
+Sum>C12-C35 490 mg/kgTS 1 1 CAFR
+Fraksjon>C16-C35aulev 490 147 mg/kgTS 1 1 CAFR
+__________________________________________________________________
+ALSLaboratoryGroupNorway AS E-post: info.on@alsglobal.com Dokumentetergodkjent
+PB643Skøyen,N-0214Oslo Tel:+4722131800 ogdigitaltundertegnet
+avRapportør Camilla Fredriksen
+ALSavd.ØMM-Lab Epost:info.srp@alsglobal.com 2017.10.02 17:55:34
+Yvenveien17,N-1715 Yven Tel:+4769137880 Client Service
+camilla.fredriksen@alsglobal.com
+Web:www.alsglobal.no
+
+--- Page 27 ---
+Rapport N1716546
+Side7(10)
+6UOV7G27U1
+Deresprøvenavn T2
+Sediment
+Labnummer N00531435
+Analyse Resultater Usikkerhet (±) Enhet Metode Utført Sign
+Tørrstoff (DK)aulev 77.0 7.7 % 1 1 CAFR
+As(Arsen)aulev 7.8 2.34 mg/kgTS 1 1 CAFR
+Cd (Kadmium)aulev 1.1 0.154 mg/kgTS 1 1 CAFR
+Cr (Krom)aulev 22 3.08 mg/kgTS 1 1 CAFR
+Cu (Kopper)aulev 670 93.8 mg/kgTS 1 1 CAFR
+Hg (Kvikksølv)aulev <0.01 mg/kgTS 1 1 CAFR
+Ni (Nikkel)aulev 22 3.08 mg/kgTS 1 1 CAFR
+Pb (Bly)aulev 6 2 mg/kgTS 1 1 CAFR
+Zn (Sink)aulev 230 23 mg/kgTS 1 1 CAFR
+PCB28aulev <0.0010 mg/kgTS 1 1 CAFR
+PCB52aulev <0.0010 mg/kgTS 1 1 CAFR
+PCB101aulev <0.0010 mg/kgTS 1 1 CAFR
+PCB118aulev <0.0010 mg/kgTS 1 1 CAFR
+PCB138aulev <0.0010 mg/kgTS 1 1 CAFR
+PCB153aulev <0.0010 mg/kgTS 1 1 CAFR
+PCB180aulev <0.0010 mg/kgTS 1 1 CAFR
+Sum PCB-7 n.d. mg/kgTS 1 1 CAFR
+Naftalenaulev <0.010 mg/kgTS 1 1 CAFR
+Acenaftylenaulev <0.010 mg/kgTS 1 1 CAFR
+Acenaftenaulev <0.010 mg/kgTS 1 1 CAFR
+Fluorenaulev <0.010 mg/kgTS 1 1 CAFR
+Fenantrenaulev <0.010 mg/kgTS 1 1 CAFR
+Antracenaulev <0.010 mg/kgTS 1 1 CAFR
+Fluorantenaulev <0.010 mg/kgTS 1 1 CAFR
+Pyrenaulev 0.013 0.05 mg/kgTS 1 1 CAFR
+Benso(a)antracen^aulev <0.010 mg/kgTS 1 1 CAFR
+Krysen^aulev <0.010 mg/kgTS 1 1 CAFR
+Benso(b+j)fluoranten^aulev <0.010 mg/kgTS 1 1 CAFR
+Benso(k)fluoranten^aulev <0.010 mg/kgTS 1 1 CAFR
+Benso(a)pyren^aulev <0.010 mg/kgTS 1 1 CAFR
+Dibenso(ah)antracen^aulev <0.010 mg/kgTS 1 1 CAFR
+Benso(ghi)perylenaulev 0.016 0.05 mg/kgTS 1 1 CAFR
+Indeno(123cd)pyren^aulev <0.010 mg/kgTS 1 1 CAFR
+Sum PAH-16 0.0290 mg/kgTS 1 1 CAFR
+Bensenaulev <0.010 mg/kgTS 1 1 CAFR
+Toluenaulev <0.040 mg/kgTS 1 1 CAFR
+Etylbensenaulev <0.040 mg/kgTS 1 1 CAFR
+Xyleneraulev <0.040 mg/kgTS 1 1 CAFR
+Sum BTEX n.d. mg/kgTS 1 1 CAFR
+Fraksjon C5-C6aulev <2.5 mg/kgTS 1 1 CAFR
+Fraksjon>C6-C8aulev <7.0 mg/kgTS 1 1 CAFR
+Fraksjon>C8-C10aulev <10 mg/kgTS 1 1 CAFR
+Fraksjon>C10-C12aulev <10 mg/kgTS 1 1 CAFR
+__________________________________________________________________
+ALSLaboratoryGroupNorway AS E-post: info.on@alsglobal.com Dokumentetergodkjent
+PB643Skøyen,N-0214Oslo Tel:+4722131800 ogdigitaltundertegnet
+avRapportør Camilla Fredriksen
+ALSavd.ØMM-Lab Epost:info.srp@alsglobal.com 2017.10.02 17:55:34
+Yvenveien17,N-1715 Yven Tel:+4769137880 Client Service
+camilla.fredriksen@alsglobal.com
+Web:www.alsglobal.no
+
+--- Page 28 ---
+Rapport N1716546
+Side8(10)
+6UOV7G27U1
+Deresprøvenavn T2
+Sediment
+Labnummer N00531435
+Analyse Resultater Usikkerhet (±) Enhet Metode Utført Sign
+Fraksjon>C12-C16aulev <10 mg/kgTS 1 1 CAFR
+Sum>C12-C35 670 mg/kgTS 1 1 CAFR
+Fraksjon>C16-C35aulev 670 201 mg/kgTS 1 1 CAFR
+__________________________________________________________________
+ALSLaboratoryGroupNorway AS E-post: info.on@alsglobal.com Dokumentetergodkjent
+PB643Skøyen,N-0214Oslo Tel:+4722131800 ogdigitaltundertegnet
+avRapportør Camilla Fredriksen
+ALSavd.ØMM-Lab Epost:info.srp@alsglobal.com 2017.10.02 17:55:34
+Yvenveien17,N-1715 Yven Tel:+4769137880 Client Service
+camilla.fredriksen@alsglobal.com
+Web:www.alsglobal.no
+
+--- Page 29 ---
+Rapport N1716546
+Side9(10)
+6UOV7G27U1
+"a"etterparameternavnindikereratanalysenerutførtakkreditertved ALSLaboratoryGroup Norway AS.
+"aulev"etterparameternavnindikereratanalysenerutført akkreditertavunderleverandør.
+Utførendelaboratoriumeroppgitti tabellkalt Utf.
+n.d.betyrikkepåvist.
+n/abetyrikkeanalyserbart.
+<betyrmindreenn.
+>betyrstørreenn.
+Metodespesifikasjon
+1 Bestemmelseav Normpakke (liten) forjord.
+Metode: Metaller: DS259
+Tørrstoff: DS204
+PCB-7: EN ISO15308, EPA 3550C
+PAH: REFLAB4:2008
+BTEX: REFLAB1:2010
+Hydrokarboner:
+>C5-C6 Internmetode
+>C6-C35 REFLAB1:2010
+Måleprinsipp: Metaller: ICP
+PCB-7: GC/MS/SIM
+PAH: GC/MS/SIM
+BTEX: GC/MS/pentan
+Hydrokarboner:
+>C5-C6 GC/MS/SIM
+>C6-C35 GC/FID
+Rapporteringsgrenser: Metaller: LOD0,01-5mg/kgTS
+Tørrstoff: LOD0,1%
+PCB-7: LOD0,001mg/kgTS
+PAH: LOD0,01-0,04mg/kgTS
+Måleusikkerhet: Metaller: relativusikkerhet14%
+Tørrstoff: relativusikkerhet10%
+PCB-7: relativusikkerhet20%
+PAH: relativusikkerhet40%
+Godkjenner
+CAFR CamillaFredriksen
+Utf1
+1 Ansvarliglaboratorium: ALS Denmark A/S, Bakkegårdsvej406A,3050 Humlebæk,Danmark
+Måleusikkerhetenangissomenutvidetmåleusikkerhet(etterdefinisjoni"Evaluationofmeasurementdata–Guideto the
+expressionofuncertaintyinmeasurement”,JCGM100:2008 Correctedversion2010)beregnetmedendekningsfaktor på
+2noesomgiretkonfidensintervalpåomlag95%.
+1 Utførende tekniskenhet (innen ALSLaboratoryGroup)ellereksterntlaboratorium (underleverandør).
+__________________________________________________________________
+ALSLaboratoryGroupNorway AS E-post: info.on@alsglobal.com Dokumentetergodkjent
+PB643Skøyen,N-0214Oslo Tel:+4722131800 ogdigitaltundertegnet
+avRapportør Camilla Fredriksen
+ALSavd.ØMM-Lab Epost:info.srp@alsglobal.com 2017.10.02 17:55:34
+Yvenveien17,N-1715 Yven Tel:+4769137880 Client Service
+camilla.fredriksen@alsglobal.com
+Web:www.alsglobal.no
+
+--- Page 30 ---
+Rapport N1716546
+Side10(10)
+6UOV7G27U1
+Måleusikkerhet fraunderleverandørerangisoftesomenutvidetusikkerhetberegnetmeddekningsfaktor2.Forytterligere
+informasjon,kontaktlaboratoriet.
+Måleusikkerhetskalvære tilgjengeligforakkreditertemetoder.Forvisseanalyserderdetteikkeoppgisi rapporten,vil dette
+oppgisvedhenvendelsetillaboratoriet.
+Denne rapportenfårkungjengisisinhelhet,omikkeutførendelaboratoriumpå forhåndharskriftliggodkjentannet.
+Resultatenegjelderbaredeanalyserteprøvene.
+Angåendelaboratorietsansvari forbindelsemedoppdrag,seaktuellproduktkatalogellervårwebsidewww.alsglobal.no
+Dendigitaltsignert PDF-fil representererdenopprinnelige rapporten. Eventuelleutskrifter eråansesomkopier.
+__________________________________________________________________
+ALSLaboratoryGroupNorway AS E-post: info.on@alsglobal.com Dokumentetergodkjent
+PB643Skøyen,N-0214Oslo Tel:+4722131800 ogdigitaltundertegnet
+avRapportør Camilla Fredriksen
+ALSavd.ØMM-Lab Epost:info.srp@alsglobal.com 2017.10.02 17:55:34
+Yvenveien17,N-1715 Yven Tel:+4769137880 Client Service
+camilla.fredriksen@alsglobal.com
+Web:www.alsglobal.no

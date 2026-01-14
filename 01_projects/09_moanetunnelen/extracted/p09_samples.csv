@@ -1,0 +1,9 @@
+﻿sample_id,project_code,sample_date,location_type,profile_start,profile_end,tunnel_name,sample_type,lab_reference,sampler
+p09-MOA-001,09_moanetunnelen,2017-09-20,vegbane,9850,9950,Moanetunnelen,bunnrensk,N00529080,SVV Region Sør
+p09-MOA-002,09_moanetunnelen,2017-09-20,vegbane,9950,10100,Moanetunnelen,bunnrensk,N00529081,SVV Region Sør
+p09-MOA-003,09_moanetunnelen,2017-09-20,grøft,9950,10100,Moanetunnelen,bunnrensk,N00529082,SVV Region Sør
+p09-MOA-004,09_moanetunnelen,2017-09-20,grøft,9850,9950,Moanetunnelen,bunnrensk,N00529083,SVV Region Sør
+p09-MOA-T1,09_moanetunnelen,2017-09-28,vegbane,9850,9900,Moanetunnelen,bunnrensk,N00531434,SVV Region Sør
+p09-MOA-T2,09_moanetunnelen,2017-09-28,vegbane,9900,9950,Moanetunnelen,bunnrensk,N00531435,SVV Region Sør
+p09-MOA-D1,09_moanetunnelen,2017-09-28,deponi,,,Moanetunnelen,blandeprøve,N00531432,SVV Region Sør
+p09-MOA-D2,09_moanetunnelen,2017-09-28,deponi,,,Moanetunnelen,blandeprøve,N00531433,SVV Region Sør
