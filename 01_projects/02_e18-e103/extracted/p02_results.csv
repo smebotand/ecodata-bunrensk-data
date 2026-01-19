@@ -1,0 +1,2176 @@
+﻿sample_id,parameter,parameter_raw,value,unit,uncertainty,below_limit,loq,analysis_type
+p02-Bunnrensk-Høviktoppen-c-05m,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,Alifater_C16-C35,Alifater >C16-C35,40.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),40.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),40.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,Benzene,Benzen,0.017,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,BTEX_sum,Sum BTEX (M1),0.1,mg/kg,,True,0.1,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,Toluene,Toluen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,PCB101,PCB 101,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,PCB118,PCB 118,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,PCB138,PCB 138,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,PCB153,PCB 153,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,PCB180,PCB 180,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,PCB28,PCB 28,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,PCB52,PCB 52,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,PCB7,Sum PCB-7,0.007,mg/kg,,True,0.007,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,BaA,Benso(a)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,BbjF,Benso(b+j)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,BghiP,Benso(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,BkF,Benso(k)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,DahA,Dibenso(ah)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,Phenanthrene,Fenantren,0.01,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,IcdP,Indeno(123cd)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,Chrysene,Krysen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,Naphthalene,Naftalen,0.052,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,Pyrene,Pyren,0.01,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,PAH16,Sum PAH-16,0.16,mg/kg,,True,0.16,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,As,As (Arsen),12.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,Cd,Cd (Kadmium),0.02,mg/kg,,True,0.02,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,Cr,Cr (Krom),99.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,Cu,Cu (Kopper),43.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,Hg,Hg (Kvikksølv),0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,Ni,Ni (Nikkel),140.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,Pb,Pb (Bly),17.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,Zn,Zn (Sink),73.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,Alifater_C16-C35,Alifater >C16-C35,30.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),30.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),30.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,Benzene,Benzen,0.015,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,BTEX_sum,Sum BTEX (M1),0.1,mg/kg,,True,0.1,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,Toluene,Toluen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,PCB101,PCB 101,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,PCB118,PCB 118,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,PCB138,PCB 138,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,PCB153,PCB 153,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,PCB180,PCB 180,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,PCB28,PCB 28,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,PCB52,PCB 52,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,PCB7,Sum PCB-7,0.007,mg/kg,,True,0.007,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,BaA,Benso(a)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,BbjF,Benso(b+j)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,BghiP,Benso(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,BkF,Benso(k)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,DahA,Dibenso(ah)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,Phenanthrene,Fenantren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,IcdP,Indeno(123cd)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,Chrysene,Krysen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,Naphthalene,Naftalen,0.052,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,Pyrene,Pyren,0.01,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,PAH16,Sum PAH-16,0.16,mg/kg,,True,0.16,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,As,As (Arsen),11.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,Cd,Cd (Kadmium),0.02,mg/kg,,True,0.02,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,Cr,Cr (Krom),76.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,Cu,Cu (Kopper),35.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,Hg,Hg (Kvikksølv),0.011,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,Ni,Ni (Nikkel),110.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,Pb,Pb (Bly),16.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-15-2m,Zn,Zn (Sink),68.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9260-9110,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Blandeprøve-pel-9260-9110,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Blandeprøve-pel-9260-9110,Alifater_C16-C35,Alifater >C16-C35,13.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9260-9110,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Blandeprøve-pel-9260-9110,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Blandeprøve-pel-9260-9110,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Blandeprøve-pel-9260-9110,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),13.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9260-9110,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),13.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9260-9110,Benzene,Benzen,0.094,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9260-9110,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Blandeprøve-pel-9260-9110,BTEX_sum,Sum BTEX (M1),0.17,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9260-9110,Toluene,Toluen,0.078,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9260-9110,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Blandeprøve-pel-9260-9110,PCB101,PCB 101,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Blandeprøve-pel-9260-9110,PCB118,PCB 118,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Blandeprøve-pel-9260-9110,PCB138,PCB 138,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Blandeprøve-pel-9260-9110,PCB153,PCB 153,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Blandeprøve-pel-9260-9110,PCB180,PCB 180,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Blandeprøve-pel-9260-9110,PCB28,PCB 28,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Blandeprøve-pel-9260-9110,PCB52,PCB 52,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Blandeprøve-pel-9260-9110,PCB7,Sum PCB-7,0.007,mg/kg,,True,0.007,totalanalyse
+p02-Blandeprøve-pel-9260-9110,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9260-9110,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9260-9110,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9260-9110,BaA,Benso(a)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9260-9110,BaP,Benso(a)pyren^,0.011,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9260-9110,BbjF,Benso(b+j)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9260-9110,BghiP,Benso(ghi)perylen,0.011,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9260-9110,BkF,Benso(k)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9260-9110,DahA,Dibenso(ah)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9260-9110,Phenanthrene,Fenantren,0.011,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9260-9110,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9260-9110,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9260-9110,IcdP,Indeno(123cd)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9260-9110,Chrysene,Krysen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9260-9110,Naphthalene,Naftalen,0.067,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9260-9110,Pyrene,Pyren,0.012,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9260-9110,PAH16,Sum PAH-16,0.16,mg/kg,,True,0.16,totalanalyse
+p02-Blandeprøve-pel-9260-9110,As,As (Arsen),10.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9260-9110,Cd,Cd (Kadmium),0.02,mg/kg,,True,0.02,totalanalyse
+p02-Blandeprøve-pel-9260-9110,Cr,Cr (Krom),75.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9260-9110,Cu,Cu (Kopper),38.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9260-9110,Hg,Hg (Kvikksølv),0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9260-9110,Ni,Ni (Nikkel),120.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9260-9110,Pb,Pb (Bly),11.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9260-9110,Zn,Zn (Sink),67.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9260-9110,Fraksjon_C10-C12,Fraksjon >C10-C12,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Blandeprøve-pel-9260-9110,Fraksjon_C12-C16,Fraksjon >C12-C16,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Blandeprøve-pel-9260-9110,Fraksjon_C12-C35_sum,Fraksjon >C12-C35 (sum),15.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9260-9110,Fraksjon_C16-C35,Fraksjon >C16-C35,15.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9260-9110,Fraksjon_C35-C40,Fraksjon >C35-C40,25.0,mg/kg,,True,25.0,totalanalyse
+p02-Blandeprøve-pel-9260-9110,Fraksjon_C5-C6,Fraksjon >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Blandeprøve-pel-9260-9110,Fraksjon_C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
+p02-Blandeprøve-pel-9260-9110,Fraksjon_C8-C10,Fraksjon >C8-C10,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Blandeprøve-pel-9260-9110,Sum_C10-C40,Sum >C10-C40,15.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,Alifater_C16-C35,Alifater >C16-C35,22.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),22.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),22.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,Benzene,Benzen,0.024,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,BTEX_sum,Sum BTEX (M1),0.1,mg/kg,,True,0.1,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,Toluene,Toluen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,PCB101,PCB 101,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,PCB118,PCB 118,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,PCB138,PCB 138,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,PCB153,PCB 153,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,PCB180,PCB 180,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,PCB28,PCB 28,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,PCB52,PCB 52,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,PCB7,Sum PCB-7,0.007,mg/kg,,True,0.007,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,Anthracene,Antracen,0.011,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,BaA,Benso(a)antracen^,0.011,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,BaP,Benso(a)pyren^,0.016,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,BbjF,Benso(b+j)fluoranten^,0.02,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,BghiP,Benso(ghi)perylen,0.024,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,BkF,Benso(k)fluoranten^,0.018,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,DahA,Dibenso(ah)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,Phenanthrene,Fenantren,0.026,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,Fluoranthene,Fluoranten,0.037,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,IcdP,Indeno(123cd)pyren^,0.015,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,Chrysene,Krysen^,0.027,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,Naphthalene,Naftalen,0.043,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,Pyrene,Pyren,0.042,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,PAH16,Sum PAH-16,0.27,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,As,As (Arsen),9.6,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,Cd,Cd (Kadmium),0.13,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,Cr,Cr (Krom),95.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,Cu,Cu (Kopper),32.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,Hg,Hg (Kvikksølv),0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,Ni,Ni (Nikkel),120.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,Pb,Pb (Bly),14.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,Zn,Zn (Sink),73.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,Fraksjon_C10-C12,Fraksjon >C10-C12,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,Fraksjon_C12-C16,Fraksjon >C12-C16,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,Fraksjon_C12-C35_sum,Fraksjon >C12-C35 (sum),120.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,Fraksjon_C16-C35,Fraksjon >C16-C35,120.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,Fraksjon_C35-C40,Fraksjon >C35-C40,40.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,Fraksjon_C5-C6,Fraksjon >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,Fraksjon_C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,Fraksjon_C8-C10,Fraksjon >C8-C10,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-0m,Sum_C10-C40,Sum >C10-C40,160.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,Alifater_C16-C35,Alifater >C16-C35,14.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),14.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),14.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,Benzene,Benzen,0.014,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,BTEX_sum,Sum BTEX (M1),0.1,mg/kg,,True,0.1,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,Toluene,Toluen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,PCB101,PCB 101,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,PCB118,PCB 118,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,PCB138,PCB 138,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,PCB153,PCB 153,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,PCB180,PCB 180,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,PCB28,PCB 28,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,PCB52,PCB 52,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,PCB7,Sum PCB-7,0.007,mg/kg,,True,0.007,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,BaA,Benso(a)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,BbjF,Benso(b+j)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,BghiP,Benso(ghi)perylen,0.018,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,BkF,Benso(k)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,DahA,Dibenso(ah)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,Phenanthrene,Fenantren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,IcdP,Indeno(123cd)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,Chrysene,Krysen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,Naphthalene,Naftalen,0.036,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,Pyrene,Pyren,0.011,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,PAH16,Sum PAH-16,0.16,mg/kg,,True,0.16,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,As,As (Arsen),12.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,Cd,Cd (Kadmium),0.02,mg/kg,,True,0.02,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,Cr,Cr (Krom),95.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,Cu,Cu (Kopper),32.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,Hg,Hg (Kvikksølv),0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,Ni,Ni (Nikkel),130.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,Pb,Pb (Bly),15.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,Zn,Zn (Sink),63.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,Fraksjon_C10-C12,Fraksjon >C10-C12,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,Fraksjon_C12-C16,Fraksjon >C12-C16,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,Fraksjon_C12-C35_sum,Fraksjon >C12-C35 (sum),51.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,Fraksjon_C16-C35,Fraksjon >C16-C35,51.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,Fraksjon_C35-C40,Fraksjon >C35-C40,25.0,mg/kg,,True,25.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,Fraksjon_C5-C6,Fraksjon >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,Fraksjon_C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,Fraksjon_C8-C10,Fraksjon >C8-C10,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-a-05m,Sum_C10-C40,Sum >C10-C40,51.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,Alifater_C16-C35,Alifater >C16-C35,18.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),18.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),18.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,Benzene,Benzen,0.037,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,BTEX_sum,Sum BTEX (M1),0.1,mg/kg,,True,0.1,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,Toluene,Toluen,0.057,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,PCB101,PCB 101,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,PCB118,PCB 118,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,PCB138,PCB 138,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,PCB153,PCB 153,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,PCB180,PCB 180,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,PCB28,PCB 28,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,PCB52,PCB 52,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,PCB7,Sum PCB-7,0.007,mg/kg,,True,0.007,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,BaA,Benso(a)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,BbjF,Benso(b+j)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,BghiP,Benso(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,BkF,Benso(k)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,DahA,Dibenso(ah)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,Phenanthrene,Fenantren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,IcdP,Indeno(123cd)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,Chrysene,Krysen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,Naphthalene,Naftalen,0.035,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,Pyrene,Pyren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,PAH16,Sum PAH-16,0.16,mg/kg,,True,0.16,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,As,As (Arsen),16.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,Cd,Cd (Kadmium),0.02,mg/kg,,True,0.02,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,Cr,Cr (Krom),110.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,Cu,Cu (Kopper),40.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,Hg,Hg (Kvikksølv),0.01,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,Ni,Ni (Nikkel),140.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,Pb,Pb (Bly),19.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,Zn,Zn (Sink),70.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,Fraksjon_C10-C12,Fraksjon >C10-C12,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,Fraksjon_C12-C16,Fraksjon >C12-C16,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,Fraksjon_C12-C35_sum,Fraksjon >C12-C35 (sum),75.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,Fraksjon_C16-C35,Fraksjon >C16-C35,75.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,Fraksjon_C35-C40,Fraksjon >C35-C40,25.0,mg/kg,,True,25.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,Fraksjon_C5-C6,Fraksjon >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,Fraksjon_C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,Fraksjon_C8-C10,Fraksjon >C8-C10,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-0m,Sum_C10-C40,Sum >C10-C40,75.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,Alifater_C16-C35,Alifater >C16-C35,28.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),28.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),28.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,Benzene,Benzen,0.043,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,BTEX_sum,Sum BTEX (M1),0.1,mg/kg,,True,0.1,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,Toluene,Toluen,0.045,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,PCB101,PCB 101,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,PCB118,PCB 118,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,PCB138,PCB 138,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,PCB153,PCB 153,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,PCB180,PCB 180,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,PCB28,PCB 28,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,PCB52,PCB 52,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,PCB7,Sum PCB-7,0.007,mg/kg,,True,0.007,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,BaA,Benso(a)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,BbjF,Benso(b+j)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,BghiP,Benso(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,BkF,Benso(k)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,DahA,Dibenso(ah)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,Phenanthrene,Fenantren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,IcdP,Indeno(123cd)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,Chrysene,Krysen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,Naphthalene,Naftalen,0.059,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,Pyrene,Pyren,0.014,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,PAH16,Sum PAH-16,0.16,mg/kg,,True,0.16,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,As,As (Arsen),14.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,Cd,Cd (Kadmium),0.061,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,Cr,Cr (Krom),100.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,Cu,Cu (Kopper),38.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,Hg,Hg (Kvikksølv),0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,Ni,Ni (Nikkel),140.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,Pb,Pb (Bly),14.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,Zn,Zn (Sink),92.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,Fraksjon_C10-C12,Fraksjon >C10-C12,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,Fraksjon_C12-C16,Fraksjon >C12-C16,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,Fraksjon_C12-C35_sum,Fraksjon >C12-C35 (sum),52.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,Fraksjon_C16-C35,Fraksjon >C16-C35,52.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,Fraksjon_C35-C40,Fraksjon >C35-C40,25.0,mg/kg,,True,25.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,Fraksjon_C5-C6,Fraksjon >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,Fraksjon_C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,Fraksjon_C8-C10,Fraksjon >C8-C10,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-b-05m,Sum_C10-C40,Sum >C10-C40,52.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,Alifater_C16-C35,Alifater >C16-C35,36.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),36.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),36.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,Benzene,Benzen,0.036,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,BTEX_sum,Sum BTEX (M1),0.1,mg/kg,,True,0.1,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,Toluene,Toluen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,PCB101,PCB 101,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,PCB118,PCB 118,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,PCB138,PCB 138,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,PCB153,PCB 153,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,PCB180,PCB 180,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,PCB28,PCB 28,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,PCB52,PCB 52,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,PCB7,Sum PCB-7,0.007,mg/kg,,True,0.007,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,BaA,Benso(a)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,BaP,Benso(a)pyren^,0.012,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,BbjF,Benso(b+j)fluoranten^,0.019,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,BghiP,Benso(ghi)perylen,0.019,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,BkF,Benso(k)fluoranten^,0.013,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,DahA,Dibenso(ah)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,Phenanthrene,Fenantren,0.037,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,Fluoranthene,Fluoranten,0.032,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,Fluorene,Fluoren,0.01,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,IcdP,Indeno(123cd)pyren^,0.012,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,Chrysene,Krysen^,0.012,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,Naphthalene,Naftalen,0.095,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,Pyrene,Pyren,0.035,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,PAH16,Sum PAH-16,0.28,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,As,As (Arsen),9.5,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,Cd,Cd (Kadmium),0.057,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,Cr,Cr (Krom),110.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,Cu,Cu (Kopper),44.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,Hg,Hg (Kvikksølv),0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,Ni,Ni (Nikkel),130.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,Pb,Pb (Bly),15.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,Zn,Zn (Sink),73.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,Fraksjon_C10-C12,Fraksjon >C10-C12,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,Fraksjon_C12-C16,Fraksjon >C12-C16,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,Fraksjon_C12-C35_sum,Fraksjon >C12-C35 (sum),86.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,Fraksjon_C16-C35,Fraksjon >C16-C35,86.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,Fraksjon_C35-C40,Fraksjon >C35-C40,25.0,mg/kg,,True,25.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,Fraksjon_C5-C6,Fraksjon >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,Fraksjon_C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,Fraksjon_C8-C10,Fraksjon >C8-C10,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-0m,Sum_C10-C40,Sum >C10-C40,86.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,Fraksjon_C10-C12,Fraksjon >C10-C12,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,Fraksjon_C12-C16,Fraksjon >C12-C16,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,Fraksjon_C12-C35_sum,Fraksjon >C12-C35 (sum),98.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,Fraksjon_C16-C35,Fraksjon >C16-C35,98.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,Fraksjon_C35-C40,Fraksjon >C35-C40,25.0,mg/kg,,True,25.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,Fraksjon_C5-C6,Fraksjon >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,Fraksjon_C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,Fraksjon_C8-C10,Fraksjon >C8-C10,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-Høviktoppen-c-05m,Sum_C10-C40,Sum >C10-C40,98.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9510---9310,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Blandeprøve-pel-9510---9310,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Blandeprøve-pel-9510---9310,Alifater_C16-C35,Alifater >C16-C35,57.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9510---9310,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Blandeprøve-pel-9510---9310,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Blandeprøve-pel-9510---9310,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Blandeprøve-pel-9510---9310,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),57.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9510---9310,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),57.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9510---9310,Benzene,Benzen,0.099,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9510---9310,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Blandeprøve-pel-9510---9310,BTEX_sum,Sum BTEX (M1),0.19,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9510---9310,Toluene,Toluen,0.088,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9510---9310,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Blandeprøve-pel-9510---9310,PCB101,PCB 101,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Blandeprøve-pel-9510---9310,PCB118,PCB 118,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Blandeprøve-pel-9510---9310,PCB138,PCB 138,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Blandeprøve-pel-9510---9310,PCB153,PCB 153,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Blandeprøve-pel-9510---9310,PCB180,PCB 180,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Blandeprøve-pel-9510---9310,PCB28,PCB 28,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Blandeprøve-pel-9510---9310,PCB52,PCB 52,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Blandeprøve-pel-9510---9310,PCB7,Sum PCB-7,0.007,mg/kg,,True,0.007,totalanalyse
+p02-Blandeprøve-pel-9510---9310,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9510---9310,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9510---9310,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9510---9310,BaA,Benso(a)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9510---9310,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9510---9310,BbjF,Benso(b+j)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9510---9310,BghiP,Benso(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9510---9310,BkF,Benso(k)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9510---9310,DahA,Dibenso(ah)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9510---9310,Phenanthrene,Fenantren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9510---9310,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9510---9310,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9510---9310,IcdP,Indeno(123cd)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9510---9310,Chrysene,Krysen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9510---9310,Naphthalene,Naftalen,0.093,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9510---9310,Pyrene,Pyren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9510---9310,PAH16,Sum PAH-16,0.16,mg/kg,,True,0.16,totalanalyse
+p02-Blandeprøve-pel-9510---9310,As,As (Arsen),12.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9510---9310,Cd,Cd (Kadmium),0.02,mg/kg,,True,0.02,totalanalyse
+p02-Blandeprøve-pel-9510---9310,Cr,Cr (Krom),67.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9510---9310,Cu,Cu (Kopper),28.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9510---9310,Hg,Hg (Kvikksølv),0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9510---9310,Ni,Ni (Nikkel),92.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9510---9310,Pb,Pb (Bly),17.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9510---9310,Zn,Zn (Sink),81.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9760---9560,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Blandeprøve-pel-9760---9560,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Blandeprøve-pel-9760---9560,Alifater_C16-C35,Alifater >C16-C35,18.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9760---9560,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Blandeprøve-pel-9760---9560,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Blandeprøve-pel-9760---9560,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Blandeprøve-pel-9760---9560,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),18.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9760---9560,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),18.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9760---9560,Benzene,Benzen,0.099,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9760---9560,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Blandeprøve-pel-9760---9560,BTEX_sum,Sum BTEX (M1),0.17,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9760---9560,Toluene,Toluen,0.069,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9760---9560,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Blandeprøve-pel-9760---9560,PCB101,PCB 101,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Blandeprøve-pel-9760---9560,PCB118,PCB 118,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Blandeprøve-pel-9760---9560,PCB138,PCB 138,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Blandeprøve-pel-9760---9560,PCB153,PCB 153,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Blandeprøve-pel-9760---9560,PCB180,PCB 180,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Blandeprøve-pel-9760---9560,PCB28,PCB 28,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Blandeprøve-pel-9760---9560,PCB52,PCB 52,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Blandeprøve-pel-9760---9560,PCB7,Sum PCB-7,0.007,mg/kg,,True,0.007,totalanalyse
+p02-Blandeprøve-pel-9760---9560,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9760---9560,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9760---9560,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9760---9560,BaA,Benso(a)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9760---9560,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9760---9560,BbjF,Benso(b+j)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9760---9560,BghiP,Benso(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9760---9560,BkF,Benso(k)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9760---9560,DahA,Dibenso(ah)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9760---9560,Phenanthrene,Fenantren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9760---9560,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9760---9560,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9760---9560,IcdP,Indeno(123cd)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9760---9560,Chrysene,Krysen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9760---9560,Naphthalene,Naftalen,0.073,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9760---9560,Pyrene,Pyren,0.011,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9760---9560,PAH16,Sum PAH-16,0.084,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9760---9560,As,As (Arsen),7.8,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9760---9560,Cd,Cd (Kadmium),0.02,mg/kg,,True,0.02,totalanalyse
+p02-Blandeprøve-pel-9760---9560,Cr,Cr (Krom),86.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9760---9560,Cu,Cu (Kopper),44.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9760---9560,Hg,Hg (Kvikksølv),0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-9760---9560,Ni,Ni (Nikkel),130.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9760---9560,Pb,Pb (Bly),7.4,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-9760---9560,Zn,Zn (Sink),75.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,Alifater_C16-C35,Alifater >C16-C35,13.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),13.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),13.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,Benzene,Benzen,0.046,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,BTEX_sum,Sum BTEX (M1),0.1,mg/kg,,True,0.1,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,Toluene,Toluen,0.042,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,PCB101,PCB 101,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,PCB118,PCB 118,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,PCB138,PCB 138,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,PCB153,PCB 153,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,PCB180,PCB 180,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,PCB28,PCB 28,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,PCB52,PCB 52,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,PCB7,Sum PCB-7,0.007,mg/kg,,True,0.007,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,Acenaphthylene,Acenaftylen,0.013,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,Anthracene,Antracen,0.012,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,BaA,Benso(a)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,BbjF,Benso(b+j)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,BghiP,Benso(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,BkF,Benso(k)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,DahA,Dibenso(ah)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,Phenanthrene,Fenantren,0.017,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,Fluoranthene,Fluoranten,0.011,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,Fluorene,Fluoren,0.011,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,IcdP,Indeno(123cd)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,Chrysene,Krysen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,Naphthalene,Naftalen,0.11,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,Pyrene,Pyren,0.021,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,PAH16,Sum PAH-16,0.2,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,As,As (Arsen),7.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,Cd,Cd (Kadmium),0.02,mg/kg,,True,0.02,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,Cr,Cr (Krom),56.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,Cu,Cu (Kopper),24.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,Hg,Hg (Kvikksølv),0.017,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,Ni,Ni (Nikkel),84.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,Pb,Pb (Bly),9.1,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,Zn,Zn (Sink),58.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,Fraksjon_C10-C12,Fraksjon >C10-C12,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,Fraksjon_C12-C16,Fraksjon >C12-C16,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,Fraksjon_C12-C35_sum,Fraksjon >C12-C35 (sum),35.0,mg/kg,,True,35.0,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,Fraksjon_C16-C35,Fraksjon >C16-C35,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,Fraksjon_C35-C40,Fraksjon >C35-C40,25.0,mg/kg,,True,25.0,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,Fraksjon_C5-C6,Fraksjon >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,Fraksjon_C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,Fraksjon_C8-C10,Fraksjon >C8-C10,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrenskprøve-pel-10010---9810,Sum_C10-C40,Sum >C10-C40,70.0,mg/kg,,True,70.0,totalanalyse
+p02-Bunnrenskprøve-pel-9960,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrenskprøve-pel-9960,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrenskprøve-pel-9960,Alifater_C16-C35,Alifater >C16-C35,15.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9960,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrenskprøve-pel-9960,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrenskprøve-pel-9960,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrenskprøve-pel-9960,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),15.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9960,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),15.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9960,Benzene,Benzen,0.11,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9960,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrenskprøve-pel-9960,BTEX_sum,Sum BTEX (M1),0.19,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9960,Toluene,Toluen,0.083,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9960,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrenskprøve-pel-9960,PCB101,PCB 101,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-pel-9960,PCB118,PCB 118,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-pel-9960,PCB138,PCB 138,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-pel-9960,PCB153,PCB 153,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-pel-9960,PCB180,PCB 180,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-pel-9960,PCB28,PCB 28,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-pel-9960,PCB52,PCB 52,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-pel-9960,PCB7,Sum PCB-7,0.007,mg/kg,,True,0.007,totalanalyse
+p02-Bunnrenskprøve-pel-9960,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9960,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9960,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9960,BaA,Benso(a)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9960,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9960,BbjF,Benso(b+j)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9960,BghiP,Benso(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9960,BkF,Benso(k)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9960,DahA,Dibenso(ah)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9960,Phenanthrene,Fenantren,0.011,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9960,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9960,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9960,IcdP,Indeno(123cd)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9960,Chrysene,Krysen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9960,Naphthalene,Naftalen,0.091,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9960,Pyrene,Pyren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9960,PAH16,Sum PAH-16,0.1,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9960,As,As (Arsen),6.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9960,Cd,Cd (Kadmium),0.02,mg/kg,,True,0.02,totalanalyse
+p02-Bunnrenskprøve-pel-9960,Cr,Cr (Krom),35.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9960,Cu,Cu (Kopper),25.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9960,Hg,Hg (Kvikksølv),0.017,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9960,Ni,Ni (Nikkel),70.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9960,Pb,Pb (Bly),7.8,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9960,Zn,Zn (Sink),50.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9960,Fraksjon_C10-C12,Fraksjon >C10-C12,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrenskprøve-pel-9960,Fraksjon_C12-C16,Fraksjon >C12-C16,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrenskprøve-pel-9960,Fraksjon_C12-C35_sum,Fraksjon >C12-C35 (sum),28.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9960,Fraksjon_C16-C35,Fraksjon >C16-C35,28.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9960,Fraksjon_C35-C40,Fraksjon >C35-C40,25.0,mg/kg,,True,25.0,totalanalyse
+p02-Bunnrenskprøve-pel-9960,Fraksjon_C5-C6,Fraksjon >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrenskprøve-pel-9960,Fraksjon_C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
+p02-Bunnrenskprøve-pel-9960,Fraksjon_C8-C10,Fraksjon >C8-C10,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrenskprøve-pel-9960,Sum_C10-C40,Sum >C10-C40,28.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9910,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrenskprøve-pel-9910,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrenskprøve-pel-9910,Alifater_C16-C35,Alifater >C16-C35,15.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9910,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrenskprøve-pel-9910,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrenskprøve-pel-9910,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrenskprøve-pel-9910,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),15.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9910,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),15.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9910,Benzene,Benzen,0.046,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9910,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrenskprøve-pel-9910,BTEX_sum,Sum BTEX (M1),0.1,mg/kg,,True,0.1,totalanalyse
+p02-Bunnrenskprøve-pel-9910,Toluene,Toluen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrenskprøve-pel-9910,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrenskprøve-pel-9910,PCB101,PCB 101,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-pel-9910,PCB118,PCB 118,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-pel-9910,PCB138,PCB 138,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-pel-9910,PCB153,PCB 153,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-pel-9910,PCB180,PCB 180,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-pel-9910,PCB28,PCB 28,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-pel-9910,PCB52,PCB 52,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-pel-9910,PCB7,Sum PCB-7,0.007,mg/kg,,True,0.007,totalanalyse
+p02-Bunnrenskprøve-pel-9910,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9910,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9910,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9910,BaA,Benso(a)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9910,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9910,BbjF,Benso(b+j)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9910,BghiP,Benso(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9910,BkF,Benso(k)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9910,DahA,Dibenso(ah)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9910,Phenanthrene,Fenantren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9910,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9910,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9910,IcdP,Indeno(123cd)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9910,Chrysene,Krysen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9910,Naphthalene,Naftalen,0.067,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9910,Pyrene,Pyren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9910,PAH16,Sum PAH-16,0.067,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9910,As,As (Arsen),8.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9910,Cd,Cd (Kadmium),0.02,mg/kg,,True,0.02,totalanalyse
+p02-Bunnrenskprøve-pel-9910,Cr,Cr (Krom),53.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9910,Cu,Cu (Kopper),24.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9910,Hg,Hg (Kvikksølv),0.017,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9910,Ni,Ni (Nikkel),87.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9910,Pb,Pb (Bly),9.8,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9910,Zn,Zn (Sink),46.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9910,Fraksjon_C10-C12,Fraksjon >C10-C12,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrenskprøve-pel-9910,Fraksjon_C12-C16,Fraksjon >C12-C16,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrenskprøve-pel-9910,Fraksjon_C12-C35_sum,Fraksjon >C12-C35 (sum),35.0,mg/kg,,True,35.0,totalanalyse
+p02-Bunnrenskprøve-pel-9910,Fraksjon_C16-C35,Fraksjon >C16-C35,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrenskprøve-pel-9910,Fraksjon_C35-C40,Fraksjon >C35-C40,25.0,mg/kg,,True,25.0,totalanalyse
+p02-Bunnrenskprøve-pel-9910,Fraksjon_C5-C6,Fraksjon >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrenskprøve-pel-9910,Fraksjon_C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
+p02-Bunnrenskprøve-pel-9910,Fraksjon_C8-C10,Fraksjon >C8-C10,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrenskprøve-pel-9910,Sum_C10-C40,Sum >C10-C40,70.0,mg/kg,,True,70.0,totalanalyse
+p02-Bunnrenskprøve-pel-9860,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrenskprøve-pel-9860,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrenskprøve-pel-9860,Alifater_C16-C35,Alifater >C16-C35,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrenskprøve-pel-9860,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrenskprøve-pel-9860,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrenskprøve-pel-9860,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrenskprøve-pel-9860,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrenskprøve-pel-9860,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),20.0,mg/kg,,True,20.0,totalanalyse
+p02-Bunnrenskprøve-pel-9860,Benzene,Benzen,0.039,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9860,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrenskprøve-pel-9860,BTEX_sum,Sum BTEX (M1),0.1,mg/kg,,True,0.1,totalanalyse
+p02-Bunnrenskprøve-pel-9860,Toluene,Toluen,0.046,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9860,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrenskprøve-pel-9860,PCB101,PCB 101,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-pel-9860,PCB118,PCB 118,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-pel-9860,PCB138,PCB 138,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-pel-9860,PCB153,PCB 153,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-pel-9860,PCB180,PCB 180,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-pel-9860,PCB28,PCB 28,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-pel-9860,PCB52,PCB 52,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-pel-9860,PCB7,Sum PCB-7,0.007,mg/kg,,True,0.007,totalanalyse
+p02-Bunnrenskprøve-pel-9860,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9860,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9860,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9860,BaA,Benso(a)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9860,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9860,BbjF,Benso(b+j)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9860,BghiP,Benso(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9860,BkF,Benso(k)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9860,DahA,Dibenso(ah)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9860,Phenanthrene,Fenantren,0.011,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9860,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9860,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9860,IcdP,Indeno(123cd)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9860,Chrysene,Krysen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9860,Naphthalene,Naftalen,0.087,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9860,Pyrene,Pyren,0.01,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9860,PAH16,Sum PAH-16,0.11,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9860,As,As (Arsen),6.3,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9860,Cd,Cd (Kadmium),0.02,mg/kg,,True,0.02,totalanalyse
+p02-Bunnrenskprøve-pel-9860,Cr,Cr (Krom),58.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9860,Cu,Cu (Kopper),26.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9860,Hg,Hg (Kvikksølv),0.016,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9860,Ni,Ni (Nikkel),91.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9860,Pb,Pb (Bly),6.5,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9860,Zn,Zn (Sink),35.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9860,Fraksjon_C10-C12,Fraksjon >C10-C12,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrenskprøve-pel-9860,Fraksjon_C12-C16,Fraksjon >C12-C16,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrenskprøve-pel-9860,Fraksjon_C12-C35_sum,Fraksjon >C12-C35 (sum),14.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9860,Fraksjon_C16-C35,Fraksjon >C16-C35,14.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9860,Fraksjon_C35-C40,Fraksjon >C35-C40,25.0,mg/kg,,True,25.0,totalanalyse
+p02-Bunnrenskprøve-pel-9860,Fraksjon_C5-C6,Fraksjon >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrenskprøve-pel-9860,Fraksjon_C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
+p02-Bunnrenskprøve-pel-9860,Fraksjon_C8-C10,Fraksjon >C8-C10,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrenskprøve-pel-9860,Sum_C10-C40,Sum >C10-C40,14.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9810,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrenskprøve-pel-9810,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrenskprøve-pel-9810,Alifater_C16-C35,Alifater >C16-C35,10.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9810,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrenskprøve-pel-9810,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrenskprøve-pel-9810,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrenskprøve-pel-9810,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),10.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9810,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),10.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9810,Benzene,Benzen,0.042,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9810,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrenskprøve-pel-9810,BTEX_sum,Sum BTEX (M1),0.1,mg/kg,,True,0.1,totalanalyse
+p02-Bunnrenskprøve-pel-9810,Toluene,Toluen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrenskprøve-pel-9810,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrenskprøve-pel-9810,PCB101,PCB 101,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-pel-9810,PCB118,PCB 118,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-pel-9810,PCB138,PCB 138,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-pel-9810,PCB153,PCB 153,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-pel-9810,PCB180,PCB 180,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-pel-9810,PCB28,PCB 28,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-pel-9810,PCB52,PCB 52,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-pel-9810,PCB7,Sum PCB-7,0.007,mg/kg,,True,0.007,totalanalyse
+p02-Bunnrenskprøve-pel-9810,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9810,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9810,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9810,BaA,Benso(a)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9810,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9810,BbjF,Benso(b+j)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9810,BghiP,Benso(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9810,BkF,Benso(k)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9810,DahA,Dibenso(ah)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9810,Phenanthrene,Fenantren,0.011,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9810,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9810,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9810,IcdP,Indeno(123cd)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9810,Chrysene,Krysen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9810,Naphthalene,Naftalen,0.069,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9810,Pyrene,Pyren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-pel-9810,PAH16,Sum PAH-16,0.08,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9810,As,As (Arsen),8.6,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9810,Cd,Cd (Kadmium),0.02,mg/kg,,True,0.02,totalanalyse
+p02-Bunnrenskprøve-pel-9810,Cr,Cr (Krom),58.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9810,Cu,Cu (Kopper),28.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9810,Hg,Hg (Kvikksølv),0.017,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9810,Ni,Ni (Nikkel),98.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9810,Pb,Pb (Bly),11.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9810,Zn,Zn (Sink),53.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9810,Fraksjon_C10-C12,Fraksjon >C10-C12,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrenskprøve-pel-9810,Fraksjon_C12-C16,Fraksjon >C12-C16,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrenskprøve-pel-9810,Fraksjon_C12-C35_sum,Fraksjon >C12-C35 (sum),17.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9810,Fraksjon_C16-C35,Fraksjon >C16-C35,17.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-pel-9810,Fraksjon_C35-C40,Fraksjon >C35-C40,25.0,mg/kg,,True,25.0,totalanalyse
+p02-Bunnrenskprøve-pel-9810,Fraksjon_C5-C6,Fraksjon >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrenskprøve-pel-9810,Fraksjon_C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
+p02-Bunnrenskprøve-pel-9810,Fraksjon_C8-C10,Fraksjon >C8-C10,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrenskprøve-pel-9810,Sum_C10-C40,Sum >C10-C40,17.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-10010---9810,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Blandeprøve-pel-10010---9810,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Blandeprøve-pel-10010---9810,Alifater_C16-C35,Alifater >C16-C35,12.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-10010---9810,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Blandeprøve-pel-10010---9810,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Blandeprøve-pel-10010---9810,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Blandeprøve-pel-10010---9810,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),12.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-10010---9810,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),12.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-10010---9810,Benzene,Benzen,0.051,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-10010---9810,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Blandeprøve-pel-10010---9810,BTEX_sum,Sum BTEX (M1),0.1,mg/kg,,True,0.1,totalanalyse
+p02-Blandeprøve-pel-10010---9810,Toluene,Toluen,0.042,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-10010---9810,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Blandeprøve-pel-10010---9810,PCB101,PCB 101,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Blandeprøve-pel-10010---9810,PCB118,PCB 118,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Blandeprøve-pel-10010---9810,PCB138,PCB 138,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Blandeprøve-pel-10010---9810,PCB153,PCB 153,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Blandeprøve-pel-10010---9810,PCB180,PCB 180,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Blandeprøve-pel-10010---9810,PCB28,PCB 28,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Blandeprøve-pel-10010---9810,PCB52,PCB 52,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Blandeprøve-pel-10010---9810,PCB7,Sum PCB-7,0.007,mg/kg,,True,0.007,totalanalyse
+p02-Blandeprøve-pel-10010---9810,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-10010---9810,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-10010---9810,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-10010---9810,BaA,Benso(a)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-10010---9810,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-10010---9810,BbjF,Benso(b+j)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-10010---9810,BghiP,Benso(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-10010---9810,BkF,Benso(k)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-10010---9810,DahA,Dibenso(ah)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-10010---9810,Phenanthrene,Fenantren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-10010---9810,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-10010---9810,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-10010---9810,IcdP,Indeno(123cd)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-10010---9810,Chrysene,Krysen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-10010---9810,Naphthalene,Naftalen,0.053,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-10010---9810,Pyrene,Pyren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-10010---9810,PAH16,Sum PAH-16,0.053,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-10010---9810,As,As (Arsen),9.6,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-10010---9810,Cd,Cd (Kadmium),0.02,mg/kg,,True,0.02,totalanalyse
+p02-Blandeprøve-pel-10010---9810,Cr,Cr (Krom),68.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-10010---9810,Cu,Cu (Kopper),55.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-10010---9810,Hg,Hg (Kvikksølv),0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-pel-10010---9810,Ni,Ni (Nikkel),120.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-10010---9810,Pb,Pb (Bly),17.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-10010---9810,Zn,Zn (Sink),77.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-10010---9810,Fraksjon_C10-C12,Fraksjon >C10-C12,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Blandeprøve-pel-10010---9810,Fraksjon_C12-C16,Fraksjon >C12-C16,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Blandeprøve-pel-10010---9810,Fraksjon_C12-C35_sum,Fraksjon >C12-C35 (sum),31.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-10010---9810,Fraksjon_C16-C35,Fraksjon >C16-C35,31.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-pel-10010---9810,Fraksjon_C35-C40,Fraksjon >C35-C40,25.0,mg/kg,,True,25.0,totalanalyse
+p02-Blandeprøve-pel-10010---9810,Fraksjon_C5-C6,Fraksjon >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Blandeprøve-pel-10010---9810,Fraksjon_C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
+p02-Blandeprøve-pel-10010---9810,Fraksjon_C8-C10,Fraksjon >C8-C10,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Blandeprøve-pel-10010---9810,Sum_C10-C40,Sum >C10-C40,31.0,mg/kg,,False,,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,Alifater_C16-C35,Alifater >C16-C35,40.0,mg/kg,,False,,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),40.0,mg/kg,,False,,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),40.0,mg/kg,,False,,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,Benzene,Benzen,0.094,mg/kg,,False,,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,BTEX_sum,Sum BTEX (M1),0.17,mg/kg,,False,,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,Toluene,Toluen,0.079,mg/kg,,False,,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,PCB101,PCB 101,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,PCB118,PCB 118,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,PCB138,PCB 138,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,PCB153,PCB 153,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,PCB180,PCB 180,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,PCB28,PCB 28,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,PCB52,PCB 52,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,PCB7,Sum PCB-7,0.007,mg/kg,,True,0.007,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,BaA,Benso(a)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,BbjF,Benso(b+j)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,BghiP,Benso(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,BkF,Benso(k)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,DahA,Dibenso(ah)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,Phenanthrene,Fenantren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,IcdP,Indeno(123cd)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,Chrysene,Krysen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,Naphthalene,Naftalen,0.051,mg/kg,,False,,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,Pyrene,Pyren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,PAH16,Sum PAH-16,0.051,mg/kg,,False,,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,As,As (Arsen),6.5,mg/kg,,False,,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,Cd,Cd (Kadmium),0.18,mg/kg,,False,,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,Cr,Cr (Krom),55.0,mg/kg,,False,,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,Cu,Cu (Kopper),30.0,mg/kg,,False,,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,Hg,Hg (Kvikksølv),0.014,mg/kg,,False,,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,Ni,Ni (Nikkel),90.0,mg/kg,,False,,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,Pb,Pb (Bly),10.0,mg/kg,,False,,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,Zn,Zn (Sink),47.0,mg/kg,,False,,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,Fraksjon_C10-C12,Fraksjon >C10-C12,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,Fraksjon_C12-C16,Fraksjon >C12-C16,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,Fraksjon_C12-C35_sum,Fraksjon >C12-C35 (sum),90.0,mg/kg,,False,,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,Fraksjon_C16-C35,Fraksjon >C16-C35,90.0,mg/kg,,False,,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,Fraksjon_C35-C40,Fraksjon >C35-C40,25.0,mg/kg,,True,25.0,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,Fraksjon_C5-C6,Fraksjon >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,Fraksjon_C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,Fraksjon_C8-C10,Fraksjon >C8-C10,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,Sum_C10-C40,Sum >C10-C40,90.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-pel-8760-dag-4,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-pel-8760-dag-4,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-pel-8760-dag-4,Alifater_C16-C35,Alifater >C16-C35,35.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-pel-8760-dag-4,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrensk-pel-8760-dag-4,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-pel-8760-dag-4,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-pel-8760-dag-4,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),35.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-pel-8760-dag-4,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),35.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-pel-8760-dag-4,Benzene,Benzen,0.053,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-pel-8760-dag-4,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-pel-8760-dag-4,BTEX_sum,Sum BTEX (M1),0.1,mg/kg,,True,0.1,totalanalyse
+p02-Bunnrensk-pel-8760-dag-4,Toluene,Toluen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-pel-8760-dag-4,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-pel-8760-dag-4,C17/pristan,C17/pristan,1.6,-,,False,,totalanalyse
+p02-Bunnrensk-pel-8760-dag-4,C18/fytan,C18/fytan,2.9,-,,False,,totalanalyse
+p02-Bunnrensk-pel-8760-dag-4,Fraksjon_C10-C12,Fraksjon >C10-C12,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-pel-8760-dag-4,Fraksjon_C12-C16,Fraksjon >C12-C16,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-pel-8760-dag-4,Fraksjon_C12-C35_sum,Fraksjon >C12-C35 (sum),68.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-pel-8760-dag-4,Fraksjon_C16-C35,Fraksjon >C16-C35,68.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-pel-8760-dag-4,Fraksjon >C5-C35 (sum),Fraksjon >C5-C35 (sum),68.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-pel-8760-dag-4,Fraksjon_C5-C6,Fraksjon >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrensk-pel-8760-dag-4,Fraksjon_C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
+p02-Bunnrensk-pel-8760-dag-4,Fraksjon_C8-C10,Fraksjon >C8-C10,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-fra-Høviktoppen-dag-4,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-fra-Høviktoppen-dag-4,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-fra-Høviktoppen-dag-4,Alifater_C16-C35,Alifater >C16-C35,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-fra-Høviktoppen-dag-4,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrensk-fra-Høviktoppen-dag-4,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-fra-Høviktoppen-dag-4,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-fra-Høviktoppen-dag-4,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-fra-Høviktoppen-dag-4,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),20.0,mg/kg,,True,20.0,totalanalyse
+p02-Bunnrensk-fra-Høviktoppen-dag-4,Benzene,Benzen,0.015,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-fra-Høviktoppen-dag-4,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-fra-Høviktoppen-dag-4,BTEX_sum,Sum BTEX (M1),0.1,mg/kg,,True,0.1,totalanalyse
+p02-Bunnrensk-fra-Høviktoppen-dag-4,Toluene,Toluen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-fra-Høviktoppen-dag-4,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-fra-Høviktoppen-dag-4,Fraksjon_C10-C12,Fraksjon >C10-C12,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-fra-Høviktoppen-dag-4,Fraksjon_C12-C16,Fraksjon >C12-C16,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-fra-Høviktoppen-dag-4,Fraksjon_C12-C35_sum,Fraksjon >C12-C35 (sum),35.0,mg/kg,,True,35.0,totalanalyse
+p02-Bunnrensk-fra-Høviktoppen-dag-4,Fraksjon_C16-C35,Fraksjon >C16-C35,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-fra-Høviktoppen-dag-4,Fraksjon >C5-C35 (sum),Fraksjon >C5-C35 (sum),70.0,mg/kg,,True,70.0,totalanalyse
+p02-Bunnrensk-fra-Høviktoppen-dag-4,Fraksjon_C5-C6,Fraksjon >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrensk-fra-Høviktoppen-dag-4,Fraksjon_C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
+p02-Bunnrensk-fra-Høviktoppen-dag-4,Fraksjon_C8-C10,Fraksjon >C8-C10,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-pel-8760-dag-3,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-pel-8760-dag-3,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-pel-8760-dag-3,Alifater_C16-C35,Alifater >C16-C35,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-pel-8760-dag-3,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrensk-pel-8760-dag-3,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-pel-8760-dag-3,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-pel-8760-dag-3,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-pel-8760-dag-3,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),20.0,mg/kg,,True,20.0,totalanalyse
+p02-Bunnrensk-pel-8760-dag-3,Benzene,Benzen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-pel-8760-dag-3,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-pel-8760-dag-3,BTEX_sum,Sum BTEX (M1),0.1,mg/kg,,True,0.1,totalanalyse
+p02-Bunnrensk-pel-8760-dag-3,Toluene,Toluen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-pel-8760-dag-3,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-pel-8760-dag-3,Fraksjon_C10-C12,Fraksjon >C10-C12,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-pel-8760-dag-3,Fraksjon_C12-C16,Fraksjon >C12-C16,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-pel-8760-dag-3,Fraksjon_C12-C35_sum,Fraksjon >C12-C35 (sum),35.0,mg/kg,,True,35.0,totalanalyse
+p02-Bunnrensk-pel-8760-dag-3,Fraksjon_C16-C35,Fraksjon >C16-C35,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-pel-8760-dag-3,Fraksjon >C5-C35 (sum),Fraksjon >C5-C35 (sum),70.0,mg/kg,,True,70.0,totalanalyse
+p02-Bunnrensk-pel-8760-dag-3,Fraksjon_C5-C6,Fraksjon >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrensk-pel-8760-dag-3,Fraksjon_C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
+p02-Bunnrensk-pel-8760-dag-3,Fraksjon_C8-C10,Fraksjon >C8-C10,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-pel-8760-Ved-utkjøring,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-pel-8760-Ved-utkjøring,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-pel-8760-Ved-utkjøring,Alifater_C16-C35,Alifater >C16-C35,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-pel-8760-Ved-utkjøring,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrensk-pel-8760-Ved-utkjøring,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-pel-8760-Ved-utkjøring,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-pel-8760-Ved-utkjøring,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-pel-8760-Ved-utkjøring,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),20.0,mg/kg,,True,20.0,totalanalyse
+p02-Bunnrensk-pel-8760-Ved-utkjøring,Benzene,Benzen,0.011,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-pel-8760-Ved-utkjøring,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-pel-8760-Ved-utkjøring,BTEX_sum,Sum BTEX (M1),0.1,mg/kg,,True,0.1,totalanalyse
+p02-Bunnrensk-pel-8760-Ved-utkjøring,Toluene,Toluen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-pel-8760-Ved-utkjøring,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-pel-8760-Ved-utkjøring,C17/pristan,C17/pristan,0.05,-,,True,0.05,totalanalyse
+p02-Bunnrensk-pel-8760-Ved-utkjøring,Fraksjon_C10-C12,Fraksjon >C10-C12,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-pel-8760-Ved-utkjøring,Fraksjon_C12-C16,Fraksjon >C12-C16,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-pel-8760-Ved-utkjøring,Fraksjon_C12-C35_sum,Fraksjon >C12-C35 (sum),35.0,mg/kg,,True,35.0,totalanalyse
+p02-Bunnrensk-pel-8760-Ved-utkjøring,Fraksjon_C16-C35,Fraksjon >C16-C35,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-pel-8760-Ved-utkjøring,Fraksjon >C5-C35 (sum),Fraksjon >C5-C35 (sum),70.0,mg/kg,,True,70.0,totalanalyse
+p02-Bunnrensk-pel-8760-Ved-utkjøring,Fraksjon_C5-C6,Fraksjon >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrensk-pel-8760-Ved-utkjøring,Fraksjon_C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
+p02-Bunnrensk-pel-8760-Ved-utkjøring,Fraksjon_C8-C10,Fraksjon >C8-C10,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Grøfteslam,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Grøfteslam,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Grøfteslam,Alifater_C16-C35,Alifater >C16-C35,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Grøfteslam,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Grøfteslam,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Grøfteslam,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Grøfteslam,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),10.0,mg/kg,,True,10.0,totalanalyse
+p02-Grøfteslam,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),20.0,mg/kg,,True,20.0,totalanalyse
+p02-Grøfteslam,Benzene,Benzen,0.039,mg/kg,,False,,totalanalyse
+p02-Grøfteslam,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Grøfteslam,BTEX_sum,Sum BTEX (M1),0.1,mg/kg,,True,0.1,totalanalyse
+p02-Grøfteslam,Toluene,Toluen,0.051,mg/kg,,False,,totalanalyse
+p02-Grøfteslam,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Grøfteslam,PCB101,PCB 101,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Grøfteslam,PCB118,PCB 118,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Grøfteslam,PCB138,PCB 138,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Grøfteslam,PCB153,PCB 153,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Grøfteslam,PCB180,PCB 180,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Grøfteslam,PCB28,PCB 28,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Grøfteslam,PCB52,PCB 52,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Grøfteslam,PCB7,Sum PCB-7,0.007,mg/kg,,True,0.007,totalanalyse
+p02-Grøfteslam,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Grøfteslam,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Grøfteslam,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Grøfteslam,BaA,Benso(a)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Grøfteslam,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Grøfteslam,BbjF,Benso(b+j)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Grøfteslam,BghiP,Benso(ghi)perylen,0.013,mg/kg,,False,,totalanalyse
+p02-Grøfteslam,BkF,Benso(k)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Grøfteslam,DahA,Dibenso(ah)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Grøfteslam,Phenanthrene,Fenantren,0.026,mg/kg,,False,,totalanalyse
+p02-Grøfteslam,Fluoranthene,Fluoranten,0.018,mg/kg,,False,,totalanalyse
+p02-Grøfteslam,Fluorene,Fluoren,0.014,mg/kg,,False,,totalanalyse
+p02-Grøfteslam,IcdP,Indeno(123cd)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Grøfteslam,Chrysene,Krysen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Grøfteslam,Naphthalene,Naftalen,0.097,mg/kg,,False,,totalanalyse
+p02-Grøfteslam,Pyrene,Pyren,0.045,mg/kg,,False,,totalanalyse
+p02-Grøfteslam,PAH16,Sum PAH-16,0.21,mg/kg,,False,,totalanalyse
+p02-Grøfteslam,As,As (Arsen),6.4,mg/kg,,False,,totalanalyse
+p02-Grøfteslam,Cd,Cd (Kadmium),0.02,mg/kg,,True,0.02,totalanalyse
+p02-Grøfteslam,Cr,Cr (Krom),52.0,mg/kg,,False,,totalanalyse
+p02-Grøfteslam,Cu,Cu (Kopper),47.0,mg/kg,,False,,totalanalyse
+p02-Grøfteslam,Hg,Hg (Kvikksølv),0.01,mg/kg,,True,0.01,totalanalyse
+p02-Grøfteslam,Ni,Ni (Nikkel),78.0,mg/kg,,False,,totalanalyse
+p02-Grøfteslam,Pb,Pb (Bly),12.0,mg/kg,,False,,totalanalyse
+p02-Grøfteslam,Zn,Zn (Sink),62.0,mg/kg,,False,,totalanalyse
+p02-Grøfteslam,Fraksjon_C10-C12,Fraksjon >C10-C12,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Grøfteslam,Fraksjon_C12-C16,Fraksjon >C12-C16,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Grøfteslam,Fraksjon_C12-C35_sum,Fraksjon >C12-C35 (sum),34.0,mg/kg,,False,,totalanalyse
+p02-Grøfteslam,Fraksjon_C16-C35,Fraksjon >C16-C35,34.0,mg/kg,,False,,totalanalyse
+p02-Grøfteslam,Fraksjon_C35-C40,Fraksjon >C35-C40,25.0,mg/kg,,True,25.0,totalanalyse
+p02-Grøfteslam,Fraksjon_C5-C6,Fraksjon >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Grøfteslam,Fraksjon_C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
+p02-Grøfteslam,Fraksjon_C8-C10,Fraksjon >C8-C10,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Grøfteslam,Sum_C10-C40,Sum >C10-C40,34.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-pel-8760-etter-utkjøring,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-pel-8760-etter-utkjøring,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-pel-8760-etter-utkjøring,Alifater_C16-C35,Alifater >C16-C35,38.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-pel-8760-etter-utkjøring,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrensk-pel-8760-etter-utkjøring,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-pel-8760-etter-utkjøring,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-pel-8760-etter-utkjøring,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),38.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-pel-8760-etter-utkjøring,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),38.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-pel-8760-etter-utkjøring,Benzene,Benzen,0.027,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-pel-8760-etter-utkjøring,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-pel-8760-etter-utkjøring,BTEX_sum,Sum BTEX (M1),0.1,mg/kg,,True,0.1,totalanalyse
+p02-Bunnrensk-pel-8760-etter-utkjøring,Toluene,Toluen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-pel-8760-etter-utkjøring,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-pel-8760-etter-utkjøring,C17/pristan,C17/pristan,0.13,-,,False,,totalanalyse
+p02-Bunnrensk-pel-8760-etter-utkjøring,C18/fytan,C18/fytan,2.5,-,,False,,totalanalyse
+p02-Bunnrensk-pel-8760-etter-utkjøring,Fraksjon_C10-C12,Fraksjon >C10-C12,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-pel-8760-etter-utkjøring,Fraksjon_C12-C16,Fraksjon >C12-C16,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-pel-8760-etter-utkjøring,Fraksjon_C12-C35_sum,Fraksjon >C12-C35 (sum),82.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-pel-8760-etter-utkjøring,Fraksjon_C16-C35,Fraksjon >C16-C35,82.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-pel-8760-etter-utkjøring,Fraksjon >C5-C35 (sum),Fraksjon >C5-C35 (sum),82.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-pel-8760-etter-utkjøring,Fraksjon_C5-C6,Fraksjon >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrensk-pel-8760-etter-utkjøring,Fraksjon_C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
+p02-Bunnrensk-pel-8760-etter-utkjøring,Fraksjon_C8-C10,Fraksjon >C8-C10,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-Høviktoppen,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-Høviktoppen,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-Høviktoppen,Alifater_C16-C35,Alifater >C16-C35,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-Høviktoppen,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrensk-Høviktoppen,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-Høviktoppen,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-Høviktoppen,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-Høviktoppen,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),20.0,mg/kg,,True,20.0,totalanalyse
+p02-Bunnrensk-Høviktoppen,Benzene,Benzen,0.015,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-Høviktoppen,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-Høviktoppen,BTEX_sum,Sum BTEX (M1),0.1,mg/kg,,True,0.1,totalanalyse
+p02-Bunnrensk-Høviktoppen,Toluene,Toluen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-Høviktoppen,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-Høviktoppen,C17/pristan,C17/pristan,0.05,-,,True,0.05,totalanalyse
+p02-Bunnrensk-Høviktoppen,Fraksjon_C10-C12,Fraksjon >C10-C12,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-Høviktoppen,Fraksjon_C12-C16,Fraksjon >C12-C16,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-Høviktoppen,Fraksjon_C12-C35_sum,Fraksjon >C12-C35 (sum),35.0,mg/kg,,True,35.0,totalanalyse
+p02-Bunnrensk-Høviktoppen,Fraksjon_C16-C35,Fraksjon >C16-C35,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-Høviktoppen,Fraksjon >C5-C35 (sum),Fraksjon >C5-C35 (sum),70.0,mg/kg,,True,70.0,totalanalyse
+p02-Bunnrensk-Høviktoppen,Fraksjon_C5-C6,Fraksjon >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrensk-Høviktoppen,Fraksjon_C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
+p02-Bunnrensk-Høviktoppen,Fraksjon_C8-C10,Fraksjon >C8-C10,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,Alifater_C16-C35,Alifater >C16-C35,10.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),10.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),10.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,Benzene,Benzen,0.052,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,BTEX_sum,Sum BTEX (M1),0.1,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,Toluene,Toluen,0.048,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,PCB101,PCB 101,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,PCB118,PCB 118,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,PCB138,PCB 138,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,PCB153,PCB 153,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,PCB180,PCB 180,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,PCB28,PCB 28,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,PCB52,PCB 52,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,PCB7,Sum PCB-7,0.007,mg/kg,,True,0.007,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,BaA,Benso(a)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,BbjF,Benso(b+j)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,BghiP,Benso(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,BkF,Benso(k)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,DahA,Dibenso(ah)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,Phenanthrene,Fenantren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,IcdP,Indeno(123cd)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,Chrysene,Krysen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,Naphthalene,Naftalen,0.1,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,Pyrene,Pyren,0.01,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,PAH16,Sum PAH-16,0.11,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,As,As (Arsen),7.7,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,Cd,Cd (Kadmium),0.049,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,Cr,Cr (Krom),67.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,Cu,Cu (Kopper),31.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,Hg,Hg (Kvikksølv),0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,Ni,Ni (Nikkel),100.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,Pb,Pb (Bly),9.2,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,Zn,Zn (Sink),43.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-8760,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrenskprøve-8760,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrenskprøve-8760,Alifater_C16-C35,Alifater >C16-C35,18.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-8760,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrenskprøve-8760,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrenskprøve-8760,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrenskprøve-8760,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),18.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-8760,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),18.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-8760,Benzene,Benzen,0.094,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-8760,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrenskprøve-8760,BTEX_sum,Sum BTEX (M1),0.16,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-8760,Toluene,Toluen,0.063,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-8760,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrenskprøve-8760,PCB101,PCB 101,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-8760,PCB118,PCB 118,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-8760,PCB138,PCB 138,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-8760,PCB153,PCB 153,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-8760,PCB180,PCB 180,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-8760,PCB28,PCB 28,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-8760,PCB52,PCB 52,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøve-8760,PCB7,Sum PCB-7,0.007,mg/kg,,True,0.007,totalanalyse
+p02-Bunnrenskprøve-8760,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-8760,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-8760,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-8760,BaA,Benso(a)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-8760,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-8760,BbjF,Benso(b+j)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-8760,BghiP,Benso(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-8760,BkF,Benso(k)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-8760,DahA,Dibenso(ah)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-8760,Phenanthrene,Fenantren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-8760,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-8760,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-8760,IcdP,Indeno(123cd)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-8760,Chrysene,Krysen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-8760,Naphthalene,Naftalen,0.073,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-8760,Pyrene,Pyren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-8760,PAH16,Sum PAH-16,0.073,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-8760,As,As (Arsen),3.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-8760,Cd,Cd (Kadmium),0.02,mg/kg,,True,0.02,totalanalyse
+p02-Bunnrenskprøve-8760,Cr,Cr (Krom),89.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-8760,Cu,Cu (Kopper),28.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-8760,Hg,Hg (Kvikksølv),0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøve-8760,Ni,Ni (Nikkel),94.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-8760,Pb,Pb (Bly),6.9,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøve-8760,Zn,Zn (Sink),41.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8710,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrenskprøver-8710,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrenskprøver-8710,Alifater_C16-C35,Alifater >C16-C35,15.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8710,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrenskprøver-8710,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrenskprøver-8710,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrenskprøver-8710,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),15.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8710,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),15.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8710,Benzene,Benzen,0.045,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8710,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrenskprøver-8710,BTEX_sum,Sum BTEX (M1),0.1,mg/kg,,True,0.1,totalanalyse
+p02-Bunnrenskprøver-8710,Toluene,Toluen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrenskprøver-8710,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrenskprøver-8710,PCB101,PCB 101,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøver-8710,PCB118,PCB 118,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøver-8710,PCB138,PCB 138,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøver-8710,PCB153,PCB 153,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøver-8710,PCB180,PCB 180,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøver-8710,PCB28,PCB 28,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøver-8710,PCB52,PCB 52,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøver-8710,PCB7,Sum PCB-7,0.007,mg/kg,,True,0.007,totalanalyse
+p02-Bunnrenskprøver-8710,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8710,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8710,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8710,BaA,Benso(a)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8710,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8710,BbjF,Benso(b+j)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8710,BghiP,Benso(ghi)perylen,0.012,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8710,BkF,Benso(k)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8710,DahA,Dibenso(ah)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8710,Phenanthrene,Fenantren,0.015,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8710,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8710,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8710,IcdP,Indeno(123cd)pyren^,0.015,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8710,Chrysene,Krysen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8710,Naphthalene,Naftalen,0.061,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8710,Pyrene,Pyren,0.013,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8710,PAH16,Sum PAH-16,0.12,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8710,As,As (Arsen),7.4,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8710,Cd,Cd (Kadmium),0.02,mg/kg,,True,0.02,totalanalyse
+p02-Bunnrenskprøver-8710,Cr,Cr (Krom),58.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8710,Cu,Cu (Kopper),28.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8710,Hg,Hg (Kvikksølv),0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8710,Ni,Ni (Nikkel),95.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8710,Pb,Pb (Bly),10.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8710,Zn,Zn (Sink),51.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8660,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrenskprøver-8660,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrenskprøver-8660,Alifater_C16-C35,Alifater >C16-C35,25.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8660,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrenskprøver-8660,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrenskprøver-8660,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrenskprøver-8660,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),25.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8660,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),25.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8660,Benzene,Benzen,0.032,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8660,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrenskprøver-8660,BTEX_sum,Sum BTEX (M1),0.1,mg/kg,,True,0.1,totalanalyse
+p02-Bunnrenskprøver-8660,Toluene,Toluen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrenskprøver-8660,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrenskprøver-8660,PCB101,PCB 101,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøver-8660,PCB118,PCB 118,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøver-8660,PCB138,PCB 138,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøver-8660,PCB153,PCB 153,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøver-8660,PCB180,PCB 180,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøver-8660,PCB28,PCB 28,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøver-8660,PCB52,PCB 52,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøver-8660,PCB7,Sum PCB-7,0.007,mg/kg,,True,0.007,totalanalyse
+p02-Bunnrenskprøver-8660,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8660,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8660,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8660,BaA,Benso(a)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8660,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8660,BbjF,Benso(b+j)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8660,BghiP,Benso(ghi)perylen,0.018,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8660,BkF,Benso(k)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8660,DahA,Dibenso(ah)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8660,Phenanthrene,Fenantren,0.011,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8660,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8660,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8660,IcdP,Indeno(123cd)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8660,Chrysene,Krysen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8660,Naphthalene,Naftalen,0.058,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8660,Pyrene,Pyren,0.012,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8660,PAH16,Sum PAH-16,0.099,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8660,As,As (Arsen),5.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8660,Cd,Cd (Kadmium),0.02,mg/kg,,True,0.02,totalanalyse
+p02-Bunnrenskprøver-8660,Cr,Cr (Krom),44.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8660,Cu,Cu (Kopper),17.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8660,Hg,Hg (Kvikksølv),0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8660,Ni,Ni (Nikkel),61.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8660,Pb,Pb (Bly),4.9,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8660,Zn,Zn (Sink),33.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8610,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrenskprøver-8610,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrenskprøver-8610,Alifater_C16-C35,Alifater >C16-C35,21.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8610,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrenskprøver-8610,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrenskprøver-8610,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrenskprøver-8610,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),21.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8610,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),21.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8610,Benzene,Benzen,0.091,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8610,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrenskprøver-8610,BTEX_sum,Sum BTEX (M1),0.15,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8610,Toluene,Toluen,0.062,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8610,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrenskprøver-8610,PCB101,PCB 101,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøver-8610,PCB118,PCB 118,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøver-8610,PCB138,PCB 138,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøver-8610,PCB153,PCB 153,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøver-8610,PCB180,PCB 180,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøver-8610,PCB28,PCB 28,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøver-8610,PCB52,PCB 52,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøver-8610,PCB7,Sum PCB-7,0.007,mg/kg,,True,0.007,totalanalyse
+p02-Bunnrenskprøver-8610,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8610,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8610,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8610,BaA,Benso(a)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8610,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8610,BbjF,Benso(b+j)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8610,BghiP,Benso(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8610,BkF,Benso(k)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8610,DahA,Dibenso(ah)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8610,Phenanthrene,Fenantren,0.012,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8610,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8610,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8610,IcdP,Indeno(123cd)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8610,Chrysene,Krysen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8610,Naphthalene,Naftalen,0.082,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8610,Pyrene,Pyren,0.01,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8610,PAH16,Sum PAH-16,0.1,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8610,As,As (Arsen),6.2,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8610,Cd,Cd (Kadmium),0.02,mg/kg,,True,0.02,totalanalyse
+p02-Bunnrenskprøver-8610,Cr,Cr (Krom),52.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8610,Cu,Cu (Kopper),27.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8610,Hg,Hg (Kvikksølv),0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8610,Ni,Ni (Nikkel),81.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8610,Pb,Pb (Bly),12.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8610,Zn,Zn (Sink),50.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8560,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrenskprøver-8560,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrenskprøver-8560,Alifater_C16-C35,Alifater >C16-C35,35.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8560,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrenskprøver-8560,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrenskprøver-8560,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrenskprøver-8560,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),35.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8560,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),35.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8560,Benzene,Benzen,0.046,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8560,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrenskprøver-8560,BTEX_sum,Sum BTEX (M1),0.1,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8560,Toluene,Toluen,0.057,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8560,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrenskprøver-8560,PCB101,PCB 101,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøver-8560,PCB118,PCB 118,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøver-8560,PCB138,PCB 138,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøver-8560,PCB153,PCB 153,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøver-8560,PCB180,PCB 180,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøver-8560,PCB28,PCB 28,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøver-8560,PCB52,PCB 52,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrenskprøver-8560,PCB7,Sum PCB-7,0.007,mg/kg,,True,0.007,totalanalyse
+p02-Bunnrenskprøver-8560,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8560,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8560,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8560,BaA,Benso(a)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8560,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8560,BbjF,Benso(b+j)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8560,BghiP,Benso(ghi)perylen,0.01,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8560,BkF,Benso(k)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8560,DahA,Dibenso(ah)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8560,Phenanthrene,Fenantren,0.011,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8560,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8560,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8560,IcdP,Indeno(123cd)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8560,Chrysene,Krysen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8560,Naphthalene,Naftalen,0.067,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8560,Pyrene,Pyren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8560,PAH16,Sum PAH-16,0.088,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8560,As,As (Arsen),2.7,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8560,Cd,Cd (Kadmium),0.02,mg/kg,,True,0.02,totalanalyse
+p02-Bunnrenskprøver-8560,Cr,Cr (Krom),46.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8560,Cu,Cu (Kopper),21.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8560,Hg,Hg (Kvikksølv),0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrenskprøver-8560,Ni,Ni (Nikkel),67.0,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8560,Pb,Pb (Bly),6.5,mg/kg,,False,,totalanalyse
+p02-Bunnrenskprøver-8560,Zn,Zn (Sink),39.0,mg/kg,,False,,totalanalyse
+p02-Pel-8760---8560,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Pel-8760---8560,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Pel-8760---8560,Alifater_C16-C35,Alifater >C16-C35,13.0,mg/kg,,False,,totalanalyse
+p02-Pel-8760---8560,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Pel-8760---8560,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Pel-8760---8560,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Pel-8760---8560,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),13.0,mg/kg,,False,,totalanalyse
+p02-Pel-8760---8560,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),13.0,mg/kg,,False,,totalanalyse
+p02-Pel-8760---8560,Benzene,Benzen,0.089,mg/kg,,False,,totalanalyse
+p02-Pel-8760---8560,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Pel-8760---8560,BTEX_sum,Sum BTEX (M1),0.15,mg/kg,,False,,totalanalyse
+p02-Pel-8760---8560,Toluene,Toluen,0.058,mg/kg,,False,,totalanalyse
+p02-Pel-8760---8560,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Pel-8760---8560,PCB101,PCB 101,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Pel-8760---8560,PCB118,PCB 118,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Pel-8760---8560,PCB138,PCB 138,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Pel-8760---8560,PCB153,PCB 153,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Pel-8760---8560,PCB180,PCB 180,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Pel-8760---8560,PCB28,PCB 28,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Pel-8760---8560,PCB52,PCB 52,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Pel-8760---8560,PCB7,Sum PCB-7,0.007,mg/kg,,True,0.007,totalanalyse
+p02-Pel-8760---8560,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Pel-8760---8560,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Pel-8760---8560,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Pel-8760---8560,BaA,Benso(a)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Pel-8760---8560,BaP,Benso(a)pyren^,0.011,mg/kg,,False,,totalanalyse
+p02-Pel-8760---8560,BbjF,Benso(b+j)fluoranten^,0.012,mg/kg,,False,,totalanalyse
+p02-Pel-8760---8560,BghiP,Benso(ghi)perylen,0.015,mg/kg,,False,,totalanalyse
+p02-Pel-8760---8560,BkF,Benso(k)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Pel-8760---8560,DahA,Dibenso(ah)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Pel-8760---8560,Phenanthrene,Fenantren,0.021,mg/kg,,False,,totalanalyse
+p02-Pel-8760---8560,Fluoranthene,Fluoranten,0.013,mg/kg,,False,,totalanalyse
+p02-Pel-8760---8560,Fluorene,Fluoren,0.011,mg/kg,,False,,totalanalyse
+p02-Pel-8760---8560,IcdP,Indeno(123cd)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Pel-8760---8560,Chrysene,Krysen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Pel-8760---8560,Naphthalene,Naftalen,0.12,mg/kg,,False,,totalanalyse
+p02-Pel-8760---8560,Pyrene,Pyren,0.022,mg/kg,,False,,totalanalyse
+p02-Pel-8760---8560,PAH16,Sum PAH-16,0.23,mg/kg,,False,,totalanalyse
+p02-Pel-8760---8560,As,As (Arsen),7.2,mg/kg,,False,,totalanalyse
+p02-Pel-8760---8560,Cd,Cd (Kadmium),0.25,mg/kg,,False,,totalanalyse
+p02-Pel-8760---8560,Cr,Cr (Krom),59.0,mg/kg,,False,,totalanalyse
+p02-Pel-8760---8560,Cu,Cu (Kopper),32.0,mg/kg,,False,,totalanalyse
+p02-Pel-8760---8560,Hg,Hg (Kvikksølv),0.053,mg/kg,,False,,totalanalyse
+p02-Pel-8760---8560,Ni,Ni (Nikkel),82.0,mg/kg,,False,,totalanalyse
+p02-Pel-8760---8560,Pb,Pb (Bly),11.0,mg/kg,,False,,totalanalyse
+p02-Pel-8760---8560,Zn,Zn (Sink),58.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8760,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-8760,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-8760,Alifater_C16-C35,Alifater >C16-C35,13.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8760,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrensk-8760,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-8760,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-8760,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),13.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8760,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),13.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8760,Benzene,Benzen,0.051,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8760,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-8760,BTEX_sum,Sum BTEX (M1),0.1,mg/kg,,True,0.1,totalanalyse
+p02-Bunnrensk-8760,Toluene,Toluen,0.044,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8760,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-8760,PCB101,PCB 101,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-8760,PCB118,PCB 118,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-8760,PCB138,PCB 138,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-8760,PCB153,PCB 153,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-8760,PCB180,PCB 180,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-8760,PCB28,PCB 28,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-8760,PCB52,PCB 52,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-8760,PCB7,Sum PCB-7,0.007,mg/kg,,True,0.007,totalanalyse
+p02-Bunnrensk-8760,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8760,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8760,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8760,BaA,Benso(a)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8760,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8760,BbjF,Benso(b+j)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8760,BghiP,Benso(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8760,BkF,Benso(k)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8760,DahA,Dibenso(ah)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8760,Phenanthrene,Fenantren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8760,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8760,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8760,IcdP,Indeno(123cd)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8760,Chrysene,Krysen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8760,Naphthalene,Naftalen,0.07,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8760,Pyrene,Pyren,0.01,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8760,PAH16,Sum PAH-16,0.08,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8760,As,As (Arsen),7.1,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8760,Cd,Cd (Kadmium),0.02,mg/kg,,True,0.02,totalanalyse
+p02-Bunnrensk-8760,Cr,Cr (Krom),70.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8760,Cu,Cu (Kopper),41.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8760,Hg,Hg (Kvikksølv),0.013,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8760,Ni,Ni (Nikkel),110.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8760,Pb,Pb (Bly),11.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8760,Zn,Zn (Sink),60.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8810,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-8810,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-8810,Alifater_C16-C35,Alifater >C16-C35,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-8810,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrensk-8810,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-8810,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-8810,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-8810,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),20.0,mg/kg,,True,20.0,totalanalyse
+p02-Bunnrensk-8810,Benzene,Benzen,0.018,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8810,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-8810,BTEX_sum,Sum BTEX (M1),0.1,mg/kg,,True,0.1,totalanalyse
+p02-Bunnrensk-8810,Toluene,Toluen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-8810,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-8810,PCB101,PCB 101,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-8810,PCB118,PCB 118,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-8810,PCB138,PCB 138,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-8810,PCB153,PCB 153,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-8810,PCB180,PCB 180,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-8810,PCB28,PCB 28,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-8810,PCB52,PCB 52,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-8810,PCB7,Sum PCB-7,0.007,mg/kg,,True,0.007,totalanalyse
+p02-Bunnrensk-8810,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8810,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8810,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8810,BaA,Benso(a)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8810,BaP,Benso(a)pyren^,0.011,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8810,BbjF,Benso(b+j)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8810,BghiP,Benso(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8810,BkF,Benso(k)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8810,DahA,Dibenso(ah)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8810,Phenanthrene,Fenantren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8810,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8810,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8810,IcdP,Indeno(123cd)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8810,Chrysene,Krysen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8810,Naphthalene,Naftalen,0.023,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8810,Pyrene,Pyren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8810,PAH16,Sum PAH-16,0.034,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8810,As,As (Arsen),11.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8810,Cd,Cd (Kadmium),0.02,mg/kg,,True,0.02,totalanalyse
+p02-Bunnrensk-8810,Cr,Cr (Krom),65.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8810,Cu,Cu (Kopper),46.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8810,Hg,Hg (Kvikksølv),0.03,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8810,Ni,Ni (Nikkel),110.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8810,Pb,Pb (Bly),16.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8810,Zn,Zn (Sink),69.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8860,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-8860,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-8860,Alifater_C16-C35,Alifater >C16-C35,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-8860,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrensk-8860,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-8860,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-8860,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-8860,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),20.0,mg/kg,,True,20.0,totalanalyse
+p02-Bunnrensk-8860,Benzene,Benzen,0.017,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8860,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-8860,BTEX_sum,Sum BTEX (M1),0.1,mg/kg,,True,0.1,totalanalyse
+p02-Bunnrensk-8860,Toluene,Toluen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-8860,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-8860,PCB101,PCB 101,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-8860,PCB118,PCB 118,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-8860,PCB138,PCB 138,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-8860,PCB153,PCB 153,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-8860,PCB180,PCB 180,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-8860,PCB28,PCB 28,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-8860,PCB52,PCB 52,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-8860,PCB7,Sum PCB-7,0.007,mg/kg,,True,0.007,totalanalyse
+p02-Bunnrensk-8860,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8860,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8860,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8860,BaA,Benso(a)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8860,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8860,BbjF,Benso(b+j)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8860,BghiP,Benso(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8860,BkF,Benso(k)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8860,DahA,Dibenso(ah)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8860,Phenanthrene,Fenantren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8860,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8860,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8860,IcdP,Indeno(123cd)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8860,Chrysene,Krysen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8860,Naphthalene,Naftalen,0.033,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8860,Pyrene,Pyren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8860,PAH16,Sum PAH-16,0.033,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8860,As,As (Arsen),6.8,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8860,Cd,Cd (Kadmium),0.02,mg/kg,,True,0.02,totalanalyse
+p02-Bunnrensk-8860,Cr,Cr (Krom),54.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8860,Cu,Cu (Kopper),46.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8860,Hg,Hg (Kvikksølv),0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8860,Ni,Ni (Nikkel),85.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8860,Pb,Pb (Bly),13.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8860,Zn,Zn (Sink),59.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8910,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-8910,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-8910,Alifater_C16-C35,Alifater >C16-C35,10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-8910,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrensk-8910,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-8910,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-8910,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),10.0,mg/kg,,True,10.0,totalanalyse
+p02-Bunnrensk-8910,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),20.0,mg/kg,,True,20.0,totalanalyse
+p02-Bunnrensk-8910,Benzene,Benzen,0.016,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8910,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-8910,BTEX_sum,Sum BTEX (M1),0.1,mg/kg,,True,0.1,totalanalyse
+p02-Bunnrensk-8910,Toluene,Toluen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-8910,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-8910,PCB101,PCB 101,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-8910,PCB118,PCB 118,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-8910,PCB138,PCB 138,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-8910,PCB153,PCB 153,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-8910,PCB180,PCB 180,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-8910,PCB28,PCB 28,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-8910,PCB52,PCB 52,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-8910,PCB7,Sum PCB-7,0.007,mg/kg,,True,0.007,totalanalyse
+p02-Bunnrensk-8910,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8910,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8910,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8910,BaA,Benso(a)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8910,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8910,BbjF,Benso(b+j)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8910,BghiP,Benso(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8910,BkF,Benso(k)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8910,DahA,Dibenso(ah)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8910,Phenanthrene,Fenantren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8910,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8910,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8910,IcdP,Indeno(123cd)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8910,Chrysene,Krysen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8910,Naphthalene,Naftalen,0.027,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8910,Pyrene,Pyren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8910,PAH16,Sum PAH-16,0.027,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8910,As,As (Arsen),4.3,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8910,Cd,Cd (Kadmium),0.02,mg/kg,,True,0.02,totalanalyse
+p02-Bunnrensk-8910,Cr,Cr (Krom),52.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8910,Cu,Cu (Kopper),32.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8910,Hg,Hg (Kvikksølv),0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8910,Ni,Ni (Nikkel),89.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8910,Pb,Pb (Bly),8.4,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8910,Zn,Zn (Sink),51.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8960,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-8960,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-8960,Alifater_C16-C35,Alifater >C16-C35,16.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8960,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrensk-8960,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-8960,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-8960,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),16.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8960,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),16.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8960,Benzene,Benzen,0.017,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8960,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-8960,BTEX_sum,Sum BTEX (M1),0.1,mg/kg,,True,0.1,totalanalyse
+p02-Bunnrensk-8960,Toluene,Toluen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-8960,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-8960,PCB101,PCB 101,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-8960,PCB118,PCB 118,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-8960,PCB138,PCB 138,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-8960,PCB153,PCB 153,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-8960,PCB180,PCB 180,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-8960,PCB28,PCB 28,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-8960,PCB52,PCB 52,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-8960,PCB7,Sum PCB-7,0.007,mg/kg,,True,0.007,totalanalyse
+p02-Bunnrensk-8960,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8960,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8960,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8960,BaA,Benso(a)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8960,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8960,BbjF,Benso(b+j)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8960,BghiP,Benso(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8960,BkF,Benso(k)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8960,DahA,Dibenso(ah)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8960,Phenanthrene,Fenantren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8960,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8960,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8960,IcdP,Indeno(123cd)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8960,Chrysene,Krysen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8960,Naphthalene,Naftalen,0.017,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8960,Pyrene,Pyren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8960,PAH16,Sum PAH-16,0.017,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8960,As,As (Arsen),6.3,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8960,Cd,Cd (Kadmium),0.02,mg/kg,,True,0.02,totalanalyse
+p02-Bunnrensk-8960,Cr,Cr (Krom),60.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8960,Cu,Cu (Kopper),30.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8960,Hg,Hg (Kvikksølv),0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-8960,Ni,Ni (Nikkel),90.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8960,Pb,Pb (Bly),7.9,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-8960,Zn,Zn (Sink),50.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,Alifater_C16-C35,Alifater >C16-C35,19.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),19.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),19.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,Benzene,Benzen,0.049,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,BTEX_sum,Sum BTEX (M1),0.1,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,Toluene,Toluen,0.054,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,PCB101,PCB 101,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,PCB118,PCB 118,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,PCB138,PCB 138,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,PCB153,PCB 153,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,PCB180,PCB 180,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,PCB28,PCB 28,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,PCB52,PCB 52,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,PCB7,Sum PCB-7,0.007,mg/kg,,True,0.007,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,BaA,Benso(a)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,BbjF,Benso(b+j)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,BghiP,Benso(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,BkF,Benso(k)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,DahA,Dibenso(ah)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,Phenanthrene,Fenantren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,IcdP,Indeno(123cd)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,Chrysene,Krysen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,Naphthalene,Naftalen,0.051,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,Pyrene,Pyren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,PAH16,Sum PAH-16,0.051,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,As,As (Arsen),8.8,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,Cd,Cd (Kadmium),0.02,mg/kg,,True,0.02,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,Cr,Cr (Krom),76.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,Cu,Cu (Kopper),36.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,Hg,Hg (Kvikksølv),0.062,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,Ni,Ni (Nikkel),120.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,Pb,Pb (Bly),10.0,mg/kg,,False,,totalanalyse
+p02-Blandeprøve-bunnrensk-8960-8760,Zn,Zn (Sink),58.0,mg/kg,,False,,totalanalyse
+p02-Grøftekant-9010,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Grøftekant-9010,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Grøftekant-9010,Alifater_C16-C35,Alifater >C16-C35,69.0,mg/kg,,False,,totalanalyse
+p02-Grøftekant-9010,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Grøftekant-9010,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Grøftekant-9010,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Grøftekant-9010,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),69.0,mg/kg,,False,,totalanalyse
+p02-Grøftekant-9010,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),69.0,mg/kg,,False,,totalanalyse
+p02-Grøftekant-9010,Benzene,Benzen,0.016,mg/kg,,False,,totalanalyse
+p02-Grøftekant-9010,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Grøftekant-9010,BTEX_sum,Sum BTEX (M1),0.1,mg/kg,,True,0.1,totalanalyse
+p02-Grøftekant-9010,Toluene,Toluen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Grøftekant-9010,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Grøftekant-9010,PCB101,PCB 101,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Grøftekant-9010,PCB118,PCB 118,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Grøftekant-9010,PCB138,PCB 138,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Grøftekant-9010,PCB153,PCB 153,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Grøftekant-9010,PCB180,PCB 180,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Grøftekant-9010,PCB28,PCB 28,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Grøftekant-9010,PCB52,PCB 52,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Grøftekant-9010,PCB7,Sum PCB-7,0.007,mg/kg,,True,0.007,totalanalyse
+p02-Grøftekant-9010,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Grøftekant-9010,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Grøftekant-9010,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Grøftekant-9010,BaA,Benso(a)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Grøftekant-9010,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Grøftekant-9010,BbjF,Benso(b+j)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Grøftekant-9010,BghiP,Benso(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Grøftekant-9010,BkF,Benso(k)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Grøftekant-9010,DahA,Dibenso(ah)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Grøftekant-9010,Phenanthrene,Fenantren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Grøftekant-9010,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Grøftekant-9010,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Grøftekant-9010,IcdP,Indeno(123cd)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Grøftekant-9010,Chrysene,Krysen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Grøftekant-9010,Naphthalene,Naftalen,0.06,mg/kg,,False,,totalanalyse
+p02-Grøftekant-9010,Pyrene,Pyren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Grøftekant-9010,PAH16,Sum PAH-16,0.06,mg/kg,,False,,totalanalyse
+p02-Grøftekant-9010,As,As (Arsen),7.8,mg/kg,,False,,totalanalyse
+p02-Grøftekant-9010,Cd,Cd (Kadmium),0.02,mg/kg,,True,0.02,totalanalyse
+p02-Grøftekant-9010,Cr,Cr (Krom),60.0,mg/kg,,False,,totalanalyse
+p02-Grøftekant-9010,Cu,Cu (Kopper),31.0,mg/kg,,False,,totalanalyse
+p02-Grøftekant-9010,Hg,Hg (Kvikksølv),0.01,mg/kg,,True,0.01,totalanalyse
+p02-Grøftekant-9010,Ni,Ni (Nikkel),85.0,mg/kg,,False,,totalanalyse
+p02-Grøftekant-9010,Pb,Pb (Bly),13.0,mg/kg,,False,,totalanalyse
+p02-Grøftekant-9010,Zn,Zn (Sink),50.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-9010,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-9010,Alifater_C12-C16,Alifater >C12-C16,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Bunnrensk-9010,Alifater_C16-C35,Alifater >C16-C35,31.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-9010,Alifater_C5-C6,Alifater >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p02-Bunnrensk-9010,Alifater_C6-C8,Alifater >C6-C8,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-9010,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p02-Bunnrensk-9010,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),31.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-9010,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),31.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-9010,Benzene,Benzen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-9010,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-9010,BTEX_sum,Sum BTEX (M1),0.1,mg/kg,,True,0.1,totalanalyse
+p02-Bunnrensk-9010,Toluene,Toluen,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-9010,Xylenes,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p02-Bunnrensk-9010,PCB101,PCB 101,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-9010,PCB118,PCB 118,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-9010,PCB138,PCB 138,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-9010,PCB153,PCB 153,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-9010,PCB180,PCB 180,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-9010,PCB28,PCB 28,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-9010,PCB52,PCB 52,0.001,mg/kg,,True,0.001,totalanalyse
+p02-Bunnrensk-9010,PCB7,Sum PCB-7,0.007,mg/kg,,True,0.007,totalanalyse
+p02-Bunnrensk-9010,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-9010,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-9010,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-9010,BaA,Benso(a)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-9010,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-9010,BbjF,Benso(b+j)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-9010,BghiP,Benso(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-9010,BkF,Benso(k)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-9010,DahA,Dibenso(ah)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-9010,Phenanthrene,Fenantren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-9010,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-9010,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-9010,IcdP,Indeno(123cd)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-9010,Chrysene,Krysen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-9010,Naphthalene,Naftalen,0.019,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-9010,Pyrene,Pyren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Bunnrensk-9010,PAH16,Sum PAH-16,0.019,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-9010,As,As (Arsen),4.3,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-9010,Cd,Cd (Kadmium),0.02,mg/kg,,True,0.02,totalanalyse
+p02-Bunnrensk-9010,Cr,Cr (Krom),44.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-9010,Cu,Cu (Kopper),28.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-9010,Hg,Hg (Kvikksølv),0.01,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-9010,Ni,Ni (Nikkel),66.0,mg/kg,,False,,totalanalyse
+p02-Bunnrensk-9010,Pb,Pb (Bly),1.0,mg/kg,,True,1.0,totalanalyse
+p02-Bunnrensk-9010,Zn,Zn (Sink),33.0,mg/kg,,False,,totalanalyse
+p02-BRMØ1,Alifater_C12-C16,Alifater >C12-C16,5.7,mg/kg,,False,,totalanalyse
+p02-BRMØ1,Alifater_C16-C35,Alifater >C16-C35,310.0,mg/kg,,False,,totalanalyse
+p02-BRMØ1,Alifater_C5-C6,Alifater >C5-C6,7.0,mg/kg,,True,7.0,totalanalyse
+p02-BRMØ1,Alifater_C6-C8,Alifater >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
+p02-BRMØ1,Alifater_C8-C10,Alifater >C8-C10,5.0,mg/kg,,True,5.0,totalanalyse
+p02-BRMØ1,Alifater_C10-C12,Alifater C10-C12,3.0,mg/kg,,True,3.0,totalanalyse
+p02-BRMØ1,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),316.0,mg/kg,,False,,totalanalyse
+p02-BRMØ1,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),316.0,mg/kg,,False,,totalanalyse
+p02-BRMØ1,Benzene,Benzen,0.0749,mg/kg,,False,,totalanalyse
+p02-BRMØ1,Ethylbenzene,Etylbensen,0.2,mg/kg,,True,0.2,totalanalyse
+p02-BRMØ1,BTEX_sum,Sum BTEX (M1),0.0749,mg/kg,,False,,totalanalyse
+p02-BRMØ1,Xylenes_sum,Sum xylener (M1),0.015,mg/kg,,True,0.015,totalanalyse
+p02-BRMØ1,Toluene,Toluen,0.3,mg/kg,,True,0.3,totalanalyse
+p02-BRMØ1,As,As (Arsen),4.84,mg/kg,,False,,totalanalyse
+p02-BRMØ1,Cd,Cd (Kadmium),0.1,mg/kg,,True,0.1,totalanalyse
+p02-BRMØ1,Cr,Cr (Krom),33.4,mg/kg,,False,,totalanalyse
+p02-BRMØ1,Cu,Cu (Kopper),30.8,mg/kg,,False,,totalanalyse
+p02-BRMØ1,Hg,Hg (Kvikksølv),0.2,mg/kg,,True,0.2,totalanalyse
+p02-BRMØ1,Ni,Ni (Nikkel),54.1,mg/kg,,False,,totalanalyse
+p02-BRMØ1,Pb,Pb (Bly),7.3,mg/kg,,False,,totalanalyse
+p02-BRMØ1,Zn,Zn (Sink),50.2,mg/kg,,False,,totalanalyse
+p02-BRMØ1,TOC,Totalt organisk karbon (TOC),1.26,% tørrvekt,,False,,totalanalyse
+p02-BRMØ1,PCB101,PCB 101,0.002,mg/kg,,True,0.002,totalanalyse
+p02-BRMØ1,PCB118,PCB 118,0.002,mg/kg,,True,0.002,totalanalyse
+p02-BRMØ1,PCB138,PCB 138,0.002,mg/kg,,True,0.002,totalanalyse
+p02-BRMØ1,PCB153,PCB 153,0.002,mg/kg,,True,0.002,totalanalyse
+p02-BRMØ1,PCB180,PCB 180,0.002,mg/kg,,True,0.002,totalanalyse
+p02-BRMØ1,PCB28,PCB 28,0.002,mg/kg,,True,0.002,totalanalyse
+p02-BRMØ1,PCB52,PCB 52,0.002,mg/kg,,True,0.002,totalanalyse
+p02-BRMØ1,PCB7,Sum PCB-7,0.007,mg/kg,,True,0.007,totalanalyse
+p02-BRMØ1,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p02-BRMØ1,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-BRMØ1,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-BRMØ1,BaA,Benso(a)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-BRMØ1,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-BRMØ1,BghiP,Benso(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-BRMØ1,BkF,Benso(k)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-BRMØ1,DahA,Dibenso(ah)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-BRMØ1,Phenanthrene,Fenantren,0.01,mg/kg,,False,,totalanalyse
+p02-BRMØ1,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p02-BRMØ1,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-BRMØ1,IcdP,Indeno(123cd)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-BRMØ1,Chrysene,Krysen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-BRMØ1,Naphthalene,Naftalen,0.036,mg/kg,,False,,totalanalyse
+p02-BRMØ1,Pyrene,Pyren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-BRMØ1,BbjF_sum,Sum av benso(b+j)fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p02-BRMØ1,PAH16,Sum of 16 PAH (M1),0.046,mg/kg,,False,,totalanalyse
+p02-BRMØ1,Sum PAH carcinogene^,Sum PAH carcinogene^,0.035,mg/kg,,True,0.035,totalanalyse
+p02-BRMØ1,Fraksjon_C10-C12,Fraksjon >C10-C12,3.0,mg/kg,,True,3.0,totalanalyse
+p02-BRMØ1,Fraksjon_C12-C16,Fraksjon >C12-C16,6.4,mg/kg,,False,,totalanalyse
+p02-BRMØ1,Fraksjon_C12-C35_sum,"Fraksjon >C12-C35 (sum, M1)",435.0,mg/kg,,False,,totalanalyse
+p02-BRMØ1,Fraksjon_C16-C35,Fraksjon >C16-C35,429.0,mg/kg,,False,,totalanalyse
+p02-BRMØ1,"Fraksjon >C5-C35 (sum, NORM, M1)","Fraksjon >C5-C35 (sum, NORM, M1)",435.0,mg/kg,,False,,totalanalyse
+p02-BRMØ1,Fraksjon_C5-C6,Fraksjon >C5-C6,7.0,mg/kg,,True,7.0,totalanalyse
+p02-BRMØ1,Fraksjon_C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
+p02-BRMØ1,Fraksjon_C8-C10,Fraksjon >C8-C10,5.0,mg/kg,,True,5.0,totalanalyse
+p02-BRMØ1,Olje_C10-C40,"Olje, Fraksjon >C10-C40",482.0,mg/kg,,False,,totalanalyse
+p02-BRMØ1-ristetest,Løst organisk karbon (DOC),Løst organisk karbon (DOC),25.1,mg/kg,,False,,ristetest
+p02-BRMØ1-ristetest,F,Fluorid (F-),5.55,mg/kg,,False,,ristetest
+p02-BRMØ1-ristetest,Cl,Klorid (Cl-),26.5,mg/kg,,False,,ristetest
+p02-BRMØ1-ristetest,SO4,Sulfat (SO4),482.0,mg/kg,,False,,ristetest
+p02-BRMØ1-ristetest,Phenol,Fenolindeks,0.05,mg/kg,,True,0.05,ristetest
+p02-BRMØ1-ristetest,Conductivity,Ledningsevne (konduktivitet),96.3,mS/m,,False,,ristetest
+p02-BRMØ1-ristetest,pH,pH,11.7,-,,False,,ristetest
+p02-BRMØ1-ristetest,Temperatur,Temperatur,21.1,°C,,False,,ristetest
+p02-BRMØ1-ristetest,Totalt løst stoff,Totalt løst stoff,4800.0,mg/kg,,False,,ristetest
+p02-BRMØ1-ristetest,As,As (Arsen),0.01,mg/kg,,True,0.01,ristetest
+p02-BRMØ1-ristetest,Ba,Ba (Barium),1.06,mg/kg,,False,,ristetest
+p02-BRMØ1-ristetest,Cd,Cd (Kadmium),0.002,mg/kg,,True,0.002,ristetest
+p02-BRMØ1-ristetest,Cr,Cr (Krom),0.056,mg/kg,,False,,ristetest
+p02-BRMØ1-ristetest,Cu,Cu (Kopper),0.023,mg/kg,,False,,ristetest
+p02-BRMØ1-ristetest,Hg,Hg (Kvikksølv),0.0001,mg/kg,,True,0.0001,ristetest
+p02-BRMØ1-ristetest,Mo,Mo (Molybden),0.158,mg/kg,,False,,ristetest
+p02-BRMØ1-ristetest,Ni,Ni (Nikkel),0.03,mg/kg,,True,0.03,ristetest
+p02-BRMØ1-ristetest,Pb,Pb (Bly),0.01,mg/kg,,True,0.01,ristetest
+p02-BRMØ1-ristetest,Sb,Sb (Antimon),0.021,mg/kg,,False,,ristetest
+p02-BRMØ1-ristetest,Se,Se (Selen),0.01,mg/kg,,True,0.01,ristetest
+p02-BRMØ1-ristetest,Zn,Zn (Sink),0.026,mg/kg,,False,,ristetest
+p02-BRMØ1-ristetest,Mengde innveid,Mengde innveid,87.2,g,,False,,ristetest
+p02-BRMØ1-ristetest,Volum eluat L/S = 10,Volum eluat L/S = 10,500.0,mL,,False,,ristetest
+p02-BRMØ1-ristetest,Volum tilsatt,Volum tilsatt,793.0,mL,,False,,ristetest
+p02-BRMØ1-kolonnetest,Løst organisk karbon (DOC),Løst organisk karbon (DOC),18.8,mg/L,,False,,kolonnetest
+p02-BRMØ1-kolonnetest,F,Fluorid (F-),0.731,mg/L,,False,,kolonnetest
+p02-BRMØ1-kolonnetest,Cl,Klorid (Cl-),63.4,mg/L,,False,,kolonnetest
+p02-BRMØ1-kolonnetest,SO4,Sulfat (SO4),46.8,mg/L,,False,,kolonnetest
+p02-BRMØ1-kolonnetest,Conductivity,Elektrisk konduktivitet,3050.0,µS/cm,,False,,kolonnetest
+p02-BRMØ1-kolonnetest,Phenol,Fenolindeks,0.032,mg/L,,False,,kolonnetest
+p02-BRMØ1-kolonnetest,pH-verdi,pH-verdi,11.9,--,,False,,kolonnetest
+p02-BRMØ1-kolonnetest,Totalt løst stoff,Totalt løst stoff,940.0,mg/L,,False,,kolonnetest
+p02-BRMØ1-kolonnetest,Gjennomsnittlig flow (ikke akkreditert),Gjennomsnittlig flow (ikke akkreditert),13.0,mL/h,,False,,kolonnetest
+p02-BRMØ1-kolonnetest,Høyde av materiale i kolonnen (ikke akkreditert),Høyde av materiale i kolonnen (ikke akkreditert),29.0,cm,,False,,kolonnetest
+p02-BRMØ1-kolonnetest,Indre diameter i kolonnen (ikke akkreditert),Indre diameter i kolonnen (ikke akkreditert),5.0,cm,,False,,kolonnetest
+p02-BRMØ1-kolonnetest,Mengde tørt materiale i kolonne (ikke akkreditert),Mengde tørt materiale i kolonne (ikke akkreditert),816.0,g,,False,,kolonnetest
+p02-BRMØ1-kolonnetest,pH av første 15 mL,pH av første 15 mL,12.0,--,,False,,kolonnetest
+p02-BRMØ1-kolonnetest,pH av rest L/S=0.1,pH av rest L/S=0.1,11.8,--,,False,,kolonnetest
+p02-BRMØ1-kolonnetest,As,As (Arsen),0.0013,mg/L,,False,,kolonnetest
+p02-BRMØ1-kolonnetest,Ba,Ba (Barium),0.191,mg/L,,False,,kolonnetest
+p02-BRMØ1-kolonnetest,Cd,Cd (Kadmium),0.00066,mg/L,,False,,kolonnetest
+p02-BRMØ1-kolonnetest,Cr,Cr (Krom),0.0197,mg/L,,False,,kolonnetest
+p02-BRMØ1-kolonnetest,Cu,Cu (Kopper),0.0261,mg/L,,False,,kolonnetest
+p02-BRMØ1-kolonnetest,Hg,Hg (Kvikksølv),1.98e-05,mg/L,,False,,kolonnetest
+p02-BRMØ1-kolonnetest,Mo,Mo (Molybden),0.254,mg/L,,False,,kolonnetest
+p02-BRMØ1-kolonnetest,Ni,Ni (Nikkel),0.003,mg/L,,True,0.003,kolonnetest
+p02-BRMØ1-kolonnetest,Pb,Pb (Bly),0.0027,mg/L,,False,,kolonnetest
+p02-BRMØ1-kolonnetest,Sb,Sb (Antimon),0.0018,mg/L,,False,,kolonnetest
+p02-BRMØ1-kolonnetest,Se,Se (Selen),0.001,mg/L,,True,0.001,kolonnetest
+p02-BRMØ1-kolonnetest,Zn,Zn (Sink),0.0205,mg/L,,False,,kolonnetest
+p02-PEL-9960,Alifater_C12-C16,Alifater >C12-C16,5.4,mg/kg,,False,,totalanalyse
+p02-PEL-9960,Alifater_C16-C35,Alifater >C16-C35,49.8,mg/kg,,False,,totalanalyse
+p02-PEL-9960,Alifater_C5-C6,Alifater >C5-C6,7.0,mg/kg,,True,7.0,totalanalyse
+p02-PEL-9960,Alifater_C6-C8,Alifater >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
+p02-PEL-9960,Alifater_C8-C10,Alifater >C8-C10,5.0,mg/kg,,True,5.0,totalanalyse
+p02-PEL-9960,Alifater_C10-C12,Alifater C10-C12,3.0,mg/kg,,True,3.0,totalanalyse
+p02-PEL-9960,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),55.3,mg/kg,,False,,totalanalyse
+p02-PEL-9960,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),55.3,mg/kg,,False,,totalanalyse
+p02-PEL-9960,Benzene,Benzen,0.365,mg/kg,,False,,totalanalyse
+p02-PEL-9960,Ethylbenzene,Etylbensen,0.2,mg/kg,,True,0.2,totalanalyse
+p02-PEL-9960,BTEX_sum,Sum BTEX (M1),0.365,mg/kg,,False,,totalanalyse
+p02-PEL-9960,Xylenes_sum,Sum xylener (M1),0.015,mg/kg,,True,0.015,totalanalyse
+p02-PEL-9960,Toluene,Toluen,0.3,mg/kg,,True,0.3,totalanalyse
+p02-PEL-9960,As,As (Arsen),7.1,mg/kg,,False,,totalanalyse
+p02-PEL-9960,Cd,Cd (Kadmium),0.1,mg/kg,,True,0.1,totalanalyse
+p02-PEL-9960,Cr,Cr (Krom),40.3,mg/kg,,False,,totalanalyse
+p02-PEL-9960,Cu,Cu (Kopper),34.0,mg/kg,,False,,totalanalyse
+p02-PEL-9960,Hg,Hg (Kvikksølv),0.2,mg/kg,,True,0.2,totalanalyse
+p02-PEL-9960,Ni,Ni (Nikkel),88.0,mg/kg,,False,,totalanalyse
+p02-PEL-9960,Pb,Pb (Bly),9.6,mg/kg,,False,,totalanalyse
+p02-PEL-9960,Zn,Zn (Sink),70.0,mg/kg,,False,,totalanalyse
+p02-PEL-9960,PCB101,PCB 101,0.002,mg/kg,,True,0.002,totalanalyse
+p02-PEL-9960,PCB118,PCB 118,0.002,mg/kg,,True,0.002,totalanalyse
+p02-PEL-9960,PCB138,PCB 138,0.002,mg/kg,,True,0.002,totalanalyse
+p02-PEL-9960,PCB153,PCB 153,0.002,mg/kg,,True,0.002,totalanalyse
+p02-PEL-9960,PCB180,PCB 180,0.002,mg/kg,,True,0.002,totalanalyse
+p02-PEL-9960,PCB28,PCB 28,0.002,mg/kg,,True,0.002,totalanalyse
+p02-PEL-9960,PCB52,PCB 52,0.002,mg/kg,,True,0.002,totalanalyse
+p02-PEL-9960,PCB7,Sum PCB-7,0.007,mg/kg,,True,0.007,totalanalyse
+p02-PEL-9960,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p02-PEL-9960,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-PEL-9960,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-PEL-9960,BaA,Benso(a)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-PEL-9960,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-PEL-9960,BghiP,Benso(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-PEL-9960,BkF,Benso(k)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-PEL-9960,DahA,Dibenso(ah)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-PEL-9960,Phenanthrene,Fenantren,0.027,mg/kg,,False,,totalanalyse
+p02-PEL-9960,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p02-PEL-9960,Fluorene,Fluoren,0.013,mg/kg,,False,,totalanalyse
+p02-PEL-9960,IcdP,Indeno(123cd)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-PEL-9960,Chrysene,Krysen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-PEL-9960,Naphthalene,Naftalen,0.145,mg/kg,,False,,totalanalyse
+p02-PEL-9960,Pyrene,Pyren,0.015,mg/kg,,False,,totalanalyse
+p02-PEL-9960,BbjF_sum,Sum av benso(b+j)fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p02-PEL-9960,PAH16,Sum of 16 PAH (M1),0.2,mg/kg,,False,,totalanalyse
+p02-PEL-9960,Sum PAH carcinogene^,Sum PAH carcinogene^,0.035,mg/kg,,True,0.035,totalanalyse
+p02-PEL-9960,Fraksjon_C10-C12,Fraksjon >C10-C12,3.0,mg/kg,,True,3.0,totalanalyse
+p02-PEL-9960,Fraksjon_C12-C16,Fraksjon >C12-C16,7.0,mg/kg,,False,,totalanalyse
+p02-PEL-9960,Fraksjon_C12-C35_sum,"Fraksjon >C12-C35 (sum, M1)",69.0,mg/kg,,False,,totalanalyse
+p02-PEL-9960,Fraksjon_C16-C35,Fraksjon >C16-C35,62.0,mg/kg,,False,,totalanalyse
+p02-PEL-9960,"Fraksjon >C5-C35 (sum, NORM, M1)","Fraksjon >C5-C35 (sum, NORM, M1)",69.0,mg/kg,,False,,totalanalyse
+p02-PEL-9960,Fraksjon_C5-C6,Fraksjon >C5-C6,7.0,mg/kg,,True,7.0,totalanalyse
+p02-PEL-9960,Fraksjon_C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
+p02-PEL-9960,Fraksjon_C8-C10,Fraksjon >C8-C10,5.0,mg/kg,,True,5.0,totalanalyse
+p02-PEL-9960,Olje_C10-C40,"Olje, Fraksjon >C10-C40",76.0,mg/kg,,False,,totalanalyse
+p02-PEL-8981,Alifater_C12-C16,Alifater >C12-C16,5.5,mg/kg,,False,,totalanalyse
+p02-PEL-8981,Alifater_C16-C35,Alifater >C16-C35,70.2,mg/kg,,False,,totalanalyse
+p02-PEL-8981,Alifater_C5-C6,Alifater >C5-C6,7.0,mg/kg,,True,7.0,totalanalyse
+p02-PEL-8981,Alifater_C6-C8,Alifater >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
+p02-PEL-8981,Alifater_C8-C10,Alifater >C8-C10,5.0,mg/kg,,True,5.0,totalanalyse
+p02-PEL-8981,Alifater_C10-C12,Alifater C10-C12,3.0,mg/kg,,True,3.0,totalanalyse
+p02-PEL-8981,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),75.7,mg/kg,,False,,totalanalyse
+p02-PEL-8981,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),75.7,mg/kg,,False,,totalanalyse
+p02-PEL-8981,Benzene,Benzen,0.0708,mg/kg,,False,,totalanalyse
+p02-PEL-8981,Ethylbenzene,Etylbensen,0.2,mg/kg,,True,0.2,totalanalyse
+p02-PEL-8981,BTEX_sum,Sum BTEX (M1),0.0708,mg/kg,,False,,totalanalyse
+p02-PEL-8981,Xylenes_sum,Sum xylener (M1),0.015,mg/kg,,True,0.015,totalanalyse
+p02-PEL-8981,Toluene,Toluen,0.3,mg/kg,,True,0.3,totalanalyse
+p02-PEL-8981,As,As (Arsen),16.7,mg/kg,,False,,totalanalyse
+p02-PEL-8981,Cd,Cd (Kadmium),0.1,mg/kg,,True,0.1,totalanalyse
+p02-PEL-8981,Cr,Cr (Krom),54.4,mg/kg,,False,,totalanalyse
+p02-PEL-8981,Cu,Cu (Kopper),43.9,mg/kg,,False,,totalanalyse
+p02-PEL-8981,Hg,Hg (Kvikksølv),0.2,mg/kg,,True,0.2,totalanalyse
+p02-PEL-8981,Ni,Ni (Nikkel),71.8,mg/kg,,False,,totalanalyse
+p02-PEL-8981,Pb,Pb (Bly),11.5,mg/kg,,False,,totalanalyse
+p02-PEL-8981,Zn,Zn (Sink),56.7,mg/kg,,False,,totalanalyse
+p02-PEL-8981,PCB101,PCB 101,0.002,mg/kg,,True,0.002,totalanalyse
+p02-PEL-8981,PCB118,PCB 118,0.002,mg/kg,,True,0.002,totalanalyse
+p02-PEL-8981,PCB138,PCB 138,0.002,mg/kg,,True,0.002,totalanalyse
+p02-PEL-8981,PCB153,PCB 153,0.002,mg/kg,,True,0.002,totalanalyse
+p02-PEL-8981,PCB180,PCB 180,0.002,mg/kg,,True,0.002,totalanalyse
+p02-PEL-8981,PCB28,PCB 28,0.002,mg/kg,,True,0.002,totalanalyse
+p02-PEL-8981,PCB52,PCB 52,0.002,mg/kg,,True,0.002,totalanalyse
+p02-PEL-8981,PCB7,Sum PCB-7,0.007,mg/kg,,True,0.007,totalanalyse
+p02-PEL-8981,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p02-PEL-8981,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-PEL-8981,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-PEL-8981,BaA,Benso(a)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-PEL-8981,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-PEL-8981,BghiP,Benso(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-PEL-8981,BkF,Benso(k)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-PEL-8981,DahA,Dibenso(ah)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-PEL-8981,Phenanthrene,Fenantren,0.014,mg/kg,,False,,totalanalyse
+p02-PEL-8981,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p02-PEL-8981,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-PEL-8981,IcdP,Indeno(123cd)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-PEL-8981,Chrysene,Krysen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-PEL-8981,Naphthalene,Naftalen,0.06,mg/kg,,False,,totalanalyse
+p02-PEL-8981,Pyrene,Pyren,0.01,mg/kg,,True,0.01,totalanalyse
+p02-PEL-8981,BbjF_sum,Sum av benso(b+j)fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p02-PEL-8981,PAH16,Sum of 16 PAH (M1),0.074,mg/kg,,False,,totalanalyse
+p02-PEL-8981,Sum PAH carcinogene^,Sum PAH carcinogene^,0.035,mg/kg,,True,0.035,totalanalyse
+p02-PEL-8981,Fraksjon_C10-C12,Fraksjon >C10-C12,3.0,mg/kg,,True,3.0,totalanalyse
+p02-PEL-8981,Fraksjon_C12-C16,Fraksjon >C12-C16,6.4,mg/kg,,False,,totalanalyse
+p02-PEL-8981,Fraksjon_C12-C35_sum,"Fraksjon >C12-C35 (sum, M1)",78.4,mg/kg,,False,,totalanalyse
+p02-PEL-8981,Fraksjon_C16-C35,Fraksjon >C16-C35,72.0,mg/kg,,False,,totalanalyse
+p02-PEL-8981,"Fraksjon >C5-C35 (sum, NORM, M1)","Fraksjon >C5-C35 (sum, NORM, M1)",78.4,mg/kg,,False,,totalanalyse
+p02-PEL-8981,Fraksjon_C5-C6,Fraksjon >C5-C6,7.0,mg/kg,,True,7.0,totalanalyse
+p02-PEL-8981,Fraksjon_C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
+p02-PEL-8981,Fraksjon_C8-C10,Fraksjon >C8-C10,5.0,mg/kg,,True,5.0,totalanalyse
+p02-PEL-8981,Olje_C10-C40,"Olje, Fraksjon >C10-C40",89.0,mg/kg,,False,,totalanalyse
+p02-PEL-9960-Ristetest,Løst organisk karbon (DOC),Løst organisk karbon (DOC),17.0,mg/kg,,False,,ristetest
+p02-PEL-9960-Ristetest,F,Fluorid (F-),3.16,mg/kg,,False,,ristetest
+p02-PEL-9960-Ristetest,Cl,Klorid (Cl-),13.6,mg/kg,,False,,ristetest
+p02-PEL-9960-Ristetest,SO4,Sulfat (SO4),510.0,mg/kg,,False,,ristetest
+p02-PEL-9960-Ristetest,Phenol,Fenolindeks,0.09,mg/kg,,False,,ristetest
+p02-PEL-9960-Ristetest,Conductivity,Ledningsevne (konduktivitet),52.0,mS/m,,False,,ristetest
+p02-PEL-9960-Ristetest,pH,pH,10.8,-,,False,,ristetest
+p02-PEL-9960-Ristetest,Temperatur,Temperatur,19.7,°C,,False,,ristetest
+p02-PEL-9960-Ristetest,Totalt løst stoff,Totalt løst stoff,2760.0,mg/kg,,False,,ristetest
+p02-PEL-9960-Ristetest,As,As (Arsen),0.012,mg/kg,,False,,ristetest
+p02-PEL-9960-Ristetest,Ba,Ba (Barium),0.909,mg/kg,,False,,ristetest
+p02-PEL-9960-Ristetest,Cd,Cd (Kadmium),0.002,mg/kg,,True,0.002,ristetest
+p02-PEL-9960-Ristetest,Cr,Cr (Krom),0.05,mg/kg,,True,0.05,ristetest
+p02-PEL-9960-Ristetest,Cu,Cu (Kopper),0.011,mg/kg,,False,,ristetest
+p02-PEL-9960-Ristetest,Hg,Hg (Kvikksølv),0.0001,mg/kg,,True,0.0001,ristetest
+p02-PEL-9960-Ristetest,Mo,Mo (Molybden),0.09,mg/kg,,False,,ristetest
+p02-PEL-9960-Ristetest,Ni,Ni (Nikkel),0.03,mg/kg,,True,0.03,ristetest
+p02-PEL-9960-Ristetest,Pb,Pb (Bly),0.013,mg/kg,,False,,ristetest
+p02-PEL-9960-Ristetest,Sb,Sb (Antimon),0.024,mg/kg,,False,,ristetest
+p02-PEL-9960-Ristetest,Se,Se (Selen),0.01,mg/kg,,True,0.01,ristetest
+p02-PEL-9960-Ristetest,Zn,Zn (Sink),0.248,mg/kg,,False,,ristetest
+p02-PEL-9960-Ristetest,Mengde innveid,Mengde innveid,88.9,g,,False,,ristetest
+p02-PEL-9960-Ristetest,Volum eluat L/S = 10,Volum eluat L/S = 10,500.0,mL,,False,,ristetest
+p02-PEL-9960-Ristetest,Volum tilsatt,Volum tilsatt,791.0,mL,,False,,ristetest
+p02-PEL-8981-Ristetest,Løst organisk karbon (DOC),Løst organisk karbon (DOC),11.9,mg/kg,,False,,ristetest
+p02-PEL-8981-Ristetest,F,Fluorid (F-),3.73,mg/kg,,False,,ristetest
+p02-PEL-8981-Ristetest,Cl,Klorid (Cl-),47.6,mg/kg,,False,,ristetest
+p02-PEL-8981-Ristetest,SO4,Sulfat (SO4),190.0,mg/kg,,False,,ristetest
+p02-PEL-8981-Ristetest,Phenol,Fenolindeks,0.05,mg/kg,,True,0.05,ristetest
+p02-PEL-8981-Ristetest,Conductivity,Ledningsevne (konduktivitet),133.0,mS/m,,False,,ristetest
+p02-PEL-8981-Ristetest,pH,pH,11.3,-,,False,,ristetest
+p02-PEL-8981-Ristetest,Temperatur,Temperatur,20.1,°C,,False,,ristetest
+p02-PEL-8981-Ristetest,Totalt løst stoff,Totalt løst stoff,4240.0,mg/kg,,False,,ristetest
+p02-PEL-8981-Ristetest,As,As (Arsen),0.01,mg/kg,,True,0.01,ristetest
+p02-PEL-8981-Ristetest,Ba,Ba (Barium),2.78,mg/kg,,False,,ristetest
+p02-PEL-8981-Ristetest,Cd,Cd (Kadmium),0.002,mg/kg,,True,0.002,ristetest
+p02-PEL-8981-Ristetest,Cr,Cr (Krom),0.08,mg/kg,,False,,ristetest
+p02-PEL-8981-Ristetest,Cu,Cu (Kopper),0.031,mg/kg,,False,,ristetest
+p02-PEL-8981-Ristetest,Hg,Hg (Kvikksølv),0.0001,mg/kg,,True,0.0001,ristetest
+p02-PEL-8981-Ristetest,Mo,Mo (Molybden),0.543,mg/kg,,False,,ristetest
+p02-PEL-8981-Ristetest,Ni,Ni (Nikkel),0.03,mg/kg,,True,0.03,ristetest
+p02-PEL-8981-Ristetest,Pb,Pb (Bly),0.01,mg/kg,,True,0.01,ristetest
+p02-PEL-8981-Ristetest,Sb,Sb (Antimon),0.012,mg/kg,,False,,ristetest
+p02-PEL-8981-Ristetest,Se,Se (Selen),0.01,mg/kg,,True,0.01,ristetest
+p02-PEL-8981-Ristetest,Zn,Zn (Sink),0.227,mg/kg,,False,,ristetest
+p02-PEL-8981-Ristetest,Mengde innveid,Mengde innveid,87.4,g,,False,,ristetest
+p02-PEL-8981-Ristetest,Volum eluat L/S = 10,Volum eluat L/S = 10,500.0,mL,,False,,ristetest
+p02-PEL-8981-Ristetest,Volum tilsatt,Volum tilsatt,793.0,mL,,False,,ristetest
+p02-PEL-9960-Kolonnetest,Løst organisk karbon (DOC),Løst organisk karbon (DOC),13.4,mg/L,,False,,kolonnetest
+p02-PEL-9960-Kolonnetest,F,Fluorid (F-),0.584,mg/L,,False,,kolonnetest
+p02-PEL-9960-Kolonnetest,Cl,Klorid (Cl-),43.0,mg/L,,False,,kolonnetest
+p02-PEL-9960-Kolonnetest,SO4,Sulfat (SO4),209.0,mg/L,,False,,kolonnetest
+p02-PEL-9960-Kolonnetest,Conductivity,Elektrisk konduktivitet,1920.0,µS/cm,,False,,kolonnetest
+p02-PEL-9960-Kolonnetest,Phenol,Fenolindeks,0.022,mg/L,,False,,kolonnetest
+p02-PEL-9960-Kolonnetest,pH-verdi,pH-verdi,12.3,--,,False,,kolonnetest
+p02-PEL-9960-Kolonnetest,Totalt løst stoff,Totalt løst stoff,1470.0,mg/L,,False,,kolonnetest
+p02-PEL-9960-Kolonnetest,Gjennomsnittlig flow (ikke akkreditert),Gjennomsnittlig flow (ikke akkreditert),13.0,mL/h,,False,,kolonnetest
+p02-PEL-9960-Kolonnetest,Høyde av materiale i kolonnen (ikke akkreditert),Høyde av materiale i kolonnen (ikke akkreditert),26.0,cm,,False,,kolonnetest
+p02-PEL-9960-Kolonnetest,Indre diameter i kolonnen (ikke akkreditert),Indre diameter i kolonnen (ikke akkreditert),5.0,cm,,False,,kolonnetest
+p02-PEL-9960-Kolonnetest,Mengde tørt materiale i kolonne (ikke akkreditert),Mengde tørt materiale i kolonne (ikke akkreditert),806.0,g,,False,,kolonnetest
+p02-PEL-9960-Kolonnetest,pH av første 15 mL,pH av første 15 mL,12.4,--,,False,,kolonnetest
+p02-PEL-9960-Kolonnetest,pH av rest L/S=0.1,pH av rest L/S=0.1,12.2,--,,False,,kolonnetest
+p02-PEL-9960-Kolonnetest,As,As (Arsen),0.003,mg/L,,False,,kolonnetest
+p02-PEL-9960-Kolonnetest,Ba,Ba (Barium),0.092,mg/L,,False,,kolonnetest
+p02-PEL-9960-Kolonnetest,Cd,Cd (Kadmium),0.0005,mg/L,,True,0.0005,kolonnetest
+p02-PEL-9960-Kolonnetest,Cr,Cr (Krom),0.0567,mg/L,,False,,kolonnetest
+p02-PEL-9960-Kolonnetest,Cu,Cu (Kopper),0.014,mg/L,,False,,kolonnetest
+p02-PEL-9960-Kolonnetest,Hg,Hg (Kvikksølv),3.74e-05,mg/L,,False,,kolonnetest
+p02-PEL-9960-Kolonnetest,Mo,Mo (Molybden),0.188,mg/L,,False,,kolonnetest
+p02-PEL-9960-Kolonnetest,Ni,Ni (Nikkel),0.003,mg/L,,True,0.003,kolonnetest
+p02-PEL-9960-Kolonnetest,Pb,Pb (Bly),0.0011,mg/L,,False,,kolonnetest
+p02-PEL-9960-Kolonnetest,Sb,Sb (Antimon),0.0016,mg/L,,False,,kolonnetest
+p02-PEL-9960-Kolonnetest,Se,Se (Selen),0.0016,mg/L,,False,,kolonnetest
+p02-PEL-9960-Kolonnetest,Zn,Zn (Sink),0.0083,mg/L,,False,,kolonnetest
+p02-PEL-8981-Kolonnetest,Løst organisk karbon (DOC),Løst organisk karbon (DOC),11.7,mg/L,,False,,kolonnetest
+p02-PEL-8981-Kolonnetest,F,Fluorid (F-),1.72,mg/L,,False,,kolonnetest
+p02-PEL-8981-Kolonnetest,Cl,Klorid (Cl-),123.0,mg/L,,False,,kolonnetest
+p02-PEL-8981-Kolonnetest,SO4,Sulfat (SO4),473.0,mg/L,,False,,kolonnetest
+p02-PEL-8981-Kolonnetest,Conductivity,Elektrisk konduktivitet,1050.0,µS/cm,,False,,kolonnetest
+p02-PEL-8981-Kolonnetest,Phenol,Fenolindeks,0.025,mg/L,,False,,kolonnetest
+p02-PEL-8981-Kolonnetest,pH-verdi,pH-verdi,11.7,--,,False,,kolonnetest
+p02-PEL-8981-Kolonnetest,Totalt løst stoff,Totalt løst stoff,1350.0,mg/L,,False,,kolonnetest
+p02-PEL-8981-Kolonnetest,Gjennomsnittlig flow (ikke akkreditert),Gjennomsnittlig flow (ikke akkreditert),13.0,mL/h,,False,,kolonnetest
+p02-PEL-8981-Kolonnetest,Høyde av materiale i kolonnen (ikke akkreditert),Høyde av materiale i kolonnen (ikke akkreditert),27.0,cm,,False,,kolonnetest
+p02-PEL-8981-Kolonnetest,Indre diameter i kolonnen (ikke akkreditert),Indre diameter i kolonnen (ikke akkreditert),5.0,cm,,False,,kolonnetest
+p02-PEL-8981-Kolonnetest,Mengde tørt materiale i kolonne (ikke akkreditert),Mengde tørt materiale i kolonne (ikke akkreditert),796.0,g,,False,,kolonnetest
+p02-PEL-8981-Kolonnetest,pH av første 15 mL,pH av første 15 mL,11.8,--,,False,,kolonnetest
+p02-PEL-8981-Kolonnetest,pH av rest L/S=0.1,pH av rest L/S=0.1,11.6,--,,False,,kolonnetest
+p02-PEL-8981-Kolonnetest,As,As (Arsen),0.0031,mg/L,,False,,kolonnetest
+p02-PEL-8981-Kolonnetest,Ba,Ba (Barium),0.0454,mg/L,,False,,kolonnetest
+p02-PEL-8981-Kolonnetest,Cd,Cd (Kadmium),0.0005,mg/L,,True,0.0005,kolonnetest
+p02-PEL-8981-Kolonnetest,Cr,Cr (Krom),0.125,mg/L,,False,,kolonnetest
+p02-PEL-8981-Kolonnetest,Cu,Cu (Kopper),0.0276,mg/L,,False,,kolonnetest
+p02-PEL-8981-Kolonnetest,Hg,Hg (Kvikksølv),1e-05,mg/L,,True,1e-05,kolonnetest
+p02-PEL-8981-Kolonnetest,Mo,Mo (Molybden),0.806,mg/L,,False,,kolonnetest
+p02-PEL-8981-Kolonnetest,Ni,Ni (Nikkel),0.003,mg/L,,True,0.003,kolonnetest
+p02-PEL-8981-Kolonnetest,Pb,Pb (Bly),0.0026,mg/L,,False,,kolonnetest
+p02-PEL-8981-Kolonnetest,Sb,Sb (Antimon),0.007,mg/L,,False,,kolonnetest
+p02-PEL-8981-Kolonnetest,Se,Se (Selen),0.0074,mg/L,,False,,kolonnetest
+p02-PEL-8981-Kolonnetest,Zn,Zn (Sink),0.0325,mg/L,,False,,kolonnetest
+p02-Sprengstein-Pel-9160,Alifater_C12-C16,Alifater >C12-C16,4.5,mg/kg,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,Alifater_C16-C35,Alifater >C16-C35,69.6,mg/kg,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,Alifater_C5-C6,Alifater >C5-C6,7.0,mg/kg,,True,7.0,totalanalyse
+p02-Sprengstein-Pel-9160,Alifater_C6-C8,Alifater >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
+p02-Sprengstein-Pel-9160,Alifater_C8-C10,Alifater >C8-C10,5.0,mg/kg,,True,5.0,totalanalyse
+p02-Sprengstein-Pel-9160,Alifater_C10-C12,Alifater C10-C12,3.5,mg/kg,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,Alifater_C12-C35_sum,Sum alifater >C12-C35 (M1),74.1,mg/kg,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,Alifater_C5-C35_sum,Sum alifater >C5-C35 (M1),77.6,mg/kg,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,Benzene,Benzen,0.0931,mg/kg,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,Ethylbenzene,Etylbensen,0.2,mg/kg,,True,0.2,totalanalyse
+p02-Sprengstein-Pel-9160,BTEX_sum,Sum BTEX (M1),0.0931,mg/kg,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,Xylenes_sum,Sum xylener (M1),0.015,mg/kg,,True,0.015,totalanalyse
+p02-Sprengstein-Pel-9160,Toluene,Toluen,0.3,mg/kg,,True,0.3,totalanalyse
+p02-Sprengstein-Pel-9160,As,As (Arsen),4.29,mg/kg,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,Cd,Cd (Kadmium),0.1,mg/kg,,True,0.1,totalanalyse
+p02-Sprengstein-Pel-9160,Cr,Cr (Krom),77.2,mg/kg,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,Cu,Cu (Kopper),34.2,mg/kg,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,Hg,Hg (Kvikksølv),0.2,mg/kg,,True,0.2,totalanalyse
+p02-Sprengstein-Pel-9160,Ni,Ni (Nikkel),120.0,mg/kg,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,Pb,Pb (Bly),10.9,mg/kg,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,Zn,Zn (Sink),66.1,mg/kg,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,PCB101,PCB 101,0.002,mg/kg,,True,0.002,totalanalyse
+p02-Sprengstein-Pel-9160,PCB118,PCB 118,0.002,mg/kg,,True,0.002,totalanalyse
+p02-Sprengstein-Pel-9160,PCB138,PCB 138,0.002,mg/kg,,True,0.002,totalanalyse
+p02-Sprengstein-Pel-9160,PCB153,PCB 153,0.002,mg/kg,,True,0.002,totalanalyse
+p02-Sprengstein-Pel-9160,PCB180,PCB 180,0.002,mg/kg,,True,0.002,totalanalyse
+p02-Sprengstein-Pel-9160,PCB28,PCB 28,0.002,mg/kg,,True,0.002,totalanalyse
+p02-Sprengstein-Pel-9160,PCB52,PCB 52,0.002,mg/kg,,True,0.002,totalanalyse
+p02-Sprengstein-Pel-9160,PCB7,Sum PCB-7,0.007,mg/kg,,True,0.007,totalanalyse
+p02-Sprengstein-Pel-9160,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Sprengstein-Pel-9160,Acenaphthylene,Acenaftylen,0.012,mg/kg,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Sprengstein-Pel-9160,BaA,Benso(a)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Sprengstein-Pel-9160,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Sprengstein-Pel-9160,BghiP,Benso(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Sprengstein-Pel-9160,BkF,Benso(k)fluoranten^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Sprengstein-Pel-9160,DahA,Dibenso(ah)antracen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Sprengstein-Pel-9160,Phenanthrene,Fenantren,0.041,mg/kg,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,Fluoranthene,Fluoranten,0.011,mg/kg,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,Fluorene,Fluoren,0.017,mg/kg,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,IcdP,Indeno(123cd)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Sprengstein-Pel-9160,Chrysene,Krysen^,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Sprengstein-Pel-9160,Naphthalene,Naftalen,0.146,mg/kg,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,Pyrene,Pyren,0.026,mg/kg,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,BbjF_sum,Sum av benso(b+j)fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p02-Sprengstein-Pel-9160,PAH16,Sum of 16 PAH (M1),0.253,mg/kg,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,Sum PAH carcinogene^,Sum PAH carcinogene^,0.035,mg/kg,,True,0.035,totalanalyse
+p02-Sprengstein-Pel-9160,Løst organisk karbon (DOC),Løst organisk karbon (DOC),14.7,mg/kg,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,Suspendert stoff,Suspendert stoff,20.0,mg/kg,,True,20.0,totalanalyse
+p02-Sprengstein-Pel-9160,F,Fluorid (F-),2.98,mg/kg,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,Cl,Klorid (Cl-),13.9,mg/kg,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,SO4,Sulfat (SO4),266.0,mg/kg,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,Phenol,Fenolindeks,0.05,mg/kg,,True,0.05,totalanalyse
+p02-Sprengstein-Pel-9160,Conductivity,Ledningsevne (konduktivitet),40.4,mS/m,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,pH,pH,11.2,-,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,Temperatur,Temperatur,18.1,°C,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,Ba,Ba (Barium),1.1,mg/kg,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,Mo,Mo (Molybden),0.028,mg/kg,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,Sb,Sb (Antimon),0.025,mg/kg,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,Se,Se (Selen),0.01,mg/kg,,True,0.01,totalanalyse
+p02-Sprengstein-Pel-9160,Mengde innveid,Mengde innveid,86.2,g,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,Volum eluat L/S = 10,Volum eluat L/S = 10,500.0,mL,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,Volum tilsatt,Volum tilsatt,794.0,mL,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,Conductivity,Elektrisk konduktivitet,2870.0,µS/cm,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,pH-verdi,pH-verdi,10.1,--,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,Gjennomsnittlig flow (ikke akkreditert),Gjennomsnittlig flow (ikke akkreditert),13.0,mL/h,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,Høyde av materiale i kolonnen (ikke akkreditert),Høyde av materiale i kolonnen (ikke akkreditert),28.0,cm,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,Indre diameter i kolonnen (ikke akkreditert),Indre diameter i kolonnen (ikke akkreditert),5.0,cm,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,Mengde tørt materiale i kolonne (ikke akkreditert),Mengde tørt materiale i kolonne (ikke akkreditert),842.0,g,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,pH av første 15 mL,pH av første 15 mL,10.2,--,,False,,totalanalyse
+p02-Sprengstein-Pel-9160,pH av rest L/S=0.1,pH av rest L/S=0.1,9.97,--,,False,,totalanalyse

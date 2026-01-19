@@ -23,7 +23,7 @@ from datetime import datetime
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from lib.pdf_utils import extract_text, extract_pages
-from lib.chemistry import normalize_parameter_name, parse_value, TILSTANDSKLASSER
+from lib.chemistry import normalize_parameter_name, parse_value, TILSTANDSKLASSER, ALS_THC_PDF_MAP
 from lib.export import save_to_csv
 
 # ============================================================
@@ -52,29 +52,29 @@ SAMPLES = [
     # First sampling 20.09.2017
     {'sample_key': '1', 'sample_id': 'p09-MOA-001', 'sample_date': '2017-09-20', 
      'location_type': 'vegbane', 'profile_start': 9850, 'profile_end': 9950,
-     'sample_type': 'bunnrensk', 'lab_reference': 'N00529080'},
+     'sample_type': 'bunnrensk', 'lab_reference': 'N00529080', 'remark': ''},
     {'sample_key': '2', 'sample_id': 'p09-MOA-002', 'sample_date': '2017-09-20',
      'location_type': 'vegbane', 'profile_start': 9950, 'profile_end': 10100,
-     'sample_type': 'bunnrensk', 'lab_reference': 'N00529081'},
+     'sample_type': 'bunnrensk', 'lab_reference': 'N00529081', 'remark': ''},
     {'sample_key': '3', 'sample_id': 'p09-MOA-003', 'sample_date': '2017-09-20',
      'location_type': 'grøft', 'profile_start': 9950, 'profile_end': 10100,
-     'sample_type': 'bunnrensk', 'lab_reference': 'N00529082'},
+     'sample_type': 'bunnrensk', 'lab_reference': 'N00529082', 'remark': 'Benyttet som sedimentasjonsbasseng'},
     {'sample_key': '4', 'sample_id': 'p09-MOA-004', 'sample_date': '2017-09-20',
      'location_type': 'grøft', 'profile_start': 9850, 'profile_end': 9950,
-     'sample_type': 'bunnrensk', 'lab_reference': 'N00529083'},
+     'sample_type': 'bunnrensk', 'lab_reference': 'N00529083', 'remark': 'Benyttet som sedimentasjonsbasseng'},
     # Second sampling 28.09.2017
     {'sample_key': 'T1', 'sample_id': 'p09-MOA-T1', 'sample_date': '2017-09-28',
      'location_type': 'vegbane', 'profile_start': 9850, 'profile_end': 9900,
-     'sample_type': 'bunnrensk', 'lab_reference': 'N00531434'},
+     'sample_type': 'bunnrensk', 'lab_reference': 'N00531434', 'remark': ''},
     {'sample_key': 'T2', 'sample_id': 'p09-MOA-T2', 'sample_date': '2017-09-28',
      'location_type': 'vegbane', 'profile_start': 9900, 'profile_end': 9950,
-     'sample_type': 'bunnrensk', 'lab_reference': 'N00531435'},
+     'sample_type': 'bunnrensk', 'lab_reference': 'N00531435', 'remark': ''},
     {'sample_key': 'D1', 'sample_id': 'p09-MOA-D1', 'sample_date': '2017-09-28',
-     'location_type': 'deponi', 'profile_start': None, 'profile_end': None,
-     'sample_type': 'blandeprøve', 'lab_reference': 'N00531432'},
+     'location_type': 'grøft', 'profile_start': None, 'profile_end': None,
+     'sample_type': 'blandeprøve', 'lab_reference': 'N00531432', 'remark': 'Benyttet som sedimentasjonsbasseng'},
     {'sample_key': 'D2', 'sample_id': 'p09-MOA-D2', 'sample_date': '2017-09-28',
-     'location_type': 'deponi', 'profile_start': None, 'profile_end': None,
-     'sample_type': 'blandeprøve', 'lab_reference': 'N00531433'},
+     'location_type': 'grøft', 'profile_start': None, 'profile_end': None,
+     'sample_type': 'blandeprøve', 'lab_reference': 'N00531433', 'remark': 'Benyttet som sedimentasjonsbasseng'},
 ]
 
 # Classifications from Tabell 1 and 2 in the notat (pages 2-3)
@@ -181,132 +181,14 @@ def parse_section_results(section: str, sample_id: str) -> list:
     clean_section = re.sub(r'\s+', ' ', clean_section)  # Normalize whitespace
     
     # =========================================================================
-    # PARAMETER MAPPING: Norwegian name pattern -> (param_code, display_name)
-    # =========================================================================
-    PARAM_MAP = {
-        # Dry matter (%)
-        r'Tørrstoff\s*\([ED]\)': ('DryMatter', 'Tørrstoff', '%'),
-        
-        # METALS
-        r'As\s*\(Arsen\)': ('As', 'Arsen', 'mg/kg'),
-        r'Cd\s*\(Kadmium\)': ('Cd', 'Kadmium', 'mg/kg'),
-        r'Cr\s*\(Krom\)': ('Cr', 'Krom', 'mg/kg'),
-        r'Cu\s*\(Kopper\)': ('Cu', 'Kopper', 'mg/kg'),
-        r'Hg\s*\(Kvikksølv\)': ('Hg', 'Kvikksølv', 'mg/kg'),
-        r'Ni\s*\(Nikkel\)': ('Ni', 'Nikkel', 'mg/kg'),
-        r'Pb\s*\(Bly\)': ('Pb', 'Bly', 'mg/kg'),
-        r'Zn\s*\(Sink\)': ('Zn', 'Sink', 'mg/kg'),
-        r'Cr6\+': ('Cr_VI', 'Cr6+', 'mg/kg'),
-        
-        # PCB CONGENERS
-        r'PCB\s*28(?!\d)': ('PCB28', 'PCB 28', 'mg/kg'),
-        r'PCB\s*52(?!\d)': ('PCB52', 'PCB 52', 'mg/kg'),
-        r'PCB\s*101(?!\d)': ('PCB101', 'PCB 101', 'mg/kg'),
-        r'PCB\s*118(?!\d)': ('PCB118', 'PCB 118', 'mg/kg'),
-        r'PCB\s*138(?!\d)': ('PCB138', 'PCB 138', 'mg/kg'),
-        r'PCB\s*153(?!\d)': ('PCB153', 'PCB 153', 'mg/kg'),
-        r'PCB\s*180(?!\d)': ('PCB180', 'PCB 180', 'mg/kg'),
-        r'Sum\s*PCB-7': ('PCB7', 'Sum PCB-7', 'mg/kg'),
-        
-        # PAH - 16 EPA COMPOUNDS
-        r'Naftalen(?!-)': ('Naphthalene', 'Naftalen', 'mg/kg'),
-        r'Acenaftylen': ('Acenaphthylene', 'Acenaftylen', 'mg/kg'),
-        r'Acenaften(?!-)': ('Acenaphthene', 'Acenaften', 'mg/kg'),
-        r'Fluoren(?!-)': ('Fluorene', 'Fluoren', 'mg/kg'),
-        r'Fenantren': ('Phenanthrene', 'Fenantren', 'mg/kg'),
-        r'Antracen(?!-)': ('Anthracene', 'Antracen', 'mg/kg'),
-        r'Fluoranten': ('Fluoranthene', 'Fluoranten', 'mg/kg'),
-        r'Pyren(?!-)': ('Pyrene', 'Pyren', 'mg/kg'),
-        r'Benso\(a\)antracen': ('BaA', 'Benzo(a)antracen', 'mg/kg'),
-        r'Krysen': ('Chrysene', 'Krysen', 'mg/kg'),
-        r'Benso\(b\)fluoranten': ('BbF', 'Benzo(b)fluoranten', 'mg/kg'),
-        r'Benso\(k\)fluoranten': ('BkF', 'Benzo(k)fluoranten', 'mg/kg'),
-        r'Benso\(a\)pyren': ('BaP', 'Benzo(a)pyren', 'mg/kg'),
-        r'Dibenso\(ah\)antracen': ('DahA', 'Dibenzo(ah)antracen', 'mg/kg'),
-        r'Benso\(ghi\)perylen': ('BghiP', 'Benzo(ghi)perylen', 'mg/kg'),
-        r'Indeno\(1,?2,?3-?c,?d\)pyren': ('IcdP', 'Indeno(123cd)pyren', 'mg/kg'),
-        r'Sum\s*PAH-16': ('PAH16', 'Sum PAH-16', 'mg/kg'),
-        
-        # BTEX
-        r'Bensen(?!o)': ('Benzene', 'Benzen', 'mg/kg'),
-        r'Toluen': ('Toluene', 'Toluen', 'mg/kg'),
-        r'Etylbensen': ('Ethylbenzene', 'Etylbensen', 'mg/kg'),
-        r'Xylener': ('Xylene', 'Xylener', 'mg/kg'),
-        r'Sum\s*BTEX': ('BTEX', 'Sum BTEX', 'mg/kg'),
-        
-        # THC FRACTIONS
-        r'Fraksjon\s*>?\s*C5-C6': ('THC_C5-C6', 'Fraksjon >C5-C6', 'mg/kg'),
-        r'Fraksjon\s*>?\s*C6-C8': ('THC_C6-C8', 'Fraksjon >C6-C8', 'mg/kg'),
-        r'Fraksjon\s*>?\s*C8-C10': ('THC_C8-C10', 'Fraksjon >C8-C10', 'mg/kg'),
-        r'Fraksjon\s*>?\s*C10-C12': ('THC_C10-C12', 'Fraksjon >C10-C12', 'mg/kg'),
-        r'Fraksjon\s*>?\s*C12-C16': ('THC_C12-C16', 'Fraksjon >C12-C16', 'mg/kg'),
-        r'Fraksjon\s*>?\s*C16-C35': ('THC_C16-C35', 'Fraksjon >C16-C35', 'mg/kg'),
-        r'Sum\s*>?\s*C12-C35': ('THC_C12-C35', 'Sum >C12-C35', 'mg/kg'),
-        
-        # CYANIDE
-        r'Cyanid-fri': ('CN', 'Cyanid-fri', 'mg/kg'),
-        
-        # CHLOROPHENOLS
-        r'2-Monoklorfenol': ('CP_2-MCP', '2-Monoklorfenol', 'mg/kg'),
-        r'3-Monoklorfenol': ('CP_3-MCP', '3-Monoklorfenol', 'mg/kg'),
-        r'4-Monoklorfenol': ('CP_4-MCP', '4-Monoklorfenol', 'mg/kg'),
-        r'2,3-Diklorfenol': ('CP_2,3-DCP', '2,3-Diklorfenol', 'mg/kg'),
-        r'2,4\+2,5-Diklorfenol': ('CP_2,4+2,5-DCP', '2,4+2,5-Diklorfenol', 'mg/kg'),
-        r'2,6-Diklorfenol': ('CP_2,6-DCP', '2,6-Diklorfenol', 'mg/kg'),
-        r'3,4-Diklorfenol': ('CP_3,4-DCP', '3,4-Diklorfenol', 'mg/kg'),
-        r'3,5-Diklorfenol': ('CP_3,5-DCP', '3,5-Diklorfenol', 'mg/kg'),
-        r'2,3,4-Triklorfenol': ('CP_2,3,4-TCP', '2,3,4-Triklorfenol', 'mg/kg'),
-        r'2,3,5-Triklorfenol': ('CP_2,3,5-TCP', '2,3,5-Triklorfenol', 'mg/kg'),
-        r'2,3,6-Triklorfenol': ('CP_2,3,6-TCP', '2,3,6-Triklorfenol', 'mg/kg'),
-        r'2,4,5-Triklorfenol': ('CP_2,4,5-TCP', '2,4,5-Triklorfenol', 'mg/kg'),
-        r'2,4,6-Triklorfenol': ('CP_2,4,6-TCP', '2,4,6-Triklorfenol', 'mg/kg'),
-        r'3,4,5-Triklorfenol': ('CP_3,4,5-TCP', '3,4,5-Triklorfenol', 'mg/kg'),
-        r'2,3,4,5-Tetraklorfenol': ('CP_2,3,4,5-TeCP', '2,3,4,5-Tetraklorfenol', 'mg/kg'),
-        r'2,3,4,6-Tetraklorfenol': ('CP_2,3,4,6-TeCP', '2,3,4,6-Tetraklorfenol', 'mg/kg'),
-        r'2,3,5,6-Tetraklorfenol': ('CP_2,3,5,6-TeCP', '2,3,5,6-Tetraklorfenol', 'mg/kg'),
-        r'Pentaklorfenol': ('CP_PCP', 'Pentaklorfenol', 'mg/kg'),
-        
-        # CHLOROBENZENES
-        r'Monoklorbensen': ('CB_MCB', 'Monoklorbensen', 'mg/kg'),
-        r'1,2-Diklorbensen': ('CB_1,2-DCB', '1,2-Diklorbensen', 'mg/kg'),
-        r'1,4-Diklorbensen': ('CB_1,4-DCB', '1,4-Diklorbensen', 'mg/kg'),
-        r'1,2,3-Triklorbensen': ('CB_1,2,3-TCB', '1,2,3-Triklorbensen', 'mg/kg'),
-        r'1,2,4-Triklorbensen': ('CB_1,2,4-TCB', '1,2,4-Triklorbensen', 'mg/kg'),
-        r'1,3,5-Triklorbensen': ('CB_1,3,5-TCB', '1,3,5-Triklorbensen', 'mg/kg'),
-        r'1,2,3,5\+1,2,4,5-Tetraklorbensen': ('CB_TeCB', '1,2,3,5+1,2,4,5-Tetraklorbensen', 'mg/kg'),
-        r'Pentaklorbensen': ('CB_PeCB', 'Pentaklorbensen', 'mg/kg'),
-        r'Heksaklorbensen': ('CB_HCB', 'Heksaklorbensen', 'mg/kg'),
-        
-        # CHLORINATED SOLVENTS
-        r'Diklormetana?(?!\s*\()': ('VOC_DCM', 'Diklormetana', 'mg/kg'),
-        r'Triklormetan\s*\(kloroform\)': ('VOC_Chloroform', 'Triklormetan (kloroform)', 'mg/kg'),
-        r'Trikloreten': ('VOC_TCE', 'Trikloreten', 'mg/kg'),
-        r'Tetraklormetana?': ('VOC_CCl4', 'Tetraklormetana', 'mg/kg'),
-        r'Tetrakloreten': ('VOC_PCE', 'Tetrakloreten', 'mg/kg'),
-        r'1,2-Dikloretan': ('VOC_1,2-DCA', '1,2-Dikloretan', 'mg/kg'),
-        r'1,1,1-Trikloretan': ('VOC_1,1,1-TCA', '1,1,1-Trikloretan', 'mg/kg'),
-        r'1,2-Dibrometan': ('VOC_EDB', '1,2-Dibrometan', 'mg/kg'),
-        r'1,1,2-Trikloretan': ('VOC_1,1,2-TCA', '1,1,2-Trikloretan', 'mg/kg'),
-        
-        # PESTICIDES
-        r'g-HCH\s*\(Lindan\)': ('PEST_Lindane', 'g-HCH (Lindan)', 'mg/kg'),
-        r"o,p'-DDT": ('PEST_op-DDT', "o,p'-DDT", 'mg/kg'),
-        r"p,p'-DDT": ('PEST_pp-DDT', "p,p'-DDT", 'mg/kg'),
-        r"o,p'-DDD": ('PEST_op-DDD', "o,p'-DDD", 'mg/kg'),
-        r"p,p'-DDD": ('PEST_pp-DDD', "p,p'-DDD", 'mg/kg'),
-        r"o,p'-DDE": ('PEST_op-DDE', "o,p'-DDE", 'mg/kg'),
-        r"p,p'-DDE": ('PEST_pp-DDE', "p,p'-DDE", 'mg/kg'),
-    }
-    
-    # =========================================================================
-    # LINE-BY-LINE PARSING
+    # LINE-BY-LINE PARSING using shared ALS_THC_PDF_MAP
     # Match: ParamName <value> [uncertainty] unit
     # =========================================================================
     
     # Generic value pattern: captures value (with optional <) and optional uncertainty
     value_pattern = r'\s+([<n][\d.,n\.d]+|[\d.,]+)\s+(?:(\d+[.,]?\d*)\s+)?(mg/kgTS|mg/kg\s*TS|%)'
     
-    for param_regex, (param_code, param_raw, expected_unit) in PARAM_MAP.items():
+    for param_regex, (param_code, param_raw, expected_unit) in ALS_THC_PDF_MAP.items():
         if param_code in found_params:
             continue
             
@@ -370,6 +252,7 @@ def build_result(sample_id: str, param_code: str, param_raw: str,
         'uncertainty': uncertainty,
         'below_limit': below_limit,
         'loq': loq,
+        'analysis_type': 'totalanalyse',
     }
 
 
@@ -787,6 +670,7 @@ def extract():
             'sample_type': s['sample_type'],
             'lab_reference': s['lab_reference'],
             'sampler': 'SVV Region Sør',
+            'remark': s.get('remark', ''),
         })
     
     samples_df = pd.DataFrame(samples_data)
@@ -804,7 +688,7 @@ def extract():
     if results:
         results_df = pd.DataFrame(results)
         results_df = results_df[['sample_id', 'parameter', 'parameter_raw', 'value', 
-                                  'unit', 'uncertainty', 'below_limit', 'loq']]
+                                  'unit', 'uncertainty', 'below_limit', 'loq', 'analysis_type']]
         save_to_csv(results_df, OUTPUT_DIR / 'p09_results.csv')
         print(f"  Saved: p09_results.csv ({len(results_df)} results)")
         
@@ -886,21 +770,25 @@ def extract():
     save_to_csv(summary_df, OUTPUT_DIR / 'p09_extraction_summary.csv')
     
     # ============================================================
-    # GENERATE QA WORKBOOK (only if not exists to avoid overwriting notes)
+    # GENERATE QA WORKBOOK (rename existing with timestamp to preserve notes)
     # ============================================================
     qa_workbook_path = OUTPUT_DIR / 'p09_QA_workbook.xlsx'
     if qa_workbook_path.exists():
-        print(f"  SKIPPED: p09_QA_workbook.xlsx already exists (preserving manual notes)")
-    else:
-        create_qa_workbook(
-            qa_workbook_path,
-            summary,
-            samples_df,
-            results_df if len(results) > 0 else pd.DataFrame(),
-            class_df,
-            dec_df
-        )
-        print(f"  Saved: p09_QA_workbook.xlsx (for manual QA documentation)")
+        # Rename existing file with timestamp to preserve manual notes
+        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+        backup_path = OUTPUT_DIR / f'p09_QA_workbook_{timestamp}.xlsx'
+        qa_workbook_path.rename(backup_path)
+        print(f"  Renamed existing QA workbook to: p09_QA_workbook_{timestamp}.xlsx")
+    
+    create_qa_workbook(
+        qa_workbook_path,
+        summary,
+        samples_df,
+        results_df if len(results) > 0 else pd.DataFrame(),
+        class_df,
+        dec_df
+    )
+    print(f"  Saved: p09_QA_workbook.xlsx (for manual QA documentation)")
     
     # ============================================================
     # FINAL REPORT

@@ -1,0 +1,50 @@
+﻿sample_id,tilstandsklasse,limiting_parameters,classification_basis
+p02-Bunnrensk-Høviktoppen-c-05m,3.0,"Benzene, Ni",TA-2553/2009
+p02-Bunnrensk-Høviktoppen-c-15-2m,3.0,Benzene,TA-2553/2009
+p02-Blandeprøve-pel-9260-9110,5.0,Benzene,TA-2553/2009
+p02-Bunnrensk-Høviktoppen-a-0m,3.0,Benzene,TA-2553/2009
+p02-Bunnrensk-Høviktoppen-a-05m,2.0,"As, Benzene, Cr, Ni",TA-2553/2009
+p02-Bunnrensk-Høviktoppen-b-0m,3.0,"Benzene, Ni",TA-2553/2009
+p02-Bunnrensk-Høviktoppen-b-05m,4.0,Benzene,TA-2553/2009
+p02-Bunnrensk-Høviktoppen-c-0m,3.0,Benzene,TA-2553/2009
+p02-Blandeprøve-pel-9510---9310,5.0,Benzene,TA-2553/2009
+p02-Blandeprøve-pel-9760---9560,5.0,Benzene,TA-2553/2009
+p02-Bunnrenskprøve-pel-10010---9810,4.0,Benzene,TA-2553/2009
+p02-Bunnrenskprøve-pel-9960,5.0,Benzene,TA-2553/2009
+p02-Bunnrenskprøve-pel-9910,4.0,Benzene,TA-2553/2009
+p02-Bunnrenskprøve-pel-9860,3.0,Benzene,TA-2553/2009
+p02-Bunnrenskprøve-pel-9810,4.0,Benzene,TA-2553/2009
+p02-Blandeprøve-pel-10010---9810,5.0,Benzene,TA-2553/2009
+p02-Siste-utlekkingsprøve-Høviktoppen-pel-8760,5.0,Benzene,TA-2553/2009
+p02-Bunnrensk-pel-8760-dag-4,5.0,Benzene,TA-2553/2009
+p02-Bunnrensk-fra-Høviktoppen-dag-4,3.0,Benzene,TA-2553/2009
+p02-Bunnrensk-pel-8760-dag-3,1.0,"Alifater_C10-C12, Alifater_C12-C35_sum, Alifater_C8-C10, Benzene",TA-2553/2009
+p02-Bunnrensk-pel-8760-Ved-utkjøring,2.0,Benzene,TA-2553/2009
+p02-Grøfteslam,3.0,Benzene,TA-2553/2009
+p02-Bunnrensk-pel-8760-etter-utkjøring,3.0,Benzene,TA-2553/2009
+p02-Bunnrensk-Høviktoppen,3.0,Benzene,TA-2553/2009
+p02-Bunnrensk-prøver-som-sjekkes-for-Benzen,3.0,Benzene,TA-2553/2009
+p02-Bunnrenskprøve-8760,5.0,Benzene,TA-2553/2009
+p02-Bunnrenskprøver-8710,4.0,Benzene,TA-2553/2009
+p02-Bunnrenskprøver-8660,3.0,Benzene,TA-2553/2009
+p02-Bunnrenskprøver-8610,5.0,Benzene,TA-2553/2009
+p02-Bunnrenskprøver-8560,4.0,Benzene,TA-2553/2009
+p02-Pel-8760---8560,5.0,Benzene,TA-2553/2009
+p02-Bunnrensk-8760,5.0,Benzene,TA-2553/2009
+p02-Bunnrensk-8810,3.0,Benzene,TA-2553/2009
+p02-Bunnrensk-8860,3.0,Benzene,TA-2553/2009
+p02-Bunnrensk-8910,3.0,Benzene,TA-2553/2009
+p02-Bunnrensk-8960,3.0,Benzene,TA-2553/2009
+p02-Blandeprøve-bunnrensk-8960-8760,4.0,Benzene,TA-2553/2009
+p02-Grøftekant-9010,3.0,Benzene,TA-2553/2009
+p02-Bunnrensk-9010,2.0,Ni,TA-2553/2009
+p02-BRMØ1,5.0,Benzene,TA-2553/2009
+p02-BRMØ1-ristetest,1.0,"As, Cd, Cr, Cu, Hg, Ni, Pb, Zn",TA-2553/2009
+p02-BRMØ1-kolonnetest,1.0,"As, Cd, Cr, Cu, Hg, Ni, Pb, Zn",TA-2553/2009
+p02-PEL-9960,5.0,Benzene,TA-2553/2009
+p02-PEL-8981,5.0,Benzene,TA-2553/2009
+p02-PEL-9960-Ristetest,1.0,"As, Cd, Cr, Cu, Hg, Ni, Pb, Zn",TA-2553/2009
+p02-PEL-8981-Ristetest,1.0,"As, Cd, Cr, Cu, Hg, Ni, Pb, Zn",TA-2553/2009
+p02-PEL-9960-Kolonnetest,1.0,"As, Cd, Cr, Cu, Hg, Ni, Pb, Zn",TA-2553/2009
+p02-PEL-8981-Kolonnetest,1.0,"As, Cd, Cr, Cu, Hg, Ni, Pb, Zn",TA-2553/2009
+p02-Sprengstein-Pel-9160,5.0,Benzene,TA-2553/2009
