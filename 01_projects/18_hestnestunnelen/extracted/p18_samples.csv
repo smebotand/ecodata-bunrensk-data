@@ -1,117 +1,117 @@
 ﻿sample_id,project_code,sample_date,location_type,profile_start,profile_end,tunnel_name,sample_type,lab_reference,sampler
-p18-HL-93930-93960,18_hestnestunnelen,,Hovedløp,93930.0,93960.0,Hestnestunnelen,bunnrensk,439-2024-08230551,Veidekke
-p18-HL-93960-93990,18_hestnestunnelen,,Hovedløp,93960.0,93990.0,Hestnestunnelen,bunnrensk,439-2024-08230552,Veidekke
-p18-HL-93980-94030,18_hestnestunnelen,,Hovedløp,93980.0,94030.0,Hestnestunnelen,bunnrensk,439-2023-08250227,Veidekke
-p18-HL-94030-94080,18_hestnestunnelen,,Hovedløp,94030.0,94080.0,Hestnestunnelen,bunnrensk,439-2023-08250228,Veidekke
-p18-HL-94080-94130,18_hestnestunnelen,,Hovedløp,94080.0,94130.0,Hestnestunnelen,bunnrensk,439-2023-08250229,Veidekke
-p18-HL-94180-94230,18_hestnestunnelen,,Hovedløp,94180.0,94230.0,Hestnestunnelen,bunnrensk,439-2024-06060671,Veidekke
-p18-HL-94230-94280,18_hestnestunnelen,,Hovedløp,94230.0,94280.0,Hestnestunnelen,bunnrensk,439-2024-06060672,Veidekke
-p18-HL-94280-94330,18_hestnestunnelen,,Hovedløp,94280.0,94330.0,Hestnestunnelen,bunnrensk,439-2024-06060673,Veidekke
-p18-HL-94330-94380,18_hestnestunnelen,,Hovedløp,94330.0,94380.0,Hestnestunnelen,bunnrensk,439-2024-06060674,Veidekke
-p18-HL-94380-94430,18_hestnestunnelen,,Hovedløp,94380.0,94430.0,Hestnestunnelen,bunnrensk,439-2024-06060675,Veidekke
-p18-HL-94430-94480,18_hestnestunnelen,,Hovedløp,94430.0,94480.0,Hestnestunnelen,bunnrensk,439-2024-06060676,Veidekke
-p18-HL-94480-94530,18_hestnestunnelen,,Hovedløp,94480.0,94530.0,Hestnestunnelen,bunnrensk,439-2024-06060677,Veidekke
-p18-HL-94530-94580,18_hestnestunnelen,,Hovedløp,94530.0,94580.0,Hestnestunnelen,bunnrensk,439-2024-06060678,Veidekke
-p18-HL-94580-94630,18_hestnestunnelen,,Hovedløp,94580.0,94630.0,Hestnestunnelen,bunnrensk,439-2024-06060681,Veidekke
-p18-HL-94630-94680,18_hestnestunnelen,,Hovedløp,94630.0,94680.0,Hestnestunnelen,bunnrensk,439-2024-06060682,Veidekke
-p18-HL-94680-94730,18_hestnestunnelen,,Hovedløp,94680.0,94730.0,Hestnestunnelen,bunnrensk,439-2024-06060683,Veidekke
-p18-HL-94730-94780,18_hestnestunnelen,,Hovedløp,94730.0,94780.0,Hestnestunnelen,bunnrensk,439-2024-06060684,Veidekke
-p18-HL-94780-94830,18_hestnestunnelen,,Hovedløp,94780.0,94830.0,Hestnestunnelen,bunnrensk,439-2024-06060686,Veidekke
-p18-HL-94830-94855,18_hestnestunnelen,,Hovedløp,94830.0,94855.0,Hestnestunnelen,bunnrensk,439-2024-10170537,Veidekke
-p18-HL-94855-94880,18_hestnestunnelen,,Hovedløp,94855.0,94880.0,Hestnestunnelen,bunnrensk,439-2024-10170538,Veidekke
-p18-HL-94880-94905,18_hestnestunnelen,,Hovedløp,94880.0,94905.0,Hestnestunnelen,bunnrensk,439-2024-10170538,Veidekke
-p18-HL-94905-94930,18_hestnestunnelen,,Hovedløp,99490.0,94930.0,Hestnestunnelen,bunnrensk,439-2024-10170540,Veidekke
-p18-HL-94930-94955,18_hestnestunnelen,,Hovedløp,94930.0,94955.0,Hestnestunnelen,bunnrensk,439-2024-10170541,Veidekke
-p18-HL-94955-94980,18_hestnestunnelen,,Hovedløp,94955.0,94980.0,Hestnestunnelen,bunnrensk,439-2024-10170542,Veidekke
-p18-HL-94980-95005,18_hestnestunnelen,,Hovedløp,94980.0,95005.0,Hestnestunnelen,bunnrensk,439-2024-10170543,Veidekke
-p18-HL-95005-95030,18_hestnestunnelen,,Hovedløp,9505.0,95030.0,Hestnestunnelen,bunnrensk,439-2024-10170545,Veidekke
-p18-HL-95030-95055,18_hestnestunnelen,,Hovedløp,95030.0,95055.0,Hestnestunnelen,bunnrensk,439-2024-10170547,Veidekke
-p18-HL-95055-95080,18_hestnestunnelen,,Hovedløp,95055.0,95080.0,Hestnestunnelen,bunnrensk,439-2024-10170548,Veidekke
-p18-HL-95080-95105,18_hestnestunnelen,,Hovedløp,95080.0,95105.0,Hestnestunnelen,bunnrensk,439-2024-10170552,Veidekke
-p18-HL-95105-95130,18_hestnestunnelen,,Hovedløp,95105.0,95130.0,Hestnestunnelen,bunnrensk,439-2024-10170555,Veidekke
-p18-HL-95130-95155,18_hestnestunnelen,,Hovedløp,95130.0,95155.0,Hestnestunnelen,bunnrensk,439-2024-10170556,Veidekke
-p18-HL-95155-95180,18_hestnestunnelen,,Hovedløp,95155.0,95180.0,Hestnestunnelen,bunnrensk,439-2024-10170561,Veidekke
-p18-HL-95180-95205,18_hestnestunnelen,,Hovedløp,95180.0,95205.0,Hestnestunnelen,bunnrensk,439-2024-10170565,Veidekke
-p18-HL-95205-95230,18_hestnestunnelen,,Hovedløp,95205.0,95230.0,Hestnestunnelen,bunnrensk,439-2024-10170566,Veidekke
-p18-HL-95230-95255,18_hestnestunnelen,,Hovedløp,95230.0,95255.0,Hestnestunnelen,bunnrensk,439-2024-10170567,Veidekke
-p18-HL-95255-95280,18_hestnestunnelen,,Hovedløp,95255.0,95280.0,Hestnestunnelen,bunnrensk,439-2024-10170569,Veidekke
-p18-HL-95280-95305,18_hestnestunnelen,,Hovedløp,95280.0,95305.0,Hestnestunnelen,bunnrensk,439-2024-10170570,Veidekke
-p18-HL-95305-95330,18_hestnestunnelen,,Hovedløp,95305.0,95330.0,Hestnestunnelen,bunnrensk,439-2024-10170571,Veidekke
-p18-HL-95330-95355,18_hestnestunnelen,,Hovedløp,95330.0,95355.0,Hestnestunnelen,bunnrensk,439-2024-10170572,Veidekke
-p18-HL-95355-95380,18_hestnestunnelen,,Hovedløp,95355.0,95380.0,Hestnestunnelen,bunnrensk,439-2024-10170573,Veidekke
-p18-HL-95380-95405,18_hestnestunnelen,,Hovedløp,95380.0,95405.0,Hestnestunnelen,bunnrensk,439-2024-10170574,Veidekke
-p18-HL-95405-95430,18_hestnestunnelen,,Hovedløp,95405.0,95430.0,Hestnestunnelen,bunnrensk,439-2024-10170575,Veidekke
-p18-HL-95430-95455,18_hestnestunnelen,,Hovedløp,95430.0,95455.0,Hestnestunnelen,bunnrensk,439-2024-10170576,Veidekke
-p18-HL-95455-95480,18_hestnestunnelen,,Hovedløp,95455.0,95480.0,Hestnestunnelen,bunnrensk,439-2024-10170577,Veidekke
-p18-HL-95480-95505,18_hestnestunnelen,,Hovedløp,95480.0,95505.0,Hestnestunnelen,bunnrensk,439-2024-10170578,Veidekke
-p18-HL-95505-95530,18_hestnestunnelen,,Hovedløp,95505.0,95530.0,Hestnestunnelen,bunnrensk,439-2024-10170579,Veidekke
-p18-HL-95530-95555,18_hestnestunnelen,,Hovedløp,95530.0,95555.0,Hestnestunnelen,bunnrensk,439-2024-10170580,Veidekke
-p18-HL-95555-95580,18_hestnestunnelen,,Hovedløp,95555.0,95580.0,Hestnestunnelen,bunnrensk,439-2024-10170581,Veidekke
-p18-HL-95580-95605,18_hestnestunnelen,,Hovedløp,95580.0,95580.0,Hestnestunnelen,bunnrensk,439-2024-10170583,Veidekke
-p18-HL-95605-95630,18_hestnestunnelen,,Hovedløp,95605.0,95630.0,Hestnestunnelen,bunnrensk,439-2024-10170585,Veidekke
-p18-HL-95630-95655,18_hestnestunnelen,,Hovedløp,95630.0,95655.0,Hestnestunnelen,bunnrensk,439-2024-10170586,Veidekke
-p18-HL-95655-95680,18_hestnestunnelen,,Hovedløp,95655.0,95680.0,Hestnestunnelen,bunnrensk,439-2024-10170587,Veidekke
-p18-HL-95680-95705,18_hestnestunnelen,,Hovedløp,95680.0,95705.0,Hestnestunnelen,bunnrensk,439-2024-10170589,Veidekke
-p18-HL-95705-95730,18_hestnestunnelen,,Hovedløp,95705.0,95730.0,Hestnestunnelen,bunnrensk,439-2024-10170590,Veidekke
-p18-HL-95730-95755,18_hestnestunnelen,,Hovedløp,95730.0,95755.0,Hestnestunnelen,bunnrensk,439-2024-10170591,Veidekke
-p18-HL-95755-95780,18_hestnestunnelen,,Hovedløp,95755.0,95780.0,Hestnestunnelen,bunnrensk,439-2024-10170592,Veidekke
-p18-HL-95780-95805,18_hestnestunnelen,,Hovedløp,95780.0,95805.0,Hestnestunnelen,bunnrensk,439-2024-10170593,Veidekke
-p18-HL-95805-95830,18_hestnestunnelen,,Hovedløp,95805.0,95830.0,Hestnestunnelen,bunnrensk,439-2024-10170594,Veidekke
-p18-HL-95830-95855,18_hestnestunnelen,,Hovedløp,95830.0,95855.0,Hestnestunnelen,bunnrensk,439-2024-10170595,Veidekke
-p18-HL-95855-95880,18_hestnestunnelen,,Hovedløp,95855.0,95880.0,Hestnestunnelen,bunnrensk,439-2024-10170596,Veidekke
-p18-HL-95880-95905,18_hestnestunnelen,,Hovedløp,95880.0,95905.0,Hestnestunnelen,bunnrensk,439-2024-12050693,Veidekke
-p18-HL-95905-95930,18_hestnestunnelen,,Hovedløp,95905.0,95930.0,Hestnestunnelen,bunnrensk,439-2024-12050694,Veidekke
-p18-HL-95930-95955,18_hestnestunnelen,,Hovedløp,95930.0,95955.0,Hestnestunnelen,bunnrensk,439-2024-12050695,Veidekke
-p18-HL-95955-95980,18_hestnestunnelen,,Hovedløp,95955.0,95980.0,Hestnestunnelen,bunnrensk,439-2024-12050696,Veidekke
-p18-HL-95980-96005,18_hestnestunnelen,,Hovedløp,95980.0,96005.0,Hestnestunnelen,bunnrensk,439-2024-12050697,Veidekke
-p18-HL-96005-96030,18_hestnestunnelen,,Hovedløp,96005.0,96030.0,Hestnestunnelen,bunnrensk,439-2024-12050698,Veidekke
-p18-HL-96030-96055,18_hestnestunnelen,,Hovedløp,96030.0,96055.0,Hestnestunnelen,bunnrensk,439-2024-12050699,Veidekke
-p18-HL-96055-96080,18_hestnestunnelen,,Hovedløp,96055.0,96080.0,Hestnestunnelen,bunnrensk,439-2024-12050700,Veidekke
-p18-HL-96080-96105,18_hestnestunnelen,,Hovedløp,96080.0,96105.0,Hestnestunnelen,bunnrensk,439-2024-12050701,Veidekke
-p18-HL-96105-96130,18_hestnestunnelen,,Hovedløp,96105.0,96130.0,Hestnestunnelen,bunnrensk,439-2024-12050707,Veidekke
-p18-HL-96130-96155,18_hestnestunnelen,,Hovedløp,96130.0,96155.0,Hestnestunnelen,bunnrensk,439-2024-12050708,Veidekke
-p18-HL-96155-96180,18_hestnestunnelen,,Hovedløp,96155.0,96180.0,Hestnestunnelen,bunnrensk,439-2024-12050709,Veidekke
-p18-HL-96180-96205,18_hestnestunnelen,,Hovedløp,96180.0,96205.0,Hestnestunnelen,bunnrensk,439-2024-12050710,Veidekke
-p18-HL-96205-96230,18_hestnestunnelen,,Hovedløp,96205.0,96230.0,Hestnestunnelen,bunnrensk,439-2024-12050711,Veidekke
-p18-HL-96230-96255,18_hestnestunnelen,,Hovedløp,96230.0,96255.0,Hestnestunnelen,bunnrensk,439-2024-12050712,Veidekke
-p18-HL-96255-96280,18_hestnestunnelen,,Hovedløp,96255.0,96280.0,Hestnestunnelen,bunnrensk,439-2024-12050713,Veidekke
-p18-HL-96280-96305,18_hestnestunnelen,,Hovedløp,96280.0,96305.0,Hestnestunnelen,bunnrensk,439-2024-12050714,Veidekke
-p18-HL-96305-96330,18_hestnestunnelen,,Hovedløp,96305.0,96330.0,Hestnestunnelen,bunnrensk,439-2024-12050715,Veidekke
-p18-HL-96330-96355,18_hestnestunnelen,,Hovedløp,96330.0,96355.0,Hestnestunnelen,bunnrensk,439-2024-12050725,Veidekke
-p18-HL-96355-96380,18_hestnestunnelen,,Hovedløp,96355.0,96380.0,Hestnestunnelen,bunnrensk,439-2024-12050717,Veidekke
-p18-HL-96380-96405,18_hestnestunnelen,,Hovedløp,96380.0,96405.0,Hestnestunnelen,bunnrensk,439-2024-12050718,Veidekke
-p18-HL-96405-96430,18_hestnestunnelen,,Hovedløp,96405.0,96430.0,Hestnestunnelen,bunnrensk,439-2024-12050719,Veidekke
-p18-HL-96430-96455,18_hestnestunnelen,,Hovedløp,96430.0,96455.0,Hestnestunnelen,bunnrensk,439-2024-12050720,Veidekke
-p18-HL-96455-96480,18_hestnestunnelen,,Hovedløp,96455.0,96480.0,Hestnestunnelen,bunnrensk,439-2024-12050721,Veidekke
-p18-HL-96480-96505,18_hestnestunnelen,,Hovedløp,96480.0,96505.0,Hestnestunnelen,bunnrensk,439-2024-12050722,Veidekke
-p18-HL-96505-96530,18_hestnestunnelen,,Hovedløp,96505.0,96530.0,Hestnestunnelen,bunnrensk,439-2024-12050723,Veidekke
-p18-HL-96530-96555,18_hestnestunnelen,,Hovedløp,96530.0,96555.0,Hestnestunnelen,bunnrensk,439-2024-12050724,Veidekke
-p18-HL-96555-96580,18_hestnestunnelen,,Hovedløp,96555.0,96580.0,Hestnestunnelen,bunnrensk,439-2024-12050725,Veidekke
-p18-HL-96580-96605,18_hestnestunnelen,,Hovedløp,96580.0,96605.0,Hestnestunnelen,bunnrensk,439-2024-12050726,Veidekke
-p18-HL-96605-96630,18_hestnestunnelen,,Hovedløp,96605.0,96630.0,Hestnestunnelen,bunnrensk,439-2024-12050727,Veidekke
-p18-HL-96630-96655,18_hestnestunnelen,,Hovedløp,96630.0,96655.0,Hestnestunnelen,bunnrensk,439-2024-12050728,Veidekke
-p18-HL-96655-96680,18_hestnestunnelen,,Hovedløp,96655.0,96680.0,Hestnestunnelen,bunnrensk,439-2024-12050729,Veidekke
-p18-HL-96680-96705,18_hestnestunnelen,,Hovedløp,96680.0,96705.0,Hestnestunnelen,bunnrensk,439-2024-12050730,Veidekke
-p18-HL-96705-96730,18_hestnestunnelen,,Hovedløp,96705.0,96730.0,Hestnestunnelen,bunnrensk,439-2024-12050731,Veidekke
-p18-HL-96730-96755,18_hestnestunnelen,,Hovedløp,96730.0,96755.0,Hestnestunnelen,bunnrensk,439-2024-12050732,Veidekke
-p18-HL-96755-96780,18_hestnestunnelen,,Hovedløp,96755.0,96780.0,Hestnestunnelen,bunnrensk,439-2024-12050733,Veidekke
-p18-HL-96780-96805,18_hestnestunnelen,,Hovedløp,96780.0,96805.0,Hestnestunnelen,bunnrensk,439-2024-12050734,Veidekke
-p18-HL-96805-96830,18_hestnestunnelen,,Hovedløp,96805.0,96830.0,Hestnestunnelen,bunnrensk,439-2024-12050735,Veidekke
-p18-HL-96830-96855,18_hestnestunnelen,,Hovedløp,96830.0,96855.0,Hestnestunnelen,bunnrensk,439-2024-12050736,Veidekke
-p18-HL-96855-96880,18_hestnestunnelen,,Hovedløp,96855.0,96880.0,Hestnestunnelen,bunnrensk,439-2024-12050737,Veidekke
-p18-TVN-1180-1230,18_hestnestunnelen,,Tverrslag Nord,1180.0,1230.0,Hestnestunnelen,bunnrensk,439-2025-02050673,Veidekke
-p18-TVN-1230-1280,18_hestnestunnelen,,Tverrslag Nord,1230.0,1280.0,Hestnestunnelen,bunnrensk,439-2025-02050674,Veidekke
-p18-TVN-1280-1330,18_hestnestunnelen,,Tverrslag Nord,1280.0,1330.0,Hestnestunnelen,bunnrensk,439-2025-02050676,Veidekke
-p18-TVN-1330-1380,18_hestnestunnelen,,Tverrslag Nord,1330.0,1380.0,Hestnestunnelen,bunnrensk,439-2025-02050677,Veidekke
-p18-TVN-1380-1430,18_hestnestunnelen,,Tverrslag Nord,1380.0,1430.0,Hestnestunnelen,bunnrensk,439-2025-02050678,Veidekke
-p18-TVN-1430-1480,18_hestnestunnelen,,Tverrslag Nord,1430.0,1480.0,Hestnestunnelen,bunnrensk,439-2025-02050679,Veidekke
-p18-TVN-1480-1520,18_hestnestunnelen,,Tverrslag Nord,1480.0,1520.0,Hestnestunnelen,bunnrensk,439-2025-02050680,Veidekke
-p18-TVN-1520-1555,18_hestnestunnelen,,Tverrslag Nord,1520.0,1555.0,Hestnestunnelen,bunnrensk,439-2025-02050681,Veidekke
-p18-RØ-2005-2055,18_hestnestunnelen,,Tverrslag Nord Rømning,2005.0,2055.0,Hestnestunnelen,bunnrensk,439-2025-02050682,Veidekke
-p18-RØ-2055-2105,18_hestnestunnelen,,Tverrslag Nord Rømning,2055.0,2105.0,Hestnestunnelen,bunnrensk,439-2025-02050683,Veidekke
-p18-TVS-110-150,18_hestnestunnelen,,Tverrslag Sør,110.0,150.0,Hestnestunnelen,bunnrensk,439-2025-02060440,Veidekke
-p18-TVS-150-200,18_hestnestunnelen,,Tverrslag Sør,150.0,200.0,Hestnestunnelen,bunnrensk,439-2025-02060441,Veidekke
-p18-TVS-200-250,18_hestnestunnelen,,Tverrslag Sør,200.0,250.0,Hestnestunnelen,bunnrensk,439-2025-02060442,Veidekke
-p18-TVS-250-300,18_hestnestunnelen,,Tverrslag Sør,250.0,300.0,Hestnestunnelen,bunnrensk,439-2025-02060443,Veidekke
-p18-TVS-300-350,18_hestnestunnelen,,Tverrslag Sør,300.0,350.0,Hestnestunnelen,bunnrensk,439-2025-02060444,Veidekke
-p18-TVS-350-400,18_hestnestunnelen,,Tverrslag Sør,350.0,400.0,Hestnestunnelen,bunnrensk,439-2025-02060445,Veidekke
+p18-HL-93930-93960,18_hestnestunnelen,,Hovedløp,93930.0,93960.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-08230551,Veidekke
+p18-HL-93960-93990,18_hestnestunnelen,,Hovedløp,93960.0,93990.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-08230552,Veidekke
+p18-HL-93980-94030,18_hestnestunnelen,,Hovedløp,93980.0,94030.0,Hestnestunnelen,blandprøve bunnrensk,439-2023-08250227,Veidekke
+p18-HL-94030-94080,18_hestnestunnelen,,Hovedløp,94030.0,94080.0,Hestnestunnelen,blandprøve bunnrensk,439-2023-08250228,Veidekke
+p18-HL-94080-94130,18_hestnestunnelen,,Hovedløp,94080.0,94130.0,Hestnestunnelen,blandprøve bunnrensk,439-2023-08250229,Veidekke
+p18-HL-94180-94230,18_hestnestunnelen,,Hovedløp,94180.0,94230.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-06060671,Veidekke
+p18-HL-94230-94280,18_hestnestunnelen,,Hovedløp,94230.0,94280.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-06060672,Veidekke
+p18-HL-94280-94330,18_hestnestunnelen,,Hovedløp,94280.0,94330.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-06060673,Veidekke
+p18-HL-94330-94380,18_hestnestunnelen,,Hovedløp,94330.0,94380.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-06060674,Veidekke
+p18-HL-94380-94430,18_hestnestunnelen,,Hovedløp,94380.0,94430.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-06060675,Veidekke
+p18-HL-94430-94480,18_hestnestunnelen,,Hovedløp,94430.0,94480.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-06060676,Veidekke
+p18-HL-94480-94530,18_hestnestunnelen,,Hovedløp,94480.0,94530.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-06060677,Veidekke
+p18-HL-94530-94580,18_hestnestunnelen,,Hovedløp,94530.0,94580.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-06060678,Veidekke
+p18-HL-94580-94630,18_hestnestunnelen,,Hovedløp,94580.0,94630.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-06060681,Veidekke
+p18-HL-94630-94680,18_hestnestunnelen,,Hovedløp,94630.0,94680.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-06060682,Veidekke
+p18-HL-94680-94730,18_hestnestunnelen,,Hovedløp,94680.0,94730.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-06060683,Veidekke
+p18-HL-94730-94780,18_hestnestunnelen,,Hovedløp,94730.0,94780.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-06060684,Veidekke
+p18-HL-94780-94830,18_hestnestunnelen,,Hovedløp,94780.0,94830.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-06060686,Veidekke
+p18-HL-94830-94855,18_hestnestunnelen,,Hovedløp,94830.0,94855.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170537,Veidekke
+p18-HL-94855-94880,18_hestnestunnelen,,Hovedløp,94855.0,94880.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170538,Veidekke
+p18-HL-94880-94905,18_hestnestunnelen,,Hovedløp,94880.0,94905.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170538,Veidekke
+p18-HL-94905-94930,18_hestnestunnelen,,Hovedløp,99490.0,94930.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170540,Veidekke
+p18-HL-94930-94955,18_hestnestunnelen,,Hovedløp,94930.0,94955.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170541,Veidekke
+p18-HL-94955-94980,18_hestnestunnelen,,Hovedløp,94955.0,94980.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170542,Veidekke
+p18-HL-94980-95005,18_hestnestunnelen,,Hovedløp,94980.0,95005.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170543,Veidekke
+p18-HL-95005-95030,18_hestnestunnelen,,Hovedløp,9505.0,95030.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170545,Veidekke
+p18-HL-95030-95055,18_hestnestunnelen,,Hovedløp,95030.0,95055.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170547,Veidekke
+p18-HL-95055-95080,18_hestnestunnelen,,Hovedløp,95055.0,95080.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170548,Veidekke
+p18-HL-95080-95105,18_hestnestunnelen,,Hovedløp,95080.0,95105.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170552,Veidekke
+p18-HL-95105-95130,18_hestnestunnelen,,Hovedløp,95105.0,95130.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170555,Veidekke
+p18-HL-95130-95155,18_hestnestunnelen,,Hovedløp,95130.0,95155.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170556,Veidekke
+p18-HL-95155-95180,18_hestnestunnelen,,Hovedløp,95155.0,95180.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170561,Veidekke
+p18-HL-95180-95205,18_hestnestunnelen,,Hovedløp,95180.0,95205.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170565,Veidekke
+p18-HL-95205-95230,18_hestnestunnelen,,Hovedløp,95205.0,95230.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170566,Veidekke
+p18-HL-95230-95255,18_hestnestunnelen,,Hovedløp,95230.0,95255.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170567,Veidekke
+p18-HL-95255-95280,18_hestnestunnelen,,Hovedløp,95255.0,95280.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170569,Veidekke
+p18-HL-95280-95305,18_hestnestunnelen,,Hovedløp,95280.0,95305.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170570,Veidekke
+p18-HL-95305-95330,18_hestnestunnelen,,Hovedløp,95305.0,95330.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170571,Veidekke
+p18-HL-95330-95355,18_hestnestunnelen,,Hovedløp,95330.0,95355.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170572,Veidekke
+p18-HL-95355-95380,18_hestnestunnelen,,Hovedløp,95355.0,95380.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170573,Veidekke
+p18-HL-95380-95405,18_hestnestunnelen,,Hovedløp,95380.0,95405.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170574,Veidekke
+p18-HL-95405-95430,18_hestnestunnelen,,Hovedløp,95405.0,95430.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170575,Veidekke
+p18-HL-95430-95455,18_hestnestunnelen,,Hovedløp,95430.0,95455.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170576,Veidekke
+p18-HL-95455-95480,18_hestnestunnelen,,Hovedløp,95455.0,95480.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170577,Veidekke
+p18-HL-95480-95505,18_hestnestunnelen,,Hovedløp,95480.0,95505.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170578,Veidekke
+p18-HL-95505-95530,18_hestnestunnelen,,Hovedløp,95505.0,95530.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170579,Veidekke
+p18-HL-95530-95555,18_hestnestunnelen,,Hovedløp,95530.0,95555.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170580,Veidekke
+p18-HL-95555-95580,18_hestnestunnelen,,Hovedløp,95555.0,95580.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170581,Veidekke
+p18-HL-95580-95605,18_hestnestunnelen,,Hovedløp,95580.0,95580.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170583,Veidekke
+p18-HL-95605-95630,18_hestnestunnelen,,Hovedløp,95605.0,95630.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170585,Veidekke
+p18-HL-95630-95655,18_hestnestunnelen,,Hovedløp,95630.0,95655.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170586,Veidekke
+p18-HL-95655-95680,18_hestnestunnelen,,Hovedløp,95655.0,95680.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170587,Veidekke
+p18-HL-95680-95705,18_hestnestunnelen,,Hovedløp,95680.0,95705.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170589,Veidekke
+p18-HL-95705-95730,18_hestnestunnelen,,Hovedløp,95705.0,95730.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170590,Veidekke
+p18-HL-95730-95755,18_hestnestunnelen,,Hovedløp,95730.0,95755.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170591,Veidekke
+p18-HL-95755-95780,18_hestnestunnelen,,Hovedløp,95755.0,95780.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170592,Veidekke
+p18-HL-95780-95805,18_hestnestunnelen,,Hovedløp,95780.0,95805.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170593,Veidekke
+p18-HL-95805-95830,18_hestnestunnelen,,Hovedløp,95805.0,95830.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170594,Veidekke
+p18-HL-95830-95855,18_hestnestunnelen,,Hovedløp,95830.0,95855.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170595,Veidekke
+p18-HL-95855-95880,18_hestnestunnelen,,Hovedløp,95855.0,95880.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-10170596,Veidekke
+p18-HL-95880-95905,18_hestnestunnelen,,Hovedløp,95880.0,95905.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050693,Veidekke
+p18-HL-95905-95930,18_hestnestunnelen,,Hovedløp,95905.0,95930.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050694,Veidekke
+p18-HL-95930-95955,18_hestnestunnelen,,Hovedløp,95930.0,95955.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050695,Veidekke
+p18-HL-95955-95980,18_hestnestunnelen,,Hovedløp,95955.0,95980.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050696,Veidekke
+p18-HL-95980-96005,18_hestnestunnelen,,Hovedløp,95980.0,96005.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050697,Veidekke
+p18-HL-96005-96030,18_hestnestunnelen,,Hovedløp,96005.0,96030.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050698,Veidekke
+p18-HL-96030-96055,18_hestnestunnelen,,Hovedløp,96030.0,96055.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050699,Veidekke
+p18-HL-96055-96080,18_hestnestunnelen,,Hovedløp,96055.0,96080.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050700,Veidekke
+p18-HL-96080-96105,18_hestnestunnelen,,Hovedløp,96080.0,96105.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050701,Veidekke
+p18-HL-96105-96130,18_hestnestunnelen,,Hovedløp,96105.0,96130.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050707,Veidekke
+p18-HL-96130-96155,18_hestnestunnelen,,Hovedløp,96130.0,96155.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050708,Veidekke
+p18-HL-96155-96180,18_hestnestunnelen,,Hovedløp,96155.0,96180.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050709,Veidekke
+p18-HL-96180-96205,18_hestnestunnelen,,Hovedløp,96180.0,96205.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050710,Veidekke
+p18-HL-96205-96230,18_hestnestunnelen,,Hovedløp,96205.0,96230.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050711,Veidekke
+p18-HL-96230-96255,18_hestnestunnelen,,Hovedløp,96230.0,96255.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050712,Veidekke
+p18-HL-96255-96280,18_hestnestunnelen,,Hovedløp,96255.0,96280.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050713,Veidekke
+p18-HL-96280-96305,18_hestnestunnelen,,Hovedløp,96280.0,96305.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050714,Veidekke
+p18-HL-96305-96330,18_hestnestunnelen,,Hovedløp,96305.0,96330.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050715,Veidekke
+p18-HL-96330-96355,18_hestnestunnelen,,Hovedløp,96330.0,96355.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050725,Veidekke
+p18-HL-96355-96380,18_hestnestunnelen,,Hovedløp,96355.0,96380.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050717,Veidekke
+p18-HL-96380-96405,18_hestnestunnelen,,Hovedløp,96380.0,96405.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050718,Veidekke
+p18-HL-96405-96430,18_hestnestunnelen,,Hovedløp,96405.0,96430.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050719,Veidekke
+p18-HL-96430-96455,18_hestnestunnelen,,Hovedløp,96430.0,96455.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050720,Veidekke
+p18-HL-96455-96480,18_hestnestunnelen,,Hovedløp,96455.0,96480.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050721,Veidekke
+p18-HL-96480-96505,18_hestnestunnelen,,Hovedløp,96480.0,96505.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050722,Veidekke
+p18-HL-96505-96530,18_hestnestunnelen,,Hovedløp,96505.0,96530.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050723,Veidekke
+p18-HL-96530-96555,18_hestnestunnelen,,Hovedløp,96530.0,96555.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050724,Veidekke
+p18-HL-96555-96580,18_hestnestunnelen,,Hovedløp,96555.0,96580.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050725,Veidekke
+p18-HL-96580-96605,18_hestnestunnelen,,Hovedløp,96580.0,96605.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050726,Veidekke
+p18-HL-96605-96630,18_hestnestunnelen,,Hovedløp,96605.0,96630.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050727,Veidekke
+p18-HL-96630-96655,18_hestnestunnelen,,Hovedløp,96630.0,96655.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050728,Veidekke
+p18-HL-96655-96680,18_hestnestunnelen,,Hovedløp,96655.0,96680.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050729,Veidekke
+p18-HL-96680-96705,18_hestnestunnelen,,Hovedløp,96680.0,96705.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050730,Veidekke
+p18-HL-96705-96730,18_hestnestunnelen,,Hovedløp,96705.0,96730.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050731,Veidekke
+p18-HL-96730-96755,18_hestnestunnelen,,Hovedløp,96730.0,96755.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050732,Veidekke
+p18-HL-96755-96780,18_hestnestunnelen,,Hovedløp,96755.0,96780.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050733,Veidekke
+p18-HL-96780-96805,18_hestnestunnelen,,Hovedløp,96780.0,96805.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050734,Veidekke
+p18-HL-96805-96830,18_hestnestunnelen,,Hovedløp,96805.0,96830.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050735,Veidekke
+p18-HL-96830-96855,18_hestnestunnelen,,Hovedløp,96830.0,96855.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050736,Veidekke
+p18-HL-96855-96880,18_hestnestunnelen,,Hovedløp,96855.0,96880.0,Hestnestunnelen,blandprøve bunnrensk,439-2024-12050737,Veidekke
+p18-TVN-1180-1230,18_hestnestunnelen,,Tverrslag Nord,1180.0,1230.0,Hestnestunnelen,blandprøve bunnrensk,439-2025-02050673,Veidekke
+p18-TVN-1230-1280,18_hestnestunnelen,,Tverrslag Nord,1230.0,1280.0,Hestnestunnelen,blandprøve bunnrensk,439-2025-02050674,Veidekke
+p18-TVN-1280-1330,18_hestnestunnelen,,Tverrslag Nord,1280.0,1330.0,Hestnestunnelen,blandprøve bunnrensk,439-2025-02050676,Veidekke
+p18-TVN-1330-1380,18_hestnestunnelen,,Tverrslag Nord,1330.0,1380.0,Hestnestunnelen,blandprøve bunnrensk,439-2025-02050677,Veidekke
+p18-TVN-1380-1430,18_hestnestunnelen,,Tverrslag Nord,1380.0,1430.0,Hestnestunnelen,blandprøve bunnrensk,439-2025-02050678,Veidekke
+p18-TVN-1430-1480,18_hestnestunnelen,,Tverrslag Nord,1430.0,1480.0,Hestnestunnelen,blandprøve bunnrensk,439-2025-02050679,Veidekke
+p18-TVN-1480-1520,18_hestnestunnelen,,Tverrslag Nord,1480.0,1520.0,Hestnestunnelen,blandprøve bunnrensk,439-2025-02050680,Veidekke
+p18-TVN-1520-1555,18_hestnestunnelen,,Tverrslag Nord,1520.0,1555.0,Hestnestunnelen,blandprøve bunnrensk,439-2025-02050681,Veidekke
+p18-RØ-2005-2055,18_hestnestunnelen,,Tverrslag Nord Rømning,2005.0,2055.0,Hestnestunnelen,blandprøve bunnrensk,439-2025-02050682,Veidekke
+p18-RØ-2055-2105,18_hestnestunnelen,,Tverrslag Nord Rømning,2055.0,2105.0,Hestnestunnelen,blandprøve bunnrensk,439-2025-02050683,Veidekke
+p18-TVS-110-150,18_hestnestunnelen,,Tverrslag Sør,110.0,150.0,Hestnestunnelen,blandprøve bunnrensk,439-2025-02060440,Veidekke
+p18-TVS-150-200,18_hestnestunnelen,,Tverrslag Sør,150.0,200.0,Hestnestunnelen,blandprøve bunnrensk,439-2025-02060441,Veidekke
+p18-TVS-200-250,18_hestnestunnelen,,Tverrslag Sør,200.0,250.0,Hestnestunnelen,blandprøve bunnrensk,439-2025-02060442,Veidekke
+p18-TVS-250-300,18_hestnestunnelen,,Tverrslag Sør,250.0,300.0,Hestnestunnelen,blandprøve bunnrensk,439-2025-02060443,Veidekke
+p18-TVS-300-350,18_hestnestunnelen,,Tverrslag Sør,300.0,350.0,Hestnestunnelen,blandprøve bunnrensk,439-2025-02060444,Veidekke
+p18-TVS-350-400,18_hestnestunnelen,,Tverrslag Sør,350.0,400.0,Hestnestunnelen,blandprøve bunnrensk,439-2025-02060445,Veidekke

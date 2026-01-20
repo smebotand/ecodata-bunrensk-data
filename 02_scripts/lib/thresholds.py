@@ -32,14 +32,15 @@ NORMVERDIER = {
     'Cr_VI': 2,
     'Ni': 60,
     'Cyanid_fri': 1,
-    
+
     # PCB
-    'PCB7': 0.01,
-    
+    'PCB-53': None,  # Placeholder for PCB-53 if needed
+    'Sum PCB7': 0.01,
+
     # Chlorinated pesticides
     'Lindan': 0.001,
     'DDT': 0.04,
-    
+
     # Chlorinated benzenes
     'Monoklorbenzen': 0.03,
     'Diklorbenzen_12': 0.1,
@@ -50,7 +51,7 @@ NORMVERDIER = {
     'Tetraklorbenzen_1245': 0.05,
     'Pentaklorbenzen': 0.1,
     'Heksaklorbenzen': 0.01,
-    
+
     # Volatile halogenated hydrocarbons
     'Diklormetan': 0.06,
     'Triklormetan': 0.02,
@@ -61,50 +62,51 @@ NORMVERDIER = {
     'Dibrometan_12': 0.004,
     'Trikloretan_111': 0.1,
     'Trikloretan_112': 0.01,
-    
+
     # Phenols and chlorophenols
     'Fenol': 0.1,
     'Klorfenol_sum': 0.06,
     'Pentaklorfenol': 0.006,
-    
+
     # PAH compounds
-    'PAH16': 2,
+    'Sum PAH16': 2,
     'Naftalen': 0.8,
     'Fluoren': 0.8,
     'Fluoranten': 1,
     'Pyren': 1,
     'BaP': 0.1,
-    
-    # BTEX
+
+    # BTEX (sum)
+    'Sum BTEX': None,  # Add threshold if available
     'Benzen': 0.01,
     'Toluen': 0.3,
     'Etylbenzen': 0.2,
     'Xylen': 0.2,
-    
-    # Aliphatic hydrocarbons
-    'C5_C6': 7,
-    'C6_C8': 7,
-    'C8_C10': 10,
-    'C10_C12': 50,
-    'C12_C35': 100,
-    
+
+    # Aliphatic hydrocarbons (Alifater)
+    'Alifater C5-C6': 7,
+    'Alifater C6-C8': 7,
+    'Alifater C8-C10': 10,
+    'Alifater C10-C12': 50,
+    'Alifater C12-C35': 100,
+
     # Gasoline/oil additives
     'MTBE': 0.2,
     'Tetraetylbly': 0.001,
-    
+
     # Brominated flame retardants
     'PBDE_99': 0.08,
     'PBDE_209': 0.002,
-    
+
     # PFAS
     'PFOS': 0.1,
-    
+
     # Phthalates
     'DEHP': 2.8,
-    
+
     # Dioxins/furans
     'Dioksiner': 0.00001,
-    
+
     # Organotin compounds
     'TBT': 0.015,
     'TPHT': 0.015,
@@ -130,14 +132,15 @@ TILSTANDSKLASSER = {
     'Ni': {'name': 'Nikkel', 'TK1': 60, 'TK2': 135, 'TK3': 200, 'TK4': 1200, 'TK5': 2500},
     'Zn': {'name': 'Sink', 'TK1': 200, 'TK2': 500, 'TK3': 1000, 'TK4': 5000, 'TK5': 25000},
     'Cyanid_fri': {'name': 'Cyanid fri', 'TK1': 1, 'TK2': None, 'TK3': None, 'TK4': None, 'TK5': None},
-    
+
     # PCB (full thresholds)
-    'PCB7': {'name': 'Sum PCB7', 'TK1': 0.01, 'TK2': 0.5, 'TK3': 1, 'TK4': 5, 'TK5': 50},
-    
+    'PCB-53': {'name': 'PCB-53', 'TK1': None, 'TK2': None, 'TK3': None, 'TK4': None, 'TK5': None},
+    'Sum PCB7': {'name': 'Sum PCB7', 'TK1': 0.01, 'TK2': 0.5, 'TK3': 1, 'TK4': 5, 'TK5': 50},
+
     # Chlorinated pesticides
     'Lindan': {'name': 'Lindan', 'TK1': 0.001, 'TK2': None, 'TK3': None, 'TK4': None, 'TK5': None},
     'DDT': {'name': 'Sum DDT', 'TK1': 0.04, 'TK2': 4, 'TK3': 12, 'TK4': 30, 'TK5': 50},
-    
+
     # Chlorinated benzenes (normverdi only)
     'Monoklorbenzen': {'name': 'Monoklorbenzen', 'TK1': 0.03, 'TK2': None, 'TK3': None, 'TK4': None, 'TK5': None},
     'Diklorbenzen_12': {'name': '1,2-diklorbenzen', 'TK1': 0.1, 'TK2': None, 'TK3': None, 'TK4': None, 'TK5': None},
@@ -148,7 +151,7 @@ TILSTANDSKLASSER = {
     'Tetraklorbenzen_1245': {'name': '1,2,4,5-tetraklorbenzen', 'TK1': 0.05, 'TK2': None, 'TK3': None, 'TK4': None, 'TK5': None},
     'Pentaklorbenzen': {'name': 'Pentaklorbenzen', 'TK1': 0.1, 'TK2': None, 'TK3': None, 'TK4': None, 'TK5': None},
     'Heksaklorbenzen': {'name': 'Heksaklorbenzen', 'TK1': 0.01, 'TK2': None, 'TK3': None, 'TK4': None, 'TK5': None},
-    
+
     # Volatile halogenated hydrocarbons
     'Diklormetan': {'name': 'Diklormetan', 'TK1': 0.06, 'TK2': None, 'TK3': None, 'TK4': None, 'TK5': None},
     'Triklormetan': {'name': 'Triklormetan', 'TK1': 0.02, 'TK2': None, 'TK3': None, 'TK4': None, 'TK5': None},
@@ -159,50 +162,51 @@ TILSTANDSKLASSER = {
     'Dibrometan_12': {'name': '1,2-dibrometan', 'TK1': 0.004, 'TK2': None, 'TK3': None, 'TK4': None, 'TK5': None},
     'Trikloretan_111': {'name': '1,1,1-trikloretan', 'TK1': 0.1, 'TK2': None, 'TK3': None, 'TK4': None, 'TK5': None},
     'Trikloretan_112': {'name': '1,1,2-trikloretan', 'TK1': 0.01, 'TK2': None, 'TK3': None, 'TK4': None, 'TK5': None},
-    
+
     # Phenols and chlorophenols
     'Fenol': {'name': 'Fenol', 'TK1': 0.1, 'TK2': 4, 'TK3': 40, 'TK4': 400, 'TK5': 25000},
     'Klorfenol_sum': {'name': 'Sum klorfenol', 'TK1': 0.06, 'TK2': None, 'TK3': None, 'TK4': None, 'TK5': None},
     'Pentaklorfenol': {'name': 'Pentaklorfenol', 'TK1': 0.006, 'TK2': None, 'TK3': None, 'TK4': None, 'TK5': None},
-    
+
     # PAH compounds
-    'PAH16': {'name': 'Sum PAH16', 'TK1': 2, 'TK2': 8, 'TK3': 50, 'TK4': 150, 'TK5': 2500},
+    'Sum PAH16': {'name': 'Sum PAH16', 'TK1': 2, 'TK2': 8, 'TK3': 50, 'TK4': 150, 'TK5': 2500},
     'Naftalen': {'name': 'Naftalen', 'TK1': 0.8, 'TK2': None, 'TK3': None, 'TK4': None, 'TK5': None},
     'Fluoren': {'name': 'Fluoren', 'TK1': 0.8, 'TK2': None, 'TK3': None, 'TK4': None, 'TK5': None},
     'Fluoranten': {'name': 'Fluoranten', 'TK1': 1, 'TK2': None, 'TK3': None, 'TK4': None, 'TK5': None},
     'Pyren': {'name': 'Pyren', 'TK1': 1, 'TK2': None, 'TK3': None, 'TK4': None, 'TK5': None},
     'BaP': {'name': 'Benzo(a)pyren', 'TK1': 0.1, 'TK2': 0.5, 'TK3': 5, 'TK4': 15, 'TK5': 50},
-    
-    # BTEX
+
+    # BTEX (sum and individuals)
+    'Sum BTEX': {'name': 'Sum BTEX', 'TK1': None, 'TK2': None, 'TK3': None, 'TK4': None, 'TK5': None},
     'Benzen': {'name': 'Benzen', 'TK1': 0.01, 'TK2': 0.015, 'TK3': 0.04, 'TK4': 0.05, 'TK5': 1000},
     'Toluen': {'name': 'Toluen', 'TK1': 0.3, 'TK2': None, 'TK3': None, 'TK4': None, 'TK5': None},
     'Etylbenzen': {'name': 'Etylbenzen', 'TK1': 0.2, 'TK2': None, 'TK3': None, 'TK4': None, 'TK5': None},
     'Xylen': {'name': 'Xylen', 'TK1': 0.2, 'TK2': None, 'TK3': None, 'TK4': None, 'TK5': None},
-    
-    # Aliphatic hydrocarbons
-    'C5_C6': {'name': 'Alifater C5-C6', 'TK1': 7, 'TK2': None, 'TK3': None, 'TK4': None, 'TK5': None},
-    'C6_C8': {'name': 'Alifater >C6-C8', 'TK1': 7, 'TK2': None, 'TK3': None, 'TK4': None, 'TK5': None},
-    'C8_C10': {'name': 'Alifater >C8-C10', 'TK1': 10, 'TK2': 10, 'TK3': 40, 'TK4': 50, 'TK5': 2000},
-    'C10_C12': {'name': 'Alifater >C10-C12', 'TK1': 50, 'TK2': 60, 'TK3': 130, 'TK4': 300, 'TK5': 2000},
-    'C12_C35': {'name': 'Alifater >C12-C35', 'TK1': 100, 'TK2': 300, 'TK3': 600, 'TK4': 2000, 'TK5': 20000},
-    
+
+    # Aliphatic hydrocarbons (Alifater)
+    'Alifater C5-C6': {'name': 'Alifater C5-C6', 'TK1': 7, 'TK2': None, 'TK3': None, 'TK4': None, 'TK5': None},
+    'Alifater C6-C8': {'name': 'Alifater C6-C8', 'TK1': 7, 'TK2': None, 'TK3': None, 'TK4': None, 'TK5': None},
+    'Alifater C8-C10': {'name': 'Alifater C8-C10', 'TK1': 10, 'TK2': 10, 'TK3': 40, 'TK4': 50, 'TK5': 2000},
+    'Alifater C10-C12': {'name': 'Alifater C10-C12', 'TK1': 50, 'TK2': 60, 'TK3': 130, 'TK4': 300, 'TK5': 2000},
+    'Alifater C12-C35': {'name': 'Alifater C12-C35', 'TK1': 100, 'TK2': 300, 'TK3': 600, 'TK4': 2000, 'TK5': 20000},
+
     # Gasoline/oil additives
     'MTBE': {'name': 'MTBE', 'TK1': 0.2, 'TK2': None, 'TK3': None, 'TK4': None, 'TK5': None},
     'Tetraetylbly': {'name': 'Tetraetylbly', 'TK1': 0.001, 'TK2': None, 'TK3': None, 'TK4': None, 'TK5': None},
-    
+
     # Brominated flame retardants
     'PBDE_99': {'name': 'PBDE-99', 'TK1': 0.08, 'TK2': None, 'TK3': None, 'TK4': None, 'TK5': None},
     'PBDE_209': {'name': 'PBDE-209', 'TK1': 0.002, 'TK2': None, 'TK3': None, 'TK4': None, 'TK5': None},
-    
+
     # PFAS
     'PFOS': {'name': 'PFOS', 'TK1': 0.1, 'TK2': None, 'TK3': None, 'TK4': None, 'TK5': None},
-    
+
     # Phthalates
     'DEHP': {'name': 'DEHP', 'TK1': 2.8, 'TK2': 25, 'TK3': 40, 'TK4': 60, 'TK5': 5000},
-    
+
     # Dioxins/furans
     'Dioksiner': {'name': 'Dioksiner (TEQ)', 'TK1': 0.00001, 'TK2': 0.00002, 'TK3': 0.0001, 'TK4': 0.00036, 'TK5': 0.015},
-    
+
     # Organotin compounds
     'TBT': {'name': 'TBT', 'TK1': 0.015, 'TK2': None, 'TK3': None, 'TK4': None, 'TK5': None},
     'TPHT': {'name': 'TPHT', 'TK1': 0.015, 'TK2': None, 'TK3': None, 'TK4': None, 'TK5': None},

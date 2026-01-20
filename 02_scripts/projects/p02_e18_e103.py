@@ -28,10 +28,12 @@ import openpyxl
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from lib.export import save_to_csv
-from lib.chemistry import get_parameter_code
-from lib.schema import (
+from lib.chemistry import normalize_parameter_name
+from lib.excel_utils import create_wide_table, save_wide_table_xlsx
+from lib.qa import create_qa_workbook
+from lib.dataframes import (
     create_samples_df, create_results_df,
-    create_classifications_df, create_decisions_df, create_wide_table
+    create_classifications_df, create_decisions_df
 )
 
 # ============================================================
@@ -128,202 +130,6 @@ def save_source_samples_xlsx(df: pd.DataFrame, filepath: Path) -> None:
     ws.freeze_panes = "A2"
     
     wb.save(filepath)
-
-
-def create_qa_workbook(filepath: Path, samples_df: pd.DataFrame, results_df: pd.DataFrame,
-                       classifications_df: pd.DataFrame, decisions_df: pd.DataFrame) -> None:
-    """
-    Create a QA workbook for manual verification of extracted data.
-    
-    Sheets:
-    - Summary: Extraction metadata and file overview
-    - QA Checklist: Items to verify with status columns
-    - Samples QA: Sample data with QA columns
-    - Classifications QA: Classification data with QA columns
-    - Decisions QA: Decision data with QA columns
-    """
-    from openpyxl import Workbook
-    from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
-    from openpyxl.utils.dataframe import dataframe_to_rows
-    from openpyxl.utils import get_column_letter
-    
-    wb = Workbook()
-    
-    # Define styles
-    header_font = Font(bold=True, color="FFFFFF")
-    header_fill = PatternFill(start_color="4472C4", end_color="4472C4", fill_type="solid")
-    thin_border = Border(
-        left=Side(style='thin'),
-        right=Side(style='thin'),
-        top=Side(style='thin'),
-        bottom=Side(style='thin')
-    )
-    
-    # =========================================================================
-    # SHEET 1: Summary
-    # =========================================================================
-    ws_summary = wb.active
-    ws_summary.title = "Summary"
-    
-    # Title
-    ws_summary['A1'] = f"QA Workbook: {PROJECT_NAME}"
-    ws_summary['A1'].font = Font(bold=True, size=14)
-    ws_summary.merge_cells('A1:D1')
-    
-    # Extraction info
-    from datetime import datetime
-    summary_items = [
-        ('Project Code', PROJECT_CODE),
-        ('Extracted At', datetime.now().strftime('%Y-%m-%d %H:%M')),
-        ('Source File', EXCEL_FILE),
-        ('Lab', 'ALS'),
-        ('Tunnel', TUNNEL_NAME),
-    ]
-    
-    for i, (label, value) in enumerate(summary_items, start=3):
-        ws_summary[f'A{i}'] = label
-        ws_summary[f'A{i}'].font = Font(bold=True)
-        ws_summary[f'B{i}'] = value
-    
-    # Data counts
-    ws_summary['A10'] = "Data Exports"
-    ws_summary['A10'].font = Font(bold=True, size=12)
-    
-    export_items = [
-        ('File', 'Rows', 'Description', 'Remarks', 'Date', 'Name'),
-        ('p02_samples.csv', len(samples_df), 'Sample metadata', '', '', ''),
-        ('p02_results.csv', len(results_df), 'Lab analysis results (long format)', '', '', ''),
-        ('p02_results_wide.xlsx', len(results_df['parameter'].unique()) if len(results_df) > 0 else 0, 'Lab results (wide format)', '', '', ''),
-        ('p02_classifications.csv', len(classifications_df), 'Tilstandsklasse per sample', '', '', ''),
-        ('p02_decisions.csv', len(decisions_df), 'Handling decisions per sample', '', '', ''),
-    ]
-    
-    for i, row_data in enumerate(export_items, start=11):
-        for j, value in enumerate(row_data, start=1):
-            cell = ws_summary.cell(row=i, column=j, value=value)
-            if i == 11:  # Header row
-                cell.font = header_font
-                cell.fill = header_fill
-    
-    # Adjust column widths
-    ws_summary.column_dimensions['A'].width = 25
-    ws_summary.column_dimensions['B'].width = 10
-    ws_summary.column_dimensions['C'].width = 40
-    ws_summary.column_dimensions['D'].width = 30
-    ws_summary.column_dimensions['E'].width = 12
-    ws_summary.column_dimensions['F'].width = 15
-    
-    # =========================================================================
-    # SHEET 2: QA Checklist
-    # =========================================================================
-    ws_qa = wb.create_sheet("QA Checklist")
-    
-    checklist_items = [
-        ('Category', 'Check Item', 'Status', 'Verified By', 'Date', 'Notes'),
-        ('Samples', 'All samples from source document captured', '', '', '', ''),
-        ('Samples', 'Sample IDs match lab report numbers', '', '', '', ''),
-        ('Samples', 'Sample dates correct', '', '', '', ''),
-        ('Samples', 'Profile locations match source', '', '', '', ''),
-        ('Results', 'All parameters extracted for each sample', '', '', '', ''),
-        ('Results', 'Values match source Excel', '', '', '', ''),
-        ('Results', 'Below-limit values (<) correctly flagged', '', '', '', ''),
-        ('Results', 'Units correct (mg/kg)', '', '', '', ''),
-        ('Classifications', 'Tilstandsklasse matches source tables', '', '', '', ''),
-        ('Classifications', 'Limiting parameters identified correctly', '', '', '', ''),
-        ('Decisions', 'Handling decisions correct (gjenbruk/deponi)', '', '', '', ''),
-        ('General', 'No duplicate samples', '', '', '', ''),
-        ('General', 'No missing critical data', '', '', '', ''),
-        ('General', 'Data ready for aggregation', '', '', '', ''),
-    ]
-    
-    for i, row in enumerate(checklist_items, start=1):
-        for j, value in enumerate(row, start=1):
-            cell = ws_qa.cell(row=i, column=j, value=value)
-            cell.border = thin_border
-            if i == 1:  # Header
-                cell.font = header_font
-                cell.fill = header_fill
-            cell.alignment = Alignment(wrap_text=True, vertical='top')
-    
-    # Set column widths
-    ws_qa.column_dimensions['A'].width = 15
-    ws_qa.column_dimensions['B'].width = 45
-    ws_qa.column_dimensions['C'].width = 12
-    ws_qa.column_dimensions['D'].width = 15
-    ws_qa.column_dimensions['E'].width = 12
-    ws_qa.column_dimensions['F'].width = 40
-    
-    # Freeze header
-    ws_qa.freeze_panes = 'A2'
-    
-    # =========================================================================
-    # SHEET 3: Samples QA
-    # =========================================================================
-    ws_samples = wb.create_sheet("Samples QA")
-    
-    # Add QA columns to samples
-    samples_qa = samples_df.copy()
-    samples_qa['QA_Status'] = ''
-    samples_qa['QA_Notes'] = ''
-    
-    for i, row in enumerate(dataframe_to_rows(samples_qa, index=False, header=True), start=1):
-        for j, value in enumerate(row, start=1):
-            cell = ws_samples.cell(row=i, column=j, value=value)
-            if i == 1:
-                cell.font = header_font
-                cell.fill = header_fill
-    
-    ws_samples.freeze_panes = 'A2'
-    
-    # Auto-width columns
-    for col_idx, col in enumerate(samples_qa.columns, start=1):
-        ws_samples.column_dimensions[get_column_letter(col_idx)].width = max(len(str(col)) + 2, 12)
-    
-    # =========================================================================
-    # SHEET 4: Classifications QA
-    # =========================================================================
-    ws_class = wb.create_sheet("Classifications QA")
-    
-    class_qa = classifications_df.copy()
-    class_qa['QA_Status'] = ''
-    class_qa['QA_Notes'] = ''
-    
-    for i, row in enumerate(dataframe_to_rows(class_qa, index=False, header=True), start=1):
-        for j, value in enumerate(row, start=1):
-            cell = ws_class.cell(row=i, column=j, value=value)
-            if i == 1:
-                cell.font = header_font
-                cell.fill = header_fill
-    
-    ws_class.freeze_panes = 'A2'
-    
-    for col_idx, col in enumerate(class_qa.columns, start=1):
-        ws_class.column_dimensions[get_column_letter(col_idx)].width = max(len(str(col)) + 2, 15)
-    
-    # =========================================================================
-    # SHEET 5: Decisions QA
-    # =========================================================================
-    ws_dec = wb.create_sheet("Decisions QA")
-    
-    dec_qa = decisions_df.copy()
-    dec_qa['QA_Status'] = ''
-    dec_qa['QA_Notes'] = ''
-    
-    for i, row in enumerate(dataframe_to_rows(dec_qa, index=False, header=True), start=1):
-        for j, value in enumerate(row, start=1):
-            cell = ws_dec.cell(row=i, column=j, value=value)
-            if i == 1:
-                cell.font = header_font
-                cell.fill = header_fill
-    
-    ws_dec.freeze_panes = 'A2'
-    
-    for col_idx, col in enumerate(dec_qa.columns, start=1):
-        ws_dec.column_dimensions[get_column_letter(col_idx)].width = max(len(str(col)) + 2, 15)
-    
-    # Save workbook
-    wb.save(filepath)
-    print(f"  - QA workbook: {filepath.name}")
 
 
 def is_bunnrensk_sample(sample_name: str) -> bool:
@@ -452,7 +258,7 @@ def get_sample_type(sample_name: str) -> str:
     """Determine sample_type from sample name."""
     name_lower = sample_name.lower()
     if 'blandeprøve' in name_lower:
-        return 'blandeprøve'
+        return 'blandprøve'
     else:
         return 'bunnrensk'
 
@@ -512,6 +318,15 @@ def extract_data(excel_path: Path) -> tuple[list, list, list]:
     for row in range(3, ws.max_row + 1):
         sample_name = ws.cell(row=row, column=COL_SAMPLE_NAME).value
         if not sample_name:
+            continue
+        # Exclude specific sample by name (case-insensitive, ignore spaces and punctuation)
+        name_clean = str(sample_name).lower().replace(' ', '').replace('-', '').replace('.', '')
+        if name_clean in [
+            'sprengsteinpel9160',
+            'p02sprengsteinpel9160',
+            'sprengstein-pel-9160',
+            'p02-sprengstein-pel-9160',
+        ]:
             continue
         
         # Track ALL samples for source overview
@@ -584,6 +399,15 @@ def extract_data(excel_path: Path) -> tuple[list, list, list]:
         sample_name = ws.cell(row=row, column=COL_SAMPLE_NAME).value
         if not sample_name or not is_bunnrensk_sample(sample_name):
             continue
+        # Exclude specific sample by name (case-insensitive, ignore spaces and punctuation)
+        name_clean = str(sample_name).lower().replace(' ', '').replace('-', '').replace('.', '')
+        if name_clean in [
+            'sprengsteinpel9160',
+            'p02sprengsteinpel9160',
+            'sprengstein-pel-9160',
+            'p02-sprengstein-pel-9160',
+        ]:
+            continue
         
         grenseverdi = ws.cell(row=row, column=COL_GRENSEVERDI).value
         if grenseverdi != 'Tilstandsklasse 1- Meget god':
@@ -612,7 +436,7 @@ def extract_data(excel_path: Path) -> tuple[list, list, list]:
         key = (sample_name, analyse)
         if key not in results_dict:
             sample_id = samples_dict[sample_name]['sample_id']
-            param_code = get_parameter_code(analyse)
+            param_code = normalize_parameter_name(analyse)
             
             results_dict[key] = {
                 'sample_id': sample_id,
@@ -753,15 +577,25 @@ def main():
     # Also save wide table as Excel
     wide_df.to_excel(OUTPUT_DIR / 'p02_results_wide.xlsx', index=False)
     
-    # Create QA workbook (rename existing with timestamp to preserve notes)
-    qa_workbook_path = OUTPUT_DIR / 'p02_QA_workbook.xlsx'
-    if qa_workbook_path.exists():
-        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-        backup_path = OUTPUT_DIR / f'p02_QA_workbook_{timestamp}.xlsx'
-        qa_workbook_path.rename(backup_path)
-        print(f"  Renamed existing QA workbook to: p02_QA_workbook_{timestamp}.xlsx")
-    create_qa_workbook(qa_workbook_path, samples_df, results_df, 
+    # Create extraction summary for QA workbook
+    summary = {
+        'project': PROJECT_NAME,
+        'project_code': PROJECT_CODE,
+        'extracted_at': datetime.now().isoformat(),
+        'source_file': EXCEL_FILE,
+        'samples_count': len(samples_df),
+        'results_count': len(results_df),
+        'classifications_count': len(classifications_df),
+        'decisions_count': len(decisions_df),
+        'lab': 'ALS',
+    }
+    
+    # Create QA workbook (always with timestamp to preserve history)
+    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+    qa_workbook_path = OUTPUT_DIR / f'p02_QA_workbook_{timestamp}.xlsx'
+    create_qa_workbook(qa_workbook_path, summary, samples_df, results_df, 
                        classifications_df, decisions_df)
+    print(f"  Saved: p02_QA_workbook_{timestamp}.xlsx")
     
     # Scan resultater folder for additional samples
     print("\nScanning resultater folder...")

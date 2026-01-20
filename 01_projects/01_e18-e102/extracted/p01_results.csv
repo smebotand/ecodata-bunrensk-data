@@ -10,13 +10,13 @@ p01-HTØP8470,Zn,Sink,58.0,mg/kg,,False,,totalanalyse
 p01-HTØP8470,PCB7,Sum PCB7,0.007,mg/kg,,True,0.007,totalanalyse
 p01-HTØP8470,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
 p01-HTØP8470,PAH16,Sum PAH-16,0.028,mg/kg,,False,,totalanalyse
-p01-HTØP8470,Benzene,Benzen,0.03,mg/kg,,False,,totalanalyse
-p01-HTØP8470,Toluene,Toluen*,0.04,mg/kg,,True,0.04,totalanalyse
-p01-HTØP8470,Ethylbenzene,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-HTØP8470,Xylenes,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-HTØP8470,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
-p01-HTØP8470,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
-p01-HTØP8470,Alifater_C12-C35,Sum alifater > C12-C35,46.0,mg/kg,,False,,totalanalyse
+p01-HTØP8470,Benzen,Benzen,0.03,mg/kg,,False,,totalanalyse
+p01-HTØP8470,Toluen,Toluen*,0.04,mg/kg,,True,0.04,totalanalyse
+p01-HTØP8470,Etylbenzen,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-HTØP8470,Xylen,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-HTØP8470,Alifater C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p01-HTØP8470,Alifater C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p01-HTØP8470,Alifater C12-C35,Sum alifater > C12-C35,46.0,mg/kg,,False,,totalanalyse
 p01-BR-HØ-8550,As,Arsen,6.6,mg/kg,,False,,totalanalyse
 p01-BR-HØ-8550,Cd,Kadmium,0.02,mg/kg,,True,0.02,totalanalyse
 p01-BR-HØ-8550,Cr,Krom,78.0,mg/kg,,False,,totalanalyse
@@ -28,13 +28,13 @@ p01-BR-HØ-8550,Zn,Sink,49.0,mg/kg,,False,,totalanalyse
 p01-BR-HØ-8550,PCB7,Sum PCB7,0.007,mg/kg,,True,0.007,totalanalyse
 p01-BR-HØ-8550,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
 p01-BR-HØ-8550,PAH16,Sum PAH-16,0.042,mg/kg,,False,,totalanalyse
-p01-BR-HØ-8550,Benzene,Benzen,0.036,mg/kg,,False,,totalanalyse
-p01-BR-HØ-8550,Toluene,Toluen*,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HØ-8550,Ethylbenzene,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HØ-8550,Xylenes,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HØ-8550,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
-p01-BR-HØ-8550,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
-p01-BR-HØ-8550,Alifater_C12-C35,Sum alifater > C12-C35,10.0,mg/kg,,True,10.0,totalanalyse
+p01-BR-HØ-8550,Benzen,Benzen,0.036,mg/kg,,False,,totalanalyse
+p01-BR-HØ-8550,Toluen,Toluen*,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HØ-8550,Etylbenzen,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HØ-8550,Xylen,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HØ-8550,Alifater C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p01-BR-HØ-8550,Alifater C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p01-BR-HØ-8550,Alifater C12-C35,Sum alifater > C12-C35,10.0,mg/kg,,True,10.0,totalanalyse
 p01-BR-HØ-8580,As,Arsen,8.9,mg/kg,,False,,totalanalyse
 p01-BR-HØ-8580,Cd,Kadmium,0.036,mg/kg,,False,,totalanalyse
 p01-BR-HØ-8580,Cr,Krom,62.0,mg/kg,,False,,totalanalyse
@@ -46,13 +46,13 @@ p01-BR-HØ-8580,Zn,Sink,57.0,mg/kg,,False,,totalanalyse
 p01-BR-HØ-8580,PCB7,Sum PCB7,0.007,mg/kg,,True,0.007,totalanalyse
 p01-BR-HØ-8580,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
 p01-BR-HØ-8580,PAH16,Sum PAH-16,0.059,mg/kg,,False,,totalanalyse
-p01-BR-HØ-8580,Benzene,Benzen,0.04,mg/kg,,False,,totalanalyse
-p01-BR-HØ-8580,Toluene,Toluen*,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HØ-8580,Ethylbenzene,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HØ-8580,Xylenes,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HØ-8580,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
-p01-BR-HØ-8580,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
-p01-BR-HØ-8580,Alifater_C12-C35,Sum alifater > C12-C35,25.0,mg/kg,,False,,totalanalyse
+p01-BR-HØ-8580,Benzen,Benzen,0.04,mg/kg,,False,,totalanalyse
+p01-BR-HØ-8580,Toluen,Toluen*,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HØ-8580,Etylbenzen,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HØ-8580,Xylen,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HØ-8580,Alifater C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p01-BR-HØ-8580,Alifater C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p01-BR-HØ-8580,Alifater C12-C35,Sum alifater > C12-C35,25.0,mg/kg,,False,,totalanalyse
 p01-BR-HØ-8650,As,Arsen,5.9,mg/kg,,False,,totalanalyse
 p01-BR-HØ-8650,Cd,Kadmium,0.02,mg/kg,,True,0.02,totalanalyse
 p01-BR-HØ-8650,Cr,Krom,63.0,mg/kg,,False,,totalanalyse
@@ -64,13 +64,13 @@ p01-BR-HØ-8650,Zn,Sink,55.0,mg/kg,,False,,totalanalyse
 p01-BR-HØ-8650,PCB7,Sum PCB7,0.007,mg/kg,,True,0.007,totalanalyse
 p01-BR-HØ-8650,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
 p01-BR-HØ-8650,PAH16,Sum PAH-16,0.071,mg/kg,,False,,totalanalyse
-p01-BR-HØ-8650,Benzene,Benzen,0.044,mg/kg,,False,,totalanalyse
-p01-BR-HØ-8650,Toluene,Toluen*,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HØ-8650,Ethylbenzene,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HØ-8650,Xylenes,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HØ-8650,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
-p01-BR-HØ-8650,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
-p01-BR-HØ-8650,Alifater_C12-C35,Sum alifater > C12-C35,10.0,mg/kg,,True,10.0,totalanalyse
+p01-BR-HØ-8650,Benzen,Benzen,0.044,mg/kg,,False,,totalanalyse
+p01-BR-HØ-8650,Toluen,Toluen*,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HØ-8650,Etylbenzen,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HØ-8650,Xylen,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HØ-8650,Alifater C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p01-BR-HØ-8650,Alifater C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p01-BR-HØ-8650,Alifater C12-C35,Sum alifater > C12-C35,10.0,mg/kg,,True,10.0,totalanalyse
 p01-BR-HØ-8700,As,Arsen,5.9,mg/kg,,False,,totalanalyse
 p01-BR-HØ-8700,Cd,Kadmium,0.066,mg/kg,,False,,totalanalyse
 p01-BR-HØ-8700,Cr,Krom,96.0,mg/kg,,False,,totalanalyse
@@ -82,13 +82,13 @@ p01-BR-HØ-8700,Zn,Sink,68.0,mg/kg,,False,,totalanalyse
 p01-BR-HØ-8700,PCB7,Sum PCB7,0.007,mg/kg,,True,0.007,totalanalyse
 p01-BR-HØ-8700,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
 p01-BR-HØ-8700,PAH16,Sum PAH-16,0.16,mg/kg,,True,0.16,totalanalyse
-p01-BR-HØ-8700,Benzene,Benzen,0.093,mg/kg,,False,,totalanalyse
-p01-BR-HØ-8700,Toluene,Toluen*,0.067,mg/kg,,False,,totalanalyse
-p01-BR-HØ-8700,Ethylbenzene,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HØ-8700,Xylenes,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HØ-8700,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
-p01-BR-HØ-8700,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
-p01-BR-HØ-8700,Alifater_C12-C35,Sum alifater > C12-C35,13.0,mg/kg,,False,,totalanalyse
+p01-BR-HØ-8700,Benzen,Benzen,0.093,mg/kg,,False,,totalanalyse
+p01-BR-HØ-8700,Toluen,Toluen*,0.067,mg/kg,,False,,totalanalyse
+p01-BR-HØ-8700,Etylbenzen,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HØ-8700,Xylen,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HØ-8700,Alifater C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p01-BR-HØ-8700,Alifater C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p01-BR-HØ-8700,Alifater C12-C35,Sum alifater > C12-C35,13.0,mg/kg,,False,,totalanalyse
 p01-BR-HØ-8735,As,Arsen,7.8,mg/kg,,False,,totalanalyse
 p01-BR-HØ-8735,Cd,Kadmium,0.094,mg/kg,,False,,totalanalyse
 p01-BR-HØ-8735,Cr,Krom,71.0,mg/kg,,False,,totalanalyse
@@ -100,13 +100,13 @@ p01-BR-HØ-8735,Zn,Sink,72.0,mg/kg,,False,,totalanalyse
 p01-BR-HØ-8735,PCB7,Sum PCB7,0.007,mg/kg,,True,0.007,totalanalyse
 p01-BR-HØ-8735,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
 p01-BR-HØ-8735,PAH16,Sum PAH-16,0.16,mg/kg,,True,0.16,totalanalyse
-p01-BR-HØ-8735,Benzene,Benzen,0.2,mg/kg,,False,,totalanalyse
-p01-BR-HØ-8735,Toluene,Toluen*,0.083,mg/kg,,False,,totalanalyse
-p01-BR-HØ-8735,Ethylbenzene,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HØ-8735,Xylenes,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HØ-8735,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
-p01-BR-HØ-8735,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
-p01-BR-HØ-8735,Alifater_C12-C35,Sum alifater > C12-C35,12.0,mg/kg,,False,,totalanalyse
+p01-BR-HØ-8735,Benzen,Benzen,0.2,mg/kg,,False,,totalanalyse
+p01-BR-HØ-8735,Toluen,Toluen*,0.083,mg/kg,,False,,totalanalyse
+p01-BR-HØ-8735,Etylbenzen,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HØ-8735,Xylen,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HØ-8735,Alifater C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p01-BR-HØ-8735,Alifater C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p01-BR-HØ-8735,Alifater C12-C35,Sum alifater > C12-C35,12.0,mg/kg,,False,,totalanalyse
 p01-BR-HØ-8800,As,Arsen,6.8,mg/kg,,False,,totalanalyse
 p01-BR-HØ-8800,Cd,Kadmium,0.097,mg/kg,,False,,totalanalyse
 p01-BR-HØ-8800,Cr,Krom,75.0,mg/kg,,False,,totalanalyse
@@ -118,13 +118,13 @@ p01-BR-HØ-8800,Zn,Sink,87.0,mg/kg,,False,,totalanalyse
 p01-BR-HØ-8800,PCB7,Sum PCB7,0.007,mg/kg,,True,0.007,totalanalyse
 p01-BR-HØ-8800,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
 p01-BR-HØ-8800,PAH16,Sum PAH-16,0.16,mg/kg,,True,0.16,totalanalyse
-p01-BR-HØ-8800,Benzene,Benzen,0.22,mg/kg,,False,,totalanalyse
-p01-BR-HØ-8800,Toluene,Toluen*,0.1,mg/kg,,False,,totalanalyse
-p01-BR-HØ-8800,Ethylbenzene,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HØ-8800,Xylenes,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HØ-8800,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
-p01-BR-HØ-8800,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
-p01-BR-HØ-8800,Alifater_C12-C35,Sum alifater > C12-C35,16.0,mg/kg,,False,,totalanalyse
+p01-BR-HØ-8800,Benzen,Benzen,0.22,mg/kg,,False,,totalanalyse
+p01-BR-HØ-8800,Toluen,Toluen*,0.1,mg/kg,,False,,totalanalyse
+p01-BR-HØ-8800,Etylbenzen,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HØ-8800,Xylen,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HØ-8800,Alifater C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p01-BR-HØ-8800,Alifater C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p01-BR-HØ-8800,Alifater C12-C35,Sum alifater > C12-C35,16.0,mg/kg,,False,,totalanalyse
 p01-BR-HØ-8850,As,Arsen,6.5,mg/kg,,False,,totalanalyse
 p01-BR-HØ-8850,Cd,Kadmium,0.12,mg/kg,,False,,totalanalyse
 p01-BR-HØ-8850,Cr,Krom,85.0,mg/kg,,False,,totalanalyse
@@ -136,13 +136,13 @@ p01-BR-HØ-8850,Zn,Sink,62.0,mg/kg,,False,,totalanalyse
 p01-BR-HØ-8850,PCB7,Sum PCB7,0.007,mg/kg,,True,0.007,totalanalyse
 p01-BR-HØ-8850,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
 p01-BR-HØ-8850,PAH16,Sum PAH-16,0.16,mg/kg,,True,0.16,totalanalyse
-p01-BR-HØ-8850,Benzene,Benzen,0.13,mg/kg,,False,,totalanalyse
-p01-BR-HØ-8850,Toluene,Toluen*,0.071,mg/kg,,False,,totalanalyse
-p01-BR-HØ-8850,Ethylbenzene,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HØ-8850,Xylenes,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HØ-8850,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
-p01-BR-HØ-8850,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
-p01-BR-HØ-8850,Alifater_C12-C35,Sum alifater > C12-C35,26.0,mg/kg,,False,,totalanalyse
+p01-BR-HØ-8850,Benzen,Benzen,0.13,mg/kg,,False,,totalanalyse
+p01-BR-HØ-8850,Toluen,Toluen*,0.071,mg/kg,,False,,totalanalyse
+p01-BR-HØ-8850,Etylbenzen,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HØ-8850,Xylen,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HØ-8850,Alifater C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p01-BR-HØ-8850,Alifater C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p01-BR-HØ-8850,Alifater C12-C35,Sum alifater > C12-C35,26.0,mg/kg,,False,,totalanalyse
 p01-BR-HØ-8900,As,Arsen,5.5,mg/kg,,False,,totalanalyse
 p01-BR-HØ-8900,Cd,Kadmium,0.15,mg/kg,,False,,totalanalyse
 p01-BR-HØ-8900,Cr,Krom,75.0,mg/kg,,False,,totalanalyse
@@ -154,13 +154,13 @@ p01-BR-HØ-8900,Zn,Sink,58.0,mg/kg,,False,,totalanalyse
 p01-BR-HØ-8900,PCB7,Sum PCB7,0.007,mg/kg,,True,0.007,totalanalyse
 p01-BR-HØ-8900,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
 p01-BR-HØ-8900,PAH16,Sum PAH-16,0.21,mg/kg,,False,,totalanalyse
-p01-BR-HØ-8900,Benzene,Benzen,0.19,mg/kg,,False,,totalanalyse
-p01-BR-HØ-8900,Toluene,Toluen*,0.11,mg/kg,,False,,totalanalyse
-p01-BR-HØ-8900,Ethylbenzene,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HØ-8900,Xylenes,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HØ-8900,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
-p01-BR-HØ-8900,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
-p01-BR-HØ-8900,Alifater_C12-C35,Sum alifater > C12-C35,27.0,mg/kg,,False,,totalanalyse
+p01-BR-HØ-8900,Benzen,Benzen,0.19,mg/kg,,False,,totalanalyse
+p01-BR-HØ-8900,Toluen,Toluen*,0.11,mg/kg,,False,,totalanalyse
+p01-BR-HØ-8900,Etylbenzen,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HØ-8900,Xylen,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HØ-8900,Alifater C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p01-BR-HØ-8900,Alifater C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p01-BR-HØ-8900,Alifater C12-C35,Sum alifater > C12-C35,27.0,mg/kg,,False,,totalanalyse
 p01-BR-HTV-grøft_P7650-7700-1,As,Arsen,6.5,mg/kg,,False,,totalanalyse
 p01-BR-HTV-grøft_P7650-7700-1,Cd,Kadmium,0.11,mg/kg,,False,,totalanalyse
 p01-BR-HTV-grøft_P7650-7700-1,Cr,Krom,72.0,mg/kg,,False,,totalanalyse
@@ -172,13 +172,13 @@ p01-BR-HTV-grøft_P7650-7700-1,Zn,Sink,49.0,mg/kg,,False,,totalanalyse
 p01-BR-HTV-grøft_P7650-7700-1,PCB7,Sum PCB7,0.007,mg/kg,,True,0.007,totalanalyse
 p01-BR-HTV-grøft_P7650-7700-1,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
 p01-BR-HTV-grøft_P7650-7700-1,PAH16,Sum PAH-16,0.058,mg/kg,,False,,totalanalyse
-p01-BR-HTV-grøft_P7650-7700-1,Benzene,Benzen,0.22,mg/kg,,False,,totalanalyse
-p01-BR-HTV-grøft_P7650-7700-1,Toluene,Toluen*,0.16,mg/kg,,False,,totalanalyse
-p01-BR-HTV-grøft_P7650-7700-1,Ethylbenzene,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HTV-grøft_P7650-7700-1,Xylenes,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HTV-grøft_P7650-7700-1,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
-p01-BR-HTV-grøft_P7650-7700-1,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
-p01-BR-HTV-grøft_P7650-7700-1,Alifater_C12-C35,Sum alifater > C12-C35,97.0,mg/kg,,False,,totalanalyse
+p01-BR-HTV-grøft_P7650-7700-1,Benzen,Benzen,0.22,mg/kg,,False,,totalanalyse
+p01-BR-HTV-grøft_P7650-7700-1,Toluen,Toluen*,0.16,mg/kg,,False,,totalanalyse
+p01-BR-HTV-grøft_P7650-7700-1,Etylbenzen,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HTV-grøft_P7650-7700-1,Xylen,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HTV-grøft_P7650-7700-1,Alifater C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p01-BR-HTV-grøft_P7650-7700-1,Alifater C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p01-BR-HTV-grøft_P7650-7700-1,Alifater C12-C35,Sum alifater > C12-C35,97.0,mg/kg,,False,,totalanalyse
 p01-BR-HTV-grøft_P7650-7700-2,As,Arsen,7.8,mg/kg,,False,,totalanalyse
 p01-BR-HTV-grøft_P7650-7700-2,Cd,Kadmium,0.02,mg/kg,,True,0.02,totalanalyse
 p01-BR-HTV-grøft_P7650-7700-2,Cr,Krom,90.0,mg/kg,,False,,totalanalyse
@@ -190,13 +190,13 @@ p01-BR-HTV-grøft_P7650-7700-2,Zn,Sink,84.0,mg/kg,,False,,totalanalyse
 p01-BR-HTV-grøft_P7650-7700-2,PCB7,Sum PCB7,0.007,mg/kg,,True,0.007,totalanalyse
 p01-BR-HTV-grøft_P7650-7700-2,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
 p01-BR-HTV-grøft_P7650-7700-2,PAH16,Sum PAH-16,0.051,mg/kg,,False,,totalanalyse
-p01-BR-HTV-grøft_P7650-7700-2,Benzene,Benzen,0.05,mg/kg,,False,,totalanalyse
-p01-BR-HTV-grøft_P7650-7700-2,Toluene,Toluen*,0.062,mg/kg,,False,,totalanalyse
-p01-BR-HTV-grøft_P7650-7700-2,Ethylbenzene,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HTV-grøft_P7650-7700-2,Xylenes,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HTV-grøft_P7650-7700-2,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
-p01-BR-HTV-grøft_P7650-7700-2,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
-p01-BR-HTV-grøft_P7650-7700-2,Alifater_C12-C35,Sum alifater > C12-C35,10.0,mg/kg,,True,10.0,totalanalyse
+p01-BR-HTV-grøft_P7650-7700-2,Benzen,Benzen,0.05,mg/kg,,False,,totalanalyse
+p01-BR-HTV-grøft_P7650-7700-2,Toluen,Toluen*,0.062,mg/kg,,False,,totalanalyse
+p01-BR-HTV-grøft_P7650-7700-2,Etylbenzen,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HTV-grøft_P7650-7700-2,Xylen,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HTV-grøft_P7650-7700-2,Alifater C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p01-BR-HTV-grøft_P7650-7700-2,Alifater C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p01-BR-HTV-grøft_P7650-7700-2,Alifater C12-C35,Sum alifater > C12-C35,10.0,mg/kg,,True,10.0,totalanalyse
 p01-BR-HTV-grøft_P7650-7700-3,As,Arsen,4.8,mg/kg,,False,,totalanalyse
 p01-BR-HTV-grøft_P7650-7700-3,Cd,Kadmium,0.02,mg/kg,,True,0.02,totalanalyse
 p01-BR-HTV-grøft_P7650-7700-3,Cr,Krom,110.0,mg/kg,,False,,totalanalyse
@@ -208,13 +208,13 @@ p01-BR-HTV-grøft_P7650-7700-3,Zn,Sink,66.0,mg/kg,,False,,totalanalyse
 p01-BR-HTV-grøft_P7650-7700-3,PCB7,Sum PCB7,0.007,mg/kg,,True,0.007,totalanalyse
 p01-BR-HTV-grøft_P7650-7700-3,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
 p01-BR-HTV-grøft_P7650-7700-3,PAH16,Sum PAH-16,0.082,mg/kg,,False,,totalanalyse
-p01-BR-HTV-grøft_P7650-7700-3,Benzene,Benzen,0.044,mg/kg,,False,,totalanalyse
-p01-BR-HTV-grøft_P7650-7700-3,Toluene,Toluen*,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HTV-grøft_P7650-7700-3,Ethylbenzene,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HTV-grøft_P7650-7700-3,Xylenes,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HTV-grøft_P7650-7700-3,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
-p01-BR-HTV-grøft_P7650-7700-3,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
-p01-BR-HTV-grøft_P7650-7700-3,Alifater_C12-C35,Sum alifater > C12-C35,22.0,mg/kg,,False,,totalanalyse
+p01-BR-HTV-grøft_P7650-7700-3,Benzen,Benzen,0.044,mg/kg,,False,,totalanalyse
+p01-BR-HTV-grøft_P7650-7700-3,Toluen,Toluen*,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HTV-grøft_P7650-7700-3,Etylbenzen,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HTV-grøft_P7650-7700-3,Xylen,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HTV-grøft_P7650-7700-3,Alifater C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p01-BR-HTV-grøft_P7650-7700-3,Alifater C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p01-BR-HTV-grøft_P7650-7700-3,Alifater C12-C35,Sum alifater > C12-C35,22.0,mg/kg,,False,,totalanalyse
 p01-BR-HTVgrøfttrase8-4,As,Arsen,11.0,mg/kg,,False,,totalanalyse
 p01-BR-HTVgrøfttrase8-4,Cd,Kadmium,0.02,mg/kg,,True,0.02,totalanalyse
 p01-BR-HTVgrøfttrase8-4,Cr,Krom,87.0,mg/kg,,False,,totalanalyse
@@ -226,13 +226,13 @@ p01-BR-HTVgrøfttrase8-4,Zn,Sink,110.0,mg/kg,,False,,totalanalyse
 p01-BR-HTVgrøfttrase8-4,PCB7,Sum PCB7,0.007,mg/kg,,True,0.007,totalanalyse
 p01-BR-HTVgrøfttrase8-4,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
 p01-BR-HTVgrøfttrase8-4,PAH16,Sum PAH-16,0.16,mg/kg,,True,0.16,totalanalyse
-p01-BR-HTVgrøfttrase8-4,Benzene,Benzen,0.07,mg/kg,,False,,totalanalyse
-p01-BR-HTVgrøfttrase8-4,Toluene,Toluen*,0.062,mg/kg,,False,,totalanalyse
-p01-BR-HTVgrøfttrase8-4,Ethylbenzene,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HTVgrøfttrase8-4,Xylenes,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HTVgrøfttrase8-4,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
-p01-BR-HTVgrøfttrase8-4,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
-p01-BR-HTVgrøfttrase8-4,Alifater_C12-C35,Sum alifater > C12-C35,10.0,mg/kg,,True,10.0,totalanalyse
+p01-BR-HTVgrøfttrase8-4,Benzen,Benzen,0.07,mg/kg,,False,,totalanalyse
+p01-BR-HTVgrøfttrase8-4,Toluen,Toluen*,0.062,mg/kg,,False,,totalanalyse
+p01-BR-HTVgrøfttrase8-4,Etylbenzen,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HTVgrøfttrase8-4,Xylen,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HTVgrøfttrase8-4,Alifater C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p01-BR-HTVgrøfttrase8-4,Alifater C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p01-BR-HTVgrøfttrase8-4,Alifater C12-C35,Sum alifater > C12-C35,10.0,mg/kg,,True,10.0,totalanalyse
 p01-BR-HV-7460,As,Arsen,1.0,mg/kg,,False,,totalanalyse
 p01-BR-HV-7460,Cd,Kadmium,0.02,mg/kg,,True,0.02,totalanalyse
 p01-BR-HV-7460,Cr,Krom,83.0,mg/kg,,False,,totalanalyse
@@ -244,13 +244,13 @@ p01-BR-HV-7460,Zn,Sink,61.0,mg/kg,,False,,totalanalyse
 p01-BR-HV-7460,PCB7,Sum PCB7,0.007,mg/kg,,True,0.007,totalanalyse
 p01-BR-HV-7460,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
 p01-BR-HV-7460,PAH16,Sum PAH-16,0.11,mg/kg,,False,,totalanalyse
-p01-BR-HV-7460,Benzene,Benzen,0.043,mg/kg,,False,,totalanalyse
-p01-BR-HV-7460,Toluene,Toluen*,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HV-7460,Ethylbenzene,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HV-7460,Xylenes,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HV-7460,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
-p01-BR-HV-7460,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
-p01-BR-HV-7460,Alifater_C12-C35,Sum alifater > C12-C35,17.0,mg/kg,,False,,totalanalyse
+p01-BR-HV-7460,Benzen,Benzen,0.043,mg/kg,,False,,totalanalyse
+p01-BR-HV-7460,Toluen,Toluen*,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HV-7460,Etylbenzen,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HV-7460,Xylen,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HV-7460,Alifater C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p01-BR-HV-7460,Alifater C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p01-BR-HV-7460,Alifater C12-C35,Sum alifater > C12-C35,17.0,mg/kg,,False,,totalanalyse
 p01-BR-HV-7510,As,Arsen,11.0,mg/kg,,False,,totalanalyse
 p01-BR-HV-7510,Cd,Kadmium,0.02,mg/kg,,True,0.02,totalanalyse
 p01-BR-HV-7510,Cr,Krom,73.0,mg/kg,,False,,totalanalyse
@@ -262,13 +262,13 @@ p01-BR-HV-7510,Zn,Sink,83.0,mg/kg,,False,,totalanalyse
 p01-BR-HV-7510,PCB7,Sum PCB7,0.007,mg/kg,,True,0.007,totalanalyse
 p01-BR-HV-7510,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
 p01-BR-HV-7510,PAH16,Sum PAH-16,0.049,mg/kg,,False,,totalanalyse
-p01-BR-HV-7510,Benzene,Benzen,0.15,mg/kg,,False,,totalanalyse
-p01-BR-HV-7510,Toluene,Toluen*,0.074,mg/kg,,False,,totalanalyse
-p01-BR-HV-7510,Ethylbenzene,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HV-7510,Xylenes,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HV-7510,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
-p01-BR-HV-7510,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
-p01-BR-HV-7510,Alifater_C12-C35,Sum alifater > C12-C35,16.0,mg/kg,,False,,totalanalyse
+p01-BR-HV-7510,Benzen,Benzen,0.15,mg/kg,,False,,totalanalyse
+p01-BR-HV-7510,Toluen,Toluen*,0.074,mg/kg,,False,,totalanalyse
+p01-BR-HV-7510,Etylbenzen,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HV-7510,Xylen,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HV-7510,Alifater C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p01-BR-HV-7510,Alifater C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p01-BR-HV-7510,Alifater C12-C35,Sum alifater > C12-C35,16.0,mg/kg,,False,,totalanalyse
 p01-BR-HV-7550,As,Arsen,15.0,mg/kg,,False,,totalanalyse
 p01-BR-HV-7550,Cd,Kadmium,0.02,mg/kg,,True,0.02,totalanalyse
 p01-BR-HV-7550,Cr,Krom,120.0,mg/kg,,False,,totalanalyse
@@ -280,13 +280,13 @@ p01-BR-HV-7550,Zn,Sink,62.0,mg/kg,,False,,totalanalyse
 p01-BR-HV-7550,PCB7,Sum PCB7,0.007,mg/kg,,True,0.007,totalanalyse
 p01-BR-HV-7550,BaP,Benso(a)pyren^,0.011,mg/kg,,False,,totalanalyse
 p01-BR-HV-7550,PAH16,Sum PAH-16,0.024,mg/kg,,False,,totalanalyse
-p01-BR-HV-7550,Benzene,Benzen,0.019,mg/kg,,False,,totalanalyse
-p01-BR-HV-7550,Toluene,Toluen*,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HV-7550,Ethylbenzene,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HV-7550,Xylenes,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HV-7550,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
-p01-BR-HV-7550,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
-p01-BR-HV-7550,Alifater_C12-C35,Sum alifater > C12-C35,33.0,mg/kg,,False,,totalanalyse
+p01-BR-HV-7550,Benzen,Benzen,0.019,mg/kg,,False,,totalanalyse
+p01-BR-HV-7550,Toluen,Toluen*,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HV-7550,Etylbenzen,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HV-7550,Xylen,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HV-7550,Alifater C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p01-BR-HV-7550,Alifater C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p01-BR-HV-7550,Alifater C12-C35,Sum alifater > C12-C35,33.0,mg/kg,,False,,totalanalyse
 p01-BR-HV-7560ute1,As,Arsen,8.2,mg/kg,,False,,totalanalyse
 p01-BR-HV-7560ute1,Cd,Kadmium,0.13,mg/kg,,False,,totalanalyse
 p01-BR-HV-7560ute1,Cr,Krom,55.0,mg/kg,,False,,totalanalyse
@@ -298,13 +298,13 @@ p01-BR-HV-7560ute1,Zn,Sink,94.0,mg/kg,,False,,totalanalyse
 p01-BR-HV-7560ute1,PCB7,Sum PCB7,0.007,mg/kg,,True,0.007,totalanalyse
 p01-BR-HV-7560ute1,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
 p01-BR-HV-7560ute1,PAH16,Sum PAH-16,0.043,mg/kg,,False,,totalanalyse
-p01-BR-HV-7560ute1,Benzene,Benzen,0.13,mg/kg,,False,,totalanalyse
-p01-BR-HV-7560ute1,Toluene,Toluen*,0.088,mg/kg,,False,,totalanalyse
-p01-BR-HV-7560ute1,Ethylbenzene,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HV-7560ute1,Xylenes,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HV-7560ute1,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
-p01-BR-HV-7560ute1,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
-p01-BR-HV-7560ute1,Alifater_C12-C35,Sum alifater > C12-C35,40.0,mg/kg,,False,,totalanalyse
+p01-BR-HV-7560ute1,Benzen,Benzen,0.13,mg/kg,,False,,totalanalyse
+p01-BR-HV-7560ute1,Toluen,Toluen*,0.088,mg/kg,,False,,totalanalyse
+p01-BR-HV-7560ute1,Etylbenzen,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HV-7560ute1,Xylen,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HV-7560ute1,Alifater C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p01-BR-HV-7560ute1,Alifater C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p01-BR-HV-7560ute1,Alifater C12-C35,Sum alifater > C12-C35,40.0,mg/kg,,False,,totalanalyse
 p01-BR-HV-7570,As,Arsen,19.0,mg/kg,,False,,totalanalyse
 p01-BR-HV-7570,Cd,Kadmium,0.02,mg/kg,,True,0.02,totalanalyse
 p01-BR-HV-7570,Cr,Krom,85.0,mg/kg,,False,,totalanalyse
@@ -316,13 +316,13 @@ p01-BR-HV-7570,Zn,Sink,62.0,mg/kg,,False,,totalanalyse
 p01-BR-HV-7570,PCB7,Sum PCB7,0.007,mg/kg,,True,0.007,totalanalyse
 p01-BR-HV-7570,BaP,Benso(a)pyren^,0.011,mg/kg,,False,,totalanalyse
 p01-BR-HV-7570,PAH16,Sum PAH-16,0.012,mg/kg,,False,,totalanalyse
-p01-BR-HV-7570,Benzene,Benzen,0.016,mg/kg,,False,,totalanalyse
-p01-BR-HV-7570,Toluene,Toluen*,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HV-7570,Ethylbenzene,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HV-7570,Xylenes,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HV-7570,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
-p01-BR-HV-7570,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
-p01-BR-HV-7570,Alifater_C12-C35,Sum alifater > C12-C35,25.0,mg/kg,,False,,totalanalyse
+p01-BR-HV-7570,Benzen,Benzen,0.016,mg/kg,,False,,totalanalyse
+p01-BR-HV-7570,Toluen,Toluen*,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HV-7570,Etylbenzen,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HV-7570,Xylen,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HV-7570,Alifater C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p01-BR-HV-7570,Alifater C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p01-BR-HV-7570,Alifater C12-C35,Sum alifater > C12-C35,25.0,mg/kg,,False,,totalanalyse
 p01-BR-HV-7610,As,Arsen,8.8,mg/kg,,False,,totalanalyse
 p01-BR-HV-7610,Cd,Kadmium,0.25,mg/kg,,False,,totalanalyse
 p01-BR-HV-7610,Cr,Krom,91.0,mg/kg,,False,,totalanalyse
@@ -334,13 +334,13 @@ p01-BR-HV-7610,Zn,Sink,57.0,mg/kg,,False,,totalanalyse
 p01-BR-HV-7610,PCB7,Sum PCB7,0.007,mg/kg,,True,0.007,totalanalyse
 p01-BR-HV-7610,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
 p01-BR-HV-7610,PAH16,Sum PAH-16,0.091,mg/kg,,False,,totalanalyse
-p01-BR-HV-7610,Benzene,Benzen,0.094,mg/kg,,False,,totalanalyse
-p01-BR-HV-7610,Toluene,Toluen*,0.076,mg/kg,,False,,totalanalyse
-p01-BR-HV-7610,Ethylbenzene,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HV-7610,Xylenes,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HV-7610,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
-p01-BR-HV-7610,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
-p01-BR-HV-7610,Alifater_C12-C35,Sum alifater > C12-C35,10.0,mg/kg,,True,10.0,totalanalyse
+p01-BR-HV-7610,Benzen,Benzen,0.094,mg/kg,,False,,totalanalyse
+p01-BR-HV-7610,Toluen,Toluen*,0.076,mg/kg,,False,,totalanalyse
+p01-BR-HV-7610,Etylbenzen,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HV-7610,Xylen,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HV-7610,Alifater C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p01-BR-HV-7610,Alifater C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p01-BR-HV-7610,Alifater C12-C35,Sum alifater > C12-C35,10.0,mg/kg,,True,10.0,totalanalyse
 p01-BR-HV-7660,As,Arsen,10.0,mg/kg,,False,,totalanalyse
 p01-BR-HV-7660,Cd,Kadmium,0.31,mg/kg,,False,,totalanalyse
 p01-BR-HV-7660,Cr,Krom,87.0,mg/kg,,False,,totalanalyse
@@ -352,13 +352,13 @@ p01-BR-HV-7660,Zn,Sink,64.0,mg/kg,,False,,totalanalyse
 p01-BR-HV-7660,PCB7,Sum PCB7,0.007,mg/kg,,True,0.007,totalanalyse
 p01-BR-HV-7660,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
 p01-BR-HV-7660,PAH16,Sum PAH-16,0.094,mg/kg,,False,,totalanalyse
-p01-BR-HV-7660,Benzene,Benzen,0.19,mg/kg,,False,,totalanalyse
-p01-BR-HV-7660,Toluene,Toluen*,0.11,mg/kg,,False,,totalanalyse
-p01-BR-HV-7660,Ethylbenzene,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HV-7660,Xylenes,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HV-7660,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
-p01-BR-HV-7660,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
-p01-BR-HV-7660,Alifater_C12-C35,Sum alifater > C12-C35,23.0,mg/kg,,False,,totalanalyse
+p01-BR-HV-7660,Benzen,Benzen,0.19,mg/kg,,False,,totalanalyse
+p01-BR-HV-7660,Toluen,Toluen*,0.11,mg/kg,,False,,totalanalyse
+p01-BR-HV-7660,Etylbenzen,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HV-7660,Xylen,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HV-7660,Alifater C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p01-BR-HV-7660,Alifater C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p01-BR-HV-7660,Alifater C12-C35,Sum alifater > C12-C35,23.0,mg/kg,,False,,totalanalyse
 p01-BR-HV-7710,As,Arsen,10.0,mg/kg,,False,,totalanalyse
 p01-BR-HV-7710,Cd,Kadmium,0.24,mg/kg,,False,,totalanalyse
 p01-BR-HV-7710,Cr,Krom,48.0,mg/kg,,False,,totalanalyse
@@ -370,13 +370,13 @@ p01-BR-HV-7710,Zn,Sink,66.0,mg/kg,,False,,totalanalyse
 p01-BR-HV-7710,PCB7,Sum PCB7,0.007,mg/kg,,True,0.007,totalanalyse
 p01-BR-HV-7710,BaP,Benso(a)pyren^,0.012,mg/kg,,False,,totalanalyse
 p01-BR-HV-7710,PAH16,Sum PAH-16,0.097,mg/kg,,False,,totalanalyse
-p01-BR-HV-7710,Benzene,Benzen,0.1,mg/kg,,False,,totalanalyse
-p01-BR-HV-7710,Toluene,Toluen*,0.061,mg/kg,,False,,totalanalyse
-p01-BR-HV-7710,Ethylbenzene,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HV-7710,Xylenes,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HV-7710,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
-p01-BR-HV-7710,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
-p01-BR-HV-7710,Alifater_C12-C35,Sum alifater > C12-C35,12.0,mg/kg,,False,,totalanalyse
+p01-BR-HV-7710,Benzen,Benzen,0.1,mg/kg,,False,,totalanalyse
+p01-BR-HV-7710,Toluen,Toluen*,0.061,mg/kg,,False,,totalanalyse
+p01-BR-HV-7710,Etylbenzen,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HV-7710,Xylen,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HV-7710,Alifater C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p01-BR-HV-7710,Alifater C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p01-BR-HV-7710,Alifater C12-C35,Sum alifater > C12-C35,12.0,mg/kg,,False,,totalanalyse
 p01-BR-HV-7760,As,Arsen,5.3,mg/kg,,False,,totalanalyse
 p01-BR-HV-7760,Cd,Kadmium,0.3,mg/kg,,False,,totalanalyse
 p01-BR-HV-7760,Cr,Krom,45.0,mg/kg,,False,,totalanalyse
@@ -388,13 +388,13 @@ p01-BR-HV-7760,Zn,Sink,46.0,mg/kg,,False,,totalanalyse
 p01-BR-HV-7760,PCB7,Sum PCB7,0.007,mg/kg,,True,0.007,totalanalyse
 p01-BR-HV-7760,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
 p01-BR-HV-7760,PAH16,Sum PAH-16,0.13,mg/kg,,False,,totalanalyse
-p01-BR-HV-7760,Benzene,Benzen,0.1,mg/kg,,False,,totalanalyse
-p01-BR-HV-7760,Toluene,Toluen*,0.07,mg/kg,,False,,totalanalyse
-p01-BR-HV-7760,Ethylbenzene,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HV-7760,Xylenes,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HV-7760,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
-p01-BR-HV-7760,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
-p01-BR-HV-7760,Alifater_C12-C35,Sum alifater > C12-C35,15.0,mg/kg,,False,,totalanalyse
+p01-BR-HV-7760,Benzen,Benzen,0.1,mg/kg,,False,,totalanalyse
+p01-BR-HV-7760,Toluen,Toluen*,0.07,mg/kg,,False,,totalanalyse
+p01-BR-HV-7760,Etylbenzen,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HV-7760,Xylen,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HV-7760,Alifater C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p01-BR-HV-7760,Alifater C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p01-BR-HV-7760,Alifater C12-C35,Sum alifater > C12-C35,15.0,mg/kg,,False,,totalanalyse
 p01-BR-HV-7810,As,Arsen,5.1,mg/kg,,False,,totalanalyse
 p01-BR-HV-7810,Cd,Kadmium,0.16,mg/kg,,False,,totalanalyse
 p01-BR-HV-7810,Cr,Krom,100.0,mg/kg,,False,,totalanalyse
@@ -406,13 +406,13 @@ p01-BR-HV-7810,Zn,Sink,41.0,mg/kg,,False,,totalanalyse
 p01-BR-HV-7810,PCB7,Sum PCB7,0.007,mg/kg,,True,0.007,totalanalyse
 p01-BR-HV-7810,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
 p01-BR-HV-7810,PAH16,Sum PAH-16,0.16,mg/kg,,False,,totalanalyse
-p01-BR-HV-7810,Benzene,Benzen,0.11,mg/kg,,False,,totalanalyse
-p01-BR-HV-7810,Toluene,Toluen*,0.079,mg/kg,,False,,totalanalyse
-p01-BR-HV-7810,Ethylbenzene,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HV-7810,Xylenes,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HV-7810,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
-p01-BR-HV-7810,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
-p01-BR-HV-7810,Alifater_C12-C35,Sum alifater > C12-C35,10.0,mg/kg,,False,,totalanalyse
+p01-BR-HV-7810,Benzen,Benzen,0.11,mg/kg,,False,,totalanalyse
+p01-BR-HV-7810,Toluen,Toluen*,0.079,mg/kg,,False,,totalanalyse
+p01-BR-HV-7810,Etylbenzen,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HV-7810,Xylen,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HV-7810,Alifater C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p01-BR-HV-7810,Alifater C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p01-BR-HV-7810,Alifater C12-C35,Sum alifater > C12-C35,10.0,mg/kg,,False,,totalanalyse
 p01-BR-HTV-7860,As,Arsen,6.4,mg/kg,,False,,totalanalyse
 p01-BR-HTV-7860,Cd,Kadmium,0.02,mg/kg,,True,0.02,totalanalyse
 p01-BR-HTV-7860,Cr,Krom,61.0,mg/kg,,False,,totalanalyse
@@ -424,13 +424,13 @@ p01-BR-HTV-7860,Zn,Sink,65.0,mg/kg,,False,,totalanalyse
 p01-BR-HTV-7860,PCB7,Sum PCB7,0.007,mg/kg,,True,0.007,totalanalyse
 p01-BR-HTV-7860,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
 p01-BR-HTV-7860,PAH16,Sum PAH-16,0.16,mg/kg,,True,0.16,totalanalyse
-p01-BR-HTV-7860,Benzene,Benzen,0.11,mg/kg,,False,,totalanalyse
-p01-BR-HTV-7860,Toluene,Toluen*,0.048,mg/kg,,False,,totalanalyse
-p01-BR-HTV-7860,Ethylbenzene,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HTV-7860,Xylenes,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HTV-7860,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
-p01-BR-HTV-7860,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
-p01-BR-HTV-7860,Alifater_C12-C35,Sum alifater > C12-C35,36.0,mg/kg,,False,,totalanalyse
+p01-BR-HTV-7860,Benzen,Benzen,0.11,mg/kg,,False,,totalanalyse
+p01-BR-HTV-7860,Toluen,Toluen*,0.048,mg/kg,,False,,totalanalyse
+p01-BR-HTV-7860,Etylbenzen,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HTV-7860,Xylen,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HTV-7860,Alifater C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p01-BR-HTV-7860,Alifater C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p01-BR-HTV-7860,Alifater C12-C35,Sum alifater > C12-C35,36.0,mg/kg,,False,,totalanalyse
 p01-BR-HV-7910,As,Arsen,5.1,mg/kg,,False,,totalanalyse
 p01-BR-HV-7910,Cd,Kadmium,0.028,mg/kg,,False,,totalanalyse
 p01-BR-HV-7910,Cr,Krom,33.0,mg/kg,,False,,totalanalyse
@@ -442,13 +442,13 @@ p01-BR-HV-7910,Zn,Sink,52.0,mg/kg,,False,,totalanalyse
 p01-BR-HV-7910,PCB7,Sum PCB7,0.007,mg/kg,,True,0.007,totalanalyse
 p01-BR-HV-7910,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
 p01-BR-HV-7910,PAH16,Sum PAH-16,0.16,mg/kg,,True,0.16,totalanalyse
-p01-BR-HV-7910,Benzene,Benzen,0.01,mg/kg,,False,,totalanalyse
-p01-BR-HV-7910,Toluene,Toluen*,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HV-7910,Ethylbenzene,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HV-7910,Xylenes,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-HV-7910,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
-p01-BR-HV-7910,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
-p01-BR-HV-7910,Alifater_C12-C35,Sum alifater > C12-C35,13.0,mg/kg,,False,,totalanalyse
+p01-BR-HV-7910,Benzen,Benzen,0.01,mg/kg,,False,,totalanalyse
+p01-BR-HV-7910,Toluen,Toluen*,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HV-7910,Etylbenzen,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HV-7910,Xylen,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-HV-7910,Alifater C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p01-BR-HV-7910,Alifater C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p01-BR-HV-7910,Alifater C12-C35,Sum alifater > C12-C35,13.0,mg/kg,,False,,totalanalyse
 p01-BR-Pumpesump,As,Arsen,7.3,mg/kg,,False,,totalanalyse
 p01-BR-Pumpesump,Cd,Kadmium,0.02,mg/kg,,True,0.02,totalanalyse
 p01-BR-Pumpesump,Cr,Krom,57.0,mg/kg,,False,,totalanalyse
@@ -460,13 +460,13 @@ p01-BR-Pumpesump,Zn,Sink,49.0,mg/kg,,False,,totalanalyse
 p01-BR-Pumpesump,PCB7,Sum PCB7,0.007,mg/kg,,True,0.007,totalanalyse
 p01-BR-Pumpesump,BaP,Benso(a)pyren^,0.01,mg/kg,,True,0.01,totalanalyse
 p01-BR-Pumpesump,PAH16,Sum PAH-16,0.019,mg/kg,,False,,totalanalyse
-p01-BR-Pumpesump,Benzene,Benzen,0.024,mg/kg,,False,,totalanalyse
-p01-BR-Pumpesump,Toluene,Toluen*,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-Pumpesump,Ethylbenzene,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-Pumpesump,Xylenes,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
-p01-BR-Pumpesump,Alifater_C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
-p01-BR-Pumpesump,Alifater_C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
-p01-BR-Pumpesump,Alifater_C12-C35,Sum alifater > C12-C35,130.0,mg/kg,,False,,totalanalyse
+p01-BR-Pumpesump,Benzen,Benzen,0.024,mg/kg,,False,,totalanalyse
+p01-BR-Pumpesump,Toluen,Toluen*,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-Pumpesump,Etylbenzen,Etylbenzen *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-Pumpesump,Xylen,Xylener *,0.04,mg/kg,,True,0.04,totalanalyse
+p01-BR-Pumpesump,Alifater C8-C10,Alifater >C8-C10,2.0,mg/kg,,True,2.0,totalanalyse
+p01-BR-Pumpesump,Alifater C10-C12,Alifater >C10-C12,5.0,mg/kg,,True,5.0,totalanalyse
+p01-BR-Pumpesump,Alifater C12-C35,Sum alifater > C12-C35,130.0,mg/kg,,False,,totalanalyse
 p01-BR-HTV-kornfordeling,Kornfordeling_0mm,Kumulativ % passerende 0 mm,0.0,%,,False,,kornfordeling
 p01-BR-HTV-kornfordeling,Kornfordeling_0.002mm,Kumulativ % passerende 0.002 mm,0.22,%,,False,,kornfordeling
 p01-BR-HTV-kornfordeling,Kornfordeling_0.004mm,Kumulativ % passerende 0.004 mm,0.61,%,,False,,kornfordeling

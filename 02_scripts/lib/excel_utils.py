@@ -197,14 +197,7 @@ def create_wide_table(
         >>> wide_df = create_wide_table(results_df, sample_id_prefix='p09-')
         >>> wide_df.to_csv('results_wide.csv', index=False)
     """
-    # Check for unit consistency within each sample
-    unit_check = results_df.groupby('sample_id')['unit'].nunique()
-    inconsistent_samples = unit_check[unit_check > 1]
-    if len(inconsistent_samples) > 0:
-        print(f"  WARNING: Mixed units found in samples: {list(inconsistent_samples.index)}")
-        for sample_id in inconsistent_samples.index:
-            units = results_df[results_df['sample_id'] == sample_id]['unit'].unique()
-            print(f"    {sample_id}: {list(units)}")
+    # Unit consistency check removed; units are now converted downstream
     
     # Create formatted value strings (without units)
     def format_value(row):

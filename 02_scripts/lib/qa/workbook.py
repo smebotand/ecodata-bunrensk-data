@@ -1,5 +1,5 @@
 """
-QA Workbook utilities for bunnrensk data extraction projects.
+QA Workbook generation for bunnrensk data extraction projects.
 
 Creates Excel workbooks for manual verification of extracted data.
 """
@@ -7,89 +7,7 @@ Creates Excel workbooks for manual verification of extracted data.
 from pathlib import Path
 import pandas as pd
 
-# Import schema for validation
-from lib.schema import SAMPLE_TYPES, LOCATION_TYPES, ANALYSIS_TYPES, DECISION_TYPES, UNIT_TYPES, LAB_TYPES
-
-
-def _find_schema_violations(samples_df: pd.DataFrame, results_df: pd.DataFrame,
-                            dec_df: pd.DataFrame) -> list[dict]:
-    """
-    Check data against schema constraints and return list of violations.
-    
-    Returns:
-        List of dicts with keys: table, sample_id, field, value, valid_values
-    """
-    violations = []
-    
-    # Check samples for invalid location_type
-    if len(samples_df) > 0 and 'location_type' in samples_df.columns:
-        for _, row in samples_df.iterrows():
-            val = row.get('location_type')
-            if val and val not in LOCATION_TYPES:
-                violations.append({
-                    'table': 'samples',
-                    'sample_id': row.get('sample_id', '?'),
-                    'field': 'location_type',
-                    'value': val,
-                    'valid_values': ', '.join(sorted(LOCATION_TYPES)),
-                })
-    
-    # Check samples for invalid sample_type
-    if len(samples_df) > 0 and 'sample_type' in samples_df.columns:
-        for _, row in samples_df.iterrows():
-            val = row.get('sample_type')
-            if val and val not in SAMPLE_TYPES:
-                violations.append({
-                    'table': 'samples',
-                    'sample_id': row.get('sample_id', '?'),
-                    'field': 'sample_type',
-                    'value': val,
-                    'valid_values': ', '.join(sorted(SAMPLE_TYPES)),
-                })
-    
-    # Check results for invalid analysis_type
-    if len(results_df) > 0 and 'analysis_type' in results_df.columns:
-        for _, row in results_df.iterrows():
-            val = row.get('analysis_type')
-            if val and val not in ANALYSIS_TYPES:
-                violations.append({
-                    'table': 'results',
-                    'sample_id': row.get('sample_id', '?'),
-                    'field': 'analysis_type',
-                    'value': val,
-                    'valid_values': ', '.join(sorted(ANALYSIS_TYPES)),
-                })
-    
-    # Check results for invalid unit
-    if len(results_df) > 0 and 'unit' in results_df.columns:
-        # Only report unique violations per unit value
-        seen_units = set()
-        for _, row in results_df.iterrows():
-            val = row.get('unit')
-            if val and val not in UNIT_TYPES and val not in seen_units:
-                seen_units.add(val)
-                violations.append({
-                    'table': 'results',
-                    'sample_id': '(multiple)',
-                    'field': 'unit',
-                    'value': val,
-                    'valid_values': ', '.join(sorted(UNIT_TYPES)),
-                })
-    
-    # Check decisions for invalid decision
-    if len(dec_df) > 0 and 'decision' in dec_df.columns:
-        for _, row in dec_df.iterrows():
-            val = row.get('decision')
-            if val and val not in DECISION_TYPES:
-                violations.append({
-                    'table': 'decisions',
-                    'sample_id': row.get('sample_id', '?'),
-                    'field': 'decision',
-                    'value': val,
-                    'valid_values': ', '.join(sorted(DECISION_TYPES)),
-                })
-    
-    return violations
+from lib.qa.utils import find_schema_violations, find_duplicate_results
 
 
 def create_qa_workbook(filepath: Path, summary: dict, samples_df: pd.DataFrame,
@@ -125,6 +43,7 @@ def create_qa_workbook(filepath: Path, summary: dict, samples_df: pd.DataFrame,
     Sheets created:
         - Summary: Extraction metadata and file overview
         - Schema Violations: Any values that don't match schema constraints
+        - Duplicate Results: Results with same sample_id + parameter + analysis_type
         - QA Checklist: Standard items to verify with status columns
         - Samples QA: Sample data with QA columns
         - Results QA: Lab results data with QA columns
@@ -139,7 +58,10 @@ def create_qa_workbook(filepath: Path, summary: dict, samples_df: pd.DataFrame,
     wb = Workbook()
     
     # Find schema violations
-    violations = _find_schema_violations(samples_df, results_df, dec_df)
+    violations = find_schema_violations(samples_df, results_df, dec_df)
+    
+    # Find duplicate results
+    duplicates = find_duplicate_results(results_df)
     
     # Define styles
     header_font = Font(bold=True, color="FFFFFF")
@@ -216,7 +138,7 @@ def create_qa_workbook(filepath: Path, summary: dict, samples_df: pd.DataFrame,
     ws_summary.column_dimensions['F'].width = 15
     
     # Add schema violations count to summary
-    ws_summary['A23'] = "Schema Validation"
+    ws_summary['A23'] = "Data Quality Checks"
     ws_summary['A23'].font = Font(bold=True, size=12)
     ws_summary['A24'] = "Schema Violations"
     ws_summary['A24'].font = Font(bold=True)
@@ -226,6 +148,16 @@ def create_qa_workbook(filepath: Path, summary: dict, samples_df: pd.DataFrame,
     else:
         ws_summary['B24'].fill = ok_fill
     ws_summary['C24'] = "See 'Schema Violations' sheet for details" if violations else "All values match schema"
+    
+    # Add duplicate results count
+    ws_summary['A25'] = "Duplicate Results"
+    ws_summary['A25'].font = Font(bold=True)
+    ws_summary['B25'] = len(duplicates)
+    if len(duplicates) > 0:
+        ws_summary['B25'].fill = warn_fill
+    else:
+        ws_summary['B25'].fill = ok_fill
+    ws_summary['C25'] = "See 'Duplicate Results' sheet for details" if duplicates else "No duplicate results found"
     
     # =========================================================================
     # SHEET 2: Schema Violations
@@ -261,7 +193,40 @@ def create_qa_workbook(filepath: Path, summary: dict, samples_df: pd.DataFrame,
     ws_violations.freeze_panes = 'A2'
     
     # =========================================================================
-    # SHEET 3: QA Checklist
+    # SHEET 3: Duplicate Results
+    # =========================================================================
+    ws_duplicates = wb.create_sheet("Duplicate Results")
+    
+    dup_headers = ['Sample ID', 'Parameter', 'Analysis Type', 'Count', 'Values']
+    for j, header in enumerate(dup_headers, start=1):
+        cell = ws_duplicates.cell(row=1, column=j, value=header)
+        cell.font = header_font
+        cell.fill = header_fill
+        cell.border = thin_border
+    
+    if duplicates:
+        for i, d in enumerate(duplicates, start=2):
+            ws_duplicates.cell(row=i, column=1, value=d['sample_id']).border = thin_border
+            ws_duplicates.cell(row=i, column=2, value=d['parameter']).border = thin_border
+            ws_duplicates.cell(row=i, column=3, value=d['analysis_type']).border = thin_border
+            cell_count = ws_duplicates.cell(row=i, column=4, value=d['count'])
+            cell_count.border = thin_border
+            cell_count.fill = warn_fill
+            ws_duplicates.cell(row=i, column=5, value=d['values']).border = thin_border
+    else:
+        ws_duplicates.cell(row=2, column=1, value="No duplicate results found")
+        ws_duplicates.cell(row=2, column=1).fill = ok_fill
+    
+    # Set column widths
+    ws_duplicates.column_dimensions['A'].width = 18
+    ws_duplicates.column_dimensions['B'].width = 25
+    ws_duplicates.column_dimensions['C'].width = 15
+    ws_duplicates.column_dimensions['D'].width = 10
+    ws_duplicates.column_dimensions['E'].width = 40
+    ws_duplicates.freeze_panes = 'A2'
+    
+    # =========================================================================
+    # SHEET 4: QA Checklist
     # =========================================================================
     ws_qa = wb.create_sheet("QA Checklist")
     
@@ -308,7 +273,7 @@ def create_qa_workbook(filepath: Path, summary: dict, samples_df: pd.DataFrame,
     ws_qa.freeze_panes = 'A2'
     
     # =========================================================================
-    # SHEET 4: Samples QA
+    # SHEET 5: Samples QA
     # =========================================================================
     ws_samples = wb.create_sheet("Samples QA")
     
@@ -332,7 +297,7 @@ def create_qa_workbook(filepath: Path, summary: dict, samples_df: pd.DataFrame,
             ws_samples.column_dimensions[get_column_letter(col_idx)].width = max(len(str(col)) + 2, 12)
     
     # =========================================================================
-    # SHEET 5: Results QA
+    # SHEET 6: Results QA
     # =========================================================================
     ws_results = wb.create_sheet("Results QA")
     
@@ -355,7 +320,7 @@ def create_qa_workbook(filepath: Path, summary: dict, samples_df: pd.DataFrame,
             ws_results.column_dimensions[get_column_letter(col_idx)].width = min(max(len(str(col)) + 2, 10), 30)
     
     # =========================================================================
-    # SHEET 6: Classifications QA
+    # SHEET 7: Classifications QA
     # =========================================================================
     ws_class = wb.create_sheet("Classifications QA")
     
@@ -377,7 +342,7 @@ def create_qa_workbook(filepath: Path, summary: dict, samples_df: pd.DataFrame,
             ws_class.column_dimensions[get_column_letter(col_idx)].width = max(len(str(col)) + 2, 15)
     
     # =========================================================================
-    # SHEET 7: Decisions QA
+    # SHEET 8: Decisions QA
     # =========================================================================
     ws_dec = wb.create_sheet("Decisions QA")
     

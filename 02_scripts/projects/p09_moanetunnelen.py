@@ -21,11 +21,10 @@ from datetime import datetime
 # Add parent to path for lib imports
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from lib.pdf_utils import extract_text, extract_pages
+from lib.parser import extract_text, extract_pages, lab_results_from_als_pdf_with_THC
 from lib.export import save_to_csv
 from lib.excel_utils import create_wide_table, save_wide_table_xlsx
-from lib.parsers import lab_results_from_als_pdf_with_THC
-from lib.qa_workbook import create_qa_workbook
+from lib.qa import create_qa_workbook
 
 # ============================================================
 # PROJECT CONFIGURATION
@@ -301,15 +300,10 @@ def extract():
     save_to_csv(summary_df, OUTPUT_DIR / 'p09_extraction_summary.csv')
     
     # ============================================================
-    # GENERATE QA WORKBOOK (rename existing with timestamp to preserve notes)
+    # GENERATE QA WORKBOOK (always with timestamp to preserve history)
     # ============================================================
-    qa_workbook_path = OUTPUT_DIR / 'p09_QA_workbook.xlsx'
-    if qa_workbook_path.exists():
-        # Rename existing file with timestamp to preserve manual notes
-        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-        backup_path = OUTPUT_DIR / f'p09_QA_workbook_{timestamp}.xlsx'
-        qa_workbook_path.rename(backup_path)
-        print(f"  Renamed existing QA workbook to: p09_QA_workbook_{timestamp}.xlsx")
+    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+    qa_workbook_path = OUTPUT_DIR / f'p09_QA_workbook_{timestamp}.xlsx'
     
     create_qa_workbook(
         qa_workbook_path,
@@ -319,7 +313,7 @@ def extract():
         class_df,
         dec_df
     )
-    print(f"  Saved: p09_QA_workbook.xlsx (for manual QA documentation)")
+    print(f"  Saved: p09_QA_workbook_{timestamp}.xlsx (for manual QA documentation)")
     
     # ============================================================
     # FINAL REPORT

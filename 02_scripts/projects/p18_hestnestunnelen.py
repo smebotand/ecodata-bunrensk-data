@@ -30,9 +30,9 @@ from datetime import datetime
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from lib.export import save_to_csv
-from lib.chemistry import EUROFINS_ALI_COLUMN_MAP, EUROFINS_LEACHING_PARAM_MAP, get_parameter_code
+from lib.chemistry import normalize_parameter_name
 from lib.excel_utils import create_wide_table, save_wide_table_xlsx
-from lib.qa_workbook import create_qa_workbook
+from lib.qa import create_qa_workbook
 
 # ============================================================
 # PROJECT CONFIGURATION
@@ -46,7 +46,7 @@ BASE_DIR = Path(__file__).parent.parent.parent
 INBOX_DIR = BASE_DIR / '00_inbox' / 'BaneNOR' / 'Hestnestunnelen'
 OUTPUT_DIR = BASE_DIR / '01_projects' / '18_hestnestunnelen' / 'extracted'
 
-EXCEL_FILE = 'Hestnestunnelen - Analyseresultater bunnrenskprøver.xlsx'
+EXCEL_FILE = 'Hestnestunnelen - Analyseresultater bunnrenskprøver_moddaAnd.xlsx'
 
 # PDF file with leaching test results (ristetest and kolonnetest)
 PDF_FILE = 'VD38199-VD-NO-0019-Gjenbruk av kjemisk rene bunnrenskmasser fra KS-1 Hestnestunnelen (1).pdf'
@@ -149,13 +149,11 @@ def parse_leaching_test_pdf(pdf_path: Path, pages: list) -> list:
             unit = match.group(3).replace(' ', '').replace('TS', '')
             loq_str = match.group(4)
             
-            # Skip non-parameter entries
-            if param_raw in ['pH', 'Konduktivitet']:
-                param_code = EUROFINS_LEACHING_PARAM_MAP.get(param_raw, param_raw)
-            else:
-                param_code = EUROFINS_LEACHING_PARAM_MAP.get(param_raw)
-                if not param_code:
-                    continue
+            # Normalize parameter name
+            param_code = normalize_parameter_name(param_raw)
+            if param_code == param_raw and param_raw not in ['pH', 'Konduktivitet']:
+                # Unknown parameter, skip
+                continue
             
             below_limit = value_str.startswith('<')
             if below_limit:
@@ -207,8 +205,9 @@ def parse_leaching_test_pdf(pdf_path: Path, pages: list) -> list:
                 if unit != 'mg/l':
                     continue
                 
-                param_code = EUROFINS_LEACHING_PARAM_MAP.get(param_raw)
-                if not param_code:
+                param_code = normalize_parameter_name(param_raw)
+                if param_code == param_raw:
+                    # Unknown parameter, skip
                     continue
                 
                 below_limit = value_str.startswith('<')
@@ -353,7 +352,7 @@ def read_sheet(filepath: Path, sheet_name: str, location_code: str, ws_openpyxl=
                 continue
             
             # Get parameter code from shared mapping
-            param_code = get_parameter_code(excel_col)
+            param_code = normalize_parameter_name(excel_col)
             if not param_code or param_code == excel_col:
                 # Skip unmapped columns (likely not chemical parameters)
                 continue
@@ -545,15 +544,10 @@ def extract():
     save_to_csv(summary_df, OUTPUT_DIR / 'p18_extraction_summary.csv')
     
     # ============================================================
-    # QA WORKBOOK
+    # QA WORKBOOK (always with timestamp to preserve history)
     # ============================================================
-    qa_workbook_path = OUTPUT_DIR / 'p18_QA_workbook.xlsx'
-    if qa_workbook_path.exists():
-        # Rename existing file with timestamp to preserve manual notes
-        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-        backup_path = OUTPUT_DIR / f'p18_QA_workbook_{timestamp}.xlsx'
-        qa_workbook_path.rename(backup_path)
-        print(f"  Renamed existing QA workbook to: p18_QA_workbook_{timestamp}.xlsx")
+    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+    qa_workbook_path = OUTPUT_DIR / f'p18_QA_workbook_{timestamp}.xlsx'
     
     create_qa_workbook(
         qa_workbook_path,
@@ -563,7 +557,7 @@ def extract():
         class_df,
         dec_df
     )
-    print(f"  Saved: p18_QA_workbook.xlsx (for manual QA documentation)")
+    print(f"  Saved: p18_QA_workbook_{timestamp}.xlsx (for manual QA documentation)")
     
     # ============================================================
     # FINAL REPORT

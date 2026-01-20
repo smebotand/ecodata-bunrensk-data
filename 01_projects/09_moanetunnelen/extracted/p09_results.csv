@@ -16,35 +16,35 @@ p09-MOA-001,PCB138,PCB 138,0.003,mg/kg,,True,0.003,totalanalyse
 p09-MOA-001,PCB153,PCB 153,0.003,mg/kg,,True,0.003,totalanalyse
 p09-MOA-001,PCB180,PCB 180,0.003,mg/kg,,True,0.003,totalanalyse
 p09-MOA-001,PCB7,Sum PCB-7,0.0,mg/kg,,True,,totalanalyse
-p09-MOA-001,Naphthalene,Naftalen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-001,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-001,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-001,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-001,Phenanthrene,Fenantren,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-001,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-001,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-001,Pyrene,Pyren,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-001,BaA,Benzo(a)antracen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-001,Chrysene,Krysen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-001,BbF,Benzo(b)fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-001,BkF,Benzo(k)fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-001,Naftalen,Naftalen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-001,Acenaftylen,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-001,Acenaften,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-001,Fluoren,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-001,Fenantren,Fenantren,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-001,Antracen,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-001,Fluoranten,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-001,Pyren,Pyren,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-001,Benzo(a)antracen,Benzo(a)antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-001,Krysen,Krysen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-001,Benzo(b)fluoranten,Benzo(b)fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-001,Benzo(k)fluoranten,Benzo(k)fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
 p09-MOA-001,BaP,Benzo(a)pyren,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-001,DahA,Dibenzo(ah)antracen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-001,BghiP,Benzo(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-001,"Dibenzo(a,h)antracen","Dibenzo(a,h)antracen",0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-001,Benzo(ghi)perylen,Benzo(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
 p09-MOA-001,PAH16,Sum PAH-16,0.0,mg/kg,,True,,totalanalyse
 p09-MOA-001,Cr_VI,Cr6+,0.272,mg/kg,0.055,False,,totalanalyse
-p09-MOA-001,Benzene,Benzen,0.005,mg/kg,,True,0.005,totalanalyse
-p09-MOA-001,Toluene,Toluen,0.1,mg/kg,,True,0.1,totalanalyse
-p09-MOA-001,Ethylbenzene,Etylbensen,0.02,mg/kg,,True,0.02,totalanalyse
-p09-MOA-001,Xylene,Xylener,0.015,mg/kg,,True,0.015,totalanalyse
+p09-MOA-001,Benzen,Benzen,0.005,mg/kg,,True,0.005,totalanalyse
+p09-MOA-001,Toluen,Toluen,0.1,mg/kg,,True,0.1,totalanalyse
+p09-MOA-001,Etylbenzen,Etylbenzen,0.02,mg/kg,,True,0.02,totalanalyse
+p09-MOA-001,Xylen,Xylener,0.015,mg/kg,,True,0.015,totalanalyse
 p09-MOA-001,BTEX,Sum BTEX,0.0,mg/kg,,True,,totalanalyse
-p09-MOA-001,THC_C5-C6,Fraksjon >C5-C6,7.0,mg/kg,,True,7.0,totalanalyse
-p09-MOA-001,THC_C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
-p09-MOA-001,THC_C8-C10,Fraksjon >C8-C10,10.0,mg/kg,,True,10.0,totalanalyse
-p09-MOA-001,THC_C10-C12,Fraksjon >C10-C12,2.0,mg/kg,,True,2.0,totalanalyse
-p09-MOA-001,THC_C12-C16,Fraksjon >C12-C16,3.0,mg/kg,,True,3.0,totalanalyse
-p09-MOA-001,THC_C16-C35,Fraksjon >C16-C35,140.0,mg/kg,42.0,False,,totalanalyse
-p09-MOA-001,THC_C12-C35,Sum >C12-C35,140.0,mg/kg,,False,,totalanalyse
+p09-MOA-001,THC C5-C6,Fraksjon >C5-C6,7.0,mg/kg,,True,7.0,totalanalyse
+p09-MOA-001,THC C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
+p09-MOA-001,THC C8-C10,Fraksjon >C8-C10,10.0,mg/kg,,True,10.0,totalanalyse
+p09-MOA-001,THC C10-C12,Fraksjon >C10-C12,2.0,mg/kg,,True,2.0,totalanalyse
+p09-MOA-001,THC C12-C16,Fraksjon >C12-C16,3.0,mg/kg,,True,3.0,totalanalyse
+p09-MOA-001,THC C16-C35,Fraksjon >C16-C35,140.0,mg/kg,42.0,False,,totalanalyse
+p09-MOA-001,THC C12-C35,Sum >C12-C35,140.0,mg/kg,,False,,totalanalyse
 p09-MOA-001,CN,Cyanid-fri,0.1,mg/kg,,True,0.1,totalanalyse
 p09-MOA-001,CP_2-MCP,2-Monoklorfenol,0.02,mg/kg,,True,0.02,totalanalyse
 p09-MOA-001,CP_3-MCP,3-Monoklorfenol,0.02,mg/kg,,True,0.02,totalanalyse
@@ -106,36 +106,36 @@ p09-MOA-002,PCB138,PCB 138,0.003,mg/kg,,True,0.003,totalanalyse
 p09-MOA-002,PCB153,PCB 153,0.003,mg/kg,,True,0.003,totalanalyse
 p09-MOA-002,PCB180,PCB 180,0.003,mg/kg,,True,0.003,totalanalyse
 p09-MOA-002,PCB7,Sum PCB-7,0.0,mg/kg,,True,,totalanalyse
-p09-MOA-002,Naphthalene,Naftalen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-002,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-002,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-002,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-002,Phenanthrene,Fenantren,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-002,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-002,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-002,Pyrene,Pyren,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-002,BaA,Benzo(a)antracen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-002,Chrysene,Krysen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-002,BbF,Benzo(b)fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-002,BkF,Benzo(k)fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-002,Naftalen,Naftalen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-002,Acenaftylen,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-002,Acenaften,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-002,Fluoren,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-002,Fenantren,Fenantren,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-002,Antracen,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-002,Fluoranten,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-002,Pyren,Pyren,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-002,Benzo(a)antracen,Benzo(a)antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-002,Krysen,Krysen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-002,Benzo(b)fluoranten,Benzo(b)fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-002,Benzo(k)fluoranten,Benzo(k)fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
 p09-MOA-002,BaP,Benzo(a)pyren,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-002,DahA,Dibenzo(ah)antracen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-002,BghiP,Benzo(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-002,"Dibenzo(a,h)antracen","Dibenzo(a,h)antracen",0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-002,Benzo(ghi)perylen,Benzo(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
 p09-MOA-002,PAH16,Sum PAH-16,0.0,mg/kg,,True,,totalanalyse
-p09-MOA-002,Benzene,Benzen,0.005,mg/kg,,True,0.005,totalanalyse
-p09-MOA-002,Toluene,Toluen,0.1,mg/kg,,True,0.1,totalanalyse
-p09-MOA-002,Ethylbenzene,Etylbensen,0.02,mg/kg,,True,0.02,totalanalyse
-p09-MOA-002,Xylene,Xylener,0.015,mg/kg,,True,0.015,totalanalyse
+p09-MOA-002,Benzen,Benzen,0.005,mg/kg,,True,0.005,totalanalyse
+p09-MOA-002,Toluen,Toluen,0.1,mg/kg,,True,0.1,totalanalyse
+p09-MOA-002,Etylbenzen,Etylbenzen,0.02,mg/kg,,True,0.02,totalanalyse
+p09-MOA-002,Xylen,Xylener,0.015,mg/kg,,True,0.015,totalanalyse
 p09-MOA-002,BTEX,Sum BTEX,0.0,mg/kg,,True,,totalanalyse
-p09-MOA-002,THC_C5-C6,Fraksjon >C5-C6,7.0,mg/kg,,True,7.0,totalanalyse
-p09-MOA-002,THC_C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
-p09-MOA-002,THC_C8-C10,Fraksjon >C8-C10,10.0,mg/kg,,True,10.0,totalanalyse
-p09-MOA-002,THC_C10-C12,Fraksjon >C10-C12,2.0,mg/kg,,True,2.0,totalanalyse
-p09-MOA-002,THC_C12-C16,Fraksjon >C12-C16,3.4,mg/kg,1.0,False,,totalanalyse
+p09-MOA-002,THC C5-C6,Fraksjon >C5-C6,7.0,mg/kg,,True,7.0,totalanalyse
+p09-MOA-002,THC C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
+p09-MOA-002,THC C8-C10,Fraksjon >C8-C10,10.0,mg/kg,,True,10.0,totalanalyse
+p09-MOA-002,THC C10-C12,Fraksjon >C10-C12,2.0,mg/kg,,True,2.0,totalanalyse
+p09-MOA-002,THC C12-C16,Fraksjon >C12-C16,3.4,mg/kg,1.0,False,,totalanalyse
 p09-MOA-002,Cr_VI,Cr6+,0.125,mg/kg,0.027,False,,totalanalyse
-p09-MOA-002,Benzene,Benzen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-002,THC_C16-C35,Fraksjon >C16-C35,214.0,mg/kg,64.0,False,,totalanalyse
-p09-MOA-002,THC_C12-C35,Sum >C12-C35,217.0,mg/kg,,False,,totalanalyse
+p09-MOA-002,Benzen,Benzen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-002,THC C16-C35,Fraksjon >C16-C35,214.0,mg/kg,64.0,False,,totalanalyse
+p09-MOA-002,THC C12-C35,Sum >C12-C35,217.0,mg/kg,,False,,totalanalyse
 p09-MOA-002,CN,Cyanid-fri,0.1,mg/kg,,True,0.1,totalanalyse
 p09-MOA-002,CP_2-MCP,2-Monoklorfenol,0.02,mg/kg,,True,0.02,totalanalyse
 p09-MOA-002,CP_3-MCP,3-Monoklorfenol,0.02,mg/kg,,True,0.02,totalanalyse
@@ -197,36 +197,36 @@ p09-MOA-003,PCB138,PCB 138,0.003,mg/kg,,True,0.003,totalanalyse
 p09-MOA-003,PCB153,PCB 153,0.003,mg/kg,,True,0.003,totalanalyse
 p09-MOA-003,PCB180,PCB 180,0.003,mg/kg,,True,0.003,totalanalyse
 p09-MOA-003,PCB7,Sum PCB-7,0.0,mg/kg,,True,,totalanalyse
-p09-MOA-003,Naphthalene,Naftalen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-003,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-003,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-003,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-003,Phenanthrene,Fenantren,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-003,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-003,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-003,Pyrene,Pyren,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-003,BaA,Benzo(a)antracen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-003,Chrysene,Krysen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-003,BbF,Benzo(b)fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-003,BkF,Benzo(k)fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-003,Naftalen,Naftalen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-003,Acenaftylen,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-003,Acenaften,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-003,Fluoren,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-003,Fenantren,Fenantren,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-003,Antracen,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-003,Fluoranten,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-003,Pyren,Pyren,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-003,Benzo(a)antracen,Benzo(a)antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-003,Krysen,Krysen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-003,Benzo(b)fluoranten,Benzo(b)fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-003,Benzo(k)fluoranten,Benzo(k)fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
 p09-MOA-003,BaP,Benzo(a)pyren,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-003,DahA,Dibenzo(ah)antracen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-003,BghiP,Benzo(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-003,"Dibenzo(a,h)antracen","Dibenzo(a,h)antracen",0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-003,Benzo(ghi)perylen,Benzo(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
 p09-MOA-003,PAH16,Sum PAH-16,0.0,mg/kg,,True,,totalanalyse
-p09-MOA-003,Benzene,Benzen,0.005,mg/kg,,True,0.005,totalanalyse
-p09-MOA-003,Toluene,Toluen,0.1,mg/kg,,True,0.1,totalanalyse
-p09-MOA-003,Ethylbenzene,Etylbensen,0.02,mg/kg,,True,0.02,totalanalyse
-p09-MOA-003,Xylene,Xylener,0.015,mg/kg,,True,0.015,totalanalyse
+p09-MOA-003,Benzen,Benzen,0.005,mg/kg,,True,0.005,totalanalyse
+p09-MOA-003,Toluen,Toluen,0.1,mg/kg,,True,0.1,totalanalyse
+p09-MOA-003,Etylbenzen,Etylbenzen,0.02,mg/kg,,True,0.02,totalanalyse
+p09-MOA-003,Xylen,Xylener,0.015,mg/kg,,True,0.015,totalanalyse
 p09-MOA-003,BTEX,Sum BTEX,0.0,mg/kg,,True,,totalanalyse
-p09-MOA-003,THC_C5-C6,Fraksjon >C5-C6,7.0,mg/kg,,True,7.0,totalanalyse
-p09-MOA-003,THC_C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
-p09-MOA-003,THC_C8-C10,Fraksjon >C8-C10,10.0,mg/kg,,True,10.0,totalanalyse
-p09-MOA-003,THC_C10-C12,Fraksjon >C10-C12,2.0,mg/kg,,True,2.0,totalanalyse
-p09-MOA-003,THC_C12-C16,Fraksjon >C12-C16,3.5,mg/kg,1.0,False,,totalanalyse
+p09-MOA-003,THC C5-C6,Fraksjon >C5-C6,7.0,mg/kg,,True,7.0,totalanalyse
+p09-MOA-003,THC C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
+p09-MOA-003,THC C8-C10,Fraksjon >C8-C10,10.0,mg/kg,,True,10.0,totalanalyse
+p09-MOA-003,THC C10-C12,Fraksjon >C10-C12,2.0,mg/kg,,True,2.0,totalanalyse
+p09-MOA-003,THC C12-C16,Fraksjon >C12-C16,3.5,mg/kg,1.0,False,,totalanalyse
 p09-MOA-003,Cr_VI,Cr6+,0.08,mg/kg,0.019,False,,totalanalyse
-p09-MOA-003,Benzene,Benzen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-003,THC_C16-C35,Fraksjon >C16-C35,178.0,mg/kg,54.0,False,,totalanalyse
-p09-MOA-003,THC_C12-C35,Sum >C12-C35,182.0,mg/kg,,False,,totalanalyse
+p09-MOA-003,Benzen,Benzen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-003,THC C16-C35,Fraksjon >C16-C35,178.0,mg/kg,54.0,False,,totalanalyse
+p09-MOA-003,THC C12-C35,Sum >C12-C35,182.0,mg/kg,,False,,totalanalyse
 p09-MOA-003,CN,Cyanid-fri,0.1,mg/kg,,True,0.1,totalanalyse
 p09-MOA-003,CP_2-MCP,2-Monoklorfenol,0.02,mg/kg,,True,0.02,totalanalyse
 p09-MOA-003,CP_3-MCP,3-Monoklorfenol,0.02,mg/kg,,True,0.02,totalanalyse
@@ -288,36 +288,36 @@ p09-MOA-004,PCB138,PCB 138,0.003,mg/kg,,True,0.003,totalanalyse
 p09-MOA-004,PCB153,PCB 153,0.003,mg/kg,,True,0.003,totalanalyse
 p09-MOA-004,PCB180,PCB 180,0.003,mg/kg,,True,0.003,totalanalyse
 p09-MOA-004,PCB7,Sum PCB-7,0.0,mg/kg,,True,,totalanalyse
-p09-MOA-004,Naphthalene,Naftalen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-004,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-004,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-004,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-004,Phenanthrene,Fenantren,0.014,mg/kg,0.004,False,,totalanalyse
-p09-MOA-004,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-004,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-004,Pyrene,Pyren,0.013,mg/kg,0.004,False,,totalanalyse
-p09-MOA-004,BaA,Benzo(a)antracen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-004,Chrysene,Krysen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-004,BbF,Benzo(b)fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-004,BkF,Benzo(k)fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-004,Naftalen,Naftalen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-004,Acenaftylen,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-004,Acenaften,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-004,Fluoren,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-004,Fenantren,Fenantren,0.014,mg/kg,0.004,False,,totalanalyse
+p09-MOA-004,Antracen,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-004,Fluoranten,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-004,Pyren,Pyren,0.013,mg/kg,0.004,False,,totalanalyse
+p09-MOA-004,Benzo(a)antracen,Benzo(a)antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-004,Krysen,Krysen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-004,Benzo(b)fluoranten,Benzo(b)fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-004,Benzo(k)fluoranten,Benzo(k)fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
 p09-MOA-004,BaP,Benzo(a)pyren,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-004,DahA,Dibenzo(ah)antracen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-004,BghiP,Benzo(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-004,"Dibenzo(a,h)antracen","Dibenzo(a,h)antracen",0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-004,Benzo(ghi)perylen,Benzo(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
 p09-MOA-004,PAH16,Sum PAH-16,0.027,mg/kg,,False,,totalanalyse
-p09-MOA-004,Benzene,Benzen,0.005,mg/kg,,True,0.005,totalanalyse
-p09-MOA-004,Toluene,Toluen,0.1,mg/kg,,True,0.1,totalanalyse
-p09-MOA-004,Ethylbenzene,Etylbensen,0.02,mg/kg,,True,0.02,totalanalyse
-p09-MOA-004,Xylene,Xylener,0.015,mg/kg,,True,0.015,totalanalyse
+p09-MOA-004,Benzen,Benzen,0.005,mg/kg,,True,0.005,totalanalyse
+p09-MOA-004,Toluen,Toluen,0.1,mg/kg,,True,0.1,totalanalyse
+p09-MOA-004,Etylbenzen,Etylbenzen,0.02,mg/kg,,True,0.02,totalanalyse
+p09-MOA-004,Xylen,Xylener,0.015,mg/kg,,True,0.015,totalanalyse
 p09-MOA-004,BTEX,Sum BTEX,0.0,mg/kg,,True,,totalanalyse
-p09-MOA-004,THC_C5-C6,Fraksjon >C5-C6,7.0,mg/kg,,True,7.0,totalanalyse
-p09-MOA-004,THC_C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
-p09-MOA-004,THC_C8-C10,Fraksjon >C8-C10,10.0,mg/kg,,True,10.0,totalanalyse
-p09-MOA-004,THC_C10-C12,Fraksjon >C10-C12,2.0,mg/kg,,True,2.0,totalanalyse
-p09-MOA-004,THC_C12-C16,Fraksjon >C12-C16,6.9,mg/kg,2.1,False,,totalanalyse
+p09-MOA-004,THC C5-C6,Fraksjon >C5-C6,7.0,mg/kg,,True,7.0,totalanalyse
+p09-MOA-004,THC C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
+p09-MOA-004,THC C8-C10,Fraksjon >C8-C10,10.0,mg/kg,,True,10.0,totalanalyse
+p09-MOA-004,THC C10-C12,Fraksjon >C10-C12,2.0,mg/kg,,True,2.0,totalanalyse
+p09-MOA-004,THC C12-C16,Fraksjon >C12-C16,6.9,mg/kg,2.1,False,,totalanalyse
 p09-MOA-004,Cr_VI,Cr6+,0.085,mg/kg,0.02,False,,totalanalyse
-p09-MOA-004,Benzene,Benzen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-004,THC_C16-C35,Fraksjon >C16-C35,613.0,mg/kg,184.0,False,,totalanalyse
-p09-MOA-004,THC_C12-C35,Sum >C12-C35,620.0,mg/kg,,False,,totalanalyse
+p09-MOA-004,Benzen,Benzen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-004,THC C16-C35,Fraksjon >C16-C35,613.0,mg/kg,184.0,False,,totalanalyse
+p09-MOA-004,THC C12-C35,Sum >C12-C35,620.0,mg/kg,,False,,totalanalyse
 p09-MOA-004,CN,Cyanid-fri,0.1,mg/kg,,True,0.1,totalanalyse
 p09-MOA-004,CP_2-MCP,2-Monoklorfenol,0.02,mg/kg,,True,0.02,totalanalyse
 p09-MOA-004,CP_3-MCP,3-Monoklorfenol,0.02,mg/kg,,True,0.02,totalanalyse
@@ -378,34 +378,34 @@ p09-MOA-D1,PCB138,PCB 138,0.001,mg/kg,,True,0.001,totalanalyse
 p09-MOA-D1,PCB153,PCB 153,0.001,mg/kg,,True,0.001,totalanalyse
 p09-MOA-D1,PCB180,PCB 180,0.001,mg/kg,,True,0.001,totalanalyse
 p09-MOA-D1,PCB7,Sum PCB-7,0.0,mg/kg,,True,,totalanalyse
-p09-MOA-D1,Naphthalene,Naftalen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-D1,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-D1,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-D1,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-D1,Phenanthrene,Fenantren,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-D1,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-D1,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-D1,Pyrene,Pyren,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-D1,BaA,Benzo(a)antracen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-D1,Chrysene,Krysen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-D1,BkF,Benzo(k)fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-D1,Naftalen,Naftalen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-D1,Acenaftylen,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-D1,Acenaften,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-D1,Fluoren,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-D1,Fenantren,Fenantren,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-D1,Antracen,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-D1,Fluoranten,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-D1,Pyren,Pyren,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-D1,Benzo(a)antracen,Benzo(a)antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-D1,Krysen,Krysen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-D1,Benzo(k)fluoranten,Benzo(k)fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
 p09-MOA-D1,BaP,Benzo(a)pyren,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-D1,DahA,Dibenzo(ah)antracen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-D1,BghiP,Benzo(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-D1,IcdP,Indeno(123cd)pyren,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-D1,"Dibenzo(a,h)antracen","Dibenzo(a,h)antracen",0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-D1,Benzo(ghi)perylen,Benzo(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-D1,"Indeno(1,2,3-cd)pyren","Indeno(1,2,3-cd)pyren",0.01,mg/kg,,True,0.01,totalanalyse
 p09-MOA-D1,PAH16,Sum PAH-16,0.0,mg/kg,,True,,totalanalyse
-p09-MOA-D1,Benzene,Benzen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-D1,Toluene,Toluen,0.04,mg/kg,,True,0.04,totalanalyse
-p09-MOA-D1,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
-p09-MOA-D1,Xylene,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p09-MOA-D1,Benzen,Benzen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-D1,Toluen,Toluen,0.04,mg/kg,,True,0.04,totalanalyse
+p09-MOA-D1,Etylbenzen,Etylbenzen,0.04,mg/kg,,True,0.04,totalanalyse
+p09-MOA-D1,Xylen,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
 p09-MOA-D1,BTEX,Sum BTEX,0.0,mg/kg,,True,,totalanalyse
-p09-MOA-D1,THC_C5-C6,Fraksjon >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
-p09-MOA-D1,THC_C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
-p09-MOA-D1,THC_C8-C10,Fraksjon >C8-C10,10.0,mg/kg,,True,10.0,totalanalyse
-p09-MOA-D1,THC_C10-C12,Fraksjon >C10-C12,10.0,mg/kg,,True,10.0,totalanalyse
-p09-MOA-D1,THC_C12-C16,Fraksjon >C12-C16,10.0,mg/kg,,True,10.0,totalanalyse
-p09-MOA-D1,THC_C16-C35,Fraksjon >C16-C35,230.0,mg/kg,69.0,False,,totalanalyse
-p09-MOA-D1,THC_C12-C35,Sum >C12-C35,230.0,mg/kg,,False,,totalanalyse
+p09-MOA-D1,THC C5-C6,Fraksjon >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p09-MOA-D1,THC C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
+p09-MOA-D1,THC C8-C10,Fraksjon >C8-C10,10.0,mg/kg,,True,10.0,totalanalyse
+p09-MOA-D1,THC C10-C12,Fraksjon >C10-C12,10.0,mg/kg,,True,10.0,totalanalyse
+p09-MOA-D1,THC C12-C16,Fraksjon >C12-C16,10.0,mg/kg,,True,10.0,totalanalyse
+p09-MOA-D1,THC C16-C35,Fraksjon >C16-C35,230.0,mg/kg,69.0,False,,totalanalyse
+p09-MOA-D1,THC C12-C35,Sum >C12-C35,230.0,mg/kg,,False,,totalanalyse
 p09-MOA-D2,As,Arsen,3.8,mg/kg,2.0,False,,totalanalyse
 p09-MOA-D2,Cd,Kadmium,1.2,mg/kg,0.168,False,,totalanalyse
 p09-MOA-D2,Cr,Krom,8.8,mg/kg,1.232,False,,totalanalyse
@@ -422,34 +422,34 @@ p09-MOA-D2,PCB138,PCB 138,0.001,mg/kg,,True,0.001,totalanalyse
 p09-MOA-D2,PCB153,PCB 153,0.001,mg/kg,,True,0.001,totalanalyse
 p09-MOA-D2,PCB180,PCB 180,0.001,mg/kg,,True,0.001,totalanalyse
 p09-MOA-D2,PCB7,Sum PCB-7,0.0,mg/kg,,True,,totalanalyse
-p09-MOA-D2,Naphthalene,Naftalen,0.01,mg/kg,0.05,False,,totalanalyse
-p09-MOA-D2,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-D2,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-D2,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-D2,Phenanthrene,Fenantren,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-D2,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-D2,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-D2,Pyrene,Pyren,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-D2,BaA,Benzo(a)antracen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-D2,Chrysene,Krysen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-D2,BkF,Benzo(k)fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-D2,Naftalen,Naftalen,0.01,mg/kg,0.05,False,,totalanalyse
+p09-MOA-D2,Acenaftylen,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-D2,Acenaften,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-D2,Fluoren,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-D2,Fenantren,Fenantren,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-D2,Antracen,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-D2,Fluoranten,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-D2,Pyren,Pyren,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-D2,Benzo(a)antracen,Benzo(a)antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-D2,Krysen,Krysen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-D2,Benzo(k)fluoranten,Benzo(k)fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
 p09-MOA-D2,BaP,Benzo(a)pyren,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-D2,DahA,Dibenzo(ah)antracen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-D2,BghiP,Benzo(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-D2,IcdP,Indeno(123cd)pyren,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-D2,"Dibenzo(a,h)antracen","Dibenzo(a,h)antracen",0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-D2,Benzo(ghi)perylen,Benzo(ghi)perylen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-D2,"Indeno(1,2,3-cd)pyren","Indeno(1,2,3-cd)pyren",0.01,mg/kg,,True,0.01,totalanalyse
 p09-MOA-D2,PAH16,Sum PAH-16,0.01,mg/kg,,False,,totalanalyse
-p09-MOA-D2,Benzene,Benzen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-D2,Toluene,Toluen,0.04,mg/kg,,True,0.04,totalanalyse
-p09-MOA-D2,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
-p09-MOA-D2,Xylene,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p09-MOA-D2,Benzen,Benzen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-D2,Toluen,Toluen,0.04,mg/kg,,True,0.04,totalanalyse
+p09-MOA-D2,Etylbenzen,Etylbenzen,0.04,mg/kg,,True,0.04,totalanalyse
+p09-MOA-D2,Xylen,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
 p09-MOA-D2,BTEX,Sum BTEX,0.0,mg/kg,,True,,totalanalyse
-p09-MOA-D2,THC_C5-C6,Fraksjon >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
-p09-MOA-D2,THC_C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
-p09-MOA-D2,THC_C8-C10,Fraksjon >C8-C10,10.0,mg/kg,,True,10.0,totalanalyse
-p09-MOA-D2,THC_C10-C12,Fraksjon >C10-C12,10.0,mg/kg,,True,10.0,totalanalyse
-p09-MOA-D2,THC_C12-C16,Fraksjon >C12-C16,10.0,mg/kg,,True,10.0,totalanalyse
-p09-MOA-D2,THC_C16-C35,Fraksjon >C16-C35,310.0,mg/kg,93.0,False,,totalanalyse
-p09-MOA-D2,THC_C12-C35,Sum >C12-C35,310.0,mg/kg,,False,,totalanalyse
+p09-MOA-D2,THC C5-C6,Fraksjon >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p09-MOA-D2,THC C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
+p09-MOA-D2,THC C8-C10,Fraksjon >C8-C10,10.0,mg/kg,,True,10.0,totalanalyse
+p09-MOA-D2,THC C10-C12,Fraksjon >C10-C12,10.0,mg/kg,,True,10.0,totalanalyse
+p09-MOA-D2,THC C12-C16,Fraksjon >C12-C16,10.0,mg/kg,,True,10.0,totalanalyse
+p09-MOA-D2,THC C16-C35,Fraksjon >C16-C35,310.0,mg/kg,93.0,False,,totalanalyse
+p09-MOA-D2,THC C12-C35,Sum >C12-C35,310.0,mg/kg,,False,,totalanalyse
 p09-MOA-T1,As,Arsen,3.9,mg/kg,2.0,False,,totalanalyse
 p09-MOA-T1,Cd,Kadmium,0.52,mg/kg,0.0728,False,,totalanalyse
 p09-MOA-T1,Cr,Krom,16.0,mg/kg,2.24,False,,totalanalyse
@@ -466,34 +466,34 @@ p09-MOA-T1,PCB138,PCB 138,0.001,mg/kg,,True,0.001,totalanalyse
 p09-MOA-T1,PCB153,PCB 153,0.001,mg/kg,,True,0.001,totalanalyse
 p09-MOA-T1,PCB180,PCB 180,0.001,mg/kg,,True,0.001,totalanalyse
 p09-MOA-T1,PCB7,Sum PCB-7,0.0,mg/kg,,True,,totalanalyse
-p09-MOA-T1,Naphthalene,Naftalen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-T1,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-T1,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-T1,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-T1,Phenanthrene,Fenantren,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-T1,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-T1,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-T1,Pyrene,Pyren,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-T1,BaA,Benzo(a)antracen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-T1,Chrysene,Krysen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-T1,BkF,Benzo(k)fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-T1,Naftalen,Naftalen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-T1,Acenaftylen,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-T1,Acenaften,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-T1,Fluoren,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-T1,Fenantren,Fenantren,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-T1,Antracen,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-T1,Fluoranten,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-T1,Pyren,Pyren,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-T1,Benzo(a)antracen,Benzo(a)antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-T1,Krysen,Krysen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-T1,Benzo(k)fluoranten,Benzo(k)fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
 p09-MOA-T1,BaP,Benzo(a)pyren,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-T1,DahA,Dibenzo(ah)antracen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-T1,BghiP,Benzo(ghi)perylen,0.01,mg/kg,0.05,False,,totalanalyse
-p09-MOA-T1,IcdP,Indeno(123cd)pyren,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-T1,"Dibenzo(a,h)antracen","Dibenzo(a,h)antracen",0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-T1,Benzo(ghi)perylen,Benzo(ghi)perylen,0.01,mg/kg,0.05,False,,totalanalyse
+p09-MOA-T1,"Indeno(1,2,3-cd)pyren","Indeno(1,2,3-cd)pyren",0.01,mg/kg,,True,0.01,totalanalyse
 p09-MOA-T1,PAH16,Sum PAH-16,0.01,mg/kg,,False,,totalanalyse
-p09-MOA-T1,Benzene,Benzen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-T1,Toluene,Toluen,0.04,mg/kg,,True,0.04,totalanalyse
-p09-MOA-T1,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
-p09-MOA-T1,Xylene,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p09-MOA-T1,Benzen,Benzen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-T1,Toluen,Toluen,0.04,mg/kg,,True,0.04,totalanalyse
+p09-MOA-T1,Etylbenzen,Etylbenzen,0.04,mg/kg,,True,0.04,totalanalyse
+p09-MOA-T1,Xylen,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
 p09-MOA-T1,BTEX,Sum BTEX,0.0,mg/kg,,True,,totalanalyse
-p09-MOA-T1,THC_C5-C6,Fraksjon >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
-p09-MOA-T1,THC_C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
-p09-MOA-T1,THC_C8-C10,Fraksjon >C8-C10,10.0,mg/kg,,True,10.0,totalanalyse
-p09-MOA-T1,THC_C10-C12,Fraksjon >C10-C12,10.0,mg/kg,,True,10.0,totalanalyse
-p09-MOA-T1,THC_C12-C16,Fraksjon >C12-C16,10.0,mg/kg,,True,10.0,totalanalyse
-p09-MOA-T1,THC_C16-C35,Fraksjon >C16-C35,490.0,mg/kg,147.0,False,,totalanalyse
-p09-MOA-T1,THC_C12-C35,Sum >C12-C35,490.0,mg/kg,,False,,totalanalyse
+p09-MOA-T1,THC C5-C6,Fraksjon >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p09-MOA-T1,THC C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
+p09-MOA-T1,THC C8-C10,Fraksjon >C8-C10,10.0,mg/kg,,True,10.0,totalanalyse
+p09-MOA-T1,THC C10-C12,Fraksjon >C10-C12,10.0,mg/kg,,True,10.0,totalanalyse
+p09-MOA-T1,THC C12-C16,Fraksjon >C12-C16,10.0,mg/kg,,True,10.0,totalanalyse
+p09-MOA-T1,THC C16-C35,Fraksjon >C16-C35,490.0,mg/kg,147.0,False,,totalanalyse
+p09-MOA-T1,THC C12-C35,Sum >C12-C35,490.0,mg/kg,,False,,totalanalyse
 p09-MOA-T2,As,Arsen,7.8,mg/kg,2.34,False,,totalanalyse
 p09-MOA-T2,Cd,Kadmium,1.1,mg/kg,0.154,False,,totalanalyse
 p09-MOA-T2,Cr,Krom,22.0,mg/kg,3.08,False,,totalanalyse
@@ -510,31 +510,31 @@ p09-MOA-T2,PCB138,PCB 138,0.001,mg/kg,,True,0.001,totalanalyse
 p09-MOA-T2,PCB153,PCB 153,0.001,mg/kg,,True,0.001,totalanalyse
 p09-MOA-T2,PCB180,PCB 180,0.001,mg/kg,,True,0.001,totalanalyse
 p09-MOA-T2,PCB7,Sum PCB-7,0.0,mg/kg,,True,,totalanalyse
-p09-MOA-T2,Naphthalene,Naftalen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-T2,Acenaphthylene,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-T2,Acenaphthene,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-T2,Fluorene,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-T2,Phenanthrene,Fenantren,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-T2,Anthracene,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-T2,Fluoranthene,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-T2,Pyrene,Pyren,0.013,mg/kg,0.05,False,,totalanalyse
-p09-MOA-T2,BaA,Benzo(a)antracen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-T2,Chrysene,Krysen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-T2,BkF,Benzo(k)fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-T2,Naftalen,Naftalen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-T2,Acenaftylen,Acenaftylen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-T2,Acenaften,Acenaften,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-T2,Fluoren,Fluoren,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-T2,Fenantren,Fenantren,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-T2,Antracen,Antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-T2,Fluoranten,Fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-T2,Pyren,Pyren,0.013,mg/kg,0.05,False,,totalanalyse
+p09-MOA-T2,Benzo(a)antracen,Benzo(a)antracen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-T2,Krysen,Krysen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-T2,Benzo(k)fluoranten,Benzo(k)fluoranten,0.01,mg/kg,,True,0.01,totalanalyse
 p09-MOA-T2,BaP,Benzo(a)pyren,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-T2,DahA,Dibenzo(ah)antracen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-T2,BghiP,Benzo(ghi)perylen,0.016,mg/kg,0.05,False,,totalanalyse
-p09-MOA-T2,IcdP,Indeno(123cd)pyren,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-T2,"Dibenzo(a,h)antracen","Dibenzo(a,h)antracen",0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-T2,Benzo(ghi)perylen,Benzo(ghi)perylen,0.016,mg/kg,0.05,False,,totalanalyse
+p09-MOA-T2,"Indeno(1,2,3-cd)pyren","Indeno(1,2,3-cd)pyren",0.01,mg/kg,,True,0.01,totalanalyse
 p09-MOA-T2,PAH16,Sum PAH-16,0.029,mg/kg,,False,,totalanalyse
-p09-MOA-T2,Benzene,Benzen,0.01,mg/kg,,True,0.01,totalanalyse
-p09-MOA-T2,Toluene,Toluen,0.04,mg/kg,,True,0.04,totalanalyse
-p09-MOA-T2,Ethylbenzene,Etylbensen,0.04,mg/kg,,True,0.04,totalanalyse
-p09-MOA-T2,Xylene,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
+p09-MOA-T2,Benzen,Benzen,0.01,mg/kg,,True,0.01,totalanalyse
+p09-MOA-T2,Toluen,Toluen,0.04,mg/kg,,True,0.04,totalanalyse
+p09-MOA-T2,Etylbenzen,Etylbenzen,0.04,mg/kg,,True,0.04,totalanalyse
+p09-MOA-T2,Xylen,Xylener,0.04,mg/kg,,True,0.04,totalanalyse
 p09-MOA-T2,BTEX,Sum BTEX,0.0,mg/kg,,True,,totalanalyse
-p09-MOA-T2,THC_C5-C6,Fraksjon >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
-p09-MOA-T2,THC_C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
-p09-MOA-T2,THC_C8-C10,Fraksjon >C8-C10,10.0,mg/kg,,True,10.0,totalanalyse
-p09-MOA-T2,THC_C10-C12,Fraksjon >C10-C12,10.0,mg/kg,,True,10.0,totalanalyse
-p09-MOA-T2,THC_C12-C16,Fraksjon >C12-C16,10.0,mg/kg,,True,10.0,totalanalyse
-p09-MOA-T2,THC_C16-C35,Fraksjon >C16-C35,670.0,mg/kg,201.0,False,,totalanalyse
-p09-MOA-T2,THC_C12-C35,Sum >C12-C35,670.0,mg/kg,,False,,totalanalyse
+p09-MOA-T2,THC C5-C6,Fraksjon >C5-C6,2.5,mg/kg,,True,2.5,totalanalyse
+p09-MOA-T2,THC C6-C8,Fraksjon >C6-C8,7.0,mg/kg,,True,7.0,totalanalyse
+p09-MOA-T2,THC C8-C10,Fraksjon >C8-C10,10.0,mg/kg,,True,10.0,totalanalyse
+p09-MOA-T2,THC C10-C12,Fraksjon >C10-C12,10.0,mg/kg,,True,10.0,totalanalyse
+p09-MOA-T2,THC C12-C16,Fraksjon >C12-C16,10.0,mg/kg,,True,10.0,totalanalyse
+p09-MOA-T2,THC C16-C35,Fraksjon >C16-C35,670.0,mg/kg,201.0,False,,totalanalyse
+p09-MOA-T2,THC C12-C35,Sum >C12-C35,670.0,mg/kg,,False,,totalanalyse

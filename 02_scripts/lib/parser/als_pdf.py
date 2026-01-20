@@ -16,7 +16,7 @@ Typical ALS PDF structure:
     ParameterName 51.9 10.4 mg/kgTS ...
 
 Usage:
-    from lib.parsers import lab_results_from_als_pdf_with_THC
+    from lib.parser import lab_results_from_als_pdf_with_THC
     
     results = lab_results_from_als_pdf_with_THC(
         text=pdf_text,
@@ -27,13 +27,10 @@ Usage:
 """
 
 import re
-from typing import Dict, List, Optional, Callable
+from typing import Dict, List, Optional
 
 # Import the parameter mapping from chemistry module
-import sys
-from pathlib import Path
-sys.path.insert(0, str(Path(__file__).parent.parent))
-from chemistry import ALS_THC_PDF_MAP
+from lib.chemistry import ALS_THC_PDF_MAP
 
 
 def lab_results_from_als_pdf_with_THC(
