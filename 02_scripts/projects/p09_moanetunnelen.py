@@ -14,7 +14,6 @@ Source pages:
 """
 
 import sys
-import re
 from pathlib import Path
 import pandas as pd
 from datetime import datetime
@@ -23,26 +22,31 @@ from datetime import datetime
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from lib.pdf_utils import extract_text, extract_pages
-from lib.chemistry import normalize_parameter_name, parse_value, TILSTANDSKLASSER, ALS_THC_PDF_MAP
 from lib.export import save_to_csv
+from lib.excel_utils import create_wide_table, save_wide_table_xlsx
+from lib.parsers import lab_results_from_als_pdf_with_THC
+from lib.qa_workbook import create_qa_workbook
 
 # ============================================================
 # PROJECT CONFIGURATION
 # ============================================================
 
-PROJECT_CODE = '09_moanetunnelen'
-PROJECT_NAME = 'Moanetunnelen'
-TUNNEL_NAME = 'Moanetunnelen'
+CONFIG = {
+    'project_code': '09_moanetunnelen',
+    'project_name': 'Moanetunnelen',
+    'tunnel_name': 'Moanetunnelen',
+    'sampler': 'SVV Region Sør',
+    'lab': 'ALS Laboratory Group Norway AS',
+    'lab_reports': 'N1715906, N1716546',
+    'sampling_dates': '2017-09-20, 2017-09-28',
+    'pdf_file': 'Innsyn 25-339107-1Svar på innsyn - Innsynskrav i - 16171864-58 med vedlegg (1).pdf',
+    'notat_pages': list(range(2, 6)),       # Pages 2-5: SVV notat
+    'lab_report_pages': list(range(6, 31)), # Pages 6-30: ALS lab reports
+}
 
 BASE_DIR = Path(__file__).parent.parent.parent
 INBOX_DIR = BASE_DIR / '00_inbox' / 'SVV' / 'Moanetunnelen'
-OUTPUT_DIR = BASE_DIR / '01_projects' / '09_moanetunnelen' / 'extracted'
-
-PDF_FILE = 'Innsyn 25-339107-1Svar på innsyn - Innsynskrav i - 16171864-58 med vedlegg (1).pdf'
-
-# Page ranges
-NOTAT_PAGES = list(range(2, 6))      # Pages 2-5: SVV notat
-LAB_REPORT_PAGES = list(range(6, 31)) # Pages 6-30: ALS lab reports
+OUTPUT_DIR = BASE_DIR / '01_projects' / CONFIG['project_code'] / 'extracted'
 
 # ============================================================
 # SAMPLE METADATA (extracted from pages 2-5 of the notat)
@@ -71,10 +75,10 @@ SAMPLES = [
      'sample_type': 'bunnrensk', 'lab_reference': 'N00531435', 'remark': ''},
     {'sample_key': 'D1', 'sample_id': 'p09-MOA-D1', 'sample_date': '2017-09-28',
      'location_type': 'grøft', 'profile_start': None, 'profile_end': None,
-     'sample_type': 'blandeprøve', 'lab_reference': 'N00531432', 'remark': 'Benyttet som sedimentasjonsbasseng'},
+     'sample_type': 'blandprøve', 'lab_reference': 'N00531432', 'remark': 'Benyttet som sedimentasjonsbasseng'},
     {'sample_key': 'D2', 'sample_id': 'p09-MOA-D2', 'sample_date': '2017-09-28',
      'location_type': 'grøft', 'profile_start': None, 'profile_end': None,
-     'sample_type': 'blandeprøve', 'lab_reference': 'N00531433', 'remark': 'Benyttet som sedimentasjonsbasseng'},
+     'sample_type': 'blandprøve', 'lab_reference': 'N00531433', 'remark': 'Benyttet som sedimentasjonsbasseng'},
 ]
 
 # Classifications from Tabell 1 and 2 in the notat (pages 2-3)
@@ -90,526 +94,47 @@ CLASSIFICATIONS = [
     {'sample_key': 'D2', 'tilstandsklasse': 3, 'limiting_parameters': ['THC']},
 ]
 
-# Decisions from the notat (pages 2-5)
-DECISIONS = [
-    {'sample_key': '1', 'decision': 'Nye prøver tas for å se på arsen-nivået', 
-     'destination': 'avventer', 'notes': 'Tilstandsklasse IV for arsen'},
-    {'sample_key': '2', 'decision': 'Kan disponeres som planlagt', 
-     'destination': 'gjenbruk', 'notes': 'Lett/moderat forurenset'},
-    {'sample_key': '3', 'decision': 'Blandet med prøve 4, nye prøver tas', 
-     'destination': 'avventer', 'notes': ''},
-    {'sample_key': '4', 'decision': 'Må kjøres til godkjent deponi', 
-     'destination': 'deponi', 'notes': 'Oljeutslipp er entreprenørens ansvar'},
-    {'sample_key': 'T1', 'decision': 'Kan benyttes i anlegget', 
-     'destination': 'gjenbruk', 'notes': 'Profil 9850-9900'},
-    {'sample_key': 'T2', 'decision': 'Må kjøres til godkjent deponi', 
-     'destination': 'deponi', 'notes': 'Oljeutslipp - profil 9900-9950'},
-    {'sample_key': 'D1', 'decision': 'Kan ikke benyttes i anlegget', 
-     'destination': 'deponi', 'notes': 'Grøftemasser på deponi'},
-    {'sample_key': 'D2', 'decision': 'Kan ikke benyttes i anlegget', 
-     'destination': 'deponi', 'notes': 'Grøftemasser på deponi'},
+# Decision remarks from the notat (pages 2-5)
+# Note: All samples go to deponi per project decision
+DECISION_REMARKS = [
+    {'sample_key': '1', 'decision': 'supplerende prøvetaking',
+     'destination': '', 'notes': 'Nye prøver tas for å se på arsen-nivået. Tilstandsklasse IV for arsen'},
+    {'sample_key': '2', 'decision': 'gjenbruk',
+     'destination': '', 'notes': 'Kan disponeres som planlagt. Lett/moderat forurenset'},
+    {'sample_key': '3', 'decision': 'supplerende prøvetaking',
+     'destination': '', 'notes': 'Blandet med prøve 4, nye prøver tas'},
+    {'sample_key': '4', 'decision': 'deponi',
+     'destination': '', 'notes': 'Må kjøres til godkjent deponi. Oljeutslipp er entreprenørens ansvar'},
+    {'sample_key': 'T1', 'decision': 'gjenbruk',
+     'destination': '', 'notes': 'Kan benyttes i anlegget. Profil 9850-9900'},
+    {'sample_key': 'T2', 'decision': 'deponi',
+     'destination': '', 'notes': 'Må kjøres til godkjent deponi. Oljeutslipp - profil 9900-9950'},
+    {'sample_key': 'D1', 'decision': 'deponi',
+     'destination': '', 'notes': 'Kan ikke benyttes i anlegget. Grøftemasser på deponi'},
+    {'sample_key': 'D2', 'decision': 'deponi',
+     'destination': '', 'notes': 'Kan ikke benyttes i anlegget. Grøftemasser på deponi'},
 ]
 
 # Mapping sample_key to sample_id
 SAMPLE_KEY_TO_ID = {s['sample_key']: s['sample_id'] for s in SAMPLES}
 
 
-def parse_lab_results(text: str) -> list:
-    """
-    Parse ALS lab report format from PDF text (pages 6-30).
-    
-    The lab reports have format:
-    Deresprøvenavn X
-    Sediment
-    Labnummer NXXXXXXXX
-    Analyse Resultater Usikkerhet (±) Enhet Metode Utført Sign
-    ParameterNameaulev value uncertainty unit ...
-    
-    Note: PDF extraction often strips spaces, so e.g. "As(Arsen)aulev 51.9 10.4 mg/kgTS"
-    """
-    results = []
-    
-    # Split by sample sections - find "Deresprøvenavn"
-    pattern = r'Deresprøvenavn\s+(\w+)'
-    
-    # Find all sample sections
-    sample_matches = list(re.finditer(pattern, text))
-    
-    for i, match in enumerate(sample_matches):
-        sample_key = match.group(1)
-        start_pos = match.end()
-        
-        # End position is start of next sample or end of text
-        if i + 1 < len(sample_matches):
-            end_pos = sample_matches[i + 1].start()
-        else:
-            end_pos = len(text)
-        
-        section = text[start_pos:end_pos]
-        
-        # Get lab number
-        lab_match = re.search(r'Labnummer\s+(\w+)', section)
-        lab_num = lab_match.group(1) if lab_match else ''
-        
-        # Get sample_id from mapping
-        sample_id = SAMPLE_KEY_TO_ID.get(sample_key, f'p09-MOA-{sample_key}')
-        
-        # Parse all analysis lines using a generic line-by-line approach
-        # Format: ParameterName[suffix]aulev <value> [uncertainty] mg/kgTS ...
-        # Note: PDF strips spaces, so we match patterns carefully
-        
-        section_results = parse_section_results(section, sample_id)
-        results.extend(section_results)
-    
-    return results
-
-
-def parse_section_results(section: str, sample_id: str) -> list:
-    """
-    Parse all parameter results from a sample section.
-    Uses line-by-line parsing after cleaning footnote references.
-    """
-    results = []
-    found_params = set()  # Track what we've found to avoid duplicates
-    
-    # =========================================================================
-    # CLEAN THE TEXT - Remove footnote references like "aulev", "^aulev", "a ulev"
-    # =========================================================================
-    clean_section = section
-    clean_section = re.sub(r'\^?a\s*u\s*l\s*e\s*v', ' ', clean_section)  # Remove aulev variants
-    clean_section = re.sub(r'\^', '', clean_section)  # Remove caret symbols
-    clean_section = re.sub(r'\s+', ' ', clean_section)  # Normalize whitespace
-    
-    # =========================================================================
-    # LINE-BY-LINE PARSING using shared ALS_THC_PDF_MAP
-    # Match: ParamName <value> [uncertainty] unit
-    # =========================================================================
-    
-    # Generic value pattern: captures value (with optional <) and optional uncertainty
-    value_pattern = r'\s+([<n][\d.,n\.d]+|[\d.,]+)\s+(?:(\d+[.,]?\d*)\s+)?(mg/kgTS|mg/kg\s*TS|%)'
-    
-    for param_regex, (param_code, param_raw, expected_unit) in ALS_THC_PDF_MAP.items():
-        if param_code in found_params:
-            continue
-            
-        # Build full pattern: param name + value + unit
-        full_pattern = param_regex + value_pattern
-        match = re.search(full_pattern, clean_section, re.IGNORECASE)
-        
-        if match:
-            value_str = match.group(1).replace(',', '.').strip()
-            uncertainty_str = match.group(2) if match.group(2) else None
-            
-            result = build_result(sample_id, param_code, param_raw, value_str, 
-                                  expected_unit, uncertainty_str)
-            if result:
-                results.append(result)
-                found_params.add(param_code)
-    
-    return results
-
-
-def build_result(sample_id: str, param_code: str, param_raw: str, 
-                 value_str: str, unit: str, uncertainty_str: str = None) -> dict:
-    """
-    Build a result dictionary from parsed values.
-    """
-    below_limit = False
-    loq = None
-    uncertainty = None
-    
-    # Parse uncertainty
-    if uncertainty_str:
-        try:
-            uncertainty = float(uncertainty_str.replace(',', '.'))
-        except:
-            pass
-    
-    # Parse value
-    if value_str.startswith('<'):
-        below_limit = True
-        value_str = value_str[1:]
-        try:
-            loq = float(value_str)
-            value = loq
-        except:
-            value = None
-    elif value_str.lower() in ['n.d.', 'nd', 'n.d']:
-        below_limit = True
-        value = 0.0
-    else:
-        try:
-            value = float(value_str)
-        except:
-            return None
-    
-    return {
-        'sample_id': sample_id,
-        'parameter': param_code,
-        'parameter_raw': param_raw,
-        'value': value,
-        'unit': unit,
-        'uncertainty': uncertainty,
-        'below_limit': below_limit,
-        'loq': loq,
-        'analysis_type': 'totalanalyse',
-    }
-
-
-def create_wide_table(results_df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Create a wide format table with:
-    - Rows: parameters
-    - Columns: sample IDs with unit in header (e.g., "p09-MOA-001 (mg/kg)")
-    - Values: formatted as "value" or "<value" for below-limit
-    
-    Alerts if units vary within a sample column.
-    """
-    # Check for unit consistency within each sample
-    unit_check = results_df.groupby('sample_id')['unit'].nunique()
-    inconsistent_samples = unit_check[unit_check > 1]
-    if len(inconsistent_samples) > 0:
-        print(f"  WARNING: Mixed units found in samples: {list(inconsistent_samples.index)}")
-        for sample_id in inconsistent_samples.index:
-            units = results_df[results_df['sample_id'] == sample_id]['unit'].unique()
-            print(f"    {sample_id}: {list(units)}")
-    
-    # Create formatted value strings (without units)
-    def format_value(row):
-        if pd.isna(row['value']):
-            return ''
-        
-        # Format the numeric value
-        val = row['value']
-        if val == int(val):
-            val_str = str(int(val))
-        elif val < 0.01:
-            val_str = f"{val:.4f}"
-        elif val < 1:
-            val_str = f"{val:.3f}"
-        else:
-            val_str = f"{val:.2f}".rstrip('0').rstrip('.')
-        
-        # Add < prefix for below-limit values
-        if row['below_limit']:
-            val_str = f"<{val_str}"
-        
-        return val_str
-    
-    results_df = results_df.copy()
-    results_df['formatted'] = results_df.apply(format_value, axis=1)
-    
-    # Get predominant unit per sample (for header)
-    sample_units = results_df.groupby('sample_id')['unit'].agg(
-        lambda x: x.value_counts().index[0]  # Most common unit
-    ).to_dict()
-    
-    # Pivot to wide format
-    wide_df = results_df.pivot_table(
-        index=['parameter', 'parameter_raw'],
-        columns='sample_id',
-        values='formatted',
-        aggfunc='first'
-    ).reset_index()
-    
-    # Rename columns for clarity
-    wide_df.columns.name = None
-    wide_df = wide_df.rename(columns={'parameter': 'param_code', 'parameter_raw': 'parameter'})
-    
-    # Rename sample columns to include unit in header
-    sample_cols = [c for c in wide_df.columns if c.startswith('p09-')]
-    sample_cols.sort()
-    col_rename = {col: f"{col} ({sample_units.get(col, 'mg/kg')})" for col in sample_cols}
-    wide_df = wide_df.rename(columns=col_rename)
-    
-    # Reorder columns
-    new_sample_cols = [col_rename[c] for c in sample_cols]
-    wide_df = wide_df[['param_code', 'parameter'] + new_sample_cols]
-    
-    return wide_df
-
-
-def save_wide_table_xlsx(wide_df: pd.DataFrame, filepath: Path) -> None:
-    """
-    Save wide table as formatted Excel table for QA.
-    - Formatted as Excel Table with filters
-    - Alternating row colors
-    - Column widths auto-adjusted
-    - Header row frozen
-    """
-    from openpyxl import Workbook
-    from openpyxl.worksheet.table import Table, TableStyleInfo
-    from openpyxl.utils.dataframe import dataframe_to_rows
-    from openpyxl.utils import get_column_letter
-    
-    wb = Workbook()
-    ws = wb.active
-    ws.title = "Results"
-    
-    # Write dataframe to worksheet
-    for r_idx, row in enumerate(dataframe_to_rows(wide_df, index=False, header=True), 1):
-        for c_idx, value in enumerate(row, 1):
-            ws.cell(row=r_idx, column=c_idx, value=value)
-    
-    # Define table range
-    max_row = len(wide_df) + 1  # +1 for header
-    max_col = len(wide_df.columns)
-    table_range = f"A1:{get_column_letter(max_col)}{max_row}"
-    
-    # Create table with style
-    table = Table(displayName="ResultsTable", ref=table_range)
-    style = TableStyleInfo(
-        name="TableStyleMedium2",  # Blue alternating rows
-        showFirstColumn=False,
-        showLastColumn=False,
-        showRowStripes=True,
-        showColumnStripes=False
-    )
-    table.tableStyleInfo = style
-    ws.add_table(table)
-    
-    # Auto-adjust column widths
-    for col_idx, col in enumerate(wide_df.columns, 1):
-        # Calculate max width based on content
-        max_width = len(str(col))  # Header width
-        for row_idx in range(2, max_row + 1):
-            cell_value = ws.cell(row=row_idx, column=col_idx).value
-            if cell_value:
-                max_width = max(max_width, len(str(cell_value)))
-        
-        # Set width with some padding, max 30 chars
-        ws.column_dimensions[get_column_letter(col_idx)].width = min(max_width + 2, 30)
-    
-    # Freeze header row
-    ws.freeze_panes = "A2"
-    
-    # Save
-    wb.save(filepath)
-
-
-def create_qa_workbook(filepath: Path, summary: dict, samples_df: pd.DataFrame,
-                       results_df: pd.DataFrame, class_df: pd.DataFrame, 
-                       dec_df: pd.DataFrame) -> None:
-    """
-    Create a QA workbook for manual verification of extracted data.
-    
-    Sheets:
-    - Summary: Extraction metadata and file overview
-    - QA Checklist: Items to verify with status columns
-    - Samples QA: Sample data with QA columns
-    - Classifications QA: Classification data with QA columns
-    - Decisions QA: Decision data with QA columns
-    """
-    from openpyxl import Workbook
-    from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
-    from openpyxl.utils.dataframe import dataframe_to_rows
-    from openpyxl.utils import get_column_letter
-    from openpyxl.worksheet.table import Table, TableStyleInfo
-    
-    wb = Workbook()
-    
-    # Define styles
-    header_font = Font(bold=True, color="FFFFFF")
-    header_fill = PatternFill(start_color="4472C4", end_color="4472C4", fill_type="solid")
-    ok_fill = PatternFill(start_color="C6EFCE", end_color="C6EFCE", fill_type="solid")
-    warn_fill = PatternFill(start_color="FFEB9C", end_color="FFEB9C", fill_type="solid")
-    thin_border = Border(
-        left=Side(style='thin'),
-        right=Side(style='thin'),
-        top=Side(style='thin'),
-        bottom=Side(style='thin')
-    )
-    
-    # =========================================================================
-    # SHEET 1: Summary
-    # =========================================================================
-    ws_summary = wb.active
-    ws_summary.title = "Summary"
-    
-    # Title
-    ws_summary['A1'] = f"QA Workbook: {summary['project']}"
-    ws_summary['A1'].font = Font(bold=True, size=14)
-    ws_summary.merge_cells('A1:D1')
-    
-    # Extraction info
-    summary_items = [
-        ('Project Code', summary['project_code']),
-        ('Extracted At', summary['extracted_at']),
-        ('Source File', summary['source_file']),
-        ('Notat Pages', summary['notat_pages']),
-        ('Lab Report Pages', summary['lab_report_pages']),
-        ('Lab', summary['lab']),
-        ('Lab Reports', summary['lab_reports']),
-        ('Sampling Dates', summary['sampling_dates']),
-    ]
-    
-    for i, (label, value) in enumerate(summary_items, start=3):
-        ws_summary[f'A{i}'] = label
-        ws_summary[f'A{i}'].font = Font(bold=True)
-        ws_summary[f'B{i}'] = value
-    
-    # Data counts
-    ws_summary['A13'] = "Data Exports"
-    ws_summary['A13'].font = Font(bold=True, size=12)
-    
-    export_items = [
-        ('File', 'Rows', 'Description', 'Remarks', 'Date', 'Name'),
-        ('samples.csv', summary['samples_count'], 'Sample metadata', '', '', ''),
-        ('results.csv', summary['results_count'], 'Lab analysis results (long format)', '', '', ''),
-        ('results_wide.csv', len(results_df['parameter'].unique()) if len(results_df) > 0 else 0, 'Lab results (wide format for review)', '', '', ''),
-        ('results_wide.xlsx', len(results_df['parameter'].unique()) if len(results_df) > 0 else 0, 'Lab results (Excel table)', '', '', ''),
-        ('classifications.csv', summary['classifications_count'], 'Tilstandsklasse per sample', '', '', ''),
-        ('decisions.csv', summary['decisions_count'], 'Handling decisions per sample', '', '', ''),
-        ('extraction_summary.csv', 1, 'Extraction metadata', '', '', ''),
-    ]
-    
-    for i, row_data in enumerate(export_items, start=14):
-        for j, value in enumerate(row_data, start=1):
-            cell = ws_summary.cell(row=i, column=j, value=value)
-            if i == 14:  # Header row
-                cell.font = header_font
-                cell.fill = header_fill
-    
-    # Adjust column widths
-    ws_summary.column_dimensions['A'].width = 25
-    ws_summary.column_dimensions['B'].width = 10
-    ws_summary.column_dimensions['C'].width = 40
-    ws_summary.column_dimensions['D'].width = 30
-    ws_summary.column_dimensions['E'].width = 12
-    ws_summary.column_dimensions['F'].width = 15
-    
-    # =========================================================================
-    # SHEET 2: QA Checklist
-    # =========================================================================
-    ws_qa = wb.create_sheet("QA Checklist")
-    
-    checklist_items = [
-        ('Category', 'Check Item', 'Status', 'Verified By', 'Date', 'Notes'),
-        ('Samples', 'All samples from source document captured', '', '', '', ''),
-        ('Samples', 'Sample IDs match lab report numbers', '', '', '', ''),
-        ('Samples', 'Sample dates correct', '', '', '', ''),
-        ('Samples', 'Profile locations match source', '', '', '', ''),
-        ('Results', 'All parameters extracted for each sample', '', '', '', ''),
-        ('Results', 'Values match source PDF', '', '', '', ''),
-        ('Results', 'Below-limit values (<) correctly flagged', '', '', '', ''),
-        ('Results', 'Units correct (mg/kg, %)', '', '', '', ''),
-        ('Results', 'Uncertainties captured where available', '', '', '', ''),
-        ('Classifications', 'Tilstandsklasse matches source tables', '', '', '', ''),
-        ('Classifications', 'Limiting parameters identified correctly', '', '', '', ''),
-        ('Classifications', 'Classification basis documented', '', '', '', ''),
-        ('Decisions', 'Handling decisions match notat text', '', '', '', ''),
-        ('Decisions', 'Destinations correct (deponi, gjenbruk, etc)', '', '', '', ''),
-        ('Decisions', 'Responsible parties assigned correctly', '', '', '', ''),
-        ('General', 'No duplicate samples', '', '', '', ''),
-        ('General', 'No missing critical data', '', '', '', ''),
-        ('General', 'Data ready for aggregation', '', '', '', ''),
-    ]
-    
-    for i, row in enumerate(checklist_items, start=1):
-        for j, value in enumerate(row, start=1):
-            cell = ws_qa.cell(row=i, column=j, value=value)
-            cell.border = thin_border
-            if i == 1:  # Header
-                cell.font = header_font
-                cell.fill = header_fill
-            cell.alignment = Alignment(wrap_text=True, vertical='top')
-    
-    # Set column widths
-    ws_qa.column_dimensions['A'].width = 15
-    ws_qa.column_dimensions['B'].width = 45
-    ws_qa.column_dimensions['C'].width = 12
-    ws_qa.column_dimensions['D'].width = 15
-    ws_qa.column_dimensions['E'].width = 12
-    ws_qa.column_dimensions['F'].width = 40
-    
-    # Freeze header
-    ws_qa.freeze_panes = 'A2'
-    
-    # =========================================================================
-    # SHEET 3: Samples QA
-    # =========================================================================
-    ws_samples = wb.create_sheet("Samples QA")
-    
-    # Add QA columns to samples
-    samples_qa = samples_df.copy()
-    samples_qa['QA_Status'] = ''
-    samples_qa['QA_Notes'] = ''
-    
-    for i, row in enumerate(dataframe_to_rows(samples_qa, index=False, header=True), start=1):
-        for j, value in enumerate(row, start=1):
-            cell = ws_samples.cell(row=i, column=j, value=value)
-            if i == 1:
-                cell.font = header_font
-                cell.fill = header_fill
-    
-    ws_samples.freeze_panes = 'A2'
-    
-    # Auto-width columns
-    for col_idx, col in enumerate(samples_qa.columns, start=1):
-        ws_samples.column_dimensions[get_column_letter(col_idx)].width = max(len(str(col)) + 2, 12)
-    
-    # =========================================================================
-    # SHEET 4: Classifications QA
-    # =========================================================================
-    ws_class = wb.create_sheet("Classifications QA")
-    
-    class_qa = class_df.copy()
-    class_qa['QA_Status'] = ''
-    class_qa['QA_Notes'] = ''
-    
-    for i, row in enumerate(dataframe_to_rows(class_qa, index=False, header=True), start=1):
-        for j, value in enumerate(row, start=1):
-            cell = ws_class.cell(row=i, column=j, value=value)
-            if i == 1:
-                cell.font = header_font
-                cell.fill = header_fill
-    
-    ws_class.freeze_panes = 'A2'
-    
-    for col_idx, col in enumerate(class_qa.columns, start=1):
-        ws_class.column_dimensions[get_column_letter(col_idx)].width = max(len(str(col)) + 2, 15)
-    
-    # =========================================================================
-    # SHEET 5: Decisions QA
-    # =========================================================================
-    ws_dec = wb.create_sheet("Decisions QA")
-    
-    dec_qa = dec_df.copy()
-    dec_qa['QA_Status'] = ''
-    dec_qa['QA_Notes'] = ''
-    
-    for i, row in enumerate(dataframe_to_rows(dec_qa, index=False, header=True), start=1):
-        for j, value in enumerate(row, start=1):
-            cell = ws_dec.cell(row=i, column=j, value=value)
-            if i == 1:
-                cell.font = header_font
-                cell.fill = header_fill
-    
-    ws_dec.freeze_panes = 'A2'
-    
-    for col_idx, col in enumerate(dec_qa.columns, start=1):
-        ws_dec.column_dimensions[get_column_letter(col_idx)].width = max(len(str(col)) + 2, 15)
-    
-    # Save workbook
-    wb.save(filepath)
-
-
 def extract():
     """Main extraction function for Project 09."""
     print(f"{'='*60}")
-    print(f"Extracting: {PROJECT_NAME}")
+    print(f"Extracting: {CONFIG['project_name']}")
     print(f"{'='*60}")
     
     # Ensure output directory exists
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     
-    pdf_path = INBOX_DIR / PDF_FILE
+    pdf_path = INBOX_DIR / CONFIG['pdf_file']
     
     if not pdf_path.exists():
         print(f"ERROR: PDF file not found: {pdf_path}")
         return False
     
-    print(f"\nSource: {PDF_FILE}")
+    print(f"\nSource: {CONFIG['pdf_file']}")
     
     # ============================================================
     # EXTRACT RAW TEXT
@@ -628,10 +153,11 @@ def extract():
     # ============================================================
     # EXTRACT NOTAT PAGES (2-5)
     # ============================================================
-    print(f"\n[2/6] Extracting notat (pages {NOTAT_PAGES[0]}-{NOTAT_PAGES[-1]})...")
+    notat_pages = CONFIG['notat_pages']
+    print(f"\n[2/6] Extracting notat (pages {notat_pages[0]}-{notat_pages[-1]})...")
     
     try:
-        notat_text = extract_pages(pdf_path, NOTAT_PAGES)
+        notat_text = extract_pages(pdf_path, notat_pages)
         notat_output = OUTPUT_DIR / 'p09_notat_pages_2-5.txt'
         notat_output.write_text(notat_text, encoding='utf-8')
         print(f"  Saved: p09_notat_pages_2-5.txt")
@@ -641,10 +167,11 @@ def extract():
     # ============================================================
     # EXTRACT LAB REPORT PAGES (6-30)
     # ============================================================
-    print(f"\n[3/6] Extracting lab reports (pages {LAB_REPORT_PAGES[0]}-{LAB_REPORT_PAGES[-1]})...")
+    lab_pages = CONFIG['lab_report_pages']
+    print(f"\n[3/6] Extracting lab reports (pages {lab_pages[0]}-{lab_pages[-1]})...")
     
     try:
-        lab_text = extract_pages(pdf_path, LAB_REPORT_PAGES)
+        lab_text = extract_pages(pdf_path, lab_pages)
         lab_output = OUTPUT_DIR / 'p09_lab_reports_pages_6-30.txt'
         lab_output.write_text(lab_text, encoding='utf-8')
         print(f"  Saved: p09_lab_reports_pages_6-30.txt")
@@ -661,15 +188,15 @@ def extract():
     for s in SAMPLES:
         samples_data.append({
             'sample_id': s['sample_id'],
-            'project_code': PROJECT_CODE,
+            'project_code': CONFIG['project_code'],
             'sample_date': s['sample_date'],
             'location_type': s['location_type'],
             'profile_start': s['profile_start'] if s['profile_start'] else '',
             'profile_end': s['profile_end'] if s['profile_end'] else '',
-            'tunnel_name': TUNNEL_NAME,
+            'tunnel_name': CONFIG['tunnel_name'],
             'sample_type': s['sample_type'],
             'lab_reference': s['lab_reference'],
-            'sampler': 'SVV Region Sør',
+            'sampler': CONFIG['sampler'],
             'remark': s.get('remark', ''),
         })
     
@@ -682,7 +209,11 @@ def extract():
     # ============================================================
     print("\n[5/6] Parsing lab results and building results.csv...")
     
-    results = parse_lab_results(lab_text)
+    results = lab_results_from_als_pdf_with_THC(
+        text=lab_text,
+        sample_key_to_id=SAMPLE_KEY_TO_ID,
+        project_code=CONFIG['project_code']
+    )
     print(f"  Parsed {len(results)} result entries from lab reports")
     
     if results:
@@ -734,7 +265,7 @@ def extract():
     # BUILD DECISIONS TABLE
     # ============================================================
     dec_data = []
-    for d in DECISIONS:
+    for d in DECISION_REMARKS:
         sample_id = SAMPLE_KEY_TO_ID.get(d['sample_key'], f"MOA-{d['sample_key']}")
         dec_data.append({
             'sample_id': sample_id,
@@ -751,19 +282,19 @@ def extract():
     # GENERATE EXTRACTION SUMMARY
     # ============================================================
     summary = {
-        'project': PROJECT_NAME,
-        'project_code': PROJECT_CODE,
+        'project': CONFIG['project_name'],
+        'project_code': CONFIG['project_code'],
         'extracted_at': datetime.now().isoformat(),
-        'source_file': PDF_FILE,
-        'notat_pages': f"{NOTAT_PAGES[0]}-{NOTAT_PAGES[-1]}",
-        'lab_report_pages': f"{LAB_REPORT_PAGES[0]}-{LAB_REPORT_PAGES[-1]}",
+        'source_file': CONFIG['pdf_file'],
+        'notat_pages': f"{notat_pages[0]}-{notat_pages[-1]}",
+        'lab_report_pages': f"{lab_pages[0]}-{lab_pages[-1]}",
         'samples_count': len(samples_df),
         'results_count': len(results_df) if len(results) > 0 else 0,
         'classifications_count': len(class_df),
         'decisions_count': len(dec_df),
-        'sampling_dates': '2017-09-20, 2017-09-28',
-        'lab': 'ALS Laboratory Group Norway AS',
-        'lab_reports': 'N1715906, N1716546',
+        'sampling_dates': CONFIG['sampling_dates'],
+        'lab': CONFIG['lab'],
+        'lab_reports': CONFIG['lab_reports'],
     }
     
     summary_df = pd.DataFrame([summary])

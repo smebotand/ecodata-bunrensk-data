@@ -31,6 +31,8 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from lib.export import save_to_csv
 from lib.chemistry import EUROFINS_ALI_COLUMN_MAP, EUROFINS_LEACHING_PARAM_MAP, get_parameter_code
+from lib.excel_utils import create_wide_table, save_wide_table_xlsx
+from lib.qa_workbook import create_qa_workbook
 
 # ============================================================
 # PROJECT CONFIGURATION
@@ -64,9 +66,9 @@ SKIP_COLUMNS = {
     'Fra pel', 'Til Pel', 'Test/utgått', 'Kommentar', 'Merknad'
 }
 
-# Color codes for tilstandsklasse (from Prøvemerking cell background)
-# Based on standard Norwegian environmental color coding
-COLOR_TO_TILSTANDSKLASSE = {
+# Color codes for decoding tilstandsklasse from source Excel cell backgrounds
+# Used to extract existing classifications from Prøvemerking column
+INPUT_COLOR_TO_TK = {
     'FF00B0F0': 1,   # Light blue
     'FF92D050': 2,   # Green
     'FFFFFF00': 3,   # Yellow
@@ -176,7 +178,7 @@ def parse_leaching_test_pdf(pdf_path: Path, pages: list) -> list:
             results.append({
                 'sample_id': sample_id,
                 'parameter': param_code,
-                'parameter_raw': f"{param_raw} L/S=10",
+                'parameter_raw': param_raw,
                 'value': value,
                 'unit': unit,
                 'uncertainty': None,
@@ -230,7 +232,7 @@ def parse_leaching_test_pdf(pdf_path: Path, pages: list) -> list:
                 results.append({
                     'sample_id': sample_id,
                     'parameter': param_code,
-                    'parameter_raw': f"{param_raw} L/S=0,1",
+                    'parameter_raw': param_raw,
                     'value': value,
                     'unit': unit,
                     'uncertainty': None,
@@ -317,7 +319,7 @@ def read_sheet(filepath: Path, sheet_name: str, location_code: str, ws_openpyxl=
             cell = ws_openpyxl.cell(row=excel_row, column=provemerking_col_idx)
             if cell.fill and cell.fill.fgColor and cell.fill.fgColor.rgb:
                 color = cell.fill.fgColor.rgb
-                tilstandsklasse = COLOR_TO_TILSTANDSKLASSE.get(color)
+                tilstandsklasse = INPUT_COLOR_TO_TK.get(color)
         
         # Clean lab reference (may have newlines from merged cells)
         lab_ref_clean = str(lab_ref).replace('\n', '').replace('\r', '').strip() if not pd.isna(lab_ref) else ''
@@ -331,7 +333,7 @@ def read_sheet(filepath: Path, sheet_name: str, location_code: str, ws_openpyxl=
             'profile_start': fra_pel if not pd.isna(fra_pel) else '',
             'profile_end': til_pel if not pd.isna(til_pel) else '',
             'tunnel_name': TUNNEL_NAME,
-            'sample_type': 'bunnrensk',
+            'sample_type': 'blandprøve bunnrensk',
             'lab_reference': lab_ref_clean,
             'sampler': 'Veidekke',
         }
@@ -375,296 +377,6 @@ def read_sheet(filepath: Path, sheet_name: str, location_code: str, ws_openpyxl=
                 })
     
     return samples, results, classifications
-
-
-def create_wide_table(results_df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Create a wide format table with samples as columns.
-    Includes analysis_type to distinguish totalanalyse, ristetest, kolonnetest.
-    """
-    if len(results_df) == 0:
-        return pd.DataFrame()
-    
-    # Create formatted value strings
-    def format_value(row):
-        if pd.isna(row['value']):
-            return ''
-        val = row['value']
-        if val == int(val):
-            val_str = str(int(val))
-        elif val < 0.01:
-            val_str = f"{val:.4f}"
-        elif val < 1:
-            val_str = f"{val:.3f}"
-        else:
-            val_str = f"{val:.2f}".rstrip('0').rstrip('.')
-        
-        if row['below_limit']:
-            val_str = f"<{val_str}"
-        return val_str
-    
-    results_df = results_df.copy()
-    results_df['formatted'] = results_df.apply(format_value, axis=1)
-    
-    # Get unit per sample
-    sample_units = results_df.groupby('sample_id')['unit'].agg(
-        lambda x: x.value_counts().index[0]
-    ).to_dict()
-    
-    # Pivot with analysis_type in the index
-    wide_df = results_df.pivot_table(
-        index=['analysis_type', 'parameter', 'parameter_raw'],
-        columns='sample_id',
-        values='formatted',
-        aggfunc='first'
-    ).reset_index()
-    
-    wide_df.columns.name = None
-    wide_df = wide_df.rename(columns={'parameter': 'param_code', 'parameter_raw': 'parameter'})
-    
-    # Add units to column headers
-    sample_cols = [c for c in wide_df.columns if c.startswith('p18-')]
-    sample_cols.sort()
-    col_rename = {col: f"{col} ({sample_units.get(col, 'mg/kg')})" for col in sample_cols}
-    wide_df = wide_df.rename(columns=col_rename)
-    
-    new_sample_cols = [col_rename[c] for c in sample_cols]
-    wide_df = wide_df[['analysis_type', 'param_code', 'parameter'] + new_sample_cols]
-    
-    return wide_df
-
-
-def save_wide_table_xlsx(wide_df: pd.DataFrame, filepath: Path) -> None:
-    """Save wide table as formatted Excel."""
-    from openpyxl import Workbook
-    from openpyxl.worksheet.table import Table, TableStyleInfo
-    from openpyxl.utils.dataframe import dataframe_to_rows
-    from openpyxl.utils import get_column_letter
-    
-    wb = Workbook()
-    ws = wb.active
-    ws.title = "Results"
-    
-    for r_idx, row in enumerate(dataframe_to_rows(wide_df, index=False, header=True), 1):
-        for c_idx, value in enumerate(row, 1):
-            ws.cell(row=r_idx, column=c_idx, value=value)
-    
-    max_row = len(wide_df) + 1
-    max_col = len(wide_df.columns)
-    table_range = f"A1:{get_column_letter(max_col)}{max_row}"
-    
-    table = Table(displayName="ResultsTable", ref=table_range)
-    style = TableStyleInfo(name="TableStyleMedium2", showRowStripes=True)
-    table.tableStyleInfo = style
-    ws.add_table(table)
-    
-    for col_idx, col in enumerate(wide_df.columns, 1):
-        max_width = len(str(col))
-        for row_idx in range(2, max_row + 1):
-            cell_value = ws.cell(row=row_idx, column=col_idx).value
-            if cell_value:
-                max_width = max(max_width, len(str(cell_value)))
-        ws.column_dimensions[get_column_letter(col_idx)].width = min(max_width + 2, 30)
-    
-    ws.freeze_panes = "A2"
-    wb.save(filepath)
-
-
-def create_qa_workbook(filepath: Path, summary: dict, samples_df: pd.DataFrame,
-                       results_df: pd.DataFrame, class_df: pd.DataFrame, 
-                       dec_df: pd.DataFrame) -> None:
-    """
-    Create a QA workbook for manual verification of extracted data.
-    
-    Sheets:
-    - Summary: Extraction metadata and file overview
-    - QA Checklist: Items to verify with status columns
-    - Samples QA: Sample data with QA columns
-    - Classifications QA: Classification data with QA columns
-    - Decisions QA: Decision data with QA columns
-    """
-    from openpyxl import Workbook
-    from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
-    from openpyxl.utils.dataframe import dataframe_to_rows
-    from openpyxl.utils import get_column_letter
-    
-    wb = Workbook()
-    
-    # Define styles
-    header_font = Font(bold=True, color="FFFFFF")
-    header_fill = PatternFill(start_color="4472C4", end_color="4472C4", fill_type="solid")
-    thin_border = Border(
-        left=Side(style='thin'),
-        right=Side(style='thin'),
-        top=Side(style='thin'),
-        bottom=Side(style='thin')
-    )
-    
-    # =========================================================================
-    # SHEET 1: Summary
-    # =========================================================================
-    ws_summary = wb.active
-    ws_summary.title = "Summary"
-    
-    # Title
-    ws_summary['A1'] = f"QA Workbook: {summary['project']}"
-    ws_summary['A1'].font = Font(bold=True, size=14)
-    ws_summary.merge_cells('A1:D1')
-    
-    # Extraction info
-    summary_items = [
-        ('Project Code', summary['project_code']),
-        ('Extracted At', summary['extracted_at']),
-        ('Source File', summary['source_file']),
-        ('Lab', summary['lab']),
-        ('Sheets Processed', summary['sheets_processed']),
-    ]
-    
-    for i, (label, value) in enumerate(summary_items, start=3):
-        ws_summary[f'A{i}'] = label
-        ws_summary[f'A{i}'].font = Font(bold=True)
-        ws_summary[f'B{i}'] = value
-    
-    # Data counts
-    ws_summary['A10'] = "Data Exports"
-    ws_summary['A10'].font = Font(bold=True, size=12)
-    
-    export_items = [
-        ('File', 'Rows', 'Description', 'Remarks', 'Date', 'Name'),
-        ('p18_samples.csv', summary['samples_count'], 'Sample metadata', '', '', ''),
-        ('p18_results.csv', summary['results_count'], 'Lab analysis results (long format)', '', '', ''),
-        ('p18_results_wide.csv', len(results_df['parameter'].unique()) if len(results_df) > 0 else 0, 'Lab results (wide format for review)', '', '', ''),
-        ('p18_results_wide.xlsx', len(results_df['parameter'].unique()) if len(results_df) > 0 else 0, 'Lab results (Excel table)', '', '', ''),
-        ('p18_classifications.csv', summary['classifications_count'], 'Tilstandsklasse per sample', '', '', ''),
-        ('p18_decisions.csv', summary['decisions_count'], 'Handling decisions per sample', '', '', ''),
-        ('p18_extraction_summary.csv', 1, 'Extraction metadata', '', '', ''),
-    ]
-    
-    for i, row_data in enumerate(export_items, start=11):
-        for j, value in enumerate(row_data, start=1):
-            cell = ws_summary.cell(row=i, column=j, value=value)
-            if i == 11:  # Header row
-                cell.font = header_font
-                cell.fill = header_fill
-    
-    # Adjust column widths
-    ws_summary.column_dimensions['A'].width = 25
-    ws_summary.column_dimensions['B'].width = 10
-    ws_summary.column_dimensions['C'].width = 40
-    ws_summary.column_dimensions['D'].width = 30
-    ws_summary.column_dimensions['E'].width = 12
-    ws_summary.column_dimensions['F'].width = 15
-    
-    # =========================================================================
-    # SHEET 2: QA Checklist
-    # =========================================================================
-    ws_qa = wb.create_sheet("QA Checklist")
-    
-    checklist_items = [
-        ('Category', 'Check Item', 'Status', 'Verified By', 'Date', 'Notes'),
-        ('Samples', 'All samples from source document captured', '', '', '', ''),
-        ('Samples', 'Sample IDs match lab report numbers', '', '', '', ''),
-        ('Samples', 'Profile locations match source', '', '', '', ''),
-        ('Results', 'All parameters extracted for each sample', '', '', '', ''),
-        ('Results', 'Values match source Excel', '', '', '', ''),
-        ('Results', 'Below-limit values (<) correctly flagged', '', '', '', ''),
-        ('Results', 'Units correct (mg/kg, µg/kg, %)', '', '', '', ''),
-        ('Classifications', 'Tilstandsklasse matches source', '', '', '', ''),
-        ('Classifications', 'Limiting parameters identified correctly', '', '', '', ''),
-        ('Decisions', 'Handling decisions match documentation', '', '', '', ''),
-        ('Decisions', 'Destinations correct (deponi, gjenbruk, etc)', '', '', '', ''),
-        ('General', 'No duplicate samples', '', '', '', ''),
-        ('General', 'No missing critical data', '', '', '', ''),
-        ('General', 'Data ready for aggregation', '', '', '', ''),
-    ]
-    
-    for i, row in enumerate(checklist_items, start=1):
-        for j, value in enumerate(row, start=1):
-            cell = ws_qa.cell(row=i, column=j, value=value)
-            cell.border = thin_border
-            if i == 1:  # Header
-                cell.font = header_font
-                cell.fill = header_fill
-            cell.alignment = Alignment(wrap_text=True, vertical='top')
-    
-    # Set column widths
-    ws_qa.column_dimensions['A'].width = 15
-    ws_qa.column_dimensions['B'].width = 45
-    ws_qa.column_dimensions['C'].width = 12
-    ws_qa.column_dimensions['D'].width = 15
-    ws_qa.column_dimensions['E'].width = 12
-    ws_qa.column_dimensions['F'].width = 40
-    
-    # Freeze header
-    ws_qa.freeze_panes = 'A2'
-    
-    # =========================================================================
-    # SHEET 3: Samples QA
-    # =========================================================================
-    ws_samples = wb.create_sheet("Samples QA")
-    
-    # Add QA columns to samples
-    samples_qa = samples_df.copy()
-    samples_qa['QA_Status'] = ''
-    samples_qa['QA_Notes'] = ''
-    
-    for i, row in enumerate(dataframe_to_rows(samples_qa, index=False, header=True), start=1):
-        for j, value in enumerate(row, start=1):
-            cell = ws_samples.cell(row=i, column=j, value=value)
-            if i == 1:
-                cell.font = header_font
-                cell.fill = header_fill
-    
-    ws_samples.freeze_panes = 'A2'
-    
-    # Auto-width columns
-    for col_idx, col in enumerate(samples_qa.columns, start=1):
-        ws_samples.column_dimensions[get_column_letter(col_idx)].width = max(len(str(col)) + 2, 12)
-    
-    # =========================================================================
-    # SHEET 4: Classifications QA
-    # =========================================================================
-    ws_class = wb.create_sheet("Classifications QA")
-    
-    class_qa = class_df.copy()
-    class_qa['QA_Status'] = ''
-    class_qa['QA_Notes'] = ''
-    
-    for i, row in enumerate(dataframe_to_rows(class_qa, index=False, header=True), start=1):
-        for j, value in enumerate(row, start=1):
-            cell = ws_class.cell(row=i, column=j, value=value)
-            if i == 1:
-                cell.font = header_font
-                cell.fill = header_fill
-    
-    ws_class.freeze_panes = 'A2'
-    
-    for col_idx, col in enumerate(class_qa.columns, start=1):
-        ws_class.column_dimensions[get_column_letter(col_idx)].width = max(len(str(col)) + 2, 15)
-    
-    # =========================================================================
-    # SHEET 5: Decisions QA
-    # =========================================================================
-    ws_dec = wb.create_sheet("Decisions QA")
-    
-    dec_qa = dec_df.copy()
-    dec_qa['QA_Status'] = ''
-    dec_qa['QA_Notes'] = ''
-    
-    for i, row in enumerate(dataframe_to_rows(dec_qa, index=False, header=True), start=1):
-        for j, value in enumerate(row, start=1):
-            cell = ws_dec.cell(row=i, column=j, value=value)
-            if i == 1:
-                cell.font = header_font
-                cell.fill = header_fill
-    
-    ws_dec.freeze_panes = 'A2'
-    
-    for col_idx, col in enumerate(dec_qa.columns, start=1):
-        ws_dec.column_dimensions[get_column_letter(col_idx)].width = max(len(str(col)) + 2, 15)
-    
-    # Save workbook
-    wb.save(filepath)
 
 
 def extract():
@@ -789,18 +501,22 @@ def extract():
         
         # Tilstandsklasse 1 = gjenbruk, otherwise deponi
         if tilstandsklasse == 1:
-            decision = 'under normverdier'
+            decision = 'gjenbruk'
+            decision_remarks = 'under normverdier'
             destination = 'gjenbruk'
         elif tilstandsklasse is not None:
-            decision = 'over normverdier'
+            decision = 'deponi'
+            decision_remarks = 'over normverdier'
             destination = 'deponi'
         else:
             decision = 'ukjent'
+            decision_remarks = 'tilstandsklasse ikke satt'
             destination = ''
         
         dec_data.append({
             'sample_id': sample_id,
             'decision': decision,
+            'decision_remarks': decision_remarks,
             'destination': destination,
             'notes': 'Autogenerert basert på tilstandsklasse' if tilstandsklasse else 'Tilstandsklasse ikke satt',
         })

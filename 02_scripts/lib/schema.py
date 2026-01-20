@@ -14,8 +14,9 @@ from typing import Optional
 
 SAMPLE_TYPES = {
     'bunnrensk',       # Tunnel floor cleaning sediment
-    'blandeprøve',     # Mixed/composite sample
-    'tunnelstein',     # Tunnel rock/excavation material
+    'blandprøve',     # Mixed/composite sample
+    'blandprøve bunnrensk',  # Composite bunnrensk sample (mixed from tunnel cross-section)
+    'tunnelstein',     # Tunnel rock/excavation material, mixture of invert masses and blasted rock
     'sprengstein',     # Blasted rock
     'sediment',        # General sediment
     'vann',            # Water sample
@@ -35,9 +36,24 @@ ANALYSIS_TYPES = {
     'kornfordeling',   # Grain size distribution
 }
 
-DECISIONS = {
+DECISION_TYPES = {
     'gjenbruk',        # Reuse
     'deponi',          # Disposal/landfill
+    'supplerende prøvetaking',          # Additional sampling
+    'ukjent'      # Unknown
+}
+
+UNIT_TYPES = {
+    'mg/kg',      # Milligrams per kilogram (most common)
+    'µg/kg',      # Micrograms per kilogram
+    '%',          # Percent (for TS, grain size)
+    'mg/l',       # Milligrams per liter (leaching tests)
+    'mS/m',      # Millisiemens per meter (electrical conductivity)
+}
+
+LAB_TYPES = {
+    'ALS Laboratory Group Norway AS',
+    'Eurofins Environment Testing Norway AS',
 }
 
 # ============================================================
@@ -92,6 +108,7 @@ CLASSIFICATIONS_COLUMNS = [
 DECISIONS_COLUMNS = [
     'sample_id',           # Foreign key to samples
     'decision',            # Decision: gjenbruk, deponi
+    'decision_remarks',    # Additional remarks on decision
     'destination',         # Destination location (if known)
     'notes',               # Additional notes
 ]
@@ -156,6 +173,10 @@ def validate_results(data: list[dict]) -> list[dict]:
         if 'analysis_type' in row and row['analysis_type']:
             validate_value(row['analysis_type'], ANALYSIS_TYPES,
                           f"analysis_type in {sample_id}/{param}")
+        
+        if 'unit' in row and row['unit']:
+            validate_value(row['unit'], UNIT_TYPES,
+                          f"unit in {sample_id}/{param}")
     
     return data
 
@@ -170,7 +191,7 @@ def validate_decisions(data: list[dict]) -> list[dict]:
         sample_id = row.get('sample_id', f'row {i}')
         
         if 'decision' in row and row['decision']:
-            validate_value(row['decision'], DECISIONS,
+            validate_value(row['decision'], DECISION_TYPES,
                           f"decision in {sample_id}")
     
     return data
